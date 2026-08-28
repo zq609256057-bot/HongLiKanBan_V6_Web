@@ -1,9 +1,24 @@
 {
-  "build_id": "f162cf24f3634f747da8",
+  "build_id": "032b28540db89d421edb",
   "default_model": "V6_SCORE_MODEL_V4",
   "frontend_bundle_version": "b14076452a6ca8f7ce04",
-  "generated_at": "2026-08-28T23:34:00+08:00",
+  "generated_at": "2026-08-29T00:40:03+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
+  "historical_projection_gate": {
+    "active_reconciliation_manifest_hash": "aac1cc2cee30d96d630f09656649f16e20eed885cad828a58e1627d529deda10",
+    "gate": "HISTORICAL_PROJECTION_COMPLETENESS_GATE",
+    "provider_fetch_count": 0,
+    "recent_legal_production_dates": [
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28"
+    ],
+    "score_engine_invocation_count": 0,
+    "status": "PASS",
+    "validated_cell_count": 10
+  },
   "index_status": {
     "000922.SH": "READY",
     "930955.CSI": "READY"
@@ -18,8 +33,10 @@
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V1",
   "source_hashes": {
     "frontend_source": "b78c977e6fd4a383f33fadf5051cc474bbbc4254526041d79b4613309ffcae5b",
+    "publication_builder": "ea4aceed73e9372bd5f761772dda2d7559d4c7eca7ac1994928cbc62601fcaa5",
     "tushare_view": "3b5454d612f1000b532339437591d19910ca15324718d73ab3eb8fe7993654e7",
-    "v4_payload": "a17656834705465b06bf59a223c2f73703bd504801f2d9e5f8e145dfbc63b109"
+    "v4_payload": "a17656834705465b06bf59a223c2f73703bd504801f2d9e5f8e145dfbc63b109",
+    "v4_projection_history": "c324005543d651a2bc0ecfa78ccbf1887fd603855ff8785cc7d6c9383f3dd688"
   },
   "target_date": "2026-08-28"
 }
