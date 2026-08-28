@@ -1,0 +1,240 @@
+{
+  "assessment": {
+    "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
+    "assessment_version": "V1",
+    "conclusion": "V4 综合评分为 72.22/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+    "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
+    "model_id": "V6_SCORE_MODEL_V4",
+    "model_name": "V6_SCORE_MODEL_V4",
+    "negative": [
+      "估值维度相对偏弱（23.84/34），需留意该维度对总分的约束。"
+    ],
+    "positive": [
+      "技术维度相对占优（29.38/40）。 CN10Y 历史位置与趋势分别为 3.39/4、2.98/4。"
+    ],
+    "reason_code": null,
+    "risk_note": "模型结果仅用于研究展示，不构成投资建议。",
+    "status": "PASS"
+  },
+  "cn10y_state_v4_detail": {
+    "delta60_bp": "-28.76",
+    "historical_percentile": "0.2634",
+    "historical_percentile_percent": "26.34",
+    "historical_position_score": "3.38725",
+    "score": "6.372197278786072587787453500495232183403282855975847576451958306816226505447430746555031375026964278",
+    "status": "READY_CN10Y_STATE_V4",
+    "trend_delta_mean_bp": "0.8239973262032085561497326203208556149732620320855614973262032085561497326203208556149732620320855615",
+    "trend_delta_sigma_bp": "30.03612270766906556416800975713174825670417008849786428805183752924735603910983003331945314788053065",
+    "trend_state_score": "2.984947278786072587787453500495232183403282855975847576451958306816226505447430746555031375026964278",
+    "trend_z_score": "-0.9849472787860725877874535004952321834032828559758475764519583068162265054474307465550313750269642778"
+  },
+  "component_scores": {
+    "CN10Y_MACRO_RATE_STATE_8": "6.372197278786072587787453500495232183403282855975847576451958306816226505447430746555031375026964278",
+    "DID_DYNAMIC_ABSOLUTE_6": "3.740762725616583446808205052617691860422448994417413864854678803341191771241979159020250794696315667",
+    "DID_HISTORICAL_14": "8.860908581043185642176107683679192372406057206954570947840717891194615816040381379697139652271452607",
+    "DID_ROBUST_Z_4": "2.332673408185447704661180822036111031028138834938003004637784346401597760719211728173911765552642488",
+    "PB_HISTORICAL_10": "8.91",
+    "PRICE_MA_V3": "6",
+    "PRICE_POSITION_252": "13.01808857929043217749507470706040064476562118391559431868137832219828171047418495221244701578807401",
+    "RSI14": "6.565192715163490110746072635395347115559006205075961663548462859378811450179457838342842582843694354",
+    "VOLUME": "3.796934000686824687059116366228507219781007074615385085251027470101319906245427941815333348527663762",
+    "YIELD_SPREAD_HISTORICAL_18": "12.62422882781828379136287156477846326416152551878855860908581043185642176107683679192372406057206955"
+  },
+  "detail": {
+    "cn10y_state_v4": {
+      "delta60_bp": "-28.76",
+      "historical_percentile": "0.2634",
+      "historical_percentile_percent": "26.34",
+      "historical_position_score": "3.38725",
+      "score": "6.372197278786072587787453500495232183403282855975847576451958306816226505447430746555031375026964278",
+      "status": "READY_CN10Y_STATE_V4",
+      "trend_delta_mean_bp": "0.8239973262032085561497326203208556149732620320855614973262032085561497326203208556149732620320855615",
+      "trend_delta_sigma_bp": "30.03612270766906556416800975713174825670417008849786428805183752924735603910983003331945314788053065",
+      "trend_state_score": "2.984947278786072587787453500495232183403282855975847576451958306816226505447430746555031375026964278",
+      "trend_z_score": "-0.9849472787860725877874535004952321834032828559758475764519583068162265054474307465550313750269642778"
+    },
+    "market_environment": {
+      "actual_data_date": "2015-09-21",
+      "cn10y": "3.3204",
+      "lag_days": 0,
+      "yield_spread": "0.560402878113688"
+    },
+    "momentum": {
+      "avg_volume_prev20": "8450639280",
+      "avg_volume_prev5": "5682392180",
+      "rsi14": "42.64503035348545787189136401918605368517080747885015973521473808592161895758559234023815590481794019",
+      "volume": "3890007500"
+    },
+    "ohlcv": {
+      "close": "3668.09",
+      "high": "3668.93",
+      "low": "3537.48",
+      "open": "3554.02",
+      "volume": "3890007500"
+    },
+    "price_ma": {
+      "d_percent": "-6.41563649598165032210447516283458306214178899664501655234091459315798339890864531854585632025779584",
+      "price_vs_sma60_percent": "-14.25965488254118049652913615916832347533151691471982396078418233853001302046303169455432048197295818",
+      "score": "6",
+      "short_term_improvement_percent": "-4.23879350497084946115670623002425196344538489953905208550824727366172526219424056020429468544721584",
+      "sma250": "3919.55436",
+      "sma60": "4278.137666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "sma60_direction_five_session_percent": "-3.80606265378570810501530610352027826839845658443888656814512930057063564315895851415803801561905727",
+      "status": "READY",
+      "trend_state": "SUSTAINED_BREAKDOWN",
+      "trend_state_score": "0",
+      "trend_strength": "0",
+      "value_position_score": "6"
+    },
+    "price_position_252": {
+      "maximum": "6226.62",
+      "minimum": "2541.56",
+      "position": "30.57019424378436172002626822901119656125002035245016363369931561494249754413768025486694924913027196"
+    },
+    "valuation": {
+      "did": "3.880802878113688",
+      "pb": "1.2550576756418117"
+    }
+  },
+  "dimension_scores": {
+    "macro": "18.99642610660435637915032506527369544756480837476440618553776873867264826652426753847875543559903383",
+    "technical": "29.38021529514074697530026370868425498010563446360694106748086865167841306689907073237062294715943212",
+    "valuation": "23.84434471484521679364549355833299526385664503630998781733318104093740534800157226689130221252041076"
+  },
+  "frontend_recalculation_performed": false,
+  "future_data_used": false,
+  "index_code": "000922.SH",
+  "model_id": "V6_SCORE_MODEL_V4",
+  "pine": {
+    "status": "REMOVED"
+  },
+  "price_ma_v3_detail": {
+    "d_percent": "-6.41563649598165032210447516283458306214178899664501655234091459315798339890864531854585632025779584",
+    "price_vs_sma60_percent": "-14.25965488254118049652913615916832347533151691471982396078418233853001302046303169455432048197295818",
+    "score": "6",
+    "short_term_improvement_percent": "-4.23879350497084946115670623002425196344538489953905208550824727366172526219424056020429468544721584",
+    "sma250": "3919.55436",
+    "sma60": "4278.137666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "sma60_direction_five_session_percent": "-3.80606265378570810501530610352027826839845658443888656814512930057063564315895851415803801561905727",
+    "status": "READY",
+    "trend_state": "SUSTAINED_BREAKDOWN",
+    "trend_state_score": "0",
+    "trend_strength": "0",
+    "value_position_score": "6"
+  },
+  "quality_status": [
+    "READY_SCORE_MODEL_V4",
+    "LIMITED_COVERAGE",
+    "VALIDATED"
+  ],
+  "query_asset_id": "V6_SCORE_MODEL_V4_DATE_QUERY",
+  "query_version": "V1",
+  "raw_values": {
+    "CN10Y_MACRO_RATE_STATE_8": "CN10Y 3.3204%",
+    "DID_DYNAMIC_ABSOLUTE_6": "DID 3.880802878113688%",
+    "DID_HISTORICAL_14": "DID 3.880802878113688%",
+    "DID_ROBUST_Z_4": "DID 3.880802878113688%",
+    "PB_HISTORICAL_10": "PB 1.2550576756418117",
+    "PRICE_MA_V3": "Close 3668.09 · SMA250 3919.55436",
+    "PRICE_POSITION_252": "Position 30.57019424378436172002626822901119656125002035245016363369931561494249754413768025486694924913027196%",
+    "RSI14": "RSI14 42.64503035348545787189136401918605368517080747885015973521473808592161895758559234023815590481794019",
+    "VOLUME": "Volume 3890007500",
+    "YIELD_SPREAD_HISTORICAL_18": "Spread 0.560402878113688pp"
+  },
+  "record_hash": "b950005ed99e4752b06d9888c5c89e30948aeba74f7bb5b844368e7ece18e57d",
+  "score_recalculation_performed": false,
+  "signal_display": {
+    "current_interval": {
+      "color": "GREEN",
+      "display_reference": "V4多维支撑较强，适合纳入重点观察范围。",
+      "is_current": true,
+      "label": "积极研究",
+      "maximum": "85",
+      "maximum_inclusive": false,
+      "minimum": "70",
+      "score_range": "70–85"
+    },
+    "intervals": [
+      {
+        "color": "GREEN",
+        "display_reference": "V4多维评分处于高位，作为重点研究样本持续跟踪。",
+        "is_current": false,
+        "label": "高位共振",
+        "maximum": "100",
+        "maximum_inclusive": true,
+        "minimum": "85",
+        "score_range": "85–100"
+      },
+      {
+        "color": "GREEN",
+        "display_reference": "V4多维支撑较强，适合纳入重点观察范围。",
+        "is_current": true,
+        "label": "积极研究",
+        "maximum": "85",
+        "maximum_inclusive": false,
+        "minimum": "70",
+        "score_range": "70–85"
+      },
+      {
+        "color": "AMBER",
+        "display_reference": "V4评分结构略偏积极，结合CN10Y状态分项继续观察。",
+        "is_current": false,
+        "label": "偏积极",
+        "maximum": "70",
+        "maximum_inclusive": false,
+        "minimum": "60",
+        "score_range": "60–70"
+      },
+      {
+        "color": "AMBER",
+        "display_reference": "V4多维结构相对均衡或存在分歧，保持持续观察。",
+        "is_current": false,
+        "label": "中性观察",
+        "maximum": "60",
+        "maximum_inclusive": false,
+        "minimum": "45",
+        "score_range": "45–60"
+      },
+      {
+        "color": "RED",
+        "display_reference": "当前V4支持因素有限，重点识别风险变化。",
+        "is_current": false,
+        "label": "偏谨慎",
+        "maximum": "45",
+        "maximum_inclusive": false,
+        "minimum": "30",
+        "score_range": "30–45"
+      },
+      {
+        "color": "RED",
+        "display_reference": "V4综合评分处于低位，仅作为风险研究样本。",
+        "is_current": false,
+        "label": "谨慎研究",
+        "maximum": "30",
+        "maximum_inclusive": false,
+        "minimum": "0",
+        "score_range": "0–30"
+      }
+    ],
+    "reason_code": null,
+    "signal_contract_id": "V6_SCORE_MODEL_V4_SIGNAL_DISPLAY_V1",
+    "status": "PASS"
+  },
+  "source_dates": {
+    "cn10y": "2015-09-21",
+    "did": "2015-09-21",
+    "ohlcv": "2015-09-21",
+    "pb": "2015-09-21"
+  },
+  "source_detail_hashes": {
+    "indicator_record": "0dd427ee06e27867f2b04c8317c77156e7c3812a1a09252dbbd7ad25aa93322d",
+    "raw_record": "b5640bf6239d03e1a6e26ac426df6f22a3ad4a75313f64e8b853bfa37168a4d2",
+    "source_v3_in_memory_record": "d323c286e0ff414f1bbb805fd512cd84da8d1a4d98d1df10e4f322037c2b5a78",
+    "v4_history_record": "c0f885a8f63e15f63b581eefbf07b9a98355ad96093e6c164dd64add65d7e63a",
+    "v4_score_record": "01b9aced9255189e01997f06723a8f80f7a84b9e9b083f18cbcbb79fa91c6896"
+  },
+  "source_research_record_hash": "51e66c8a24537f7ded239b29dd37a1ab3283094b902e3ba9805aac5e19ba6889",
+  "status": "READY_SCORE_MODEL_V4",
+  "target_date": "2015-09-21",
+  "total_score": "72.22098611659032014809608233229094569152708787468133507035181843128846668142491053774068059527887671"
+}
