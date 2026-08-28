@@ -1,0 +1,33 @@
+{
+  "available_models": [
+    {
+      "backtest_version": "V6_SCORE_MODEL_V4_ETF_BACKTEST",
+      "description": "唯一活动、生产与默认评分模型；完整域由V4 Daily Full-Domain Projector更新。",
+      "display_name": "V6 CN10Y 优化模型",
+      "history_version": "V6_SCORE_MODEL_V4_HISTORY_CURVE",
+      "id": "V6_SCORE_MODEL_V4",
+      "model_id": "V6_SCORE_MODEL_V4",
+      "model_role": "PRODUCTION",
+      "payload_hash": "f49c34bb049deb396c87543842ed087c25a00aab39c0488c8e36d0d3b1ec9cda",
+      "payload_path": "/api/v4/production/active",
+      "payload_sha256": "d76d56d25fec3f60120180bcebea7b1710e775ccc79f41bb3476677e72d2aa4a",
+      "role": "PRODUCTION",
+      "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
+      "status": "ACTIVE"
+    }
+  ],
+  "cross_model_fallback": false,
+  "default_model": "V6_SCORE_MODEL_V4",
+  "frontend_model_decision": "V4_ONLY_ACTIVE",
+  "model_selector_present": false,
+  "multi_model_fanout_active": false,
+  "production_model": "V6_SCORE_MODEL_V4",
+  "projection_active_path": "/data/v4-projection/V6_V4_DAILY_FULL_DOMAIN_PROJECTION_ACTIVE_V1.json",
+  "projection_contract_id": "V6_V4_ONLY_DAILY_FULL_DOMAIN_PROJECTION_CONTRACT_V1",
+  "projector_id": "V6_V4_DAILY_FULL_DOMAIN_PROJECTOR_V1",
+  "registry_hash": "0a3d13066efe7cc152089e25a7cbd996faf7d8e2b3fdadedde3295064d57f394",
+  "registry_payload_id": "V6_V4_ONLY_MODEL_REGISTRY_PAYLOAD_V1",
+  "registry_version": "V1",
+  "retired_registry_path": "runtime/config/V6_RETIRED_MODEL_REGISTRY_V1.json",
+  "unknown_model_policy": "MODEL_RETIRED_FAIL_CLOSED"
+}

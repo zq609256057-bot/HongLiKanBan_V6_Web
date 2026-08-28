@@ -1,0 +1,22 @@
+{
+  "build_id": "aa28d5fced9a435c",
+  "default_model": "V6_SCORE_MODEL_V4",
+  "generated_at": "2026-08-28T19:03:42+08:00",
+  "index_status": {
+    "000922.SH": "READY",
+    "930955.CSI": "READY"
+  },
+  "model_status": {
+    "V6_SCORE_MODEL_Tushare": "READY",
+    "V6_SCORE_MODEL_V4": "READY"
+  },
+  "parallel_model": "V6_SCORE_MODEL_Tushare",
+  "production_model": "V6_SCORE_MODEL_V4",
+  "publication_status": "complete",
+  "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V1",
+  "source_hashes": {
+    "tushare_view": "3b5454d612f1000b532339437591d19910ca15324718d73ab3eb8fe7993654e7",
+    "v4_payload": "a17656834705465b06bf59a223c2f73703bd504801f2d9e5f8e145dfbc63b109"
+  },
+  "target_date": "2026-08-28"
+}
