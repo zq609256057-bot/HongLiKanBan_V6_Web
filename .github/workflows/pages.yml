@@ -22,6 +22,18 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+      - name: Bind deployment commit metadata
+        env:
+          DEPLOY_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib
+          for name in ("version.json", "data/manifest.json"):
+              path = pathlib.Path(name)
+              value = json.loads(path.read_text())
+              value["git_commit_sha"] = os.environ["DEPLOY_SHA"]
+              path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
