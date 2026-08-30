@@ -1,8 +1,8 @@
 {
-  "build_id": "090b93fed08a75b52eeb",
+  "build_id": "f2ce2f9ed418939710ad",
   "default_model": "V6_SCORE_MODEL_V4",
   "frontend_bundle_version": "6cfdf75509bcf8e626b4",
-  "generated_at": "2026-08-30T18:08:33+08:00",
+  "generated_at": "2026-08-30T19:09:29+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "6108ca3b791d3bb43fd884b8850c5e9691dfddb7cbf72acd06a4be8a1fe98eff",
@@ -30,7 +30,7 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "090b93fed08a75b52eeb",
+    "build_id": "f2ce2f9ed418939710ad",
     "bundle_hash": "08cb0ea91c3346cc50625dfc152d9a407324746ae1fbc34d0ebca8b07399fa01",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -60,11 +60,15 @@
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V1",
   "source_hashes": {
     "frontend_source": "f2c3eacb915cedd2853ac698d4671f82244c960cb95a77c1219410ba1c57ffcc",
-    "publication_builder": "e3cf483034a29a2d61a60cc70d2364a8760eaf0863ebd59c838b088d10366955",
+    "publication_builder": "eec8c147bf9dfe94f9b25431f15ee90b7469a84366881b61b14bd2067d561da0",
     "tushare_view": "3b5454d612f1000b532339437591d19910ca15324718d73ab3eb8fe7993654e7",
     "v4_current_projection": "1f32dcdbc651618e3d75147b601ac803b576bdca3bd12a91c5c0517b1eee3dd3",
     "v4_etf_active": "af56920d5671dd2d62a35c611e6132cd91acb535b56717da5650a0ce82def8a2",
+    "v4_etf_active_pointer": "240be99808d8664fe176cb432a42339b11f7d9817aba2a03135c618b75725b51",
+    "v4_etf_health": "726744f2a2b299fd05c5a8a41cb516f2481096808f5b242846daadb72e807f7c",
+    "v4_etf_raw_snapshot": "5a830cbdadb8bde8f3ec63827d59be319bff779badd86470beaffe0cf83a41a2",
     "v4_payload": "a17656834705465b06bf59a223c2f73703bd504801f2d9e5f8e145dfbc63b109",
+    "v4_projection_etf_domain": "038c9de461b7f1be60fd05b75de871761748531554a2d097783e208de5fac3e0",
     "v4_projection_history": "d0027ced2f98d5ecd9a0dff2a64493e94adb5113679df41c750f4aee8a9fccae",
     "v4_projection_manifest": "2db89f0dabc704062281ed48a804d45255a175750154fa49df8e4334aee8c728",
     "v4_projection_pointer": "a4f8d30e636b8b825e735a30b20a6c359cc32ea41a88f2e689539fab903d8dfe",
