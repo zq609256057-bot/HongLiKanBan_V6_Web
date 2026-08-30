@@ -1,11 +1,11 @@
 {
-  "build_id": "f92c3bae09566ef03223",
+  "build_id": "1fae17c46d94caafe3a4",
   "default_model": "V6_SCORE_MODEL_V4",
   "frontend_bundle_version": "bff0b233478c3c2c2d4d",
-  "generated_at": "2026-08-30T09:56:36+08:00",
+  "generated_at": "2026-08-30T14:16:22+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
-    "active_reconciliation_manifest_hash": "a84fda01a532e42e7c45963f2a9a5b8c045f81759fd19426c0ae7be5c189eb70",
+    "active_reconciliation_manifest_hash": "6108ca3b791d3bb43fd884b8850c5e9691dfddb7cbf72acd06a4be8a1fe98eff",
     "gate": "HISTORICAL_PROJECTION_COMPLETENESS_GATE",
     "provider_fetch_count": 0,
     "recent_legal_production_dates": [
@@ -30,14 +30,14 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "f92c3bae09566ef03223",
-    "bundle_hash": "151ad74cf620ed48e006aae6616543d0681e2e7761d4d8dff28076019c9b7fd3",
+    "build_id": "1fae17c46d94caafe3a4",
+    "bundle_hash": "0f1fd2bbdcb35f993801f34280c772e318de7e79ac140bbc1f2904ed78ec204d",
     "etf_health_status": "DEGRADED",
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-08-28",
     "projection_data_date": "2026-08-28",
-    "projection_manifest_hash": "27554b3701e8a69e6f566b7302f6fc3a53387bbd075cee0e8e4d93d4ee4763a7",
-    "projection_manifest_source_hash": "0ec8f8825e672630857550be70d965664c4283fd146937bb6d0bd185b5cd516f",
+    "projection_manifest_hash": "0e2802c687f61bff366fc0d2419b421c62c68722c8dfeceda80a54559919fd3e",
+    "projection_manifest_source_hash": "ad6e2b285c414eaab28b636f91a8a2c601234094b252ea6845a5ccea1d942951",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -49,22 +49,22 @@
       "threshold_validation": true
     },
     "score_engine_invocation_count": 0,
-    "source_hash": "16298f0419531f05dc8e34be9e59ecef7fa89d7aa1caf265ba988d166fb390c5",
+    "source_hash": "a48f85f81bc3391c30d4b1e6375ec4c46f2b1c88154b92d5d314162bb5fe8944",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V1",
   "source_hashes": {
     "frontend_source": "11722a2ba374194db2891bfe06546fe809b4cfdccc47b7f62230ae96238b9a42",
-    "publication_builder": "5d9081a816b64eac69f3c7affb80498d9fdece6b71503e1d76b35aeff718cb08",
+    "publication_builder": "2525b8c747520db0552999c01efadebcb9243264497dde9b95af082a25cd4bdc",
     "tushare_view": "3b5454d612f1000b532339437591d19910ca15324718d73ab3eb8fe7993654e7",
-    "v4_current_projection": "16298f0419531f05dc8e34be9e59ecef7fa89d7aa1caf265ba988d166fb390c5",
+    "v4_current_projection": "a48f85f81bc3391c30d4b1e6375ec4c46f2b1c88154b92d5d314162bb5fe8944",
     "v4_etf_active": "74090b592af9115eb9dcfad126066f6a896522f62db0bae3e8451c9a3e6a1ea9",
     "v4_payload": "a17656834705465b06bf59a223c2f73703bd504801f2d9e5f8e145dfbc63b109",
-    "v4_projection_history": "97e073848ac485d9e3f6755dad3058b1f2bcaa2fe714ea0148d51d79aba7e302",
-    "v4_projection_manifest": "0ec8f8825e672630857550be70d965664c4283fd146937bb6d0bd185b5cd516f",
-    "v4_projection_pointer": "af51489979290ae8fb39cb26a96c7d90936765d7a1e1653bfb02eb229d03fcf2",
-    "v4_reconciliation_pointer": "bdc4fa244637a5fe45efea4fc1190745f2271a3ab439f0053b9ee4df0657dd71"
+    "v4_projection_history": "d0027ced2f98d5ecd9a0dff2a64493e94adb5113679df41c750f4aee8a9fccae",
+    "v4_projection_manifest": "ad6e2b285c414eaab28b636f91a8a2c601234094b252ea6845a5ccea1d942951",
+    "v4_projection_pointer": "14f4b74ad7e35ec0b0403aea3f81a8f30d6d0cd80fb9450e61797338bf613847",
+    "v4_reconciliation_pointer": "c566f865b6b93ecbd1e9c74360106b175dd4594cc067755cae0f457394bf0478"
   },
   "target_date": "2026-08-28"
 }
