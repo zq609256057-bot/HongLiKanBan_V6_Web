@@ -1,7 +1,7 @@
 {
-  "build_id": "032b28540db89d421edb",
-  "frontend_bundle_version": "b14076452a6ca8f7ce04",
-  "generated_at": "2026-08-29T00:40:03+08:00",
+  "build_id": "585b706534272f91b099",
+  "frontend_bundle_version": "bff0b233478c3c2c2d4d",
+  "generated_at": "2026-08-30T09:26:05+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "schema_version": "V6_GITHUB_PAGES_BUILD_METADATA_V1",
   "target_date": "2026-08-28"
