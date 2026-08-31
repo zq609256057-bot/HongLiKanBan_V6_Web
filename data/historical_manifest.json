@@ -2,7 +2,7 @@
   "models": {
     "V6_SCORE_MODEL_Tushare": {
       "000922.SH": {
-        "asset_path_template": "data/tushare-model/tushare-model/history/revisions/V6_TUSHARE_ASSESSMENT_V2_V4_BEHAVIOR_ALIGNED/000922.SH/{target_date}/1ae82cdf5589887af620f6b642fcab30dba6d903fd649a07aed8685fcce2ccf0.json",
+        "asset_path_template": "data/tushare-model/tushare-model/history/revisions/V6_TUSHARE_ASSESSMENT_V2_V4_BEHAVIOR_ALIGNED/000922.SH/{target_date}/6582aaaa42daa730ec3551bf6f80bea3c4ebc765fd5b314f2cf1e1db7f1efee5.json",
         "available_dates": [
           "2017-06-02",
           "2017-06-05",
@@ -2250,16 +2250,17 @@
           "2026-08-25",
           "2026-08-26",
           "2026-08-27",
-          "2026-08-28"
+          "2026-08-28",
+          "2026-08-31"
         ],
-        "date_count": 2247,
+        "date_count": 2248,
         "first_date": "2017-06-02",
         "index_code": "000922.SH",
-        "latest_date": "2026-08-28",
+        "latest_date": "2026-08-31",
         "model_id": "V6_SCORE_MODEL_Tushare"
       },
       "930955.CSI": {
-        "asset_path_template": "data/tushare-model/tushare-model/history/revisions/V6_TUSHARE_ASSESSMENT_V2_V4_BEHAVIOR_ALIGNED/930955.CSI/{target_date}/7bfd55e00925402b93f38b1b2f72c30f3e1b8dd5b95dec4c628fb446f38f0784.json",
+        "asset_path_template": "data/tushare-model/tushare-model/history/revisions/V6_TUSHARE_ASSESSMENT_V2_V4_BEHAVIOR_ALIGNED/930955.CSI/{target_date}/6088e69b19ee6ad8c6a4582a8ccb9b71b76997fd1bc68c621af7aad6edde5d51.json",
         "available_dates": [
           "2018-06-07",
           "2018-06-08",
@@ -4258,12 +4259,13 @@
           "2026-08-25",
           "2026-08-26",
           "2026-08-27",
-          "2026-08-28"
+          "2026-08-28",
+          "2026-08-31"
         ],
-        "date_count": 1998,
+        "date_count": 1999,
         "first_date": "2018-06-07",
         "index_code": "930955.CSI",
-        "latest_date": "2026-08-28",
+        "latest_date": "2026-08-31",
         "model_id": "V6_SCORE_MODEL_Tushare"
       }
     },
@@ -8208,12 +8210,13 @@
           "2026-08-25",
           "2026-08-26",
           "2026-08-27",
-          "2026-08-28"
+          "2026-08-28",
+          "2026-08-31"
         ],
-        "date_count": 3938,
+        "date_count": 3939,
         "first_date": "2009-06-05",
         "index_code": "000922.SH",
-        "latest_date": "2026-08-28",
+        "latest_date": "2026-08-31",
         "model_id": "V6_SCORE_MODEL_V4"
       },
       "930955.CSI": {
@@ -9569,12 +9572,13 @@
           "2026-08-25",
           "2026-08-26",
           "2026-08-27",
-          "2026-08-28"
+          "2026-08-28",
+          "2026-08-31"
         ],
-        "date_count": 1351,
+        "date_count": 1352,
         "first_date": "2021-02-01",
         "index_code": "930955.CSI",
-        "latest_date": "2026-08-28",
+        "latest_date": "2026-08-31",
         "model_id": "V6_SCORE_MODEL_V4"
       }
     }
