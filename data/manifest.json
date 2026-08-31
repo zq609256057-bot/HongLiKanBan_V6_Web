@@ -2,7 +2,7 @@
   "build_id": "d7e8fcb5061c6b41b614",
   "default_model": "V6_SCORE_MODEL_V4",
   "frontend_bundle_version": "6cfdf75509bcf8e626b4",
-  "generated_at": "2026-08-31T19:46:55+08:00",
+  "generated_at": "2026-08-31T20:00:21+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "26b60e6b89f6d663bd6a31b7a0dc8ee5cdca2484f5d522cccbf9aea822e88cf4",
