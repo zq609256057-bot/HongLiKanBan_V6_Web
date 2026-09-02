@@ -1,13 +1,13 @@
 {
-  "build_id": "69d1693475fbef30838f",
+  "build_id": "78fabd44b828a8d6f451",
   "frontend_bundle_version": "0b34ee975fc3fc2efe9e",
-  "generated_at": "2026-09-02T16:21:57+08:00",
+  "generated_at": "2026-09-02T16:25:27+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "model_dates": {
     "V6_SCORE_MODEL_Tushare": "2026-09-02",
     "V6_SCORE_MODEL_V4": "2026-09-02"
   },
   "schema_version": "V6_GITHUB_PAGES_BUILD_METADATA_V1",
-  "site_published_at": "2026-09-02T16:21:57+08:00",
+  "site_published_at": "2026-09-02T16:25:27+08:00",
   "target_date": "2026-09-02"
 }
