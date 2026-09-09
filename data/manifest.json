@@ -1,12 +1,12 @@
 {
-  "build_id": "ca57ed54ef50b78e8aea",
+  "build_id": "3817808effb2bb096969",
   "cross_model_fallback": false,
   "cross_model_publication_blocking": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "01c327ed6994be88783c",
-  "generated_at": "2026-09-09T16:25:53+08:00",
+  "generated_at": "2026-09-09T18:44:23+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "aa6078ffcb5e6ab7068afb0b46ed9a5f14238860f9cad10a04d18560c8a6e521",
@@ -31,39 +31,39 @@
     "980081.CNI": "READY"
   },
   "model_status": {
-    "V6_SCORE_MODEL_Tushare": "READY",
-    "V6_SCORE_MODEL_V4": "READY"
+    "V6_SCORE_MODEL_Tushare": "PUBLISHED_CURRENT",
+    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
       "current_asset": "data/models/V6_SCORE_MODEL_Tushare/latest.json",
       "failure_reason": null,
       "latest_local_ready_date": "2026-09-09",
-      "latest_published_build_id": "ca57ed54ef50b78e8aea",
+      "latest_published_build_id": "3817808effb2bb096969",
       "latest_published_date": "2026-09-09",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": null,
       "source_hash": "6796523743fad00b044f27f5ca69eb29f00b53d6e3c6aead8e9d5b4d7daca113",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     },
     "V6_SCORE_MODEL_V4": {
       "current_asset": "data/models/V6_SCORE_MODEL_V4/latest.json",
       "failure_reason": null,
       "latest_local_ready_date": "2026-09-09",
-      "latest_published_build_id": "ca57ed54ef50b78e8aea",
+      "latest_published_build_id": "3817808effb2bb096969",
       "latest_published_date": "2026-09-09",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
       "source_hash": "2b1c281a5b2c6479863ff6fe6468121bb3e83e48c2b5e33736a8a2dadfc573e8",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     }
   },
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "ca57ed54ef50b78e8aea",
+    "build_id": "3817808effb2bb096969",
     "bundle_hash": "33de84d14798b900b852d6a121f4289f8ccd413d0fb4455f01850feac152aa9c",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -92,21 +92,21 @@
   "publication_status": "complete",
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V2_MODEL_SCOPED",
   "site": {
-    "build_id": "ca57ed54ef50b78e8aea",
-    "published_at": "2026-09-09T16:25:53+08:00",
-    "source_hash": "ca57ed54ef50b78e8aea8122a980b36f9f33dd65b8356e5e963ae8ad2680ad2f",
-    "static_source_hash": "dcd36ec8c10979acaeafd86781f07f3e64c8f3672d1659c75df8d2a62bb49b5c"
+    "build_id": "3817808effb2bb096969",
+    "published_at": "2026-09-09T18:44:23+08:00",
+    "source_hash": "3817808effb2bb096969bb49fc0936de528486fb9fe1180ab6fea233059cec15",
+    "static_source_hash": "c39830bc40668944a3b9cf556fe870f578bfe8aa515fd4d99334376f1768ec6f"
   },
   "source_hashes": {
-    "site_source_hash": "ca57ed54ef50b78e8aea8122a980b36f9f33dd65b8356e5e963ae8ad2680ad2f",
-    "site_static_source_hash": "dcd36ec8c10979acaeafd86781f07f3e64c8f3672d1659c75df8d2a62bb49b5c",
+    "site_source_hash": "3817808effb2bb096969bb49fc0936de528486fb9fe1180ab6fea233059cec15",
+    "site_static_source_hash": "c39830bc40668944a3b9cf556fe870f578bfe8aa515fd4d99334376f1768ec6f",
     "tushare_source_hash": "6796523743fad00b044f27f5ca69eb29f00b53d6e3c6aead8e9d5b4d7daca113",
     "v4_source_hash": "2b1c281a5b2c6479863ff6fe6468121bb3e83e48c2b5e33736a8a2dadfc573e8"
   },
   "target_date": "2026-09-09",
-  "unchanged_models": [],
-  "updated_models": [
+  "unchanged_models": [
     "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
-  ]
+  ],
+  "updated_models": []
 }
