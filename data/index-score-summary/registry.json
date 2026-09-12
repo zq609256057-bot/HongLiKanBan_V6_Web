@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-11T21:22:18+08:00",
+  "generated_at": "2026-09-12T08:01:59+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -12238,15 +12238,16 @@
             "2026-09-07",
             "2026-09-08",
             "2026-09-09",
-            "2026-09-10"
+            "2026-09-10",
+            "2026-09-11"
           ],
-          "current_blocker_reason": "TUSHARE_TRANSPORT_FAILED:TushareTransportError",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 206,
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
+          "date_count": 207,
           "first_date": "2025-11-10",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-10",
-          "latest_successful_target_date": "2026-09-10",
+          "latest_date": "2026-09-11",
+          "latest_successful_target_date": "2026-09-11",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
