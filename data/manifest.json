@@ -6,7 +6,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "1accb18371e76948c39c",
-  "generated_at": "2026-09-14T16:48:41+08:00",
+  "generated_at": "2026-09-14T16:55:20+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "ce7152e9137cd07632c58a4ca134a66cabaf8813faffc9c9db350ce8ddac87b8",
@@ -113,7 +113,7 @@
   },
   "site": {
     "build_id": "1494e98d20279beda3b2",
-    "published_at": "2026-09-14T16:48:41+08:00",
+    "published_at": "2026-09-14T16:55:20+08:00",
     "source_hash": "1494e98d20279beda3b2173fe318e8b06164345d2e32cd15a4b88503643d8dcc",
     "static_source_hash": "804cc52af16272a1111b42f6e2d1601bb3c4cb38940249747e474a79a7ab48d7"
   },
