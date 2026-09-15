@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-14T21:05:53+08:00",
+  "generated_at": "2026-09-15T16:46:20+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -2270,14 +2270,15 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2258,
+          "date_count": 2259,
           "first_date": "2017-06-02",
           "index_code": "000922.SH",
-          "latest_date": "2026-09-14",
+          "latest_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -6231,14 +6232,15 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 3949,
+          "date_count": 3950,
           "first_date": "2009-06-05",
           "index_code": "000922.SH",
-          "latest_date": "2026-09-14",
+          "latest_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -8261,14 +8263,15 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2009,
+          "date_count": 2010,
           "first_date": "2018-06-07",
           "index_code": "930955.CSI",
-          "latest_date": "2026-09-14",
+          "latest_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -9635,14 +9638,15 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1362,
+          "date_count": 1363,
           "first_date": "2021-02-01",
           "index_code": "930955.CSI",
-          "latest_date": "2026-09-14",
+          "latest_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -10934,15 +10938,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1278,
+          "date_count": 1279,
           "first_date": "2021-06-10",
           "index_code": "931468.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -12016,15 +12021,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1069,
+          "date_count": 1070,
           "first_date": "2022-04-21",
           "index_code": "931468.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -12245,15 +12251,16 @@
             "2026-09-08",
             "2026-09-09",
             "2026-09-10",
-            "2026-09-11"
+            "2026-09-11",
+            "2026-09-14"
           ],
-          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-09-14",
+          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-09-15",
           "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 207,
+          "date_count": 208,
           "first_date": "2025-11-10",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-11",
-          "latest_successful_target_date": "2026-09-11",
+          "latest_date": "2026-09-14",
+          "latest_successful_target_date": "2026-09-14",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -12431,15 +12438,16 @@
             "2026-09-08",
             "2026-09-09",
             "2026-09-10",
-            "2026-09-11"
+            "2026-09-11",
+            "2026-09-14"
           ],
-          "current_blocker_reason": "INDEX_980081_V4_TARGET_NOT_PUBLISHED:2026-09-14",
+          "current_blocker_reason": "INDEX_980081_V4_TARGET_NOT_PUBLISHED:2026-09-15",
           "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 173,
+          "date_count": 174,
           "first_date": "2025-12-26",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-11",
-          "latest_successful_target_date": "2026-09-11",
+          "latest_date": "2026-09-14",
+          "latest_successful_target_date": "2026-09-14",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -14447,21 +14455,22 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 85,
+          "date_count": 86,
           "first_date": "2026-05-18",
           "index_code": "932422.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
           "asset_path_template": null,
           "available_dates": [],
-          "current_blocker_reason": "LIXINGER_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_249;REQUIRED_PRICE_MA_BARS_250;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
+          "current_blocker_reason": "LIXINGER_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_250;REQUIRED_PRICE_MA_BARS_250;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
           "current_status": "FAILED",
           "date_count": 0,
           "first_date": null,
@@ -17320,15 +17329,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2839,
+          "date_count": 2840,
           "first_date": "2015-01-12",
           "index_code": "H30269.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -20156,15 +20166,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2823,
+          "date_count": 2824,
           "first_date": "2014-12-29",
           "index_code": "H30269.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -22992,15 +23003,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2781,
+          "date_count": 2782,
           "first_date": "2015-04-10",
           "index_code": "H50040.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -25792,15 +25804,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2787,
+          "date_count": 2788,
           "first_date": "2015-04-01",
           "index_code": "H50040.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -27110,15 +27123,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1296,
+          "date_count": 1297,
           "first_date": "2021-05-17",
           "index_code": "931446.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -28390,15 +28404,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1267,
+          "date_count": 1268,
           "first_date": "2021-06-28",
           "index_code": "931446.CSI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -31918,15 +31933,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 3506,
+          "date_count": 3507,
           "first_date": "2012-04-13",
           "index_code": "000015.SH",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -36948,15 +36964,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 5017,
+          "date_count": 5018,
           "first_date": "2006-01-20",
           "index_code": "000015.SH",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -38752,8 +38769,8 @@
     }
   ],
   "latest_date_by_model": {
-    "V6_SCORE_MODEL_Tushare": "2026-09-14",
-    "V6_SCORE_MODEL_V4": "2026-09-14"
+    "V6_SCORE_MODEL_Tushare": "2026-09-15",
+    "V6_SCORE_MODEL_V4": "2026-09-15"
   },
   "models": [
     "V6_SCORE_MODEL_V4",
@@ -43839,6 +43856,7 @@
     "2026-09-09",
     "2026-09-10",
     "2026-09-11",
-    "2026-09-14"
+    "2026-09-14",
+    "2026-09-15"
   ]
 }
