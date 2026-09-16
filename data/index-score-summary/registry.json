@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-15T22:13:26+08:00",
+  "generated_at": "2026-09-16T09:06:16+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -10941,8 +10941,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_931468_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1279,
           "first_date": "2021-06-10",
           "index_code": "931468.CSI",
@@ -12024,8 +12024,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "CN10Y_V4_SCORE_SUM_MISMATCH",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1070,
           "first_date": "2022-04-21",
           "index_code": "931468.CSI",
@@ -12252,15 +12252,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
-          "current_blocker_reason": "TUSHARE_TRANSPORT_FAILED:TushareTransportError",
+          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-09-16",
           "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 208,
+          "date_count": 209,
           "first_date": "2025-11-10",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -12439,15 +12440,16 @@
             "2026-09-09",
             "2026-09-10",
             "2026-09-11",
-            "2026-09-14"
+            "2026-09-14",
+            "2026-09-15"
           ],
-          "current_blocker_reason": "INDEX_980081_V4_TARGET_NOT_PUBLISHED:2026-09-15",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 174,
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
+          "date_count": 175,
           "first_date": "2025-12-26",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-14",
-          "latest_successful_target_date": "2026-09-14",
+          "latest_date": "2026-09-15",
+          "latest_successful_target_date": "2026-09-15",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -14459,8 +14461,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_932422_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 86,
           "first_date": "2026-05-18",
           "index_code": "932422.CSI",
@@ -17333,8 +17335,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_H30269_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 2840,
           "first_date": "2015-01-12",
           "index_code": "H30269.CSI",
@@ -23007,8 +23009,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_H50040_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 2782,
           "first_date": "2015-04-10",
           "index_code": "H50040.CSI",
@@ -27127,8 +27129,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_931446_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1297,
           "first_date": "2021-05-17",
           "index_code": "931446.CSI",
@@ -31937,8 +31939,8 @@
             "2026-09-14",
             "2026-09-15"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_000015_TUSHARE_PROVIDER_PENDING:2026-09-16",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 3507,
           "first_date": "2012-04-13",
           "index_code": "000015.SH",
