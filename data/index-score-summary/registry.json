@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-16T19:15:39+08:00",
+  "generated_at": "2026-09-16T19:38:23+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -14479,7 +14479,7 @@
         "V6_SCORE_MODEL_V4": {
           "asset_path_template": null,
           "available_dates": [],
-          "current_blocker_reason": "LIXINGER_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_250;REQUIRED_PRICE_MA_BARS_250;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
+          "current_blocker_reason": "LIXINGER_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_250;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
           "current_status": "FAILED",
           "date_count": 0,
           "first_date": null,
