@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-21T16:56:23+08:00",
+  "generated_at": "2026-09-21T17:22:29+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -10958,8 +10958,8 @@
             "2026-09-17",
             "2026-09-18"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_931468_TUSHARE_TARGET_NOT_PUBLISHED:2026-09-21",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1282,
           "first_date": "2021-06-10",
           "index_code": "931468.CSI",
@@ -12279,8 +12279,8 @@
             "2026-09-17",
             "2026-09-18"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-09-21",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 212,
           "first_date": "2025-11-10",
           "index_code": "980081.CNI",
@@ -14494,8 +14494,8 @@
             "2026-09-17",
             "2026-09-18"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_932422_TUSHARE_TARGET_NOT_PUBLISHED:2026-09-21",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 89,
           "first_date": "2026-05-18",
           "index_code": "932422.CSI",
@@ -17371,8 +17371,8 @@
             "2026-09-17",
             "2026-09-18"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "INDEX_H30269_TUSHARE_TARGET_NOT_PUBLISHED:2026-09-21",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 2843,
           "first_date": "2015-01-12",
           "index_code": "H30269.CSI",
