@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-22T21:31:00+08:00",
+  "generated_at": "2026-09-22T22:24:41+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -10958,15 +10958,16 @@
             "2026-09-15",
             "2026-09-16",
             "2026-09-17",
-            "2026-09-18"
+            "2026-09-18",
+            "2026-09-21"
           ],
-          "current_blocker_reason": "INDEX_931468_TUSHARE_TARGET_NOT_PUBLISHED:2026-09-21",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 1282,
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
+          "date_count": 1283,
           "first_date": "2021-06-10",
           "index_code": "931468.CSI",
-          "latest_date": "2026-09-18",
-          "latest_successful_target_date": "2026-09-18",
+          "latest_date": "2026-09-21",
+          "latest_successful_target_date": "2026-09-21",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -12282,7 +12283,7 @@
             "2026-09-17",
             "2026-09-18"
           ],
-          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-09-21",
+          "current_blocker_reason": "",
           "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 212,
           "first_date": "2025-11-10",
@@ -14495,15 +14496,16 @@
             "2026-09-15",
             "2026-09-16",
             "2026-09-17",
-            "2026-09-18"
+            "2026-09-18",
+            "2026-09-21"
           ],
-          "current_blocker_reason": "INDEX_932422_TUSHARE_TARGET_NOT_PUBLISHED:2026-09-21",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 89,
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
+          "date_count": 90,
           "first_date": "2026-05-18",
           "index_code": "932422.CSI",
-          "latest_date": "2026-09-18",
-          "latest_successful_target_date": "2026-09-18",
+          "latest_date": "2026-09-21",
+          "latest_successful_target_date": "2026-09-21",
           "model_id": "V6_SCORE_MODEL_Tushare"
         },
         "V6_SCORE_MODEL_V4": {
@@ -38844,7 +38846,7 @@
     }
   ],
   "latest_date_by_model": {
-    "V6_SCORE_MODEL_Tushare": "2026-09-18",
+    "V6_SCORE_MODEL_Tushare": "2026-09-21",
     "V6_SCORE_MODEL_V4": "2026-09-22"
   },
   "models": [
