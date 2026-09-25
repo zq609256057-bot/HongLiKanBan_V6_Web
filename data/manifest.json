@@ -1,12 +1,12 @@
 {
-  "build_id": "b6f160911bf51a74d11e",
+  "build_id": "4fc9f9652778a7d2da58",
   "cross_model_fallback": false,
   "cross_model_publication_blocking": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-09-25T17:02:01+08:00",
+  "generated_at": "2026-09-25T21:02:39+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "3edb8a9b11cb1f50a001d6e75d3cbe3b0af405dada931fcf813b07e3faab3275",
@@ -39,7 +39,7 @@
   },
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "WAITING_PROVIDER",
-    "V6_SCORE_MODEL_V4": "READY"
+    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -50,7 +50,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-24",
-      "latest_published_build_id": "b6f160911bf51a74d11e",
+      "latest_published_build_id": "4fc9f9652778a7d2da58",
       "latest_published_date": "2026-09-24",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": "2026-09-25",
@@ -69,7 +69,7 @@
       "full_domain_projection_date": "2026-09-24",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-24",
-      "latest_published_build_id": "b6f160911bf51a74d11e",
+      "latest_published_build_id": "4fc9f9652778a7d2da58",
       "latest_published_date": "2026-09-24",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -77,14 +77,14 @@
       "score_domain_latest_date": "2026-09-24",
       "score_domain_status": "SCORING_SUCCESS",
       "source_hash": "8cd4ecd8e5672f0232575f7f8b4ed897e0450ee0b3ae7df5f2bcab973c65377b",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     }
   },
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "b6f160911bf51a74d11e",
+    "build_id": "4fc9f9652778a7d2da58",
     "bundle_hash": "d6e5b6f0cc22e5ddc391a18a9c328cbaf93ce1dee3123198bcf603bf0c4bcf7b",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -119,7 +119,7 @@
     "index_count": 12,
     "latest_date_by_model": {
       "V6_SCORE_MODEL_Tushare": "2026-09-24",
-      "V6_SCORE_MODEL_V4": "2026-09-24"
+      "V6_SCORE_MODEL_V4": "2026-09-25"
     },
     "provider_fetch_count": 0,
     "registry": "data/index-score-summary/registry.json",
@@ -127,22 +127,21 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "b6f160911bf51a74d11e",
-    "published_at": "2026-09-25T17:02:01+08:00",
-    "source_hash": "b6f160911bf51a74d11e00eeb3ad0c56ac0fef20c45a757fc55abdd4a5d5dfbc",
-    "static_source_hash": "8e9725acb992f514aa6efa5aab09f12165db7d77b61206a283c3a49631f3e890"
+    "build_id": "4fc9f9652778a7d2da58",
+    "published_at": "2026-09-25T21:02:39+08:00",
+    "source_hash": "4fc9f9652778a7d2da58663dd56cf3377a7a8ef9eadb45937ba45a7c224c96ba",
+    "static_source_hash": "530b751716cd2384ad71025e1862d1969f2ed9e59523fc16a2340abe21a21faa"
   },
   "source_hashes": {
-    "site_source_hash": "b6f160911bf51a74d11e00eeb3ad0c56ac0fef20c45a757fc55abdd4a5d5dfbc",
-    "site_static_source_hash": "8e9725acb992f514aa6efa5aab09f12165db7d77b61206a283c3a49631f3e890",
+    "site_source_hash": "4fc9f9652778a7d2da58663dd56cf3377a7a8ef9eadb45937ba45a7c224c96ba",
+    "site_static_source_hash": "530b751716cd2384ad71025e1862d1969f2ed9e59523fc16a2340abe21a21faa",
     "tushare_source_hash": "29560703adc24c833b909fdd5850ca45ede7177e60e8769f7e7ecf10a12c07bf",
     "v4_source_hash": "8cd4ecd8e5672f0232575f7f8b4ed897e0450ee0b3ae7df5f2bcab973c65377b"
   },
   "target_date": "2026-09-24",
   "unchanged_models": [
+    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": [
-    "V6_SCORE_MODEL_V4"
-  ]
+  "updated_models": []
 }
