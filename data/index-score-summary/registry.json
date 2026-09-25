@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-25T16:11:31+08:00",
+  "generated_at": "2026-09-25T17:02:01+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -12066,8 +12066,8 @@
             "2026-09-23",
             "2026-09-24"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "CN10Y_V4_SCORE_SUM_MISMATCH",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1077,
           "first_date": "2022-04-21",
           "index_code": "931468.CSI",

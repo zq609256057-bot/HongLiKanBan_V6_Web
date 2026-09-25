@@ -1,12 +1,12 @@
 {
-  "build_id": "8019d8e3fbd5111975e9",
+  "build_id": "b6f160911bf51a74d11e",
   "cross_model_fallback": false,
   "cross_model_publication_blocking": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-09-25T16:11:31+08:00",
+  "generated_at": "2026-09-25T17:02:01+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "3edb8a9b11cb1f50a001d6e75d3cbe3b0af405dada931fcf813b07e3faab3275",
@@ -39,7 +39,7 @@
   },
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "WAITING_PROVIDER",
-    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
+    "V6_SCORE_MODEL_V4": "READY"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -50,7 +50,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-24",
-      "latest_published_build_id": "8019d8e3fbd5111975e9",
+      "latest_published_build_id": "b6f160911bf51a74d11e",
       "latest_published_date": "2026-09-24",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": "2026-09-25",
@@ -66,36 +66,36 @@
       "consumer_asset_status": "CONSUMER_ASSET_SUCCESS",
       "current_asset": "data/models/V6_SCORE_MODEL_V4/latest.json",
       "failure_reason": null,
-      "full_domain_projection_date": "2026-09-23",
-      "full_domain_projection_status": "STALE_VALID",
+      "full_domain_projection_date": "2026-09-24",
+      "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-24",
-      "latest_published_build_id": "8019d8e3fbd5111975e9",
+      "latest_published_build_id": "b6f160911bf51a74d11e",
       "latest_published_date": "2026-09-24",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
       "remote_publication_status": "PENDING_PUBLICATION",
       "score_domain_latest_date": "2026-09-24",
       "score_domain_status": "SCORING_SUCCESS",
-      "source_hash": "db3d6ac3cdd0c6f7445fd08f68004eb0235270846286bb0d5b6763a68f62e8ba",
-      "status": "PUBLISHED_CURRENT",
-      "updated_in_this_build": false
+      "source_hash": "8cd4ecd8e5672f0232575f7f8b4ed897e0450ee0b3ae7df5f2bcab973c65377b",
+      "status": "READY",
+      "updated_in_this_build": true
     }
   },
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "8019d8e3fbd5111975e9",
-    "bundle_hash": "4f9c88dba22305beced6c4b61f91a99932c12c36a535e9624e9057ffeab7aa0f",
-    "etf_freshness_status": "STALE_SCORE_DOMAIN_LAG",
+    "build_id": "b6f160911bf51a74d11e",
+    "bundle_hash": "d6e5b6f0cc22e5ddc391a18a9c328cbaf93ce1dee3123198bcf603bf0c4bcf7b",
+    "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
     "etf_provider_late_recovery_gate": "PASS",
     "etf_stale_data_detection_gate": "PASS",
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-09-24",
-    "projection_data_date": "2026-09-23",
-    "projection_manifest_hash": "47ef099ee4c01c3683f5bc40b2cb66e8d42f52515dca9a5b6e95162d4a77a566",
-    "projection_manifest_source_hash": "70316ff155728813e68efb51298cbbd348a22ff0fadac00b219bfdee7369cf16",
+    "projection_data_date": "2026-09-24",
+    "projection_manifest_hash": "ffe86841389e26a0fdcaf5c8b1e81d5c4ffc1433818cf9598531640a913356c0",
+    "projection_manifest_source_hash": "353b7a7d2002c03dc1dfb7ddea7a2ad66fb7eb61367f5bd634d66d20ad9db794",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -108,8 +108,8 @@
     },
     "score_domain_latest_date": "2026-09-24",
     "score_engine_invocation_count": 0,
-    "source_hash": "5f8d85086a4c1fe7b1ee9b1d0925ae6ec6937a68a9cf88dbf7e6f4889a527c8d",
-    "status": "VERIFIED_ACTIVE_STALE"
+    "source_hash": "50cfcb8a7797e0ed1615791fa28dbe4b38e6d9465b88a89687e95e63a2b66529",
+    "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V2_MODEL_SCOPED",
@@ -127,21 +127,22 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "8019d8e3fbd5111975e9",
-    "published_at": "2026-09-25T16:11:31+08:00",
-    "source_hash": "8019d8e3fbd5111975e9fbec0c9a071cee327b9bdfc5f1af1a5fa5a44bd35f9d",
-    "static_source_hash": "25e87b839415b518333512a14548da57665216be1df2b7a1539e76b2b4f3e8f2"
+    "build_id": "b6f160911bf51a74d11e",
+    "published_at": "2026-09-25T17:02:01+08:00",
+    "source_hash": "b6f160911bf51a74d11e00eeb3ad0c56ac0fef20c45a757fc55abdd4a5d5dfbc",
+    "static_source_hash": "8e9725acb992f514aa6efa5aab09f12165db7d77b61206a283c3a49631f3e890"
   },
   "source_hashes": {
-    "site_source_hash": "8019d8e3fbd5111975e9fbec0c9a071cee327b9bdfc5f1af1a5fa5a44bd35f9d",
-    "site_static_source_hash": "25e87b839415b518333512a14548da57665216be1df2b7a1539e76b2b4f3e8f2",
+    "site_source_hash": "b6f160911bf51a74d11e00eeb3ad0c56ac0fef20c45a757fc55abdd4a5d5dfbc",
+    "site_static_source_hash": "8e9725acb992f514aa6efa5aab09f12165db7d77b61206a283c3a49631f3e890",
     "tushare_source_hash": "29560703adc24c833b909fdd5850ca45ede7177e60e8769f7e7ecf10a12c07bf",
-    "v4_source_hash": "db3d6ac3cdd0c6f7445fd08f68004eb0235270846286bb0d5b6763a68f62e8ba"
+    "v4_source_hash": "8cd4ecd8e5672f0232575f7f8b4ed897e0450ee0b3ae7df5f2bcab973c65377b"
   },
   "target_date": "2026-09-24",
   "unchanged_models": [
-    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": []
+  "updated_models": [
+    "V6_SCORE_MODEL_V4"
+  ]
 }
