@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-09-29T21:32:52+08:00",
+  "generated_at": "2026-09-30T11:40:24+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -12512,15 +12512,16 @@
             "2026-09-22",
             "2026-09-23",
             "2026-09-24",
-            "2026-09-28"
+            "2026-09-28",
+            "2026-09-29"
           ],
-          "current_blocker_reason": "INDEX_980081_V4_TARGET_NOT_PUBLISHED:2026-09-29",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
-          "date_count": 183,
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
+          "date_count": 184,
           "first_date": "2025-12-26",
           "index_code": "980081.CNI",
-          "latest_date": "2026-09-28",
-          "latest_successful_target_date": "2026-09-28",
+          "latest_date": "2026-09-29",
+          "latest_successful_target_date": "2026-09-29",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
