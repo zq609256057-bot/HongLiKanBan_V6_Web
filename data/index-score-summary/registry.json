@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-10-05T16:36:25+08:00",
+  "generated_at": "2026-10-05T19:15:52+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -38958,15 +38958,16 @@
             "2026-09-28",
             "2026-09-29",
             "2026-09-30",
-            "2026-10-02"
+            "2026-10-02",
+            "2026-10-05"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1765,
+          "date_count": 1766,
           "first_date": "2019-07-03",
           "index_code": "HSHYLV.HI",
-          "latest_date": "2026-10-02",
-          "latest_successful_target_date": "2026-10-02",
+          "latest_date": "2026-10-05",
+          "latest_successful_target_date": "2026-10-05",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -38977,7 +38978,7 @@
   ],
   "latest_date_by_model": {
     "V6_SCORE_MODEL_Tushare": "2026-09-30",
-    "V6_SCORE_MODEL_V4": "2026-10-02"
+    "V6_SCORE_MODEL_V4": "2026-10-05"
   },
   "models": [
     "V6_SCORE_MODEL_V4",
@@ -44076,6 +44077,7 @@
     "2026-09-28",
     "2026-09-29",
     "2026-09-30",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-05"
   ]
 }
