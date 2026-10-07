@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-10-07T19:54:06+08:00",
+  "generated_at": "2026-10-07T23:36:10+08:00",
   "index_count": 12,
   "indices": [
     {
@@ -10991,8 +10991,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_931468_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 1289,
           "first_date": "2021-06-10",
           "index_code": "931468.CSI",
@@ -12084,8 +12084,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "curl failed for cn_index: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to open.lixinger.com:443",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 1080,
           "first_date": "2022-04-21",
           "index_code": "931468.CSI",
@@ -12325,8 +12325,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_980081_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 219,
           "first_date": "2025-11-10",
           "index_code": "980081.CNI",
@@ -14444,8 +14444,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": null,
-          "current_status": "ACTIVE",
+          "current_blocker_reason": "PENDING_LIXINGER_FINAL_EOD_STABILITY:TARGET_NOT_PUBLISHED",
+          "current_status": "STALE_LAST_KNOWN_GOOD",
           "date_count": 1887,
           "first_date": "2019-01-07",
           "index_code": "930914.CSI",
@@ -14562,8 +14562,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_932422_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 96,
           "first_date": "2026-05-18",
           "index_code": "932422.CSI",
@@ -17456,8 +17456,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_H30269_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 2850,
           "first_date": "2015-01-12",
           "index_code": "H30269.CSI",
@@ -23150,8 +23150,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_H50040_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 2792,
           "first_date": "2015-04-10",
           "index_code": "H50040.CSI",
@@ -27290,8 +27290,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_931446_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 1307,
           "first_date": "2021-05-17",
           "index_code": "931446.CSI",
@@ -32120,8 +32120,8 @@
             "2026-09-29",
             "2026-09-30"
           ],
-          "current_blocker_reason": "INDEX_000015_TUSHARE_PROVIDER_PENDING:2026-10-07",
-          "current_status": "STALE_LAST_KNOWN_GOOD",
+          "current_blocker_reason": null,
+          "current_status": "ACTIVE",
           "date_count": 3517,
           "first_date": "2012-04-13",
           "index_code": "000015.SH",
