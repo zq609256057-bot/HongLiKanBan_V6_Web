@@ -1,12 +1,12 @@
 {
-  "build_id": "7421b25ea07f7ae5c65f",
+  "build_id": "7e44d22277dcfb631af0",
   "cross_model_fallback": false,
   "cross_model_publication_blocking": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-10-07T19:31:58+08:00",
+  "generated_at": "2026-10-07T19:54:06+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "432be4757a3e5718a22f9f6bc9662c7aa1b36879e1601a540cc93dce952c38c0",
@@ -50,7 +50,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "7421b25ea07f7ae5c65f",
+      "latest_published_build_id": "7e44d22277dcfb631af0",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": "2026-10-07",
@@ -69,7 +69,7 @@
       "full_domain_projection_date": "2026-09-30",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "7421b25ea07f7ae5c65f",
+      "latest_published_build_id": "7e44d22277dcfb631af0",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -84,7 +84,7 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "7421b25ea07f7ae5c65f",
+    "build_id": "7e44d22277dcfb631af0",
     "bundle_hash": "6d981d9027a1d31c1beeeb9ecaf13fe0f1fb0ffa4ac9e36c8de68511c529e6df",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -127,14 +127,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "7421b25ea07f7ae5c65f",
-    "published_at": "2026-10-07T19:31:58+08:00",
-    "source_hash": "7421b25ea07f7ae5c65f07d4f7e29ffcddd1bb335090b20d64fb767af9d83bb7",
-    "static_source_hash": "7daef0d6261349addeee9cc617eef99e0c1e8b4c3576a9bbf71e5b323e4c7239"
+    "build_id": "7e44d22277dcfb631af0",
+    "published_at": "2026-10-07T19:54:06+08:00",
+    "source_hash": "7e44d22277dcfb631af01e9812977cfe9f226595782e2a68beba174aa162ee5c",
+    "static_source_hash": "c723f920225160c39a3c12eb44c64645b8ee10f08eec7afa6571bfc171666bc9"
   },
   "source_hashes": {
-    "site_source_hash": "7421b25ea07f7ae5c65f07d4f7e29ffcddd1bb335090b20d64fb767af9d83bb7",
-    "site_static_source_hash": "7daef0d6261349addeee9cc617eef99e0c1e8b4c3576a9bbf71e5b323e4c7239",
+    "site_source_hash": "7e44d22277dcfb631af01e9812977cfe9f226595782e2a68beba174aa162ee5c",
+    "site_static_source_hash": "c723f920225160c39a3c12eb44c64645b8ee10f08eec7afa6571bfc171666bc9",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "540f909791e160502a44c97c66033eef9bcd2b8a1b04088339583102ae802da6"
   },
