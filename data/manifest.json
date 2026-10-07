@@ -1,5 +1,5 @@
 {
-  "build_id": "73390a67137f3a8d0352",
+  "build_id": "20be72aa468ad32e5563",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-09-30",
@@ -460,14 +460,13 @@
           "status": "EXPECTED_BLOCKED_WARMUP"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "INTERNAL_FAILURE",
+          "endpoint": "NOT_PROBED_ELIGIBILITY_BLOCKED",
+          "failure_class": "WARMUP_INCOMPLETE",
           "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "INTERNAL_FAILURE"
+          "next_action": "WAIT_FOR_252_COMPLETE_REAL_OBSERVATIONS",
+          "provider_error_class": "WARMUP_INCOMPLETE"
         },
         "expected_latest_trading_date": "2026-09-30",
         "external_blocker": "TUSHARE_980139_POST_REVISION_FULL_OHLC_WARMUP_INSUFFICIENT:FULL_OPEN_HIGH_LOW_BARS_112_SINCE_2026_03_26;REQUIRED_PRICE_POSITION_BARS_252;PRE_REVISION_PROVIDER_BACKFILL_HAS_CLOSE_ONLY;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
@@ -701,7 +700,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-10-07T23:44:06+08:00",
+  "generated_at": "2026-10-07T23:53:16+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "432be4757a3e5718a22f9f6bc9662c7aa1b36879e1601a540cc93dce952c38c0",
@@ -746,7 +745,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "73390a67137f3a8d0352",
+      "latest_published_build_id": "20be72aa468ad32e5563",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": null,
@@ -765,7 +764,7 @@
       "full_domain_projection_date": "2026-09-30",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "73390a67137f3a8d0352",
+      "latest_published_build_id": "20be72aa468ad32e5563",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -780,7 +779,7 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "73390a67137f3a8d0352",
+    "build_id": "20be72aa468ad32e5563",
     "bundle_hash": "6d981d9027a1d31c1beeeb9ecaf13fe0f1fb0ffa4ac9e36c8de68511c529e6df",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -823,14 +822,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "73390a67137f3a8d0352",
-    "published_at": "2026-10-07T23:44:06+08:00",
-    "source_hash": "73390a67137f3a8d03525189d607f10adb1b99042619b26e32e5903d8d785303",
-    "static_source_hash": "4ba458952833279f3fda4c872a1d834ce99a68f4a00fe6ddf73401874d701e5b"
+    "build_id": "20be72aa468ad32e5563",
+    "published_at": "2026-10-07T23:53:16+08:00",
+    "source_hash": "20be72aa468ad32e5563e99ab02e9a5073860e8c38f0f5fcdb59892511366692",
+    "static_source_hash": "a9546379ff37f632e0f3ac58af237790da9efa31d4e23951dbf9fe704eada1d9"
   },
   "source_hashes": {
-    "site_source_hash": "73390a67137f3a8d03525189d607f10adb1b99042619b26e32e5903d8d785303",
-    "site_static_source_hash": "4ba458952833279f3fda4c872a1d834ce99a68f4a00fe6ddf73401874d701e5b",
+    "site_source_hash": "20be72aa468ad32e5563e99ab02e9a5073860e8c38f0f5fcdb59892511366692",
+    "site_static_source_hash": "a9546379ff37f632e0f3ac58af237790da9efa31d4e23951dbf9fe704eada1d9",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "540f909791e160502a44c97c66033eef9bcd2b8a1b04088339583102ae802da6"
   },
