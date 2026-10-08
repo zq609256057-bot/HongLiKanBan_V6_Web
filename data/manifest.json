@@ -1,13 +1,13 @@
 {
-  "build_id": "726c6d036f20786464c8",
+  "build_id": "69b59af7fc7a9ba6ce00",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-09-30",
-    "legacy_scaffold_generation_time": "2026-08-21T16:16:13+08:00",
+    "legacy_scaffold_generation_time": null,
     "production_generation_time": "2026-09-30T16:16:09+08:00",
     "refresh_chain": "V4_SCORE_RECEIPT_TO_PUBLICATION_GATEWAY_TO_PAGES",
     "refresh_required": false,
-    "source": "V6_FRONTEND_PAYLOAD_V6.json"
+    "source": "DERIVED_COMPATIBILITY_LATEST"
   },
   "cell_status": {
     "000015.SH": {
@@ -376,7 +376,7 @@
         "calendar_id": "CN_SSE",
         "eligibility": {
           "first_eligible_date": "2026-09-17",
-          "previous_blocker": "LIXINGER_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_260;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
+          "previous_blocker": "EXTERNAL_DATA_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_260;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
           "status": "ELIGIBLE_AUTO_RELEASED"
         },
         "endpoint_health": {
@@ -486,7 +486,7 @@
         "actual_latest_score_date": null,
         "calendar_id": "CN_SSE",
         "eligibility": {
-          "reason": "LIXINGER_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
+          "reason": "EXTERNAL_DATA_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
           "status": "EXPECTED_BLOCKED_MAPPING"
         },
         "endpoint_health": {
@@ -500,8 +500,8 @@
           "provider_error_class": "IDENTITY_NOT_LISTED"
         },
         "expected_latest_trading_date": "2026-09-30",
-        "external_blocker": "LIXINGER_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
-        "failure_reason": "LIXINGER_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
+        "external_blocker": "EXTERNAL_DATA_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
+        "failure_reason": "EXTERNAL_DATA_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
         "freshness": "UNAVAILABLE",
         "index_code": "980139.CNI",
         "market_area": "CN",
@@ -696,11 +696,18 @@
   },
   "cross_model_fallback": false,
   "cross_model_publication_blocking": false,
+  "date_semantics": {
+    "dual_model_same_date_status": "CANONICAL_MODEL_TRANSACTIONS_DIAGNOSTIC_ONLY",
+    "latest.latest_score_date": "CURRENT_CANONICAL_SCORE_DATE",
+    "latest.latest_signal_date": "LATEST_ETF_BACKTEST_SIGNAL_NOT_CURRENT_SCORE_DATE",
+    "section_11_summary.latest_date_by_model": "MAX_OF_ALL_12_INDEX_OWN_SCORE_DATES",
+    "target_date": "CANONICAL_TWO_INDEX_MODEL_TRANSACTION_MAX"
+  },
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
-  "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-10-08T12:32:56+08:00",
+  "frontend_bundle_version": "fa7dbf8ec7b034b6f04a",
+  "generated_at": "2026-10-08T14:16:09+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "432be4757a3e5718a22f9f6bc9662c7aa1b36879e1601a540cc93dce952c38c0",
@@ -731,25 +738,25 @@
     "H50040.CSI": "CURRENT_FOR_MARKET_CALENDAR",
     "HSHYLV.HI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING;V6_SCORE_MODEL_Tushare:CONFIRMED_EXTERNAL_BLOCKER"
   },
-  "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V1",
+  "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "PUBLISHED_CURRENT",
     "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
-      "browser_consumable_status": null,
+      "browser_consumable_status": "BUILD_VALIDATED",
       "consumer_asset_status": null,
       "current_asset": "data/models/V6_SCORE_MODEL_Tushare/latest.json",
       "failure_reason": null,
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "726c6d036f20786464c8",
+      "latest_published_build_id": "69b59af7fc7a9ba6ce00",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": null,
-      "remote_publication_status": null,
+      "remote_publication_status": "PUBLISHED_ARTIFACT",
       "score_domain_latest_date": null,
       "score_domain_status": null,
       "source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
@@ -757,18 +764,18 @@
       "updated_in_this_build": false
     },
     "V6_SCORE_MODEL_V4": {
-      "browser_consumable_status": "PENDING_VALIDATION",
+      "browser_consumable_status": "BUILD_VALIDATED",
       "consumer_asset_status": "CONSUMER_ASSET_SUCCESS",
       "current_asset": "data/models/V6_SCORE_MODEL_V4/latest.json",
       "failure_reason": null,
       "full_domain_projection_date": "2026-09-30",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "726c6d036f20786464c8",
+      "latest_published_build_id": "69b59af7fc7a9ba6ce00",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
-      "remote_publication_status": "PENDING_PUBLICATION",
+      "remote_publication_status": "PUBLISHED_ARTIFACT",
       "score_domain_latest_date": "2026-09-30",
       "score_domain_status": "SCORING_SUCCESS",
       "source_hash": "540f909791e160502a44c97c66033eef9bcd2b8a1b04088339583102ae802da6",
@@ -779,8 +786,8 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "726c6d036f20786464c8",
-    "bundle_hash": "6d981d9027a1d31c1beeeb9ecaf13fe0f1fb0ffa4ac9e36c8de68511c529e6df",
+    "build_id": "69b59af7fc7a9ba6ce00",
+    "bundle_hash": "dd576dec94183e94e3a6ed5707e034f6ecfd2c7fc98b6e04a20630474faae0b7",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -790,7 +797,7 @@
     "production_date": "2026-09-30",
     "projection_data_date": "2026-09-30",
     "projection_manifest_hash": "f4ca6c418f0e31ad7fc6d331353c8b9f30be103294c27c938cc43ff055920d85",
-    "projection_manifest_source_hash": "ed88ce6ba4ba2809ea7437e362657a6f19848d866a903519a6ff20f0dfeddf9b",
+    "projection_manifest_source_hash": "6bb2ce6be3e298a8d28304b6978d17a7b32ec42ce89a78091cb84e09994249a4",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -803,7 +810,7 @@
     },
     "score_domain_latest_date": "2026-09-30",
     "score_engine_invocation_count": 0,
-    "source_hash": "672674e0f497170b6d9167fc3287624be4437321f68e458f3c028c62924757df",
+    "source_hash": "ac3bd1d957e3457da45c5a526535286cacc340445a233d8366bb870a74b79c9a",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -822,14 +829,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "726c6d036f20786464c8",
-    "published_at": "2026-10-08T12:32:56+08:00",
-    "source_hash": "726c6d036f20786464c8f25fbaf87f8a7583b9fcd259f761b59ba378ad63fb4e",
-    "static_source_hash": "752502897b8e5054ca31fa3f3a1a3c0443a1e885f11503ef217f463956dfd829"
+    "build_id": "69b59af7fc7a9ba6ce00",
+    "published_at": "2026-10-08T14:16:09+08:00",
+    "source_hash": "69b59af7fc7a9ba6ce00144efbfa58702e970068d91ff5e049f03ecafe03c8a2",
+    "static_source_hash": "ca585d15fbbc76b1f4afc4d22da6e63d9a7fee02a70212eccbcb42957afd2268"
   },
   "source_hashes": {
-    "site_source_hash": "726c6d036f20786464c8f25fbaf87f8a7583b9fcd259f761b59ba378ad63fb4e",
-    "site_static_source_hash": "752502897b8e5054ca31fa3f3a1a3c0443a1e885f11503ef217f463956dfd829",
+    "site_source_hash": "69b59af7fc7a9ba6ce00144efbfa58702e970068d91ff5e049f03ecafe03c8a2",
+    "site_static_source_hash": "ca585d15fbbc76b1f4afc4d22da6e63d9a7fee02a70212eccbcb42957afd2268",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "540f909791e160502a44c97c66033eef9bcd2b8a1b04088339583102ae802da6"
   },
