@@ -1,6 +1,6 @@
 {
-  "addon_hash": "90ef11815947a193b0baa6477433889d3a1fa1e8cec718eea4277679587da971",
-  "generated_at": "2026-10-08T12:31:27+08:00",
+  "addon_hash": "adcd41f737f8b1d2380db7481ca944bbacb5d1a0823e107d6a3008c95b29cdb7",
+  "generated_at": "2026-10-08T14:41:48+08:00",
   "index": {
     "base_date": "2010-09-03",
     "base_point": 3000,
@@ -1072,7 +1072,7 @@
       "expected_latest_trading_date": "2026-10-07",
       "external_blocker": null,
       "failure_reason": "权限受限",
-      "fragment_hash": "a2b89ce4df55fa022e0f5722482ae122c359480318f5a38adde2657ecbf41ddd",
+      "fragment_hash": "4acae73ada5b19628a093a017e1aaffc95fa733229944860476b61ba9e6df9fb",
       "fragment_id": "V6_HSHYLV_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -25832,12 +25832,12 @@
         "attention_required": true,
         "backoff_seconds": 7200,
         "failure_class": "PERMISSION_DENIED",
-        "failure_count": 10,
-        "last_attempt": "2026-10-08T10:30:58+08:00",
+        "failure_count": 11,
+        "last_attempt": "2026-10-08T12:31:22+08:00",
         "last_known_good": {
           "HSHYLV.HI": "2026-10-05"
         },
-        "next_retry": "2026-10-08T12:30:58+08:00",
+        "next_retry": "2026-10-08T14:31:22+08:00",
         "target_date": "2026-10-06"
       },
       "schedule_group": "V6_19_00_LATE_CLOSE_GROUP",
