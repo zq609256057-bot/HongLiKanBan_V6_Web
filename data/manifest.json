@@ -1,5 +1,5 @@
 {
-  "build_id": "ed8f5ed4a94881c4a94c",
+  "build_id": "32e6699a416f65dea80e",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-09-30",
@@ -177,12 +177,12 @@
           "attention_required": true,
           "backoff_seconds": 7200,
           "failure_class": "TARGET_NOT_PUBLISHED",
-          "failure_count": 7,
-          "last_attempt": "2026-10-08T08:30:30+08:00",
+          "failure_count": 8,
+          "last_attempt": "2026-10-08T10:30:53+08:00",
           "last_known_good": {
             "930914.CSI": "2026-09-30"
           },
-          "next_retry": "2026-10-08T10:30:30+08:00",
+          "next_retry": "2026-10-08T12:30:53+08:00",
           "target_date": "2026-10-02"
         },
         "schedule_group": "V6_19_00_LATE_CLOSE_GROUP",
@@ -681,12 +681,12 @@
           "attention_required": true,
           "backoff_seconds": 7200,
           "failure_class": "PERMISSION_DENIED",
-          "failure_count": 9,
-          "last_attempt": "2026-10-08T08:30:35+08:00",
+          "failure_count": 10,
+          "last_attempt": "2026-10-08T10:30:58+08:00",
           "last_known_good": {
             "HSHYLV.HI": "2026-10-05"
           },
-          "next_retry": "2026-10-08T10:30:35+08:00",
+          "next_retry": "2026-10-08T12:30:58+08:00",
           "target_date": "2026-10-06"
         },
         "schedule_group": "V6_19_00_LATE_CLOSE_GROUP",
@@ -700,7 +700,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "SAME_DATE",
   "frontend_bundle_version": "b4e74256b301a5cbaef5",
-  "generated_at": "2026-10-08T08:32:12+08:00",
+  "generated_at": "2026-10-08T10:40:59+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "432be4757a3e5718a22f9f6bc9662c7aa1b36879e1601a540cc93dce952c38c0",
@@ -745,7 +745,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "ed8f5ed4a94881c4a94c",
+      "latest_published_build_id": "32e6699a416f65dea80e",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_Tushare",
       "pending_target_date": null,
@@ -764,7 +764,7 @@
       "full_domain_projection_date": "2026-09-30",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "ed8f5ed4a94881c4a94c",
+      "latest_published_build_id": "32e6699a416f65dea80e",
       "latest_published_date": "2026-09-30",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -779,7 +779,7 @@
   "parallel_model": "V6_SCORE_MODEL_Tushare",
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "ed8f5ed4a94881c4a94c",
+    "build_id": "32e6699a416f65dea80e",
     "bundle_hash": "6d981d9027a1d31c1beeeb9ecaf13fe0f1fb0ffa4ac9e36c8de68511c529e6df",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
@@ -822,14 +822,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "ed8f5ed4a94881c4a94c",
-    "published_at": "2026-10-08T08:32:12+08:00",
-    "source_hash": "ed8f5ed4a94881c4a94cf28cf36ab8793cc414f68688dcf7dfd15ea6bcf616bd",
-    "static_source_hash": "ee8f6d1347099fd656fd64fc16992ca14efcfb11f1d5b64e393159c83af25529"
+    "build_id": "32e6699a416f65dea80e",
+    "published_at": "2026-10-08T10:40:59+08:00",
+    "source_hash": "32e6699a416f65dea80e71393969442213b06fc41a43dd15c54b1f7c1bdd32a2",
+    "static_source_hash": "9229988a10a92bf1803ecef9b6b5fa014044cd8c90fba9023413465ac09013c2"
   },
   "source_hashes": {
-    "site_source_hash": "ed8f5ed4a94881c4a94cf28cf36ab8793cc414f68688dcf7dfd15ea6bcf616bd",
-    "site_static_source_hash": "ee8f6d1347099fd656fd64fc16992ca14efcfb11f1d5b64e393159c83af25529",
+    "site_source_hash": "32e6699a416f65dea80e71393969442213b06fc41a43dd15c54b1f7c1bdd32a2",
+    "site_static_source_hash": "9229988a10a92bf1803ecef9b6b5fa014044cd8c90fba9023413465ac09013c2",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "540f909791e160502a44c97c66033eef9bcd2b8a1b04088339583102ae802da6"
   },
