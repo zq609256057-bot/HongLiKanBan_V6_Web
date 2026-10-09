@@ -1,6 +1,6 @@
 {
-  "addon_hash": "6210e3d3f8417efc5ac3e04f0a8cd82bf43ca75e6b6b197f576a1135d85ef966",
-  "generated_at": "2026-10-09T16:56:29+08:00",
+  "addon_hash": "d39d14bfe859d418019b4b846de56fcd430c03f3cea0d6ca59583f7dc840dd98",
+  "generated_at": "2026-10-10T00:00:54+08:00",
   "index": {
     "base_date": "2012-12-31",
     "base_point": 1000,
@@ -908,12 +908,13 @@
         "failure_class": "TARGET_NOT_PUBLISHED",
         "http_status": null,
         "next_action": "WAIT_FOR_BOUNDED_RETRY",
-        "provider_error_class": "TARGET_NOT_PUBLISHED"
+        "provider_error_class": "TARGET_NOT_PUBLISHED",
+        "transport_failure_class": null
       },
       "expected_latest_trading_date": "2026-10-09",
       "external_blocker": null,
       "failure_reason": "数据源暂未更新",
-      "fragment_hash": "fef27cbdeabcdcbd9e60085f605b501f4a9462fbec96ce3f0b5dc191be0f4573",
+      "fragment_hash": "f772d134a6161d0e5b7e82d70365ea90554ead04e0a582e48e02150de967e9d3",
       "fragment_id": "V6_980081_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -7572,12 +7573,13 @@
         "failure_class": "TARGET_NOT_PUBLISHED",
         "http_status": null,
         "next_action": "WAIT_FOR_BOUNDED_RETRY",
-        "provider_error_class": "TARGET_NOT_PUBLISHED"
+        "provider_error_class": "TARGET_NOT_PUBLISHED",
+        "transport_failure_class": null
       },
       "expected_latest_trading_date": "2026-10-09",
       "external_blocker": null,
       "failure_reason": "数据源暂未更新",
-      "fragment_hash": "3873b91f5144c4d1fa03b9bfee6518313cc366cbbc5f58a9d6204acee415e388",
+      "fragment_hash": "c10f743215b24a91ab3871496b800aa3a803de68f7fa3c58042b46c43eaa41c6",
       "fragment_id": "V6_980081_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -10213,16 +10215,16 @@
       "pending_target_date": "2026-10-09",
       "provider_pending": true,
       "provider_retry": {
-        "alert_status": "RETRY_SCHEDULED",
-        "attention_required": false,
-        "backoff_seconds": 900,
+        "alert_status": "ACTION_REQUIRED",
+        "attention_required": true,
+        "backoff_seconds": 7200,
         "failure_class": "TARGET_NOT_PUBLISHED",
-        "failure_count": 1,
-        "last_attempt": "2026-10-09T16:34:21+08:00",
+        "failure_count": 2,
+        "last_attempt": "2026-10-09T19:00:05+08:00",
         "last_known_good": {
           "980081.CNI": "2026-10-08"
         },
-        "next_retry": "2026-10-09T16:49:21+08:00",
+        "next_retry": "2026-10-10T00:00:00+08:00",
         "target_date": "2026-10-09"
       },
       "schedule_group": "V6_16_10_STANDARD_GROUP",
