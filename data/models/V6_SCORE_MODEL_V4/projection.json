@@ -3,7 +3,7 @@
     "V6_SCORE_MODEL_V4"
   ],
   "browser_calculation_performed": false,
-  "bundle_hash": "70d337efab99bbbbc4a008c052b0fae8c428150d5d2169b178139cb1693a9c57",
+  "bundle_hash": "43e385bc310c8d4158123add28226f876dc97e30235d6898604b5499909d990d",
   "candidate_hash": "d9169e2f8eecf40a58af72e41638329c11bb3a91e51093389a74307787059327",
   "consumer_states": {
     "assessment": {
@@ -116,7 +116,7 @@
     "active_status": "ACTIVE_COMMITTED",
     "production_evidence_class": "V4_PRODUCTION_ARCHIVE_LOCAL_FINALIZATION_LEDGER_SCORE",
     "production_ledger_entry_hash": "1d381fd76dd33bec3decd7806e51de32aff6ad4e92a13e510719d529b98b76c6",
-    "production_payload_hash": "89ffde790d0ff9c2bd74f6793578a0dc514a8269e5274444a16d3d46719adc44",
+    "production_payload_hash": "e292087e226d1b28be27c17cb84c269d37adc95266229b6313bf3d8f63e7e4ff",
     "production_payload_sha256": "f3a7300f83be6acb1652d51d2b47ca4ac79214162548677ca3c99385b490ffbd",
     "production_receipt_hash": "b58162a0fc9325b5949e708d473c172c8ff480944944cb02a61d7e5cb196c227",
     "production_receipt_id": "V6LF4-7f7c187ac0531c1cdae5db60d57b17831e2e27f0",

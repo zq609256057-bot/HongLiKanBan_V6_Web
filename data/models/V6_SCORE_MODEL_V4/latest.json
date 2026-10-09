@@ -7,7 +7,7 @@
     "931446.CSI": "2026-10-08",
     "931468.CSI": "2026-10-08",
     "932422.CSI": "2026-10-08",
-    "980081.CNI": "2026-09-30",
+    "980081.CNI": "2026-10-08",
     "980139.CNI": null,
     "H30269.CSI": "2026-10-08",
     "H50040.CSI": "2026-10-08",
@@ -6975,7 +6975,7 @@
     "status": "PASS"
   },
   "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
-  "generated_at": "2026-10-09T10:28:20+08:00",
+  "generated_at": "2026-10-09T11:05:24+08:00",
   "has_historical_gap": false,
   "history_as_of_date": "2026-10-08",
   "history_backtest": {
@@ -41757,7 +41757,7 @@
   "missing_dates": [],
   "model_id": "V6_SCORE_MODEL_V4",
   "overall_status": "LIMITED_COVERAGE",
-  "payload_hash": "89ffde790d0ff9c2bd74f6793578a0dc514a8269e5274444a16d3d46719adc44",
+  "payload_hash": "e292087e226d1b28be27c17cb84c269d37adc95266229b6313bf3d8f63e7e4ff",
   "payload_schema_version": "V6_FRONTEND_PAYLOAD_V6",
   "production_last_updated_at": "2026-10-08T16:16:16+08:00",
   "production_migrated_at": "2026-08-23T10:50:18+08:00",
