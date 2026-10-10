@@ -1,6 +1,6 @@
 {
-  "addon_hash": "0b180086bd9f0511699070ec334796dca41159d2222ec0ebc10ba69361e7c0f6",
-  "generated_at": "2026-10-10T11:01:55+08:00",
+  "addon_hash": "2451715e973b47c5344efa33198dbbfaec6b2e6253e0b88e12eced751366d320",
+  "generated_at": "2026-10-10T13:02:22+08:00",
   "index": {
     "base_date": "2014-11-14",
     "base_point": 3000,
@@ -1057,7 +1057,7 @@
       "expected_latest_trading_date": "2026-10-09",
       "external_blocker": null,
       "failure_reason": "数据源暂未更新",
-      "fragment_hash": "80238817a043552ed6e7a23cb4b50ec0ef03c4c7756e122ddc4393810dbbbaa4",
+      "fragment_hash": "f78bf01fc66ba63aa7805503373a0d51a82189147c03474ae4c2b33d9d10b8ea",
       "fragment_id": "V6_930914_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -27553,12 +27553,12 @@
         "attention_required": true,
         "backoff_seconds": 7200,
         "failure_class": "TARGET_NOT_PUBLISHED",
-        "failure_count": 5,
-        "last_attempt": "2026-10-10T09:00:54+08:00",
+        "failure_count": 6,
+        "last_attempt": "2026-10-10T11:01:42+08:00",
         "last_known_good": {
           "930914.CSI": "2026-10-06"
         },
-        "next_retry": "2026-10-10T11:00:54+08:00",
+        "next_retry": "2026-10-10T13:01:42+08:00",
         "target_date": "2026-10-07"
       },
       "schedule_group": "V6_19_00_LATE_CLOSE_GROUP",

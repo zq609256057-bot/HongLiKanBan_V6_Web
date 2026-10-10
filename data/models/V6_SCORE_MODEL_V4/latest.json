@@ -6995,7 +6995,7 @@
     "status": "PASS"
   },
   "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
-  "generated_at": "2026-10-10T11:18:14+08:00",
+  "generated_at": "2026-10-10T18:58:40+08:00",
   "has_historical_gap": false,
   "history_as_of_date": "2026-10-09",
   "history_backtest": {
@@ -41787,7 +41787,7 @@
   "missing_dates": [],
   "model_id": "V6_SCORE_MODEL_V4",
   "overall_status": "LIMITED_COVERAGE",
-  "payload_hash": "598e91af63b0660435abb18d440de2bbaa6470ecbb3f5266b8cb7d1c1ad03685",
+  "payload_hash": "b4020956562f7960f1062c230e9bfd368216d44aaf402139b2fb5ef0bb34555d",
   "payload_schema_version": "V6_FRONTEND_PAYLOAD_V6",
   "production_last_updated_at": "2026-10-09T16:32:48+08:00",
   "production_migrated_at": "2026-08-23T10:50:18+08:00",
