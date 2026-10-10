@@ -414,7 +414,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "de7a88099eda521f306a",
-  "generated_at": "2026-10-10T00:10:43+08:00",
+  "generated_at": "2026-10-10T06:45:01+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "2e455de7694ba3577b1313dae15ddc670ae06ef7401012d566c57bfbaa07eec3",
@@ -496,7 +496,7 @@
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
     "build_id": "d22852c09d5314605768",
-    "bundle_hash": "3ddaa447aab91acdc2db8b042a8700c5c357cf01b94915520568132f78ee9431",
+    "bundle_hash": "cdc65e2e34a50e017164ea5d792af1b06006d71cf9738ebd5241d9a6c2472340",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -519,7 +519,7 @@
     },
     "score_domain_latest_date": "2026-10-09",
     "score_engine_invocation_count": 0,
-    "source_hash": "663d99c898613a7b590bd5ee0bab61cd473a04b182cf384aedb22212845a3793",
+    "source_hash": "64ada75c7843ae7c7c06de5523b8b7613873f8da0cc79941be74c41884fdd5de",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -544,7 +544,7 @@
   },
   "site": {
     "build_id": "d22852c09d5314605768",
-    "published_at": "2026-10-10T00:10:43+08:00",
+    "published_at": "2026-10-10T06:45:01+08:00",
     "source_hash": "d22852c09d53146057686d3e6c93113f62847bf698cdc909b568f6560822395e",
     "static_source_hash": "d773afced2e86fd52cf43327a0a0c868926f11e03ac719f819a8970bbd38a1e9"
   },
