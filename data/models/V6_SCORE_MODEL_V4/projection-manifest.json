@@ -5,14 +5,14 @@
     "assessment": "df3abea73c59b44d83b500e6653948c843e3e0875283b5cc2d3f6fd49a86f4d5",
     "current_scores": "5d823631b7d87bf1c90dade2566d58961e32b3d50781e3aa0016e7981a7e752d",
     "date_query": "539f2cff32dd34a36731ffe5f9f6bc55c052b68e8327463aa49511fca153febd",
-    "etf_backtest": "7121fd773b1f2933de749ef265b2a05692dfa6782fc5345c55384b258846fe04",
+    "etf_backtest": "2ea102e7ee9d2d5f728b23087e721adb8db63f25d3d2d731836fb00d52efd4af",
     "history": "1000246fbcd135dbe6a81c8708c82a92a1f4f18f6584d0861a38b52a7ab73718",
-    "threshold_validation": "48f0d233bc6dbf1d91bc975da82d1c5f103a567fec1782aeb4dd99168d8fb507"
+    "threshold_validation": "1eb81a7eac2225a25b3adf7908746177213db2a3bda43fa47caa88f5f7c99dba"
   },
   "engine_invocation_count": 0,
   "etf_consumer_binding": {
     "calculation_as_of_date": "2026-10-09",
-    "consumer_hash": "c3a4eb4157c23b213d46bdb77342182ef60aae5a1d28cde734383f7214d409b4",
+    "consumer_hash": "67f3178268e1e0a355b806f83a082aeeec64683b8f7bf15c589f79bc22c3e98e",
     "health_hash": "fa8013cecaefa5c77fba6d1512a22599ffbd117985fa2e2edfcac2239d54525d",
     "health_status": "PASS",
     "ledger_head_hash": "74f734effccfe1a0cae9157d700b520dd80be651ef8da93ef1f312b6183fa9f6",
@@ -48,7 +48,7 @@
     "score_source_hash_match": true
   },
   "projection_contract_id": "V6_V4_ONLY_DAILY_FULL_DOMAIN_PROJECTION_CONTRACT_V1",
-  "projection_manifest_hash": "bb16772c27c1500e4a72a413adc8ab34fc2ac6520badf15134112875ca0a19e9",
+  "projection_manifest_hash": "1a13964cbcdb6f69ae1bcd8d1ac918ced6fef30a3fa6f55e8585dfd364b1c7e5",
   "projector_id": "V6_V4_DAILY_FULL_DOMAIN_PROJECTOR_V1",
   "required_domains": [
     "current_scores",
