@@ -1,6 +1,6 @@
 {
-  "addon_hash": "a1491a20d7fbe45a2a929f85a49e23e4d5fc5bb1acb2764909ade9c573eefd14",
-  "generated_at": "2026-10-12T17:08:50+08:00",
+  "addon_hash": "271da5f19c9a7144f79157c978506cf742cef2a13f82a611d809189da476ed09",
+  "generated_at": "2026-10-12T17:40:26+08:00",
   "index": {
     "base_date": "2012-12-31",
     "base_point": 1000,
@@ -7579,7 +7579,7 @@
       "expected_latest_trading_date": "2026-10-12",
       "external_blocker": null,
       "failure_reason": "数据源暂未更新",
-      "fragment_hash": "304be30bb7f65377d97e54f7ac003de9e78518b3ed9793fb0c54198a28787296",
+      "fragment_hash": "c91449a6b4b28460b91cf1c7686d69d9a0333fbf1ddcf992de6a25215d05067d",
       "fragment_id": "V6_980081_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -10231,14 +10231,14 @@
       "provider_retry": {
         "alert_status": "RETRY_SCHEDULED",
         "attention_required": false,
-        "backoff_seconds": 900,
+        "backoff_seconds": 1800,
         "failure_class": "TARGET_NOT_PUBLISHED",
-        "failure_count": 1,
-        "last_attempt": "2026-10-12T16:51:46+08:00",
+        "failure_count": 2,
+        "last_attempt": "2026-10-12T17:08:36+08:00",
         "last_known_good": {
           "980081.CNI": "2026-10-09"
         },
-        "next_retry": "2026-10-12T17:06:46+08:00",
+        "next_retry": "2026-10-12T17:38:36+08:00",
         "target_date": "2026-10-12"
       },
       "schedule_group": "V6_16_10_STANDARD_GROUP",
