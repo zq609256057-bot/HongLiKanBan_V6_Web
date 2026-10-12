@@ -1,6 +1,6 @@
 {
-  "addon_hash": "68c730d84fbe379b1734304d971dbd322064df2d583273972215de134a69bbad",
-  "generated_at": "2026-10-12T16:18:26+08:00",
+  "addon_hash": "a1491a20d7fbe45a2a929f85a49e23e4d5fc5bb1acb2764909ade9c573eefd14",
+  "generated_at": "2026-10-12T17:08:50+08:00",
   "index": {
     "base_date": "2012-12-31",
     "base_point": 1000,
@@ -7579,7 +7579,7 @@
       "expected_latest_trading_date": "2026-10-12",
       "external_blocker": null,
       "failure_reason": "数据源暂未更新",
-      "fragment_hash": "41ff1331b59fd07bf8a27ad3f5fdda8db23cda46cc9652a01a7494ace9dfc76d",
+      "fragment_hash": "304be30bb7f65377d97e54f7ac003de9e78518b3ed9793fb0c54198a28787296",
       "fragment_id": "V6_980081_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -10228,7 +10228,19 @@
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": "2026-10-12",
       "provider_pending": true,
-      "provider_retry": null,
+      "provider_retry": {
+        "alert_status": "RETRY_SCHEDULED",
+        "attention_required": false,
+        "backoff_seconds": 900,
+        "failure_class": "TARGET_NOT_PUBLISHED",
+        "failure_count": 1,
+        "last_attempt": "2026-10-12T16:51:46+08:00",
+        "last_known_good": {
+          "980081.CNI": "2026-10-09"
+        },
+        "next_retry": "2026-10-12T17:06:46+08:00",
+        "target_date": "2026-10-12"
+      },
       "schedule_group": "V6_16_10_STANDARD_GROUP",
       "score_series": {
         "asset_path_template": "/data/index-980081/history/V6_SCORE_MODEL_V4/{target_date}.json",
