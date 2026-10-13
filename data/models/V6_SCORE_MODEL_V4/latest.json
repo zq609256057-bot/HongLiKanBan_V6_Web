@@ -1,16 +1,16 @@
 {
   "all_index_latest_dates": {
-    "000015.SH": "2026-10-12",
-    "000922.SH": "2026-10-12",
+    "000015.SH": "2026-10-13",
+    "000922.SH": "2026-10-13",
     "930914.CSI": "2026-10-06",
-    "930955.CSI": "2026-10-12",
-    "931446.CSI": "2026-10-12",
-    "931468.CSI": "2026-10-12",
-    "932422.CSI": "2026-10-12",
+    "930955.CSI": "2026-10-13",
+    "931446.CSI": "2026-10-13",
+    "931468.CSI": "2026-10-13",
+    "932422.CSI": "2026-10-13",
     "980081.CNI": "2026-10-12",
     "980139.CNI": null,
-    "H30269.CSI": "2026-10-12",
-    "H50040.CSI": "2026-10-12",
+    "H30269.CSI": "2026-10-13",
+    "H50040.CSI": "2026-10-13",
     "HSHYLV.HI": "2026-10-05"
   },
   "canonical_scaffold_scope": [
@@ -3984,13 +3984,14 @@
           "2026-09-30",
           "2026-10-08",
           "2026-10-09",
-          "2026-10-12"
+          "2026-10-12",
+          "2026-10-13"
         ],
         "first_date": "2009-06-05",
         "index_code": "000922.SH",
-        "last_date": "2026-10-12",
+        "last_date": "2026-10-13",
         "model_id": "V6_SCORE_MODEL_V4",
-        "record_count": 3963,
+        "record_count": 3964,
         "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY"
       },
       "930955.CSI": {
@@ -5371,13 +5372,14 @@
           "2026-09-30",
           "2026-10-08",
           "2026-10-09",
-          "2026-10-12"
+          "2026-10-12",
+          "2026-10-13"
         ],
         "first_date": "2021-02-01",
         "index_code": "930955.CSI",
-        "last_date": "2026-10-12",
+        "last_date": "2026-10-13",
         "model_id": "V6_SCORE_MODEL_V4",
-        "record_count": 1376,
+        "record_count": 1377,
         "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY"
       }
     },
@@ -5896,15 +5898,32 @@
           },
           "revision": 1,
           "target_date": "2026-10-12"
+        },
+        "2026-10-13": {
+          "asset_sha256": "a4661d6b1b2580c753ea72c5438f84509e7ad8795eeb03c3d2cbda2b77578751",
+          "bundle_hash": "dcec376b0a93762e5c7a9b9f26ca65bd29bdf6b08dcfd6811b21bdc4f28aeb1a",
+          "index_set": [
+            "000922.SH",
+            "930955.CSI"
+          ],
+          "model_id": "V6_SCORE_MODEL_V4",
+          "path": "/data/v4-projection/history/by-date/2026-10-13/dcec376b0a93762e5c7a9b9f26ca65bd29bdf6b08dcfd6811b21bdc4f28aeb1a.json",
+          "record_count": 2,
+          "record_hashes": {
+            "000922.SH": "421897984ecea28d6765079ce776fda9d20f0c0dd5387a64f676174982e9f9d2",
+            "930955.CSI": "7702352f9b0fd9d4b734f3179c7f397dd5bd3406692e81647a852cd5ea88e723"
+          },
+          "revision": 1,
+          "target_date": "2026-10-13"
         }
       },
       "coverage": {
         "continuity_status": "CONTINUITY_PASS",
-        "date_query_date_count": 31,
-        "history_date_count": 31,
+        "date_query_date_count": 32,
+        "history_date_count": 32,
         "missing_date_query_dates": [],
         "missing_history_dates": [],
-        "production_date_count": 31
+        "production_date_count": 32
       },
       "production_dates": [
         "2026-08-21",
@@ -5937,14 +5956,15 @@
         "2026-09-30",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ],
       "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
-      "required_assets_manifest_hash": "dccec5e57d102419725d9f4583a6e84e4fb1d29b4dd14113f0fdabd425b80ab7",
-      "required_assets_manifest_path": "/data/v4-projection/history/manifests/dccec5e57d102419725d9f4583a6e84e4fb1d29b4dd14113f0fdabd425b80ab7.json",
-      "required_assets_manifest_sha256": "17b76b622f231a1d279e1c1afdb06952074c8d3a14851ac980570b78efe500a2"
+      "required_assets_manifest_hash": "0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b",
+      "required_assets_manifest_path": "/data/v4-projection/history/manifests/0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b.json",
+      "required_assets_manifest_sha256": "d17d45d38b7396dfdcb5f2c867840e1d220791bab92a6ec84478108a48f9feb2"
     },
-    "last_date": "2026-10-12",
+    "last_date": "2026-10-13",
     "legacy_year_bundle_status": "DEPRECATED_LEGACY",
     "manifest_id": "V6_SCORE_MODEL_V4_DATE_QUERY_VIEW_MANIFEST_V1",
     "model_id": "V6_SCORE_MODEL_V4",
@@ -5955,7 +5975,7 @@
     "query_version": "V1",
     "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
     "reconciliation_revision": 3,
-    "record_count": 5339,
+    "record_count": 5341,
     "score_recalculation_performed": false,
     "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY",
     "source_date_query_manifest_hash": "d856b0f8b6af85521293cbc891062afd5b7c202e118e8cad53411886657a3613",
@@ -5964,7 +5984,7 @@
   "detail_artifact": {
     "contract_id": "V6_SCORE_MODEL_V4_SCORE_CONTRACT",
     "contract_version": "V1",
-    "detail_artifact_hash": "99ded72ccceb3a490c38670737813645a4342fa6b5061e82dac9369ecb090070",
+    "detail_artifact_hash": "f6af8a37025b861bd3c4f5dda63343c846214251b7e6455d9fff1ef78fb735e8",
     "detail_artifact_id": "V6_RUNTIME_DETAIL_ARTIFACT_V4",
     "engine_id": "V6_SCORE_MODEL_V4_ENGINE",
     "engine_version": "V1",
@@ -5980,11 +6000,11 @@
         "future_data_used": false,
         "index_code": "000922.SH",
         "model_id": "V6_SCORE_MODEL_V4",
-        "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+        "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "source_date_query_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-        "source_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-        "target_date": "2026-10-12"
+        "source_date_query_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+        "source_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+        "target_date": "2026-10-13"
       },
       {
         "contract_id": "V6_SCORE_MODEL_V4_SCORE_CONTRACT",
@@ -5996,39 +6016,39 @@
         "future_data_used": false,
         "index_code": "930955.CSI",
         "model_id": "V6_SCORE_MODEL_V4",
-        "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+        "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "source_date_query_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-        "source_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-        "target_date": "2026-10-12"
+        "source_date_query_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+        "source_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+        "target_date": "2026-10-13"
       }
     ],
     "model_id": "V6_SCORE_MODEL_V4",
-    "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+    "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
     "runtime_id": "V6_RUNTIME_V4",
     "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-    "target_date": "2026-10-12"
+    "target_date": "2026-10-13"
   },
   "etf_backtest": {
-    "as_of_date": "2026-10-12",
-    "calculation_as_of_date": "2026-10-12",
-    "consumer_hash": "41301e3947584977164bdd896e0e2114d759d55eb959fec3d6694b581b3b8fea",
+    "as_of_date": "2026-10-13",
+    "calculation_as_of_date": "2026-10-13",
+    "consumer_hash": "dfceb7669af8978ca012a6956f4525e991357b7d34451049e389fcce7bc9beb0",
     "consumer_id": "V6_V4_ETF_FRESHNESS_COORDINATOR_V1",
     "consumer_schema_id": "V6_V4_ETF_ACTIVE_CONSUMER_V1",
-    "consumer_semantic_hash": "e3b709154fb0e5cbbb68009b4699c11bcd873ad456f804c58ab27d3a3ebc2c42",
+    "consumer_semantic_hash": "a9e20755576c7e869fd26431a89ce1aa5219d7c291bddbaab38d97998cc45ba3",
     "date_semantics_contract_id": "V6_V4_ETF_DATE_SEMANTICS_CONTRACT_V1",
     "engine_invocation_count": 0,
     "etfs": {
       "159307.SZ": {
-        "admitted_latest_date": "2026-10-12",
-        "calculation_as_of_date": "2026-10-12",
+        "admitted_latest_date": "2026-10-13",
+        "calculation_as_of_date": "2026-10-13",
         "data_status": "CURRENT",
         "etf_code": "159307.SZ",
-        "etf_consumer_hash": "5562efd59167039a3a474784c4dce669142400fc428d05895c8bcd4e9fc54f57",
+        "etf_consumer_hash": "97fd8dc275696d26abadc119a8b7486df82a90d9797ed741409b59fc07c1918b",
         "etf_name": "博时中证红利低波100ETF",
-        "etf_price_as_of_date": "2026-10-12",
+        "etf_price_as_of_date": "2026-10-13",
         "exchange": "SZSE",
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "expected_session_source": "LINKED_INDEX_V4_HISTORY_TRADING_DATES_PLUS_EXPLICIT_TARGET",
         "first_date": "2024-04-25",
         "freshness_status": "FRESH",
@@ -6036,19 +6056,19 @@
         "holding_sessions": 252,
         "index_code": "930955.CSI",
         "lag_trading_sessions": 0,
-        "last_date": "2026-10-12",
+        "last_date": "2026-10-13",
         "last_matured_signal_date": "2025-04-07",
-        "latest_close": "1.037",
+        "latest_close": "1.032",
         "latest_signal_date": "2026-09-29",
         "latest_trade_date": "2026-09-30",
         "linked_index": "930955.CSI",
         "model_id": "V6_SCORE_MODEL_V4",
-        "projection_latest_date": "2026-10-12",
-        "raw_latest_date": "2026-10-12",
-        "revision": 32,
-        "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
-        "source_latest_available_date": "2026-10-12",
-        "source_score_date": "2026-10-12",
+        "projection_latest_date": "2026-10-13",
+        "raw_latest_date": "2026-10-13",
+        "revision": 33,
+        "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
+        "source_latest_available_date": "2026-10-13",
+        "source_score_date": "2026-10-13",
         "stale_reason": null,
         "threshold_rows": [
           {
@@ -6061,8 +6081,8 @@
             "mean_cash_dividend_return": "0.05093644536132550587817446862982663225758151429523158686743195139407341730745056515356776720489208655",
             "mean_cash_total_return": "0.1029972850482987924623518986791393997464696489745722401347806282926385617419808577114329553359497702",
             "mean_open_cash_dividend_return": "0.01407101106216033387278291507027416607656313199204971285470583833517202104787860654206373810403502376",
-            "mean_open_price_return": "0.01483598607310559794178273323725071161956617631027461724499990803537996360329875321301540378161623669",
-            "mean_open_total_dividend_reinvestment_return": "0.02911119258682899136860040179675782020658091702903765268443428555875050066275277433263289653079124125",
+            "mean_open_price_return": "0.009942852099754076254503163645942848979163253570109358724050053126819790201161343602537991034356756283",
+            "mean_open_total_dividend_reinvestment_return": "0.0241492292667382054892918174100810708323929666094183775991670035647353102063267725277503849756765295",
             "mean_price_return": "0.05206083968697328658417743004931276748888813467934065326734867689856514443453029255786518813105768353",
             "mean_total_dividend_reinvestment_return": "0.1059688120313180545874141063418842105674925565765853518012926029763882990905924800762480699309238874",
             "needs_review_count": 0,
@@ -6070,7 +6090,7 @@
             "passed_count": 106,
             "pending_entry_count": 0,
             "position_state": "INVESTED",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[60,70)",
             "score_lower": 60,
             "score_upper": 70,
@@ -6090,8 +6110,8 @@
             "mean_cash_dividend_return": "0.05106597396602170305811302596222806542321620866648279667799597509295987798363672699963861147543023094",
             "mean_cash_total_return": "0.1555393658134882681203842014910821041421592359921941301969688111353005167766520575410452413589625999",
             "mean_open_cash_dividend_return": "0.01132748062381824507150076093025548124828700716506154912647479924772199930833553713770466284858794517",
-            "mean_open_price_return": "0.06787249153632001264966264406135764131578422092443876765039698362615575297672291016361230672597264917",
-            "mean_open_total_dividend_reinvestment_return": "0.07940006504652562613263250577350183567738738719545822441600480189886204667912129290335689492419217725",
+            "mean_open_price_return": "0.06272363670731171943534411636578696802110830857668351804745389305900938965475221146465564179479631033",
+            "mean_open_total_dividend_reinvestment_return": "0.07419562886018750835957256119407318651790143065160355602441365049144226824768869264827802850700706542",
             "mean_price_return": "0.1044733918474665650622711755288540387189430273257113335189728360423406387930153305414066298835323691",
             "mean_total_dividend_reinvestment_return": "0.1599230540581763362751508382344257811654014909317326393703364830113764456386584171263525391110192703",
             "needs_review_count": 0,
@@ -6099,7 +6119,7 @@
             "passed_count": 72,
             "pending_entry_count": 0,
             "position_state": "INVESTED",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[70,80)",
             "score_lower": 70,
             "score_upper": 80,
@@ -6128,7 +6148,7 @@
             "passed_count": 4,
             "pending_entry_count": 0,
             "position_state": "CASH",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[80,90)",
             "score_lower": 80,
             "score_upper": 90,
@@ -6157,7 +6177,7 @@
             "passed_count": 12,
             "pending_entry_count": 0,
             "position_state": "CASH",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[90,100]",
             "score_lower": 90,
             "score_upper": 100,
@@ -6170,15 +6190,15 @@
         ]
       },
       "515180.SH": {
-        "admitted_latest_date": "2026-10-12",
-        "calculation_as_of_date": "2026-10-12",
+        "admitted_latest_date": "2026-10-13",
+        "calculation_as_of_date": "2026-10-13",
         "data_status": "CURRENT",
         "etf_code": "515180.SH",
-        "etf_consumer_hash": "cc074f391e5a5a08f3a1f0e54114a2910c0d71e414a8dcdcedf2997c70fad083",
+        "etf_consumer_hash": "0ced116168e05b92f2509790ee6cbf6b099163d189ea322355c43c230666e87e",
         "etf_name": "易方达中证红利ETF",
-        "etf_price_as_of_date": "2026-10-12",
+        "etf_price_as_of_date": "2026-10-13",
         "exchange": "SSE",
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "expected_session_source": "LINKED_INDEX_V4_HISTORY_TRADING_DATES_PLUS_EXPLICIT_TARGET",
         "first_date": "2019-12-20",
         "freshness_status": "FRESH",
@@ -6186,19 +6206,19 @@
         "holding_sessions": 252,
         "index_code": "000922.SH",
         "lag_trading_sessions": 0,
-        "last_date": "2026-10-12",
+        "last_date": "2026-10-13",
         "last_matured_signal_date": "2025-09-18",
-        "latest_close": "1.446",
+        "latest_close": "1.451",
         "latest_signal_date": "2026-07-17",
         "latest_trade_date": "2026-10-12",
         "linked_index": "000922.SH",
         "model_id": "V6_SCORE_MODEL_V4",
-        "projection_latest_date": "2026-10-12",
-        "raw_latest_date": "2026-10-12",
-        "revision": 32,
-        "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
-        "source_latest_available_date": "2026-10-12",
-        "source_score_date": "2026-10-12",
+        "projection_latest_date": "2026-10-13",
+        "raw_latest_date": "2026-10-13",
+        "revision": 33,
+        "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
+        "source_latest_available_date": "2026-10-13",
+        "source_score_date": "2026-10-13",
         "stale_reason": null,
         "threshold_rows": [
           {
@@ -6211,8 +6231,8 @@
             "mean_cash_dividend_return": "0.04653899933170675723852992019041773881924374232759996282489815970212364823615040105735503111690236541",
             "mean_cash_total_return": "0.1006669546003579360322906813174419023438280052989763720305697428104166428483124431377165392223761824",
             "mean_open_cash_dividend_return": "0.001208590901886194325566650816294182913298462513869075923284197178633697891900459660802028847677920431",
-            "mean_open_price_return": "0.05506019860037729032814418926968572295499704680860176828279814016085267679217029046845967145076242425",
-            "mean_open_total_dividend_reinvestment_return": "0.05631207714201585551064374305217955425344230239245182830075584010376408592661732819734200219126548506",
+            "mean_open_price_return": "0.05870840122347679686454856060187689073838223715026360012333340343941717429145165385182225676006658203",
+            "mean_open_total_dividend_reinvestment_return": "0.059964608529090599132741404680990686875342172041111758550758453658756354550153349387512617689852157",
             "mean_price_return": "0.05412795526865117879376076112702416352458426297137640920567158310829299461216204208036150810547381687",
             "mean_total_dividend_reinvestment_return": "0.1029951939585555077940771747357087146101957689436185370271322994504385748593970323129304481748845045",
             "needs_review_count": 1,
@@ -6220,7 +6240,7 @@
             "passed_count": 316,
             "pending_entry_count": 0,
             "position_state": "INVESTED",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[60,70)",
             "score_lower": 60,
             "score_upper": 70,
@@ -6240,8 +6260,8 @@
             "mean_cash_dividend_return": "0.04627663610976700995796378423015744818875267157155894396004226550628786838795724532752911660685437484",
             "mean_cash_total_return": "0.08742436597921526524968982414502904770051808940417922593681762882639924669738770469880063535136518088",
             "mean_open_cash_dividend_return": "0",
-            "mean_open_price_return": "0.09733929992379389490488006009734479130882129358489405187762265071784893562115896067888182469044944938",
-            "mean_open_total_dividend_reinvestment_return": "0.09733929992379389490488006009734479130882129358489405187762265071784893562115896067888182469044944938",
+            "mean_open_price_return": "0.1011336958433090881791016370686357484018670103676910575895093127189479983307756929080619139874427047",
+            "mean_open_total_dividend_reinvestment_return": "0.1011336958433090881791016370686357484018670103676910575895093127189479983307756929080619139874427046",
             "mean_price_return": "0.0411477298694482552917260399148715995117654178326202819767753633201113783094304593712715187445108062",
             "mean_total_dividend_reinvestment_return": "0.08950763711049725083854076955159320129177133424753002672602254732135359754846862687349461035005670527",
             "needs_review_count": 0,
@@ -6249,7 +6269,7 @@
             "passed_count": 455,
             "pending_entry_count": 0,
             "position_state": "INVESTED",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[70,80)",
             "score_lower": 70,
             "score_upper": 80,
@@ -6278,7 +6298,7 @@
             "passed_count": 358,
             "pending_entry_count": 0,
             "position_state": "CASH",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[80,90)",
             "score_lower": 80,
             "score_upper": 90,
@@ -6307,7 +6327,7 @@
             "passed_count": 58,
             "pending_entry_count": 0,
             "position_state": "CASH",
-            "position_valuation_as_of_date": "2026-10-12",
+            "position_valuation_as_of_date": "2026-10-13",
             "score_interval": "[90,100]",
             "score_lower": 90,
             "score_upper": 100,
@@ -6322,7 +6342,7 @@
     },
     "freshness_contract_id": "V6_V4_ETF_DATA_FRESHNESS_AND_CONTINUITY_CONTRACT_V1",
     "future_data_used": false,
-    "generated_at": "2026-10-12T16:17:12+08:00",
+    "generated_at": "2026-10-13T16:17:53+08:00",
     "holding_sessions": 252,
     "incremental_contract_id": "V6_V4_ETF_INCREMENTAL_REFRESH_CONTRACT_V1",
     "latest_signal_date": "2026-09-29",
@@ -6331,7 +6351,7 @@
     "natural_observation_eligible": false,
     "production_observation_eligible": false,
     "production_write_performed": false,
-    "projection_latest_date": "2026-10-12",
+    "projection_latest_date": "2026-10-13",
     "result_id": "V6_SCORE_MODEL_V4_ETF_BACKTEST",
     "return_definitions": {
       "cash_dividend_return": "holding_window_cash_dividend_per_original_share / entry_open",
@@ -6340,9 +6360,9 @@
       "price_return": "exit_close / entry_open - 1",
       "total_dividend_reinvestment_return": "cash_dividends_reinvested_at_ex_date_close"
     },
-    "revision": 32,
+    "revision": 33,
     "score_recalculation_performed": false,
-    "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
+    "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
     "strategy_method": "SCORE_KNOWN_AFTER_T_CLOSE_ENTER_NEXT_ETF_SESSION_OPEN_HOLD_252_ETF_SESSIONS_EXIT_CLOSE",
     "strategy_modified": false,
     "thresholds": [
@@ -6352,7 +6372,7 @@
       90
     ]
   },
-  "etf_backtest_as_of_date": "2026-10-12",
+  "etf_backtest_as_of_date": "2026-10-13",
   "etf_retirement": {
     "etf_data": {
       "binding_hash": "986a30d89a9412bfe758fd1c6909fc22ae13cbb4ddeeba6af33828d1e0352380",
@@ -6894,14 +6914,14 @@
     "status": "PASS"
   },
   "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
-  "generated_at": "2026-10-13T14:32:08+08:00",
+  "generated_at": "2026-10-13T17:00:51+08:00",
   "has_historical_gap": false,
-  "history_as_of_date": "2026-10-12",
+  "history_as_of_date": "2026-10-13",
   "history_backtest": {
-    "as_of_date": "2026-10-12",
+    "as_of_date": "2026-10-13",
     "by_index": {
       "000922.SH": {
-        "as_of_date": "2026-10-12",
+        "as_of_date": "2026-10-13",
         "index_code": "000922.SH",
         "model_id": "V6_SCORE_MODEL_V4",
         "points": [
@@ -29234,11 +29254,16 @@
             "status": "READY_SCORE_MODEL_V4",
             "target_date": "2026-10-12",
             "total_score": "47.23375983524551670339695221833754405159996886640132494015425330303602439294545314908369060158926951"
+          },
+          {
+            "status": "READY_SCORE_MODEL_V4",
+            "target_date": "2026-10-13",
+            "total_score": "46.74933458305997025387494909770468085104850046566020191086102219287784612432727366838993826855502601"
           }
         ]
       },
       "930955.CSI": {
-        "as_of_date": "2026-10-12",
+        "as_of_date": "2026-10-13",
         "index_code": "930955.CSI",
         "model_id": "V6_SCORE_MODEL_V4",
         "points": [
@@ -40621,6 +40646,11 @@
             "status": "READY_SCORE_MODEL_V4",
             "target_date": "2026-10-12",
             "total_score": "45.50620529561383941088993027180855503050012113148857742368318850047742854422801909051465013850730116"
+          },
+          {
+            "status": "READY_SCORE_MODEL_V4",
+            "target_date": "2026-10-13",
+            "total_score": "47.33105357975801505054671930115094362371417826368773304923557866217176210745880184667231430590789441"
           }
         ]
       }
@@ -40633,15 +40663,15 @@
       "assessment": {
         "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
         "assessment_version": "V1",
-        "conclusion": "V4 综合评分为 47.23/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+        "conclusion": "V4 综合评分为 46.75/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
         "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
         "model_id": "V6_SCORE_MODEL_V4",
         "model_name": "V6_SCORE_MODEL_V4",
         "negative": [
-          "估值维度相对偏弱（12.81/34），需留意该维度对总分的约束。"
+          "估值维度相对偏弱（12.6/34），需留意该维度对总分的约束。"
         ],
         "positive": [
-          "宏观维度相对占优（16.12/26）。 CN10Y 历史位置与趋势分别为 4/4、1.86/4。"
+          "宏观维度相对占优（16.18/26）。 CN10Y 历史位置与趋势分别为 4/4、1.96/4。"
         ],
         "reason_code": null,
         "risk_note": "仅供研究；历史结果不构成投资建议。",
@@ -40657,19 +40687,19 @@
         "future_data_used": false,
         "index_code": "000922.SH",
         "model_id": "V6_SCORE_MODEL_V4",
-        "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+        "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "source_date_query_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-        "source_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-        "target_date": "2026-10-12"
+        "source_date_query_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+        "source_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+        "target_date": "2026-10-13"
       },
       "entry": {
-        "data_date": "2026-10-12",
+        "data_date": "2026-10-13",
         "index_code": "000922.SH",
         "model_id": "V6_SCORE_MODEL_V4",
         "overall_status": "LIMITED_COVERAGE",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "target_date": "2026-10-12"
+        "target_date": "2026-10-13"
       },
       "header": {
         "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
@@ -40678,7 +40708,7 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "research_attribute": "PERSONAL_RESEARCH_ONLY",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "target_date": "2026-10-12"
+        "target_date": "2026-10-13"
       },
       "hero": {
         "coverage": {
@@ -40694,28 +40724,28 @@
         ],
         "reason_code": "COVERAGE_NOT_REPORTED",
         "status": "LIMITED_COVERAGE",
-        "total_score": "47.23375983524551670339695221833754405159996886640132494015425330303602439294545314908369060158926951"
+        "total_score": "46.74933458305997025387494909770468085104850046566020191086102219287784612432727366838993826855502601"
       },
       "kpi": {
         "items": [
           {
             "dimension_id": "valuation",
             "label": "估值面 · 34分",
-            "score": "12.80733414762421164032960875921659808145786751869979096518544943408936080569826428851639690004361378",
+            "score": "12.60243547911707934173728598577387364746949302022988920507901271053785778754540082617823448895291911",
             "subtitle": "DID · PB",
             "tone": "red"
           },
           {
             "dimension_id": "macro",
             "label": "宏观面 · 26分",
-            "score": "16.11604322387830871487979980575168462532460408876446385690511979751090276498928813266029650252728012",
+            "score": "16.17768920124637734573466908005603983027590527043002032862711589431964040503949352538010466033449162",
             "subtitle": "CN10Y · 股债利差",
             "tone": "green"
           },
           {
             "dimension_id": "technical",
             "label": "技术面 · 40分",
-            "score": "18.31038246374299634818754365336926134481749725893707011806368407143576082225790072790699719901837561",
+            "score": "17.96920990269651356640299403187476737330310217500029237715489358802034793174237931683159911926761528",
             "subtitle": "Price/MA V3 · 252 · RSI · Volume",
             "tone": "amber"
           },
@@ -40736,39 +40766,39 @@
         "model_id": "V6_SCORE_MODEL_V4"
       },
       "market_environment": {
-        "actual_data_date": "2026-10-09",
-        "calendar_lag_days": 3,
-        "cn10y": "1.6864",
-        "cn10y_score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+        "actual_data_date": "2026-10-12",
+        "calendar_lag_days": 1,
+        "cn10y": "1.6722",
+        "cn10y_score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
         "cn10y_score_maximum": 8,
         "cn10y_state_v4": {
-          "actual_data_date": "2026-10-09",
-          "calendar_lag_days": 3,
-          "cn10y_percent": "1.6864",
-          "cn10y_state_v4_hash": "b72a8af779d1c2763bb377a3f19f19968cc66d0151c319135177ff532a795c8d",
-          "delta60_bp": "-5.34",
+          "actual_data_date": "2026-10-12",
+          "calendar_lag_days": 1,
+          "cn10y_percent": "1.6722",
+          "cn10y_state_v4_hash": "4aa947f6fb5c06d54bfefd56fcc70e96f66bc9de65f7f143612425832755a6f4",
+          "delta60_bp": "-6.8",
           "delta_observations": 60,
           "engine_id": "CN10Y_STATE_V4_ENGINE",
           "engine_version": "V1",
           "future_data_used": false,
-          "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-          "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+          "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+          "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
           "historical_position_score": "4",
-          "historical_window_observation_count": 2497,
+          "historical_window_observation_count": 2496,
           "historical_window_years": 10,
           "index_code": "000922.SH",
           "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
           "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
           "lag_days": 1,
-          "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+          "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
           "status": "READY_CN10Y_STATE_V4",
-          "target_date": "2026-10-12",
-          "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-          "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-          "trend_observation_count": 746,
-          "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+          "target_date": "2026-10-13",
+          "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+          "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+          "trend_observation_count": 745,
+          "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
           "trend_window_years": 3,
-          "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+          "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
         },
         "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
         "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
@@ -40776,9 +40806,9 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "reason_code": null,
         "status": "PASS",
-        "target_date": "2026-10-12",
-        "yield_spread": "2.376117263985616",
-        "yield_spread_score": "10.25417653504928503037537058321080488736299720874973019143955089096782406083560402987910731647022144",
+        "target_date": "2026-10-13",
+        "yield_spread": "2.368022082313231",
+        "yield_spread_score": "10.22251138198845975929427613799595848110305873187200233726394039976951980587724495013025377167852882",
         "yield_spread_score_maximum": 18
       },
       "model_binding": {
@@ -40800,10 +40830,10 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "reason_code": null,
         "rsi14": {
-          "score": "2.943461520051985509029308274363052649657217119014891851369209281167219366046407648343939559887233262",
+          "score": "2.61127509603233232145802177169002717279199839898090356892256499778003636199035037497205867194598447",
           "score_maximum": 12,
           "status": "PASS",
-          "value": "57.73557699978339371237788219015394729309492867077128395262829466180325264147330146523358516713652807"
+          "value": "59.11968709986528199392490928462488678003334000424623512948931250924984849170687343761642220022506471"
         },
         "show_pine": false,
         "squeeze_momentum": {
@@ -40811,98 +40841,98 @@
         },
         "status": "PASS",
         "volume": {
-          "avg_volume_prev20": "4897825333.75",
-          "avg_volume_prev5": "5198901801.6",
+          "avg_volume_prev20": "4968426186",
+          "avg_volume_prev5": "5559282996.6",
           "provider_native_unit": "PROVIDER_NATIVE_UNSPECIFIED",
           "reason": null,
-          "score": "3.009668775932409823060489592333858155875493787678835590155865085623698756159027747843756396976597584",
+          "score": "3.302137134819795852686398174072934605260075772585033935881322291175020744909897136175635968008503392",
           "score_maximum": 5,
           "status": "PASS",
-          "value": "6550748744"
+          "value": "6090615779"
         }
       },
       "price_ma": {
         "alignment": "0.2682058825557017345412908276021368232805035334034111842037666708341681081945832329127309585745061766",
-        "close": "5618.87",
+        "close": "5635.07",
         "data_date": "2026-08-21",
-        "high": "5656.61",
-        "low": "5600.3",
+        "high": "5655.16",
+        "low": "5593.94",
         "model_id": "V6_SCORE_MODEL_V4",
-        "open": "5612.23",
+        "open": "5610.45",
         "quality": "VALIDATED",
         "reason_code": null,
-        "score": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
+        "score": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
         "score_maximum": 8,
         "sma120": "5593.213083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-        "sma250": "5595.45036",
-        "sma60": "5525.998833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "sma250": "5596.1744",
+        "sma60": "5533.2815",
         "source": "EXTERNAL_DATA_API",
         "status": "PASS",
         "trend5": "0.5743247511380374115336520652878572756948015118510174492619767254719475846443860389867707383524348804",
         "v3_detail": {
-          "close": "5618.87",
-          "d_percent": "0.4185479004052856971462793926028145480679413980182285094921296022363425988824248992175850524389247",
-          "ma60_direction_factor": "0.6132056224507318733152577192902301883760462928974180019882125150258136783349429137238653245969616",
-          "price_relative_factor": "0.66806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-          "price_vs_sma60_percent": "1.6806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-          "score": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
-          "short_improvement_factor": "0.613781760526486444737357906003924457472535719776540546290892212946629272838688476332665170039179",
-          "short_term_improvement_percent": "0.910254084211891557898863248031395659780285758212324370327137703573034182709507810661321360313432",
-          "sma250": "5595.45036",
-          "sma60": "5525.998833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-          "sma60_direction_five_session_percent": "0.4528224898029274932610308771609207535041851715896720079528500601032547133397716548954612983878464",
-          "sma60_five_sessions_ago": "5501.088666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+          "close": "5635.07",
+          "d_percent": "0.6950390967086372433282279408590268380485068513947671109034772039985029773196489373168927687457346",
+          "ma60_direction_factor": "0.637638948465146503683592058091386592130143197750238983954979338938715891349503165055253199422967675",
+          "price_relative_factor": "0.68395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+          "price_vs_sma60_percent": "1.8395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+          "score": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
+          "short_improvement_factor": "0.7536410859801964703778875576926522330982421360111474836807902983838561854676857161347833447350553",
+          "short_term_improvement_percent": "2.0291286878415717630231004615412178647859370880891798694463223870708494837414857290782667578804424",
+          "sma250": "5596.1744",
+          "sma60": "5533.2815",
+          "sma60_direction_five_session_percent": "0.5505557938605860147343682323655463685205727910009559358199173557548635653980126602210127976918707",
+          "sma60_five_sessions_ago": "5502.9845",
           "status": "READY",
           "trend_state": "NEAR_STABILIZATION",
           "trend_state_anchor_score": "1",
-          "trend_state_score": "1.56299660803643007479421492629546719775855907315784633939402119000991125196825982210114801271871926",
-          "trend_strength": "0.640749152009107518698553731573866799439639768289461584848505297502477812992064955525287003179679815",
-          "value_position_score": "3.83258083983788572114148824295887418077282344079270859620314815910546296044703004031296597902443012"
+          "trend_state_score": "1.73599329432657323670815098273050845458830768922988279572876165826367022791075972794666119151248393",
+          "trend_strength": "0.6839983235816433091770377456826271136470769223074706989321904145659175569776899319866652978781209825",
+          "value_position_score": "3.72198436131654510266870882365638926478059725944209315563860911840059880907214042507324289250170616"
         },
-        "volume": "6550748744"
+        "volume": "6090615779"
       },
       "price_position_252": {
-        "close": "5618.87",
+        "close": "5635.07",
         "maximum_252": "5976.53",
         "minimum_252": "5022.46",
         "model_id": "V6_SCORE_MODEL_V4",
-        "position_252": "62.51218464054000230591046778538262391648411542130032387560661167419581372435984780990912616474682151",
+        "position_252": "64.21017325772742041988533336128376324588342574444223170207636756212856498999025228756799815527162577",
         "reason_code": null,
-        "score": "6.961674719884285220162042617418009160753403838292787740941440355529468487637175469305187250411395391",
+        "score": "6.597820016201267052881714279724907875882123054762378920983635522401021787859231652664000395298937334",
         "score_maximum": 15,
         "status": "PASS"
       },
       "score_breakdown": {
         "component_scores": {
-          "CN10Y_MACRO_RATE_STATE_8": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
-          "DID_DYNAMIC_ABSOLUTE_6": "2.543231139031592245361777116828525447842322287350792474124076408445601094409682149335178161191767695",
-          "DID_HISTORICAL_14": "3.55092724669818891580312553615803678989615368295603181250472741494803994458086047253856186963957266",
-          "DID_ROBUST_Z_4": "1.613175761894430479164706106230035843719391548392966678556645610695719766707721666642656869212273428",
-          "PB_HISTORICAL_10": "5.1",
-          "PRICE_MA_V3": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
-          "PRICE_POSITION_252": "6.961674719884285220162042617418009160753403838292787740941440355529468487637175469305187250411395391",
-          "RSI14": "2.943461520051985509029308274363052649657217119014891851369209281167219366046407648343939559887233262",
-          "VOLUME": "3.009668775932409823060489592333858155875493787678835590155865085623698756159027747843756396976597584",
-          "YIELD_SPREAD_HISTORICAL_18": "10.25417653504928503037537058321080488736299720874973019143955089096782406083560402987910731647022144"
+          "CN10Y_MACRO_RATE_STATE_8": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
+          "DID_DYNAMIC_ABSOLUTE_6": "2.493827842942849611621833643529792700083176056402088164386720865267072899477666230018875136316978932",
+          "DID_HISTORICAL_14": "3.476985198803922885045420976796310546239535616346387237712579983783755868059679909932707751261406887",
+          "DID_ROBUST_Z_4": "1.571622437370306845070031365447770401146781347481413802979711861487029020008054686226651601374533288",
+          "PB_HISTORICAL_10": "5.06",
+          "PRICE_MA_V3": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
+          "PRICE_POSITION_252": "6.597820016201267052881714279724907875882123054762378920983635522401021787859231652664000395298937334",
+          "RSI14": "2.61127509603233232145802177169002717279199839898090356892256499778003636199035037497205867194598447",
+          "VOLUME": "3.302137134819795852686398174072934605260075772585033935881322291175020744909897136175635968008503392",
+          "YIELD_SPREAD_HISTORICAL_18": "10.22251138198845975929427613799595848110305873187200233726394039976951980587724495013025377167852882"
         },
         "dimension_scores": {
-          "macro": "16.11604322387830871487979980575168462532460408876446385690511979751090276498928813266029650252728012",
-          "technical": "18.31038246374299634818754365336926134481749725893707011806368407143576082225790072790699719901837561",
-          "valuation": "12.80733414762421164032960875921659808145786751869979096518544943408936080569826428851639690004361378"
+          "macro": "16.17768920124637734573466908005603983027590527043002032862711589431964040503949352538010466033449162",
+          "technical": "17.96920990269651356640299403187476737330310217500029237715489358802034793174237931683159911926761528",
+          "valuation": "12.60243547911707934173728598577387364746949302022988920507901271053785778754540082617823448895291911"
         },
         "model_id": "V6_SCORE_MODEL_V4",
         "pine_subcomponents": {},
         "raw_values": {
-          "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6864% · Z 0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163",
-          "DID_DYNAMIC_ABSOLUTE_6": "DID 4.062517263985616%",
-          "DID_HISTORICAL_14": "DID 4.062517263985616%",
-          "DID_ROBUST_Z_4": "DID 4.062517263985616%",
-          "PB_HISTORICAL_10": "PB 0.8826971897319067",
-          "PRICE_MA_V3": "Close 5618.87 · SMA250 5595.45036",
-          "PRICE_POSITION_252": "Position 62.51218464054000230591046778538262391648411542130032387560661167419581372435984780990912616474682151%",
-          "RSI14": "RSI14 57.73557699978339371237788219015394729309492867077128395262829466180325264147330146523358516713652807",
-          "VOLUME": "Volume 6550748744",
-          "YIELD_SPREAD_HISTORICAL_18": "Spread 2.376117263985616pp"
+          "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6722% · Z 0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336",
+          "DID_DYNAMIC_ABSOLUTE_6": "DID 4.040222082313231%",
+          "DID_HISTORICAL_14": "DID 4.040222082313231%",
+          "DID_ROBUST_Z_4": "DID 4.040222082313231%",
+          "PB_HISTORICAL_10": "PB 0.8875720878739994",
+          "PRICE_MA_V3": "Close 5635.07 · SMA250 5596.1744",
+          "PRICE_POSITION_252": "Position 64.21017325772742041988533336128376324588342574444223170207636756212856498999025228756799815527162577%",
+          "RSI14": "RSI14 59.11968709986528199392490928462488678003334000424623512948931250924984849170687343761642220022506471",
+          "VOLUME": "Volume 6090615779",
+          "YIELD_SPREAD_HISTORICAL_18": "Spread 2.368022082313231pp"
         },
         "reason_code": null,
         "score_schema": {
@@ -41133,13 +41163,13 @@
           "quality": "LIMITED_COVERAGE",
           "raw_field": "dyr.mcw",
           "source": "EXTERNAL_DATA_API",
-          "value": "4.062517263985616"
+          "value": "4.040222082313231"
         },
         "gauge_scores": {
-          "DID_DYNAMIC_ABSOLUTE_6": "2.543231139031592245361777116828525447842322287350792474124076408445601094409682149335178161191767695",
-          "DID_HISTORICAL_14": "3.55092724669818891580312553615803678989615368295603181250472741494803994458086047253856186963957266",
-          "DID_ROBUST_Z_4": "1.613175761894430479164706106230035843719391548392966678556645610695719766707721666642656869212273428",
-          "PB_HISTORICAL_10": "5.1"
+          "DID_DYNAMIC_ABSOLUTE_6": "2.493827842942849611621833643529792700083176056402088164386720865267072899477666230018875136316978932",
+          "DID_HISTORICAL_14": "3.476985198803922885045420976796310546239535616346387237712579983783755868059679909932707751261406887",
+          "DID_ROBUST_Z_4": "1.571622437370306845070031365447770401146781347481413802979711861487029020008054686226651601374533288",
+          "PB_HISTORICAL_10": "5.06"
         },
         "model_id": "V6_SCORE_MODEL_V4",
         "pb": {
@@ -41149,7 +41179,7 @@
           "quality": "LIMITED_COVERAGE",
           "raw_field": "pb.mcw",
           "source": "EXTERNAL_DATA_API",
-          "value": "0.8826971897319067"
+          "value": "0.8875720878739994"
         },
         "reason_code": "COVERAGE_NOT_REPORTED",
         "status": "LIMITED_COVERAGE"
@@ -41159,15 +41189,15 @@
       "assessment": {
         "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
         "assessment_version": "V1",
-        "conclusion": "V4 综合评分为 45.51/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+        "conclusion": "V4 综合评分为 47.33/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
         "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
         "model_id": "V6_SCORE_MODEL_V4",
         "model_name": "V6_SCORE_MODEL_V4",
         "negative": [
-          "估值维度相对偏弱（9.89/34），需留意该维度对总分的约束。"
+          "估值维度相对偏弱（9.77/34），需留意该维度对总分的约束。"
         ],
         "positive": [
-          "宏观维度相对占优（16.13/26）。 CN10Y 历史位置与趋势分别为 4/4、1.86/4。"
+          "宏观维度相对占优（16.35/26）。 CN10Y 历史位置与趋势分别为 4/4、1.96/4。"
         ],
         "reason_code": null,
         "risk_note": "仅供研究；历史结果不构成投资建议。",
@@ -41183,19 +41213,19 @@
         "future_data_used": false,
         "index_code": "930955.CSI",
         "model_id": "V6_SCORE_MODEL_V4",
-        "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+        "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "source_date_query_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-        "source_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-        "target_date": "2026-10-12"
+        "source_date_query_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+        "source_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+        "target_date": "2026-10-13"
       },
       "entry": {
-        "data_date": "2026-10-12",
+        "data_date": "2026-10-13",
         "index_code": "930955.CSI",
         "model_id": "V6_SCORE_MODEL_V4",
         "overall_status": "LIMITED_COVERAGE",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "target_date": "2026-10-12"
+        "target_date": "2026-10-13"
       },
       "header": {
         "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
@@ -41204,7 +41234,7 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "research_attribute": "PERSONAL_RESEARCH_ONLY",
         "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-        "target_date": "2026-10-12"
+        "target_date": "2026-10-13"
       },
       "hero": {
         "coverage": {
@@ -41220,28 +41250,28 @@
         ],
         "reason_code": "COVERAGE_NOT_REPORTED",
         "status": "LIMITED_COVERAGE",
-        "total_score": "45.50620529561383941088993027180855503050012113148857742368318850047742854422801909051465013850730116"
+        "total_score": "47.33105357975801505054671930115094362371417826368773304923557866217176210745880184667231430590789441"
       },
       "kpi": {
         "items": [
           {
             "dimension_id": "valuation",
             "label": "估值面 · 34分",
-            "score": "9.886113995550684176909876259075004007366289017162379447050692887138302501986820756539069101799720906",
+            "score": "9.772236571242468404072532609769923721833575434190569356397387165280645552125693468989365516593776112",
             "subtitle": "DID · PB",
             "tone": "red"
           },
           {
             "dimension_id": "macro",
             "label": "宏观面 · 26分",
-            "score": "16.12780075476308961857036328847494567202754094594879959953150297247714463821961816871525512012299275",
+            "score": "16.35104776653384025779364426016201456534156358600968758714524930825838070461040323254334825245209637",
             "subtitle": "CN10Y · 股债利差",
             "tone": "green"
           },
           {
             "dimension_id": "technical",
             "label": "技术面 · 40分",
-            "score": "19.4922905453000656154096907242586053511062911683773983771009926408619814040215801652603259165845875",
+            "score": "21.20776924198170638868054243121900533653903924348747610569294218863273585072270514513960053686202193",
             "subtitle": "Price/MA V3 · 252 · RSI · Volume",
             "tone": "amber"
           },
@@ -41262,39 +41292,39 @@
         "model_id": "V6_SCORE_MODEL_V4"
       },
       "market_environment": {
-        "actual_data_date": "2026-10-09",
-        "calendar_lag_days": 3,
-        "cn10y": "1.6864",
-        "cn10y_score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+        "actual_data_date": "2026-10-12",
+        "calendar_lag_days": 1,
+        "cn10y": "1.6722",
+        "cn10y_score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
         "cn10y_score_maximum": 8,
         "cn10y_state_v4": {
-          "actual_data_date": "2026-10-09",
-          "calendar_lag_days": 3,
-          "cn10y_percent": "1.6864",
-          "cn10y_state_v4_hash": "55f5bad12388840d2f5ffe26cd7909fe26de17a067ae165603330532a5947191",
-          "delta60_bp": "-5.34",
+          "actual_data_date": "2026-10-12",
+          "calendar_lag_days": 1,
+          "cn10y_percent": "1.6722",
+          "cn10y_state_v4_hash": "005186196dcadde220c6cfd021fb16630229e51909b0c53b0a0addabfbfef766",
+          "delta60_bp": "-6.8",
           "delta_observations": 60,
           "engine_id": "CN10Y_STATE_V4_ENGINE",
           "engine_version": "V1",
           "future_data_used": false,
-          "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-          "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+          "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+          "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
           "historical_position_score": "4",
-          "historical_window_observation_count": 2497,
+          "historical_window_observation_count": 2496,
           "historical_window_years": 10,
           "index_code": "930955.CSI",
           "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
           "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
           "lag_days": 1,
-          "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+          "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
           "status": "READY_CN10Y_STATE_V4",
-          "target_date": "2026-10-12",
-          "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-          "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-          "trend_observation_count": 746,
-          "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+          "target_date": "2026-10-13",
+          "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+          "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+          "trend_observation_count": 745,
+          "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
           "trend_window_years": 3,
-          "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+          "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
         },
         "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
         "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
@@ -41302,9 +41332,9 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "reason_code": null,
         "status": "PASS",
-        "target_date": "2026-10-12",
-        "yield_spread": "2.616863245122959",
-        "yield_spread_score": "10.26593406593406593406593406593406593406593406593406593406593406593406593406593406593406593406593407",
+        "target_date": "2026-10-13",
+        "yield_spread": "2.6274312146600116",
+        "yield_spread_score": "10.39586994727592267135325131810193321616871704745166959578207381370826010544815465729349736379613357",
         "yield_spread_score_maximum": 18
       },
       "model_binding": {
@@ -41326,10 +41356,10 @@
         "model_id": "V6_SCORE_MODEL_V4",
         "reason_code": null,
         "rsi14": {
-          "score": "0.9487804294609395207666627947219915978259900081333887376687335777013942966608963101689104165664188808",
+          "score": "1.808885120093421884238096684960260438264338231740986237081981941512728067213898849244312955742083602",
           "score_maximum": 12,
           "status": "PASS",
-          "value": "66.04674821057941866347223835532503500905837496611088025971361009291085709724626537429620659763992133"
+          "value": "62.46297866627740881567459714599891484056525736774589067882507524369696638660875479481536268440798499"
         },
         "show_pine": false,
         "squeeze_momentum": {
@@ -41337,98 +41367,98 @@
         },
         "status": "PASS",
         "volume": {
-          "avg_volume_prev20": "4903133313.2",
-          "avg_volume_prev5": "5297242276.4",
+          "avg_volume_prev20": "4964679461.95",
+          "avg_volume_prev5": "5604158472.2",
           "provider_native_unit": "PROVIDER_NATIVE_UNSPECIFIED",
           "reason": null,
-          "score": "3.077158744551276277158657030041699035819389865672129501934745649050120817210358094883908379879433758",
+          "score": "3.355680445356805375819337817099435593210480694968260664077626856898591613101401080682132477696502164",
           "score_maximum": 5,
           "status": "PASS",
-          "value": "6510383129"
+          "value": "5919846249"
         }
       },
       "price_ma": {
         "alignment": "0.1388063342963003252601957762195025654347855614473188022784948622189221610152299328191961030909957534",
-        "close": "11540.66",
+        "close": "11495.63",
         "data_date": "2026-08-21",
-        "high": "11549.88",
-        "low": "11420.99",
+        "high": "11551.12",
+        "low": "11475.81",
         "model_id": "V6_SCORE_MODEL_V4",
-        "open": "11420.99",
+        "open": "11518.36",
         "quality": "VALIDATED",
         "reason_code": null,
-        "score": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
+        "score": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
         "score_maximum": 8,
         "sma120": "11629.35358333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-        "sma250": "11729.52548",
-        "sma60": "11332.32083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "sma250": "11728.83528",
+        "sma60": "11340.161",
         "source": "EXTERNAL_DATA_API",
         "status": "PASS",
         "trend5": "0.4546155271745747163881413546728508668909294955628602868297495165925803883380758101496126222100680744",
         "v3_detail": {
-          "close": "11540.66",
-          "d_percent": "-1.61017153099700670926033062336635974467400193583960738367397280252124913752265449701721437413169761",
-          "ma60_direction_factor": "0.571676371255616188546411966806854441785298248336198151196896026138230436371692197321692743048109175",
-          "price_relative_factor": "0.68384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-          "price_vs_sma60_percent": "1.8384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-          "score": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
-          "short_improvement_factor": "0.7262914801583885684772316432813979512782990445037445123525867263493156580872858741499526555909443",
-          "short_term_improvement_percent": "1.8103318412671085478178531462511836102263923560299560988206938107945252646982869931996212447275544",
-          "sma250": "11729.52548",
-          "sma60": "11332.32083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-          "sma60_direction_five_session_percent": "0.2867054850224647541856478672274177671411929933447926047875841045529217454867687892867709721924367",
-          "sma60_five_sessions_ago": "11299.92333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+          "close": "11495.63",
+          "d_percent": "-1.98830723113369531437396058306652252686423608806960753907015394626635083922842848552648443367004128",
+          "ma60_direction_factor": "0.585174460929687608183809161072980761714001836810382619574396018849095263158989126947894762152787075",
+          "price_relative_factor": "0.63709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+          "price_vs_sma60_percent": "1.3709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+          "score": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
+          "short_improvement_factor": "0.8066570681450184121174607873478925862633493458203820570439244497669891590528860601656866306946369375",
+          "short_term_improvement_percent": "2.4532565451601472969396862987831406901067947665630564563513955981359132724230884813254930455570955",
+          "sma250": "11728.83528",
+          "sma60": "11340.161",
+          "sma60_direction_five_session_percent": "0.3406978437187504327352366442919230468560073472415304782975840753963810526359565077915790486111483",
+          "sma60_five_sessions_ago": "11301.6565",
           "status": "READY",
           "trend_state": "NEAR_STABILIZATION",
           "trend_state_anchor_score": "1",
-          "trend_state_score": "1.63473503136838468878052436591832287129028038501455551399327476245505418364800945098758026377900799",
-          "trend_strength": "0.6586837578420961721951310914795807178225700962536388784983186906137635459120023627468950659447519975",
-          "value_position_score": "4.644068612398802683704132249346543897869600774335842953469589121008499655009061798806885749652679044"
+          "trend_state_score": "1.6217268819798082849892749465885478571630081905493939759587110503602713952124519842137987909292429",
+          "trend_strength": "0.655431720494952071247318736647136964290752047637348493989677762590067848803112996053449697732310725",
+          "value_position_score": "4.795322892453478125749584233226609010745694435227843015628061578506540335691371394210593773468016512"
         },
-        "volume": "6510383129"
+        "volume": "5919846249"
       },
       "price_position_252": {
-        "close": "11540.66",
+        "close": "11495.63",
         "maximum_252": "12483.91",
         "minimum_252": "10558.92",
         "model_id": "V6_SCORE_MODEL_V4",
-        "position_252": "50.99974545322313362666819048410641094239450594548543109314853583654980025870264261113044743089574491",
+        "position_252": "48.66051252214297217128400667016452033517057231466137486428500927277544298931423020379326645852705728",
         "reason_code": null,
-        "score": "9.187547727520662444999714284230047948301030135221481670034649530646912451493254510413041106707047829",
+        "score": "9.62615390209819271788424874934415243715551769100099221294656076135460443950358183678876253902617676",
         "score_maximum": 15,
         "status": "PASS"
       },
       "score_breakdown": {
         "component_scores": {
-          "CN10Y_MACRO_RATE_STATE_8": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
-          "DID_DYNAMIC_ABSOLUTE_6": "1.42380896531471645465580636870980068525911996113620911727531839595534493355996573749859464902068432",
-          "DID_HISTORICAL_14": "2.77846153846153846153846153846153846153846153846153846153846153846153846153846153846153846153846154",
-          "DID_ROBUST_Z_4": "0.9438434917744292607156083519036648605687075175646318682369129527214191068883934805789359912405750465",
-          "PB_HISTORICAL_10": "4.74",
-          "PRICE_MA_V3": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
-          "PRICE_POSITION_252": "9.187547727520662444999714284230047948301030135221481670034649530646912451493254510413041106707047829",
-          "RSI14": "0.9487804294609395207666627947219915978259900081333887376687335777013942966608963101689104165664188808",
-          "VOLUME": "3.077158744551276277158657030041699035819389865672129501934745649050120817210358094883908379879433758",
-          "YIELD_SPREAD_HISTORICAL_18": "10.26593406593406593406593406593406593406593406593406593406593406593406593406593406593406593406593407"
+          "CN10Y_MACRO_RATE_STATE_8": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
+          "DID_DYNAMIC_ABSOLUTE_6": "1.420019863383447986458014007206225889282068150820197928030337859527898839212866838780635809449769868",
+          "DID_HISTORICAL_14": "2.7095782073813708260105448154657293497363796133567662565905096660808435852372583479789103690685413",
+          "DID_ROBUST_Z_4": "0.9326385004776495916039737870979684828151276700136051717765396396719031276755682822298193380754649442",
+          "PB_HISTORICAL_10": "4.71",
+          "PRICE_MA_V3": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
+          "PRICE_POSITION_252": "9.62615390209819271788424874934415243715551769100099221294656076135460443950358183678876253902617676",
+          "RSI14": "1.808885120093421884238096684960260438264338231740986237081981941512728067213898849244312955742083602",
+          "VOLUME": "3.355680445356805375819337817099435593210480694968260664077626856898591613101401080682132477696502164",
+          "YIELD_SPREAD_HISTORICAL_18": "10.39586994727592267135325131810193321616871704745166959578207381370826010544815465729349736379613357"
         },
         "dimension_scores": {
-          "macro": "16.12780075476308961857036328847494567202754094594879959953150297247714463821961816871525512012299275",
-          "technical": "19.4922905453000656154096907242586053511062911683773983771009926408619814040215801652603259165845875",
-          "valuation": "9.886113995550684176909876259075004007366289017162379447050692887138302501986820756539069101799720906"
+          "macro": "16.35104776653384025779364426016201456534156358600968758714524930825838070461040323254334825245209637",
+          "technical": "21.20776924198170638868054243121900533653903924348747610569294218863273585072270514513960053686202193",
+          "valuation": "9.772236571242468404072532609769923721833575434190569356397387165280645552125693468989365516593776112"
         },
         "model_id": "V6_SCORE_MODEL_V4",
         "pine_subcomponents": {},
         "raw_values": {
-          "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6864% · Z 0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163",
-          "DID_DYNAMIC_ABSOLUTE_6": "DID 4.303263245122959%",
-          "DID_HISTORICAL_14": "DID 4.303263245122959%",
-          "DID_ROBUST_Z_4": "DID 4.303263245122959%",
-          "PB_HISTORICAL_10": "PB 0.878903604835465",
-          "PRICE_MA_V3": "Close 11540.66 · SMA250 11729.52548",
-          "PRICE_POSITION_252": "Position 50.99974545322313362666819048410641094239450594548543109314853583654980025870264261113044743089574491%",
-          "RSI14": "RSI14 66.04674821057941866347223835532503500905837496611088025971361009291085709724626537429620659763992133",
-          "VOLUME": "Volume 6510383129",
-          "YIELD_SPREAD_HISTORICAL_18": "Spread 2.616863245122959pp"
+          "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6722% · Z 0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336",
+          "DID_DYNAMIC_ABSOLUTE_6": "DID 4.2996312146600116%",
+          "DID_HISTORICAL_14": "DID 4.2996312146600116%",
+          "DID_ROBUST_Z_4": "DID 4.2996312146600116%",
+          "PB_HISTORICAL_10": "PB 0.8796460416881591",
+          "PRICE_MA_V3": "Close 11495.63 · SMA250 11728.83528",
+          "PRICE_POSITION_252": "Position 48.66051252214297217128400667016452033517057231466137486428500927277544298931423020379326645852705728%",
+          "RSI14": "RSI14 62.46297866627740881567459714599891484056525736774589067882507524369696638660875479481536268440798499",
+          "VOLUME": "Volume 5919846249",
+          "YIELD_SPREAD_HISTORICAL_18": "Spread 2.6274312146600116pp"
         },
         "reason_code": null,
         "score_schema": {
@@ -41659,13 +41689,13 @@
           "quality": "LIMITED_COVERAGE",
           "raw_field": "dyr.mcw",
           "source": "EXTERNAL_DATA_API",
-          "value": "4.303263245122959"
+          "value": "4.2996312146600116"
         },
         "gauge_scores": {
-          "DID_DYNAMIC_ABSOLUTE_6": "1.42380896531471645465580636870980068525911996113620911727531839595534493355996573749859464902068432",
-          "DID_HISTORICAL_14": "2.77846153846153846153846153846153846153846153846153846153846153846153846153846153846153846153846154",
-          "DID_ROBUST_Z_4": "0.9438434917744292607156083519036648605687075175646318682369129527214191068883934805789359912405750465",
-          "PB_HISTORICAL_10": "4.74"
+          "DID_DYNAMIC_ABSOLUTE_6": "1.420019863383447986458014007206225889282068150820197928030337859527898839212866838780635809449769868",
+          "DID_HISTORICAL_14": "2.7095782073813708260105448154657293497363796133567662565905096660808435852372583479789103690685413",
+          "DID_ROBUST_Z_4": "0.9326385004776495916039737870979684828151276700136051717765396396719031276755682822298193380754649442",
+          "PB_HISTORICAL_10": "4.71"
         },
         "model_id": "V6_SCORE_MODEL_V4",
         "pb": {
@@ -41675,51 +41705,51 @@
           "quality": "LIMITED_COVERAGE",
           "raw_field": "pb.mcw",
           "source": "EXTERNAL_DATA_API",
-          "value": "0.878903604835465"
+          "value": "0.8796460416881591"
         },
         "reason_code": "COVERAGE_NOT_REPORTED",
         "status": "LIMITED_COVERAGE"
       }
     }
   ],
-  "latest_calculation_date": "2026-10-12",
-  "latest_score_date": "2026-10-12",
+  "latest_calculation_date": "2026-10-13",
+  "latest_score_date": "2026-10-13",
   "latest_signal_date": "2026-09-29",
   "ledger_anchor": {
-    "entry_hash": "d9b989a1a5d6e2611390d0c4a36826cc402d9535d3a34c924f8487b0a07b2153",
+    "entry_hash": "3448b83d8af44b429cc53b6ddbfa290944ac231dc0f96d9c95e1710d51719c3e",
     "ledger_id": "V6_RUNTIME_LEDGER_V4",
     "model_id": "V6_SCORE_MODEL_V4",
-    "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+    "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
     "trigger_source": "launchagent_v4_auto",
     "trigger_type": "scheduled"
   },
   "missing_dates": [],
   "model_id": "V6_SCORE_MODEL_V4",
   "overall_status": "LIMITED_COVERAGE",
-  "payload_hash": "46cf29f905310134c2913a9ea1978c88c492e2650de554db6169e0e25842289e",
+  "payload_hash": "d260ebe159ce43d2a692c1a2143678099dd6904e2f9a44cac439e8b5fb63137a",
   "payload_schema_version": "V6_FRONTEND_PAYLOAD_V6",
-  "production_last_updated_at": "2026-10-12T16:16:21+08:00",
+  "production_last_updated_at": "2026-10-13T16:16:48+08:00",
   "production_migrated_at": "2026-08-23T10:50:18+08:00",
   "production_migration_id": "HongLiKanBan_V6_PHASE7_SCORE_MODEL_V4_PRODUCTION_MIGRATION_V1",
   "production_model_id": "V6_SCORE_MODEL_V4",
   "production_model_role": "PRODUCTION",
   "production_model_status": "ACTIVE",
   "production_model_view": {
-    "as_of_date": "2026-10-12",
+    "as_of_date": "2026-10-13",
     "assessment": {
       "by_index": {
         "000922.SH": {
           "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
           "assessment_version": "V1",
-          "conclusion": "V4 综合评分为 47.23/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+          "conclusion": "V4 综合评分为 46.75/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
           "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
           "model_id": "V6_SCORE_MODEL_V4",
           "model_name": "V6_SCORE_MODEL_V4",
           "negative": [
-            "估值维度相对偏弱（12.81/34），需留意该维度对总分的约束。"
+            "估值维度相对偏弱（12.6/34），需留意该维度对总分的约束。"
           ],
           "positive": [
-            "宏观维度相对占优（16.12/26）。 CN10Y 历史位置与趋势分别为 4/4、1.86/4。"
+            "宏观维度相对占优（16.18/26）。 CN10Y 历史位置与趋势分别为 4/4、1.96/4。"
           ],
           "reason_code": null,
           "risk_note": "仅供研究；历史结果不构成投资建议。",
@@ -41728,15 +41758,15 @@
         "930955.CSI": {
           "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
           "assessment_version": "V1",
-          "conclusion": "V4 综合评分为 45.51/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+          "conclusion": "V4 综合评分为 47.33/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
           "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
           "model_id": "V6_SCORE_MODEL_V4",
           "model_name": "V6_SCORE_MODEL_V4",
           "negative": [
-            "估值维度相对偏弱（9.89/34），需留意该维度对总分的约束。"
+            "估值维度相对偏弱（9.77/34），需留意该维度对总分的约束。"
           ],
           "positive": [
-            "宏观维度相对占优（16.13/26）。 CN10Y 历史位置与趋势分别为 4/4、1.86/4。"
+            "宏观维度相对占优（16.35/26）。 CN10Y 历史位置与趋势分别为 4/4、1.96/4。"
           ],
           "reason_code": null,
           "risk_note": "仅供研究；历史结果不构成投资建议。",
@@ -41754,169 +41784,169 @@
       "by_index": {
         "000922.SH": {
           "cn10y_state_v4_detail": {
-            "actual_data_date": "2026-10-09",
-            "calendar_lag_days": 3,
-            "cn10y_percent": "1.6864",
-            "cn10y_state_v4_hash": "b72a8af779d1c2763bb377a3f19f19968cc66d0151c319135177ff532a795c8d",
-            "delta60_bp": "-5.34",
+            "actual_data_date": "2026-10-12",
+            "calendar_lag_days": 1,
+            "cn10y_percent": "1.6722",
+            "cn10y_state_v4_hash": "4aa947f6fb5c06d54bfefd56fcc70e96f66bc9de65f7f143612425832755a6f4",
+            "delta60_bp": "-6.8",
             "delta_observations": 60,
             "engine_id": "CN10Y_STATE_V4_ENGINE",
             "engine_version": "V1",
             "future_data_used": false,
-            "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-            "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+            "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+            "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
             "historical_position_score": "4",
-            "historical_window_observation_count": 2497,
+            "historical_window_observation_count": 2496,
             "historical_window_years": 10,
             "index_code": "000922.SH",
             "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
             "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
             "lag_days": 1,
-            "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+            "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
             "status": "READY_CN10Y_STATE_V4",
-            "target_date": "2026-10-12",
-            "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-            "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-            "trend_observation_count": 746,
-            "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+            "target_date": "2026-10-13",
+            "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+            "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+            "trend_observation_count": 745,
+            "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
             "trend_window_years": 3,
-            "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+            "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
           },
           "component_scores": {
-            "CN10Y_MACRO_RATE_STATE_8": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
-            "DID_DYNAMIC_ABSOLUTE_6": "2.543231139031592245361777116828525447842322287350792474124076408445601094409682149335178161191767695",
-            "DID_HISTORICAL_14": "3.55092724669818891580312553615803678989615368295603181250472741494803994458086047253856186963957266",
-            "DID_ROBUST_Z_4": "1.613175761894430479164706106230035843719391548392966678556645610695719766707721666642656869212273428",
-            "PB_HISTORICAL_10": "5.1",
-            "PRICE_MA_V3": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
-            "PRICE_POSITION_252": "6.961674719884285220162042617418009160753403838292787740941440355529468487637175469305187250411395391",
-            "RSI14": "2.943461520051985509029308274363052649657217119014891851369209281167219366046407648343939559887233262",
-            "VOLUME": "3.009668775932409823060489592333858155875493787678835590155865085623698756159027747843756396976597584",
-            "YIELD_SPREAD_HISTORICAL_18": "10.25417653504928503037537058321080488736299720874973019143955089096782406083560402987910731647022144"
+            "CN10Y_MACRO_RATE_STATE_8": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
+            "DID_DYNAMIC_ABSOLUTE_6": "2.493827842942849611621833643529792700083176056402088164386720865267072899477666230018875136316978932",
+            "DID_HISTORICAL_14": "3.476985198803922885045420976796310546239535616346387237712579983783755868059679909932707751261406887",
+            "DID_ROBUST_Z_4": "1.571622437370306845070031365447770401146781347481413802979711861487029020008054686226651601374533288",
+            "PB_HISTORICAL_10": "5.06",
+            "PRICE_MA_V3": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
+            "PRICE_POSITION_252": "6.597820016201267052881714279724907875882123054762378920983635522401021787859231652664000395298937334",
+            "RSI14": "2.61127509603233232145802177169002717279199839898090356892256499778003636199035037497205867194598447",
+            "VOLUME": "3.302137134819795852686398174072934605260075772585033935881322291175020744909897136175635968008503392",
+            "YIELD_SPREAD_HISTORICAL_18": "10.22251138198845975929427613799595848110305873187200233726394039976951980587724495013025377167852882"
           },
-          "date": "2026-10-12",
+          "date": "2026-10-13",
           "detail": {
             "cn10y_state_v4": {
-              "actual_data_date": "2026-10-09",
-              "calendar_lag_days": 3,
-              "cn10y_percent": "1.6864",
-              "cn10y_state_v4_hash": "b72a8af779d1c2763bb377a3f19f19968cc66d0151c319135177ff532a795c8d",
-              "delta60_bp": "-5.34",
+              "actual_data_date": "2026-10-12",
+              "calendar_lag_days": 1,
+              "cn10y_percent": "1.6722",
+              "cn10y_state_v4_hash": "4aa947f6fb5c06d54bfefd56fcc70e96f66bc9de65f7f143612425832755a6f4",
+              "delta60_bp": "-6.8",
               "delta_observations": 60,
               "engine_id": "CN10Y_STATE_V4_ENGINE",
               "engine_version": "V1",
               "future_data_used": false,
-              "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-              "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+              "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+              "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
               "historical_position_score": "4",
-              "historical_window_observation_count": 2497,
+              "historical_window_observation_count": 2496,
               "historical_window_years": 10,
               "index_code": "000922.SH",
               "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
               "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
               "lag_days": 1,
-              "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+              "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
               "status": "READY_CN10Y_STATE_V4",
-              "target_date": "2026-10-12",
-              "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-              "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-              "trend_observation_count": 746,
-              "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+              "target_date": "2026-10-13",
+              "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+              "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+              "trend_observation_count": 745,
+              "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
               "trend_window_years": 3,
-              "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+              "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
             },
             "market_environment": {
-              "actual_data_date": "2026-10-09",
-              "calendar_lag_days": 3,
-              "cn10y": "1.6864",
+              "actual_data_date": "2026-10-12",
+              "calendar_lag_days": 1,
+              "cn10y": "1.6722",
               "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
               "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
               "lag_days": 1,
-              "yield_spread": "2.376117263985616"
+              "yield_spread": "2.368022082313231"
             },
             "momentum": {
-              "avg_volume_prev20": "4897825333.75",
-              "avg_volume_prev5": "5198901801.6",
-              "rsi14": "57.73557699978339371237788219015394729309492867077128395262829466180325264147330146523358516713652807",
-              "volume": "6550748744"
+              "avg_volume_prev20": "4968426186",
+              "avg_volume_prev5": "5559282996.6",
+              "rsi14": "59.11968709986528199392490928462488678003334000424623512948931250924984849170687343761642220022506471",
+              "volume": "6090615779"
             },
             "ohlcv": {
-              "close": "5618.87",
-              "high": "5656.61",
-              "low": "5600.3",
-              "open": "5612.23",
-              "volume": "6550748744"
+              "close": "5635.07",
+              "high": "5655.16",
+              "low": "5593.94",
+              "open": "5610.45",
+              "volume": "6090615779"
             },
             "price_ma": {
-              "close": "5618.87",
-              "d_percent": "0.4185479004052856971462793926028145480679413980182285094921296022363425988824248992175850524389247",
-              "ma60_direction_factor": "0.6132056224507318733152577192902301883760462928974180019882125150258136783349429137238653245969616",
-              "price_relative_factor": "0.66806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-              "price_vs_sma60_percent": "1.6806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-              "score": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
-              "short_improvement_factor": "0.613781760526486444737357906003924457472535719776540546290892212946629272838688476332665170039179",
-              "short_term_improvement_percent": "0.910254084211891557898863248031395659780285758212324370327137703573034182709507810661321360313432",
-              "sma250": "5595.45036",
-              "sma60": "5525.998833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-              "sma60_direction_five_session_percent": "0.4528224898029274932610308771609207535041851715896720079528500601032547133397716548954612983878464",
-              "sma60_five_sessions_ago": "5501.088666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+              "close": "5635.07",
+              "d_percent": "0.6950390967086372433282279408590268380485068513947671109034772039985029773196489373168927687457346",
+              "ma60_direction_factor": "0.637638948465146503683592058091386592130143197750238983954979338938715891349503165055253199422967675",
+              "price_relative_factor": "0.68395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+              "price_vs_sma60_percent": "1.8395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+              "score": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
+              "short_improvement_factor": "0.7536410859801964703778875576926522330982421360111474836807902983838561854676857161347833447350553",
+              "short_term_improvement_percent": "2.0291286878415717630231004615412178647859370880891798694463223870708494837414857290782667578804424",
+              "sma250": "5596.1744",
+              "sma60": "5533.2815",
+              "sma60_direction_five_session_percent": "0.5505557938605860147343682323655463685205727910009559358199173557548635653980126602210127976918707",
+              "sma60_five_sessions_ago": "5502.9845",
               "status": "READY",
               "trend_state": "NEAR_STABILIZATION",
               "trend_state_anchor_score": "1",
-              "trend_state_score": "1.56299660803643007479421492629546719775855907315784633939402119000991125196825982210114801271871926",
-              "trend_strength": "0.640749152009107518698553731573866799439639768289461584848505297502477812992064955525287003179679815",
-              "value_position_score": "3.83258083983788572114148824295887418077282344079270859620314815910546296044703004031296597902443012"
+              "trend_state_score": "1.73599329432657323670815098273050845458830768922988279572876165826367022791075972794666119151248393",
+              "trend_strength": "0.6839983235816433091770377456826271136470769223074706989321904145659175569776899319866652978781209825",
+              "value_position_score": "3.72198436131654510266870882365638926478059725944209315563860911840059880907214042507324289250170616"
             },
             "price_position_252": {
               "maximum": "5976.53",
               "minimum": "5022.46",
-              "position": "62.51218464054000230591046778538262391648411542130032387560661167419581372435984780990912616474682151"
+              "position": "64.21017325772742041988533336128376324588342574444223170207636756212856498999025228756799815527162577"
             },
             "valuation": {
-              "did": "4.062517263985616",
-              "pb": "0.8826971897319067"
+              "did": "4.040222082313231",
+              "pb": "0.8875720878739994"
             }
           },
           "dimension_scores": {
-            "macro": "16.11604322387830871487979980575168462532460408876446385690511979751090276498928813266029650252728012",
-            "technical": "18.31038246374299634818754365336926134481749725893707011806368407143576082225790072790699719901837561",
-            "valuation": "12.80733414762421164032960875921659808145786751869979096518544943408936080569826428851639690004361378"
+            "macro": "16.17768920124637734573466908005603983027590527043002032862711589431964040503949352538010466033449162",
+            "technical": "17.96920990269651356640299403187476737330310217500029237715489358802034793174237931683159911926761528",
+            "valuation": "12.60243547911707934173728598577387364746949302022988920507901271053785778754540082617823448895291911"
           },
           "future_data_used": false,
           "index_code": "000922.SH",
           "model_id": "V6_SCORE_MODEL_V4",
           "pine_subcomponents": {},
           "price_ma_v3_detail": {
-            "close": "5618.87",
-            "d_percent": "0.4185479004052856971462793926028145480679413980182285094921296022363425988824248992175850524389247",
-            "ma60_direction_factor": "0.6132056224507318733152577192902301883760462928974180019882125150258136783349429137238653245969616",
-            "price_relative_factor": "0.66806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-            "price_vs_sma60_percent": "1.6806222633718133551300966917202570286463747292985614998772620081081570984768877228318874358551107",
-            "score": "5.39557744787431579593570316925434137853138251395055493559716934911537421241528986241411399174314938",
-            "short_improvement_factor": "0.613781760526486444737357906003924457472535719776540546290892212946629272838688476332665170039179",
-            "short_term_improvement_percent": "0.910254084211891557898863248031395659780285758212324370327137703573034182709507810661321360313432",
-            "sma250": "5595.45036",
-            "sma60": "5525.998833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-            "sma60_direction_five_session_percent": "0.4528224898029274932610308771609207535041851715896720079528500601032547133397716548954612983878464",
-            "sma60_five_sessions_ago": "5501.088666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+            "close": "5635.07",
+            "d_percent": "0.6950390967086372433282279408590268380485068513947671109034772039985029773196489373168927687457346",
+            "ma60_direction_factor": "0.637638948465146503683592058091386592130143197750238983954979338938715891349503165055253199422967675",
+            "price_relative_factor": "0.68395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+            "price_vs_sma60_percent": "1.8395684369212012799276523343336137877677107156033901401907710641506310495860367848626533820843924",
+            "score": "5.45797765564311833937685980638689771936890494867197595136737077666426903698290015301990408401419009",
+            "short_improvement_factor": "0.7536410859801964703778875576926522330982421360111474836807902983838561854676857161347833447350553",
+            "short_term_improvement_percent": "2.0291286878415717630231004615412178647859370880891798694463223870708494837414857290782667578804424",
+            "sma250": "5596.1744",
+            "sma60": "5533.2815",
+            "sma60_direction_five_session_percent": "0.5505557938605860147343682323655463685205727910009559358199173557548635653980126602210127976918707",
+            "sma60_five_sessions_ago": "5502.9845",
             "status": "READY",
             "trend_state": "NEAR_STABILIZATION",
             "trend_state_anchor_score": "1",
-            "trend_state_score": "1.56299660803643007479421492629546719775855907315784633939402119000991125196825982210114801271871926",
-            "trend_strength": "0.640749152009107518698553731573866799439639768289461584848505297502477812992064955525287003179679815",
-            "value_position_score": "3.83258083983788572114148824295887418077282344079270859620314815910546296044703004031296597902443012"
+            "trend_state_score": "1.73599329432657323670815098273050845458830768922988279572876165826367022791075972794666119151248393",
+            "trend_strength": "0.6839983235816433091770377456826271136470769223074706989321904145659175569776899319866652978781209825",
+            "value_position_score": "3.72198436131654510266870882365638926478059725944209315563860911840059880907214042507324289250170616"
           },
           "raw_values": {
-            "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6864% · Z 0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163",
-            "DID_DYNAMIC_ABSOLUTE_6": "DID 4.062517263985616%",
-            "DID_HISTORICAL_14": "DID 4.062517263985616%",
-            "DID_ROBUST_Z_4": "DID 4.062517263985616%",
-            "PB_HISTORICAL_10": "PB 0.8826971897319067",
-            "PRICE_MA_V3": "Close 5618.87 · SMA250 5595.45036",
-            "PRICE_POSITION_252": "Position 62.51218464054000230591046778538262391648411542130032387560661167419581372435984780990912616474682151%",
-            "RSI14": "RSI14 57.73557699978339371237788219015394729309492867077128395262829466180325264147330146523358516713652807",
-            "VOLUME": "Volume 6550748744",
-            "YIELD_SPREAD_HISTORICAL_18": "Spread 2.376117263985616pp"
+            "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6722% · Z 0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336",
+            "DID_DYNAMIC_ABSOLUTE_6": "DID 4.040222082313231%",
+            "DID_HISTORICAL_14": "DID 4.040222082313231%",
+            "DID_ROBUST_Z_4": "DID 4.040222082313231%",
+            "PB_HISTORICAL_10": "PB 0.8875720878739994",
+            "PRICE_MA_V3": "Close 5635.07 · SMA250 5596.1744",
+            "PRICE_POSITION_252": "Position 64.21017325772742041988533336128376324588342574444223170207636756212856498999025228756799815527162577%",
+            "RSI14": "RSI14 59.11968709986528199392490928462488678003334000424623512948931250924984849170687343761642220022506471",
+            "VOLUME": "Volume 6090615779",
+            "YIELD_SPREAD_HISTORICAL_18": "Spread 2.368022082313231pp"
           },
           "signal_display": {
             "current_interval": {
@@ -41995,177 +42025,177 @@
             "signal_contract_id": "V6_SCORE_MODEL_V4_SIGNAL_DISPLAY_V1",
             "status": "PASS"
           },
-          "source_date_query_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-          "source_indicator_record_sha256": "17fa11a287daf9e2c27ea123488e71e1aae4901fb67a34cb8ee5c993f24e901f",
-          "source_raw_record_sha256": "52d38c16b9c4510822cbbf7aacd1f3a55cfd9107e925f58fb0565fbedb026d00",
-          "source_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
-          "total_score": "47.23375983524551670339695221833754405159996886640132494015425330303602439294545314908369060158926951"
+          "source_date_query_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+          "source_indicator_record_sha256": "7265ec9fd73caea876eccec3acfdc7b23e7e1641bd5e89c2e1673dadb0dc66d6",
+          "source_raw_record_sha256": "3b67a77bee7302ad278330f1509e6d0b0cb6cca7180e5f1dce2d715a297ac450",
+          "source_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+          "total_score": "46.74933458305997025387494909770468085104850046566020191086102219287784612432727366838993826855502601"
         },
         "930955.CSI": {
           "cn10y_state_v4_detail": {
-            "actual_data_date": "2026-10-09",
-            "calendar_lag_days": 3,
-            "cn10y_percent": "1.6864",
-            "cn10y_state_v4_hash": "55f5bad12388840d2f5ffe26cd7909fe26de17a067ae165603330532a5947191",
-            "delta60_bp": "-5.34",
+            "actual_data_date": "2026-10-12",
+            "calendar_lag_days": 1,
+            "cn10y_percent": "1.6722",
+            "cn10y_state_v4_hash": "005186196dcadde220c6cfd021fb16630229e51909b0c53b0a0addabfbfef766",
+            "delta60_bp": "-6.8",
             "delta_observations": 60,
             "engine_id": "CN10Y_STATE_V4_ENGINE",
             "engine_version": "V1",
             "future_data_used": false,
-            "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-            "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+            "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+            "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
             "historical_position_score": "4",
-            "historical_window_observation_count": 2497,
+            "historical_window_observation_count": 2496,
             "historical_window_years": 10,
             "index_code": "930955.CSI",
             "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
             "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
             "lag_days": 1,
-            "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+            "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
             "status": "READY_CN10Y_STATE_V4",
-            "target_date": "2026-10-12",
-            "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-            "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-            "trend_observation_count": 746,
-            "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+            "target_date": "2026-10-13",
+            "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+            "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+            "trend_observation_count": 745,
+            "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
             "trend_window_years": 3,
-            "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+            "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
           },
           "component_scores": {
-            "CN10Y_MACRO_RATE_STATE_8": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
-            "DID_DYNAMIC_ABSOLUTE_6": "1.42380896531471645465580636870980068525911996113620911727531839595534493355996573749859464902068432",
-            "DID_HISTORICAL_14": "2.77846153846153846153846153846153846153846153846153846153846153846153846153846153846153846153846154",
-            "DID_ROBUST_Z_4": "0.9438434917744292607156083519036648605687075175646318682369129527214191068883934805789359912405750465",
-            "PB_HISTORICAL_10": "4.74",
-            "PRICE_MA_V3": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
-            "PRICE_POSITION_252": "9.187547727520662444999714284230047948301030135221481670034649530646912451493254510413041106707047829",
-            "RSI14": "0.9487804294609395207666627947219915978259900081333887376687335777013942966608963101689104165664188808",
-            "VOLUME": "3.077158744551276277158657030041699035819389865672129501934745649050120817210358094883908379879433758",
-            "YIELD_SPREAD_HISTORICAL_18": "10.26593406593406593406593406593406593406593406593406593406593406593406593406593406593406593406593407"
+            "CN10Y_MACRO_RATE_STATE_8": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
+            "DID_DYNAMIC_ABSOLUTE_6": "1.420019863383447986458014007206225889282068150820197928030337859527898839212866838780635809449769868",
+            "DID_HISTORICAL_14": "2.7095782073813708260105448154657293497363796133567662565905096660808435852372583479789103690685413",
+            "DID_ROBUST_Z_4": "0.9326385004776495916039737870979684828151276700136051717765396396719031276755682822298193380754649442",
+            "PB_HISTORICAL_10": "4.71",
+            "PRICE_MA_V3": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
+            "PRICE_POSITION_252": "9.62615390209819271788424874934415243715551769100099221294656076135460443950358183678876253902617676",
+            "RSI14": "1.808885120093421884238096684960260438264338231740986237081981941512728067213898849244312955742083602",
+            "VOLUME": "3.355680445356805375819337817099435593210480694968260664077626856898591613101401080682132477696502164",
+            "YIELD_SPREAD_HISTORICAL_18": "10.39586994727592267135325131810193321616871704745166959578207381370826010544815465729349736379613357"
           },
-          "date": "2026-10-12",
+          "date": "2026-10-13",
           "detail": {
             "cn10y_state_v4": {
-              "actual_data_date": "2026-10-09",
-              "calendar_lag_days": 3,
-              "cn10y_percent": "1.6864",
-              "cn10y_state_v4_hash": "55f5bad12388840d2f5ffe26cd7909fe26de17a067ae165603330532a5947191",
-              "delta60_bp": "-5.34",
+              "actual_data_date": "2026-10-12",
+              "calendar_lag_days": 1,
+              "cn10y_percent": "1.6722",
+              "cn10y_state_v4_hash": "005186196dcadde220c6cfd021fb16630229e51909b0c53b0a0addabfbfef766",
+              "delta60_bp": "-6.8",
               "delta_observations": 60,
               "engine_id": "CN10Y_STATE_V4_ENGINE",
               "engine_version": "V1",
               "future_data_used": false,
-              "historical_percentile": "0.04805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
-              "historical_percentile_percent": "4.805766920304365238285943131758109731678013616339607529034841810172206647977573087705246295554665599",
+              "historical_percentile": "0.03425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
+              "historical_percentile_percent": "3.425480769230769230769230769230769230769230769230769230769230769230769230769230769230769230769230769",
               "historical_position_score": "4",
-              "historical_window_observation_count": 2497,
+              "historical_window_observation_count": 2496,
               "historical_window_years": 10,
               "index_code": "930955.CSI",
               "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
               "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
               "lag_days": 1,
-              "score": "5.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+              "score": "5.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
               "status": "READY_CN10Y_STATE_V4",
-              "target_date": "2026-10-12",
-              "trend_delta_mean_bp": "-7.433941018766756032171581769436997319034852546916890080428954423592493297587131367292225201072386059",
-              "trend_delta_sigma_bp": "15.15884185368548144660334638532715754006722940875657612594179925811408956949003734770660373035876203",
-              "trend_observation_count": 746,
-              "trend_state_score": "1.861866688829023684504429222540879737961606880014733665465568906543078704153684102781189186057058684",
+              "target_date": "2026-10-13",
+              "trend_delta_mean_bp": "-7.479060402684563758389261744966442953020134228187919463087248322147651006711409395973154362416107383",
+              "trend_delta_sigma_bp": "15.15009737237106572319954860868140633781651333790781655312311095196483774556287165186193008534862552",
+              "trend_observation_count": 745,
+              "trend_state_score": "1.955177819257917586440392942060081349172846538558017991363175494550120599162248575249850888655962797",
               "trend_window_years": 3,
-              "trend_z_score": "0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163"
+              "trend_z_score": "0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336"
             },
             "market_environment": {
-              "actual_data_date": "2026-10-09",
-              "calendar_lag_days": 3,
-              "cn10y": "1.6864",
+              "actual_data_date": "2026-10-12",
+              "calendar_lag_days": 1,
+              "cn10y": "1.6722",
               "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
               "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
               "lag_days": 1,
-              "yield_spread": "2.616863245122959"
+              "yield_spread": "2.6274312146600116"
             },
             "momentum": {
-              "avg_volume_prev20": "4903133313.2",
-              "avg_volume_prev5": "5297242276.4",
-              "rsi14": "66.04674821057941866347223835532503500905837496611088025971361009291085709724626537429620659763992133",
-              "volume": "6510383129"
+              "avg_volume_prev20": "4964679461.95",
+              "avg_volume_prev5": "5604158472.2",
+              "rsi14": "62.46297866627740881567459714599891484056525736774589067882507524369696638660875479481536268440798499",
+              "volume": "5919846249"
             },
             "ohlcv": {
-              "close": "11540.66",
-              "high": "11549.88",
-              "low": "11420.99",
-              "open": "11420.99",
-              "volume": "6510383129"
+              "close": "11495.63",
+              "high": "11551.12",
+              "low": "11475.81",
+              "open": "11518.36",
+              "volume": "5919846249"
             },
             "price_ma": {
-              "close": "11540.66",
-              "d_percent": "-1.61017153099700670926033062336635974467400193583960738367397280252124913752265449701721437413169761",
-              "ma60_direction_factor": "0.571676371255616188546411966806854441785298248336198151196896026138230436371692197321692743048109175",
-              "price_relative_factor": "0.68384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-              "price_vs_sma60_percent": "1.8384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-              "score": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
-              "short_improvement_factor": "0.7262914801583885684772316432813979512782990445037445123525867263493156580872858741499526555909443",
-              "short_term_improvement_percent": "1.8103318412671085478178531462511836102263923560299560988206938107945252646982869931996212447275544",
-              "sma250": "11729.52548",
-              "sma60": "11332.32083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-              "sma60_direction_five_session_percent": "0.2867054850224647541856478672274177671411929933447926047875841045529217454867687892867709721924367",
-              "sma60_five_sessions_ago": "11299.92333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+              "close": "11495.63",
+              "d_percent": "-1.98830723113369531437396058306652252686423608806960753907015394626635083922842848552648443367004128",
+              "ma60_direction_factor": "0.585174460929687608183809161072980761714001836810382619574396018849095263158989126947894762152787075",
+              "price_relative_factor": "0.63709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+              "price_vs_sma60_percent": "1.3709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+              "score": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
+              "short_improvement_factor": "0.8066570681450184121174607873478925862633493458203820570439244497669891590528860601656866306946369375",
+              "short_term_improvement_percent": "2.4532565451601472969396862987831406901067947665630564563513955981359132724230884813254930455570955",
+              "sma250": "11728.83528",
+              "sma60": "11340.161",
+              "sma60_direction_five_session_percent": "0.3406978437187504327352366442919230468560073472415304782975840753963810526359565077915790486111483",
+              "sma60_five_sessions_ago": "11301.6565",
               "status": "READY",
               "trend_state": "NEAR_STABILIZATION",
               "trend_state_anchor_score": "1",
-              "trend_state_score": "1.63473503136838468878052436591832287129028038501455551399327476245505418364800945098758026377900799",
-              "trend_strength": "0.6586837578420961721951310914795807178225700962536388784983186906137635459120023627468950659447519975",
-              "value_position_score": "4.644068612398802683704132249346543897869600774335842953469589121008499655009061798806885749652679044"
+              "trend_state_score": "1.6217268819798082849892749465885478571630081905493939759587110503602713952124519842137987909292429",
+              "trend_strength": "0.655431720494952071247318736647136964290752047637348493989677762590067848803112996053449697732310725",
+              "value_position_score": "4.795322892453478125749584233226609010745694435227843015628061578506540335691371394210593773468016512"
             },
             "price_position_252": {
               "maximum": "12483.91",
               "minimum": "10558.92",
-              "position": "50.99974545322313362666819048410641094239450594548543109314853583654980025870264261113044743089574491"
+              "position": "48.66051252214297217128400667016452033517057231466137486428500927277544298931423020379326645852705728"
             },
             "valuation": {
-              "did": "4.303263245122959",
-              "pb": "0.878903604835465"
+              "did": "4.2996312146600116",
+              "pb": "0.8796460416881591"
             }
           },
           "dimension_scores": {
-            "macro": "16.12780075476308961857036328847494567202754094594879959953150297247714463821961816871525512012299275",
-            "technical": "19.4922905453000656154096907242586053511062911683773983771009926408619814040215801652603259165845875",
-            "valuation": "9.886113995550684176909876259075004007366289017162379447050692887138302501986820756539069101799720906"
+            "macro": "16.35104776653384025779364426016201456534156358600968758714524930825838070461040323254334825245209637",
+            "technical": "21.20776924198170638868054243121900533653903924348747610569294218863273585072270514513960053686202193",
+            "valuation": "9.772236571242468404072532609769923721833575434190569356397387165280645552125693468989365516593776112"
           },
           "future_data_used": false,
           "index_code": "930955.CSI",
           "model_id": "V6_SCORE_MODEL_V4",
           "pine_subcomponents": {},
           "price_ma_v3_detail": {
-            "close": "11540.66",
-            "d_percent": "-1.61017153099700670926033062336635974467400193583960738367397280252124913752265449701721437413169761",
-            "ma60_direction_factor": "0.571676371255616188546411966806854441785298248336198151196896026138230436371692197321692743048109175",
-            "price_relative_factor": "0.68384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-            "price_vs_sma60_percent": "1.8384510086746720387152234556248959006264162570406106133746507500486256676607505744079342382426077",
-            "score": "6.278803643767187372484656615264866769159881159350398467462863883463553838657071249794466013431687034",
-            "short_improvement_factor": "0.7262914801583885684772316432813979512782990445037445123525867263493156580872858741499526555909443",
-            "short_term_improvement_percent": "1.8103318412671085478178531462511836102263923560299560988206938107945252646982869931996212447275544",
-            "sma250": "11729.52548",
-            "sma60": "11332.32083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
-            "sma60_direction_five_session_percent": "0.2867054850224647541856478672274177671411929933447926047875841045529217454867687892867709721924367",
-            "sma60_five_sessions_ago": "11299.92333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "close": "11495.63",
+            "d_percent": "-1.98830723113369531437396058306652252686423608806960753907015394626635083922842848552648443367004128",
+            "ma60_direction_factor": "0.585174460929687608183809161072980761714001836810382619574396018849095263158989126947894762152787075",
+            "price_relative_factor": "0.63709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+            "price_vs_sma60_percent": "1.3709593717408421273736766171132843704776325486031459341714813396388287608967809187188788589509443",
+            "score": "6.417049774433286410738859179815156867908702625777236991586772628866811730903823378424392564397259412",
+            "short_improvement_factor": "0.8066570681450184121174607873478925862633493458203820570439244497669891590528860601656866306946369375",
+            "short_term_improvement_percent": "2.4532565451601472969396862987831406901067947665630564563513955981359132724230884813254930455570955",
+            "sma250": "11728.83528",
+            "sma60": "11340.161",
+            "sma60_direction_five_session_percent": "0.3406978437187504327352366442919230468560073472415304782975840753963810526359565077915790486111483",
+            "sma60_five_sessions_ago": "11301.6565",
             "status": "READY",
             "trend_state": "NEAR_STABILIZATION",
             "trend_state_anchor_score": "1",
-            "trend_state_score": "1.63473503136838468878052436591832287129028038501455551399327476245505418364800945098758026377900799",
-            "trend_strength": "0.6586837578420961721951310914795807178225700962536388784983186906137635459120023627468950659447519975",
-            "value_position_score": "4.644068612398802683704132249346543897869600774335842953469589121008499655009061798806885749652679044"
+            "trend_state_score": "1.6217268819798082849892749465885478571630081905493939759587110503602713952124519842137987909292429",
+            "trend_strength": "0.655431720494952071247318736647136964290752047637348493989677762590067848803112996053449697732310725",
+            "value_position_score": "4.795322892453478125749584233226609010745694435227843015628061578506540335691371394210593773468016512"
           },
           "raw_values": {
-            "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6864% · Z 0.1381333111709763154955707774591202620383931199852663345344310934569212958463158972188108139429413163",
-            "DID_DYNAMIC_ABSOLUTE_6": "DID 4.303263245122959%",
-            "DID_HISTORICAL_14": "DID 4.303263245122959%",
-            "DID_ROBUST_Z_4": "DID 4.303263245122959%",
-            "PB_HISTORICAL_10": "PB 0.878903604835465",
-            "PRICE_MA_V3": "Close 11540.66 · SMA250 11729.52548",
-            "PRICE_POSITION_252": "Position 50.99974545322313362666819048410641094239450594548543109314853583654980025870264261113044743089574491%",
-            "RSI14": "RSI14 66.04674821057941866347223835532503500905837496611088025971361009291085709724626537429620659763992133",
-            "VOLUME": "Volume 6510383129",
-            "YIELD_SPREAD_HISTORICAL_18": "Spread 2.616863245122959pp"
+            "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.6722% · Z 0.04482218074208241355960705793991865082715346144198200863682450544987940083775142475014911134403720336",
+            "DID_DYNAMIC_ABSOLUTE_6": "DID 4.2996312146600116%",
+            "DID_HISTORICAL_14": "DID 4.2996312146600116%",
+            "DID_ROBUST_Z_4": "DID 4.2996312146600116%",
+            "PB_HISTORICAL_10": "PB 0.8796460416881591",
+            "PRICE_MA_V3": "Close 11495.63 · SMA250 11728.83528",
+            "PRICE_POSITION_252": "Position 48.66051252214297217128400667016452033517057231466137486428500927277544298931423020379326645852705728%",
+            "RSI14": "RSI14 62.46297866627740881567459714599891484056525736774589067882507524369696638660875479481536268440798499",
+            "VOLUME": "Volume 5919846249",
+            "YIELD_SPREAD_HISTORICAL_18": "Spread 2.6274312146600116pp"
           },
           "signal_display": {
             "current_interval": {
@@ -42244,11 +42274,11 @@
             "signal_contract_id": "V6_SCORE_MODEL_V4_SIGNAL_DISPLAY_V1",
             "status": "PASS"
           },
-          "source_date_query_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-          "source_indicator_record_sha256": "c9622f2492f4a6f3f0e731bda0552882f27650e6086eee54b01bf24ecf159483",
-          "source_raw_record_sha256": "bca8de1fab212c70b8742944f5c3a482dd0383896f22640cf7a9ce79204ca2ba",
-          "source_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
-          "total_score": "45.50620529561383941088993027180855503050012113148857742368318850047742854422801909051465013850730116"
+          "source_date_query_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+          "source_indicator_record_sha256": "754d5fd967cacb4188502be3b2be4fcc5595f207cdabab20ea79ed9667d56ef9",
+          "source_raw_record_sha256": "ea23a891c0082161e1dd9bca703cc095d1788a58531d3d7e63adafdfb1198d91",
+          "source_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+          "total_score": "47.33105357975801505054671930115094362371417826368773304923557866217176210745880184667231430590789441"
         }
       }
     },
@@ -46219,13 +46249,14 @@
             "2026-09-30",
             "2026-10-08",
             "2026-10-09",
-            "2026-10-12"
+            "2026-10-12",
+            "2026-10-13"
           ],
           "first_date": "2009-06-05",
           "index_code": "000922.SH",
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "model_id": "V6_SCORE_MODEL_V4",
-          "record_count": 3963,
+          "record_count": 3964,
           "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY"
         },
         "930955.CSI": {
@@ -47606,13 +47637,14 @@
             "2026-09-30",
             "2026-10-08",
             "2026-10-09",
-            "2026-10-12"
+            "2026-10-12",
+            "2026-10-13"
           ],
           "first_date": "2021-02-01",
           "index_code": "930955.CSI",
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "model_id": "V6_SCORE_MODEL_V4",
-          "record_count": 1376,
+          "record_count": 1377,
           "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY"
         }
       },
@@ -48131,15 +48163,32 @@
             },
             "revision": 1,
             "target_date": "2026-10-12"
+          },
+          "2026-10-13": {
+            "asset_sha256": "a4661d6b1b2580c753ea72c5438f84509e7ad8795eeb03c3d2cbda2b77578751",
+            "bundle_hash": "dcec376b0a93762e5c7a9b9f26ca65bd29bdf6b08dcfd6811b21bdc4f28aeb1a",
+            "index_set": [
+              "000922.SH",
+              "930955.CSI"
+            ],
+            "model_id": "V6_SCORE_MODEL_V4",
+            "path": "/data/v4-projection/history/by-date/2026-10-13/dcec376b0a93762e5c7a9b9f26ca65bd29bdf6b08dcfd6811b21bdc4f28aeb1a.json",
+            "record_count": 2,
+            "record_hashes": {
+              "000922.SH": "421897984ecea28d6765079ce776fda9d20f0c0dd5387a64f676174982e9f9d2",
+              "930955.CSI": "7702352f9b0fd9d4b734f3179c7f397dd5bd3406692e81647a852cd5ea88e723"
+            },
+            "revision": 1,
+            "target_date": "2026-10-13"
           }
         },
         "coverage": {
           "continuity_status": "CONTINUITY_PASS",
-          "date_query_date_count": 31,
-          "history_date_count": 31,
+          "date_query_date_count": 32,
+          "history_date_count": 32,
           "missing_date_query_dates": [],
           "missing_history_dates": [],
-          "production_date_count": 31
+          "production_date_count": 32
         },
         "production_dates": [
           "2026-08-21",
@@ -48172,14 +48221,15 @@
           "2026-09-30",
           "2026-10-08",
           "2026-10-09",
-          "2026-10-12"
+          "2026-10-12",
+          "2026-10-13"
         ],
         "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
-        "required_assets_manifest_hash": "dccec5e57d102419725d9f4583a6e84e4fb1d29b4dd14113f0fdabd425b80ab7",
-        "required_assets_manifest_path": "/data/v4-projection/history/manifests/dccec5e57d102419725d9f4583a6e84e4fb1d29b4dd14113f0fdabd425b80ab7.json",
-        "required_assets_manifest_sha256": "17b76b622f231a1d279e1c1afdb06952074c8d3a14851ac980570b78efe500a2"
+        "required_assets_manifest_hash": "0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b",
+        "required_assets_manifest_path": "/data/v4-projection/history/manifests/0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b.json",
+        "required_assets_manifest_sha256": "d17d45d38b7396dfdcb5f2c867840e1d220791bab92a6ec84478108a48f9feb2"
       },
-      "last_date": "2026-10-12",
+      "last_date": "2026-10-13",
       "legacy_year_bundle_status": "DEPRECATED_LEGACY",
       "manifest_id": "V6_SCORE_MODEL_V4_DATE_QUERY_VIEW_MANIFEST_V1",
       "model_id": "V6_SCORE_MODEL_V4",
@@ -48190,7 +48240,7 @@
       "query_version": "V1",
       "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
       "reconciliation_revision": 3,
-      "record_count": 5339,
+      "record_count": 5341,
       "score_recalculation_performed": false,
       "source": "CANONICAL_HISTORY_AND_SECTION11_REGISTRY",
       "source_date_query_manifest_hash": "d856b0f8b6af85521293cbc891062afd5b7c202e118e8cad53411886657a3613",
@@ -48201,24 +48251,24 @@
     "engine_id": "V6_SCORE_MODEL_V4_ENGINE",
     "engine_version": "V1",
     "etf_backtest": {
-      "calculation_as_of_date": "2026-10-12",
-      "consumer_hash": "41301e3947584977164bdd896e0e2114d759d55eb959fec3d6694b581b3b8fea",
+      "calculation_as_of_date": "2026-10-13",
+      "consumer_hash": "dfceb7669af8978ca012a6956f4525e991357b7d34451049e389fcce7bc9beb0",
       "consumer_id": "V6_V4_ETF_FRESHNESS_COORDINATOR_V1",
       "consumer_schema_id": "V6_V4_ETF_ACTIVE_CONSUMER_V1",
-      "consumer_semantic_hash": "e3b709154fb0e5cbbb68009b4699c11bcd873ad456f804c58ab27d3a3ebc2c42",
+      "consumer_semantic_hash": "a9e20755576c7e869fd26431a89ce1aa5219d7c291bddbaab38d97998cc45ba3",
       "date_semantics_contract_id": "V6_V4_ETF_DATE_SEMANTICS_CONTRACT_V1",
       "engine_invocation_count": 0,
       "etfs": {
         "159307.SZ": {
-          "admitted_latest_date": "2026-10-12",
-          "calculation_as_of_date": "2026-10-12",
+          "admitted_latest_date": "2026-10-13",
+          "calculation_as_of_date": "2026-10-13",
           "data_status": "CURRENT",
           "etf_code": "159307.SZ",
-          "etf_consumer_hash": "5562efd59167039a3a474784c4dce669142400fc428d05895c8bcd4e9fc54f57",
+          "etf_consumer_hash": "97fd8dc275696d26abadc119a8b7486df82a90d9797ed741409b59fc07c1918b",
           "etf_name": "博时中证红利低波100ETF",
-          "etf_price_as_of_date": "2026-10-12",
+          "etf_price_as_of_date": "2026-10-13",
           "exchange": "SZSE",
-          "expected_latest_trading_date": "2026-10-12",
+          "expected_latest_trading_date": "2026-10-13",
           "expected_session_source": "LINKED_INDEX_V4_HISTORY_TRADING_DATES_PLUS_EXPLICIT_TARGET",
           "first_date": "2024-04-25",
           "freshness_status": "FRESH",
@@ -48226,19 +48276,19 @@
           "holding_sessions": 252,
           "index_code": "930955.CSI",
           "lag_trading_sessions": 0,
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "last_matured_signal_date": "2025-04-07",
-          "latest_close": "1.037",
+          "latest_close": "1.032",
           "latest_signal_date": "2026-09-29",
           "latest_trade_date": "2026-09-30",
           "linked_index": "930955.CSI",
           "model_id": "V6_SCORE_MODEL_V4",
-          "projection_latest_date": "2026-10-12",
-          "raw_latest_date": "2026-10-12",
-          "revision": 32,
-          "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
-          "source_latest_available_date": "2026-10-12",
-          "source_score_date": "2026-10-12",
+          "projection_latest_date": "2026-10-13",
+          "raw_latest_date": "2026-10-13",
+          "revision": 33,
+          "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
+          "source_latest_available_date": "2026-10-13",
+          "source_score_date": "2026-10-13",
           "stale_reason": null,
           "threshold_rows": [
             {
@@ -48251,8 +48301,8 @@
               "mean_cash_dividend_return": "0.05093644536132550587817446862982663225758151429523158686743195139407341730745056515356776720489208655",
               "mean_cash_total_return": "0.1029972850482987924623518986791393997464696489745722401347806282926385617419808577114329553359497702",
               "mean_open_cash_dividend_return": "0.01407101106216033387278291507027416607656313199204971285470583833517202104787860654206373810403502376",
-              "mean_open_price_return": "0.01483598607310559794178273323725071161956617631027461724499990803537996360329875321301540378161623669",
-              "mean_open_total_dividend_reinvestment_return": "0.02911119258682899136860040179675782020658091702903765268443428555875050066275277433263289653079124125",
+              "mean_open_price_return": "0.009942852099754076254503163645942848979163253570109358724050053126819790201161343602537991034356756283",
+              "mean_open_total_dividend_reinvestment_return": "0.0241492292667382054892918174100810708323929666094183775991670035647353102063267725277503849756765295",
               "mean_price_return": "0.05206083968697328658417743004931276748888813467934065326734867689856514443453029255786518813105768353",
               "mean_total_dividend_reinvestment_return": "0.1059688120313180545874141063418842105674925565765853518012926029763882990905924800762480699309238874",
               "needs_review_count": 0,
@@ -48260,7 +48310,7 @@
               "passed_count": 106,
               "pending_entry_count": 0,
               "position_state": "INVESTED",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[60,70)",
               "score_lower": 60,
               "score_upper": 70,
@@ -48280,8 +48330,8 @@
               "mean_cash_dividend_return": "0.05106597396602170305811302596222806542321620866648279667799597509295987798363672699963861147543023094",
               "mean_cash_total_return": "0.1555393658134882681203842014910821041421592359921941301969688111353005167766520575410452413589625999",
               "mean_open_cash_dividend_return": "0.01132748062381824507150076093025548124828700716506154912647479924772199930833553713770466284858794517",
-              "mean_open_price_return": "0.06787249153632001264966264406135764131578422092443876765039698362615575297672291016361230672597264917",
-              "mean_open_total_dividend_reinvestment_return": "0.07940006504652562613263250577350183567738738719545822441600480189886204667912129290335689492419217725",
+              "mean_open_price_return": "0.06272363670731171943534411636578696802110830857668351804745389305900938965475221146465564179479631033",
+              "mean_open_total_dividend_reinvestment_return": "0.07419562886018750835957256119407318651790143065160355602441365049144226824768869264827802850700706542",
               "mean_price_return": "0.1044733918474665650622711755288540387189430273257113335189728360423406387930153305414066298835323691",
               "mean_total_dividend_reinvestment_return": "0.1599230540581763362751508382344257811654014909317326393703364830113764456386584171263525391110192703",
               "needs_review_count": 0,
@@ -48289,7 +48339,7 @@
               "passed_count": 72,
               "pending_entry_count": 0,
               "position_state": "INVESTED",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[70,80)",
               "score_lower": 70,
               "score_upper": 80,
@@ -48318,7 +48368,7 @@
               "passed_count": 4,
               "pending_entry_count": 0,
               "position_state": "CASH",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[80,90)",
               "score_lower": 80,
               "score_upper": 90,
@@ -48347,7 +48397,7 @@
               "passed_count": 12,
               "pending_entry_count": 0,
               "position_state": "CASH",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[90,100]",
               "score_lower": 90,
               "score_upper": 100,
@@ -48360,15 +48410,15 @@
           ]
         },
         "515180.SH": {
-          "admitted_latest_date": "2026-10-12",
-          "calculation_as_of_date": "2026-10-12",
+          "admitted_latest_date": "2026-10-13",
+          "calculation_as_of_date": "2026-10-13",
           "data_status": "CURRENT",
           "etf_code": "515180.SH",
-          "etf_consumer_hash": "cc074f391e5a5a08f3a1f0e54114a2910c0d71e414a8dcdcedf2997c70fad083",
+          "etf_consumer_hash": "0ced116168e05b92f2509790ee6cbf6b099163d189ea322355c43c230666e87e",
           "etf_name": "易方达中证红利ETF",
-          "etf_price_as_of_date": "2026-10-12",
+          "etf_price_as_of_date": "2026-10-13",
           "exchange": "SSE",
-          "expected_latest_trading_date": "2026-10-12",
+          "expected_latest_trading_date": "2026-10-13",
           "expected_session_source": "LINKED_INDEX_V4_HISTORY_TRADING_DATES_PLUS_EXPLICIT_TARGET",
           "first_date": "2019-12-20",
           "freshness_status": "FRESH",
@@ -48376,19 +48426,19 @@
           "holding_sessions": 252,
           "index_code": "000922.SH",
           "lag_trading_sessions": 0,
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "last_matured_signal_date": "2025-09-18",
-          "latest_close": "1.446",
+          "latest_close": "1.451",
           "latest_signal_date": "2026-07-17",
           "latest_trade_date": "2026-10-12",
           "linked_index": "000922.SH",
           "model_id": "V6_SCORE_MODEL_V4",
-          "projection_latest_date": "2026-10-12",
-          "raw_latest_date": "2026-10-12",
-          "revision": 32,
-          "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
-          "source_latest_available_date": "2026-10-12",
-          "source_score_date": "2026-10-12",
+          "projection_latest_date": "2026-10-13",
+          "raw_latest_date": "2026-10-13",
+          "revision": 33,
+          "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
+          "source_latest_available_date": "2026-10-13",
+          "source_score_date": "2026-10-13",
           "stale_reason": null,
           "threshold_rows": [
             {
@@ -48401,8 +48451,8 @@
               "mean_cash_dividend_return": "0.04653899933170675723852992019041773881924374232759996282489815970212364823615040105735503111690236541",
               "mean_cash_total_return": "0.1006669546003579360322906813174419023438280052989763720305697428104166428483124431377165392223761824",
               "mean_open_cash_dividend_return": "0.001208590901886194325566650816294182913298462513869075923284197178633697891900459660802028847677920431",
-              "mean_open_price_return": "0.05506019860037729032814418926968572295499704680860176828279814016085267679217029046845967145076242425",
-              "mean_open_total_dividend_reinvestment_return": "0.05631207714201585551064374305217955425344230239245182830075584010376408592661732819734200219126548506",
+              "mean_open_price_return": "0.05870840122347679686454856060187689073838223715026360012333340343941717429145165385182225676006658203",
+              "mean_open_total_dividend_reinvestment_return": "0.059964608529090599132741404680990686875342172041111758550758453658756354550153349387512617689852157",
               "mean_price_return": "0.05412795526865117879376076112702416352458426297137640920567158310829299461216204208036150810547381687",
               "mean_total_dividend_reinvestment_return": "0.1029951939585555077940771747357087146101957689436185370271322994504385748593970323129304481748845045",
               "needs_review_count": 1,
@@ -48410,7 +48460,7 @@
               "passed_count": 316,
               "pending_entry_count": 0,
               "position_state": "INVESTED",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[60,70)",
               "score_lower": 60,
               "score_upper": 70,
@@ -48430,8 +48480,8 @@
               "mean_cash_dividend_return": "0.04627663610976700995796378423015744818875267157155894396004226550628786838795724532752911660685437484",
               "mean_cash_total_return": "0.08742436597921526524968982414502904770051808940417922593681762882639924669738770469880063535136518088",
               "mean_open_cash_dividend_return": "0",
-              "mean_open_price_return": "0.09733929992379389490488006009734479130882129358489405187762265071784893562115896067888182469044944938",
-              "mean_open_total_dividend_reinvestment_return": "0.09733929992379389490488006009734479130882129358489405187762265071784893562115896067888182469044944938",
+              "mean_open_price_return": "0.1011336958433090881791016370686357484018670103676910575895093127189479983307756929080619139874427047",
+              "mean_open_total_dividend_reinvestment_return": "0.1011336958433090881791016370686357484018670103676910575895093127189479983307756929080619139874427046",
               "mean_price_return": "0.0411477298694482552917260399148715995117654178326202819767753633201113783094304593712715187445108062",
               "mean_total_dividend_reinvestment_return": "0.08950763711049725083854076955159320129177133424753002672602254732135359754846862687349461035005670527",
               "needs_review_count": 0,
@@ -48439,7 +48489,7 @@
               "passed_count": 455,
               "pending_entry_count": 0,
               "position_state": "INVESTED",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[70,80)",
               "score_lower": 70,
               "score_upper": 80,
@@ -48468,7 +48518,7 @@
               "passed_count": 358,
               "pending_entry_count": 0,
               "position_state": "CASH",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[80,90)",
               "score_lower": 80,
               "score_upper": 90,
@@ -48497,7 +48547,7 @@
               "passed_count": 58,
               "pending_entry_count": 0,
               "position_state": "CASH",
-              "position_valuation_as_of_date": "2026-10-12",
+              "position_valuation_as_of_date": "2026-10-13",
               "score_interval": "[90,100]",
               "score_lower": 90,
               "score_upper": 100,
@@ -48512,7 +48562,7 @@
       },
       "freshness_contract_id": "V6_V4_ETF_DATA_FRESHNESS_AND_CONTINUITY_CONTRACT_V1",
       "future_data_used": false,
-      "generated_at": "2026-10-12T16:17:12+08:00",
+      "generated_at": "2026-10-13T16:17:53+08:00",
       "holding_sessions": 252,
       "incremental_contract_id": "V6_V4_ETF_INCREMENTAL_REFRESH_CONTRACT_V1",
       "model_id": "V6_SCORE_MODEL_V4",
@@ -48520,7 +48570,7 @@
       "natural_observation_eligible": false,
       "production_observation_eligible": false,
       "production_write_performed": false,
-      "projection_latest_date": "2026-10-12",
+      "projection_latest_date": "2026-10-13",
       "result_id": "V6_SCORE_MODEL_V4_ETF_BACKTEST",
       "return_definitions": {
         "cash_dividend_return": "holding_window_cash_dividend_per_original_share / entry_open",
@@ -48529,9 +48579,9 @@
         "price_return": "exit_close / entry_open - 1",
         "total_dividend_reinvestment_return": "cash_dividends_reinvested_at_ex_date_close"
       },
-      "revision": 32,
+      "revision": 33,
       "score_recalculation_performed": false,
-      "source_hash": "309455445140e44b005991c9e2644867942ad86f993f4259ecd9871a58d52af2",
+      "source_hash": "2b94a39748ede1fccf848180eab1b20120952316a2c0d90c8ba3307ba3736c7a",
       "strategy_method": "SCORE_KNOWN_AFTER_T_CLOSE_ENTER_NEXT_ETF_SESSION_OPEN_HOLD_252_ETF_SESSIONS_EXIT_CLOSE",
       "strategy_modified": false,
       "thresholds": [
@@ -48546,12 +48596,12 @@
     "frontend_recalculation_performed": false,
     "frontend_visible": true,
     "future_data_used": false,
-    "generated_at": "2026-10-12T16:16:21+08:00",
+    "generated_at": "2026-10-13T16:16:48+08:00",
     "history": {
-      "as_of_date": "2026-10-12",
+      "as_of_date": "2026-10-13",
       "by_index": {
         "000922.SH": {
-          "as_of_date": "2026-10-12",
+          "as_of_date": "2026-10-13",
           "available_dates": [
             "2009-06-05",
             "2009-06-08",
@@ -52515,11 +52565,12 @@
             "2026-09-30",
             "2026-10-08",
             "2026-10-09",
-            "2026-10-12"
+            "2026-10-12",
+            "2026-10-13"
           ],
           "first_date": "2009-06-05",
           "index_code": "000922.SH",
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "model_id": "V6_SCORE_MODEL_V4",
           "points": [
             {
@@ -74851,12 +74902,17 @@
               "status": "READY_SCORE_MODEL_V4",
               "target_date": "2026-10-12",
               "total_score": "47.23375983524551670339695221833754405159996886640132494015425330303602439294545314908369060158926951"
+            },
+            {
+              "status": "READY_SCORE_MODEL_V4",
+              "target_date": "2026-10-13",
+              "total_score": "46.74933458305997025387494909770468085104850046566020191086102219287784612432727366838993826855502601"
             }
           ],
-          "record_count": 3963
+          "record_count": 3964
         },
         "930955.CSI": {
-          "as_of_date": "2026-10-12",
+          "as_of_date": "2026-10-13",
           "available_dates": [
             "2021-02-01",
             "2021-02-02",
@@ -76233,11 +76289,12 @@
             "2026-09-30",
             "2026-10-08",
             "2026-10-09",
-            "2026-10-12"
+            "2026-10-12",
+            "2026-10-13"
           ],
           "first_date": "2021-02-01",
           "index_code": "930955.CSI",
-          "last_date": "2026-10-12",
+          "last_date": "2026-10-13",
           "model_id": "V6_SCORE_MODEL_V4",
           "points": [
             {
@@ -87619,9 +87676,14 @@
               "status": "READY_SCORE_MODEL_V4",
               "target_date": "2026-10-12",
               "total_score": "45.50620529561383941088993027180855503050012113148857742368318850047742854422801909051465013850730116"
+            },
+            {
+              "status": "READY_SCORE_MODEL_V4",
+              "target_date": "2026-10-13",
+              "total_score": "47.33105357975801505054671930115094362371417826368773304923557866217176210745880184667231430590789441"
             }
           ],
-          "record_count": 1376
+          "record_count": 1377
         }
       },
       "history_version": "V6_SCORE_MODEL_V4_HISTORY_CURVE",
@@ -87633,15 +87695,15 @@
     "model_role": "PRODUCTION",
     "model_status": "ACTIVE",
     "model_view_id": "V6_SCORE_MODEL_V4_VIEW_PAYLOAD",
-    "payload_hash": "db63911c63c423f51dda6c38ef2d510e65afbeb8fddf76760cc0443682320820",
+    "payload_hash": "d04e71d20ba71825e954135a1824d4842aa04fcddb551466af9906d70a9c2996",
     "payload_id": "V6_MODEL_VIEW_PAYLOAD_V1",
     "payload_version": "V1",
     "production_activated_at": "2026-08-23T10:50:18+08:00",
-    "production_last_updated_at": "2026-10-12T16:16:21+08:00",
+    "production_last_updated_at": "2026-10-13T16:16:48+08:00",
     "production_migration_id": "HongLiKanBan_V6_PHASE7_SCORE_MODEL_V4_PRODUCTION_MIGRATION_V1",
     "production_migration_performed": true,
     "production_payload_modified": true,
-    "production_runtime_run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+    "production_runtime_run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
     "score_recalculation_performed": false,
     "score_schema": {
       "component_bindings": {
@@ -87946,10 +88008,10 @@
       "model_id": "V6_SCORE_MODEL_V4",
       "threshold_version": "V6_SCORE_MODEL_V4_THRESHOLD_VALIDATION",
       "total_return_research": {
-        "asset_hash": "0c16a186e0be71f2fe4c44fb78bff538e0f028533ba3a9a230cc638b56d5836d",
+        "asset_hash": "1afd8a9953a4c7bf0454fa9d17bd8c5a668458230d7b69b50955ce04fc8a8438",
         "by_index": {
           "000922.SH": {
-            "automatic_check_status": "CURRENT",
+            "automatic_check_status": "SOURCE_NOT_YET_READY",
             "blocked_samples": 1002,
             "close_observation_count": 2614,
             "close_observations": 252,
@@ -87958,29 +88020,29 @@
             "completed_sample_count": 1543,
             "completed_sample_hash": "7769f661128e24d62e9ab7c089900eda19e3322c9ab39fd0a5c7b49f7338619a",
             "coverage_status": "CONTINUOUS_HISTORY_VERIFIED",
-            "data_freshness": "UPDATED",
+            "data_freshness": "UNCHANGED",
             "double_dividend_count": false,
             "drawdown_rule": "INTERVAL_WORST_252_SESSION_WINDOW_CLOSE_DRAWDOWN",
             "entry_rule": "T_PLUS_1_CLOSE",
             "exit_rule": "T_PLUS_252_CLOSE",
-            "expected_research_date": "2026-10-12",
+            "expected_research_date": "2026-10-13",
             "first_observed_date": "2016-01-04",
             "historical_research_notice": "HISTORICAL_RESEARCH_NOT_LIVE_EXECUTION_PROOF",
             "holding_sessions": 252,
             "index_code": "000922.SH",
             "last_matured_signal_date": "2025-09-18",
             "last_observed_date": "2026-10-12",
-            "last_successful_update_at": "2026-10-12T21:16:16+08:00",
+            "last_successful_update_at": "2026-10-13T16:16:50+08:00",
             "latest_aligned_research_date": "2026-10-12",
-            "latest_price_source_date": "2026-10-12",
-            "latest_score_date": "2026-10-12",
+            "latest_price_source_date": "2026-10-13",
+            "latest_score_date": "2026-10-13",
             "latest_tr_source_date": "2026-10-12",
             "model_id": "V6_SCORE_MODEL_V4",
-            "new_completed_samples": 1,
-            "normal_close_dataset_hash": "fc5d1899ec46fb257c6e66d8b3964947ce77d1b6b0a97a75b878e5b19a138d05",
+            "new_completed_samples": 0,
+            "normal_close_dataset_hash": "014216fbb44070958c3acab0f3cd43f51176666c81c10716358a759bd350aa26",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-13T14:32:08+08:00",
-            "published_asset_hash": "fcfb9f7eb0d88d3bb0270cb4ca81eaf9f64b21df5a5d231e5ce51d5a7e787df1",
+            "publication_asset_generated_at": "2026-10-13T17:00:51+08:00",
+            "published_asset_hash": "0244b90dcfccaae7c659be6bb24b59c37d64ed5b4c038270bb62f44ccd082218",
             "r_cp_crosscheck_count": 6,
             "research_cutoff": "2026-10-12",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
@@ -88105,11 +88167,11 @@
               }
             ],
             "total_signals": 2594,
-            "update_status": "CURRENT",
+            "update_status": "SOURCE_NOT_YET_READY",
             "watch_samples": 49
           },
           "930955.CSI": {
-            "automatic_check_status": "CURRENT",
+            "automatic_check_status": "SOURCE_NOT_YET_READY",
             "blocked_samples": 0,
             "close_observation_count": 1627,
             "close_observations": 252,
@@ -88118,29 +88180,29 @@
             "completed_sample_count": 862,
             "completed_sample_hash": "1633f1f09340bf10dd59d06200cccb51b6279197fd05934ddac0f7315fdc8a47",
             "coverage_status": "CONTINUOUS_HISTORY_VERIFIED",
-            "data_freshness": "UPDATED",
+            "data_freshness": "UNCHANGED",
             "double_dividend_count": false,
             "drawdown_rule": "INTERVAL_WORST_252_SESSION_WINDOW_CLOSE_DRAWDOWN",
             "entry_rule": "T_PLUS_1_CLOSE",
             "exit_rule": "T_PLUS_252_CLOSE",
-            "expected_research_date": "2026-10-12",
+            "expected_research_date": "2026-10-13",
             "first_observed_date": "2020-01-20",
             "historical_research_notice": "HISTORICAL_RESEARCH_NOT_LIVE_EXECUTION_PROOF",
             "holding_sessions": 252,
             "index_code": "930955.CSI",
             "last_matured_signal_date": "2025-04-07",
             "last_observed_date": "2026-10-12",
-            "last_successful_update_at": "2026-10-12T21:16:16+08:00",
+            "last_successful_update_at": "2026-10-13T16:16:50+08:00",
             "latest_aligned_research_date": "2026-10-12",
-            "latest_price_source_date": "2026-10-12",
-            "latest_score_date": "2026-10-12",
+            "latest_price_source_date": "2026-10-13",
+            "latest_score_date": "2026-10-13",
             "latest_tr_source_date": "2026-10-12",
             "model_id": "V6_SCORE_MODEL_V4",
             "new_completed_samples": 0,
-            "normal_close_dataset_hash": "38ba553b4ccb1008e93594a3cbd13e9f8386d9d0c2594b01be8def234f0236a9",
+            "normal_close_dataset_hash": "12c291e121583d958bfc92788d88e3c87276d2b4ae57dc2be6d78ffc08e32f00",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-13T14:32:08+08:00",
-            "published_asset_hash": "563554a6af1f390246547e5fc3820e4f2dc2fd18c7c19d0db1bdf83741e0ab91",
+            "publication_asset_generated_at": "2026-10-13T17:00:51+08:00",
+            "published_asset_hash": "993e3bd9c9661941baa7ac9128c95d63a8dcb996a579bea6820780a5907db4f8",
             "r_cp_crosscheck_count": 4,
             "research_cutoff": "2026-10-12",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
@@ -88265,13 +88327,13 @@
               }
             ],
             "total_signals": 910,
-            "update_status": "CURRENT",
+            "update_status": "SOURCE_NOT_YET_READY",
             "watch_samples": 48
           }
         },
         "model_id": "V6_SCORE_MODEL_V4",
         "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
-        "source_version": "84e96134500a2d56cb1e1f82e8dac2b2e5ebec778bbbaa5dbb40995064538458"
+        "source_version": "f92aac227a215267a58dc316fb858c7c6c3ed0a4b0336519a39f91ec71234de6"
       }
     },
     "threshold_version": "V6_SCORE_MODEL_V4_THRESHOLD_VALIDATION",
@@ -88280,8 +88342,8 @@
     "view_payload_schema_version": "V1"
   },
   "production_recovery": {
-    "active_data_date": "2026-10-12",
-    "latest_calculation_date": "2026-10-12",
+    "active_data_date": "2026-10-13",
+    "latest_calculation_date": "2026-10-13",
     "missing_dates": [],
     "model_id": "V6_SCORE_MODEL_V4",
     "status": "VERIFIED_ACTIVE"
@@ -88306,7 +88368,7 @@
       "stop_reason": "HUNG_NO_OUTPUT_AFTER_30MIN"
     },
     "detail_artifact": {
-      "detail_artifact_hash": "99ded72ccceb3a490c38670737813645a4342fa6b5061e82dac9369ecb090070",
+      "detail_artifact_hash": "f6af8a37025b861bd3c4f5dda63343c846214251b7e6455d9fff1ef78fb735e8",
       "detail_artifact_id": "V6_RUNTIME_DETAIL_ARTIFACT_V4"
     },
     "engine_id": "V6_SCORE_MODEL_V4_ENGINE",
@@ -149961,7 +150023,7 @@
       "phase6_v2": "0bf707d63fb1f44184d1f1290b1050f96a10f996defd91382358fca346c12979"
     },
     "production_migration_id": "HongLiKanBan_V6_PHASE7_SCORE_MODEL_V4_PRODUCTION_MIGRATION_V1",
-    "production_view_payload_hash": "5c2d0e894f756545d7862000695439de4ce1cdbf925498a30ac89e9c0e7b268e",
+    "production_view_payload_hash": "99bf2db539d106657753bd42a5fc270300cfe30282ad1b5f4b5e181a973c1d28",
     "production_view_sha256": "ab3a4048a82e8f6e09e2a15f7caff9bc95e55bdf410ac52a4809111288021147",
     "protected_assets": [
       {
@@ -150002,12 +150064,12 @@
       }
     ],
     "provider_read_only": true,
-    "runtime_ledger_hash": "d9b989a1a5d6e2611390d0c4a36826cc402d9535d3a34c924f8487b0a07b2153",
+    "runtime_ledger_hash": "3448b83d8af44b429cc53b6ddbfa290944ac231dc0f96d9c95e1710d51719c3e",
     "runtime_output": {
       "path": "runtime/v2/output/2026-08-21/2026-08-21-scheduled-v2-20260821T161004966907+0800-b397c6b86abb.json",
       "sha256": "415ef40f345ae69aa69eb60ca31bff051553a201fceef1af8cfc8a9c3e63785c"
     },
-    "runtime_score_bundle_hash": "972ee9d324deca8e9f652177d8d77bf0444d50c3735c98e96fd06381043bcbe7",
+    "runtime_score_bundle_hash": "0b97d3c1434b5ae9a5d3c35a5c0a92bcff98e2d679911cdf55f641a0142845ca",
     "score_record_hashes": {
       "000922.SH": "a7b0d6c04e9c18d6911c36fc90f2e4bad6d8e73a3a13ba8270f9a224b0389f4b",
       "930955.CSI": "afc395b887f4a80bd0c69865a653a209431a78621b581d7d2c9d754768a349fd"
@@ -150019,7 +150081,7 @@
   "publication_index_count": 12,
   "publication_registry_path": "data/index-score-summary/registry.json",
   "runtime_identity": {
-    "actual_attempt_time": "2026-10-12T16:10:36.841302+08:00",
+    "actual_attempt_time": "2026-10-13T16:10:32.888779+08:00",
     "attempt_number": 1,
     "contract_version": "V1",
     "data_contract_id": "V6_DATA_CONTRACT_V2",
@@ -150028,14 +150090,14 @@
     "implementation_specification_id": "V6_SCORE_MODEL_V4_ENGINE:V1",
     "model_id": "V6_SCORE_MODEL_V4",
     "production_chain": "V6_SCORE_MODEL_V4_PRODUCTION_CHAIN_V1",
-    "run_id": "2026-10-12-scheduled-v4-20261012T161036842030+0800-2593c4290a54",
+    "run_id": "2026-10-13-scheduled-v4-20261013T161032889540+0800-bcfb9b76785d",
     "runtime_id": "V6_RUNTIME_V4",
     "scheduler_version": "V6_PRODUCTION_SCHEDULER_V4",
     "score_contract_id": "V6_SCORE_MODEL_V4_SCORE_CONTRACT",
     "score_version": "V6_SCORE_MODEL_V4_CONTRACT",
-    "target_date": "2026-10-12",
+    "target_date": "2026-10-13",
     "trigger_source": "launchagent_v4_auto",
-    "trigger_time": "2026-10-12T16:10:36.841302+08:00",
+    "trigger_time": "2026-10-13T16:10:32.888779+08:00",
     "trigger_type": "scheduled"
   },
   "status_reason": "COVERAGE_NOT_REPORTED",

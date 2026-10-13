@@ -2,12 +2,12 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "647b759c51f2d3dcd8c3",
+  "build_id": "6b0ea7b69dd3de272085",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
-    "latest_score_date": "2026-10-12",
+    "latest_score_date": "2026-10-13",
     "legacy_scaffold_generation_time": null,
-    "production_generation_time": "2026-10-12T16:16:21+08:00",
+    "production_generation_time": "2026-10-13T16:16:48+08:00",
     "refresh_chain": "V4_SCORE_RECEIPT_TO_PUBLICATION_GATEWAY_TO_PAGES",
     "refresh_required": false,
     "source": "DERIVED_COMPATIBILITY_LATEST"
@@ -15,7 +15,7 @@
   "cell_status": {
     "000015.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -25,7 +25,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -42,7 +42,7 @@
     },
     "000922.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -52,7 +52,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -114,7 +114,7 @@
     },
     "930955.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -124,7 +124,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -141,7 +141,7 @@
     },
     "931446.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -151,7 +151,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -168,7 +168,7 @@
     },
     "931468.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -178,7 +178,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -195,11 +195,11 @@
     },
     "932422.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "first_eligible_date": "2026-09-17",
-          "previous_blocker": "EXTERNAL_DATA_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_263;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
+          "previous_blocker": "EXTERNAL_DATA_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_264;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
           "status": "ELIGIBLE_AUTO_RELEASED"
         },
         "endpoint_health": {
@@ -207,7 +207,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -230,23 +230,41 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "980081.CNI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
-        "provider_retry": null,
+        "pending_target_date": "2026-10-13",
+        "provider_pending": true,
+        "provider_retry": {
+          "alert_status": "RETRY_SCHEDULED",
+          "attention_required": false,
+          "backoff_seconds": 900,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "failure_count": 1,
+          "last_attempt": "2026-10-13T16:25:07+08:00",
+          "last_known_good": {
+            "980081.CNI": "2026-10-12"
+          },
+          "next_retry": "2026-10-13T17:10:00+08:00",
+          "target_date": "2026-10-13"
+        },
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "980139.CNI": {
@@ -268,7 +286,7 @@
           "provider_error_class": "IDENTITY_NOT_LISTED",
           "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": "EXTERNAL_DATA_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
         "failure_reason": "EXTERNAL_DATA_980139_INDEX_MAPPING_NOT_AVAILABLE:CURRENT_512_INDEX_REGISTRY_HAS_NO_980139_IDENTITY;FUNDAMENTAL_AND_OHLCV_ENDPOINTS_RETURN_EMPTY;NO_VERIFIED_LEGACY_ALIAS;CROSS_MODEL_FALLBACK_FORBIDDEN",
         "freshness": "UNAVAILABLE",
@@ -285,7 +303,7 @@
     },
     "H30269.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -295,7 +313,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -312,7 +330,7 @@
     },
     "H50040.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-12",
+        "actual_latest_score_date": "2026-10-13",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -322,7 +340,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-12",
+        "expected_latest_trading_date": "2026-10-13",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -396,18 +414,18 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "4680c01519d4f6db9050",
-  "generated_at": "2026-10-13T14:32:08+08:00",
+  "generated_at": "2026-10-13T17:00:51+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
-    "active_reconciliation_manifest_hash": "dccec5e57d102419725d9f4583a6e84e4fb1d29b4dd14113f0fdabd425b80ab7",
+    "active_reconciliation_manifest_hash": "0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b",
     "gate": "HISTORICAL_PROJECTION_COMPLETENESS_GATE",
     "provider_fetch_count": 0,
     "recent_legal_production_dates": [
-      "2026-09-29",
       "2026-09-30",
       "2026-10-08",
       "2026-10-09",
-      "2026-10-12"
+      "2026-10-12",
+      "2026-10-13"
     ],
     "score_engine_invocation_count": 0,
     "status": "PASS",
@@ -421,7 +439,7 @@
     "931446.CSI": "CURRENT_FOR_MARKET_CALENDAR",
     "931468.CSI": "CURRENT_FOR_MARKET_CALENDAR",
     "932422.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "980081.CNI": "CURRENT_FOR_MARKET_CALENDAR",
+    "980081.CNI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
     "980139.CNI": "BLOCKED_EXTERNAL_BOTH_MODELS",
     "H30269.CSI": "CURRENT_FOR_MARKET_CALENDAR",
     "H50040.CSI": "CURRENT_FOR_MARKET_CALENDAR",
@@ -430,7 +448,7 @@
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "RETIRED_READ_ONLY",
-    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
+    "V6_SCORE_MODEL_V4": "READY"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -441,7 +459,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "647b759c51f2d3dcd8c3",
+      "latest_published_build_id": "6b0ea7b69dd3de272085",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -459,36 +477,36 @@
       "consumer_asset_status": "CONSUMER_ASSET_SUCCESS",
       "current_asset": "data/models/V6_SCORE_MODEL_V4/latest.json",
       "failure_reason": null,
-      "full_domain_projection_date": "2026-10-12",
+      "full_domain_projection_date": "2026-10-13",
       "full_domain_projection_status": "CURRENT",
-      "latest_local_ready_date": "2026-10-12",
-      "latest_published_build_id": "647b759c51f2d3dcd8c3",
-      "latest_published_date": "2026-10-12",
+      "latest_local_ready_date": "2026-10-13",
+      "latest_published_build_id": "6b0ea7b69dd3de272085",
+      "latest_published_date": "2026-10-13",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
       "remote_publication_status": "PUBLISHED_ARTIFACT",
-      "score_domain_latest_date": "2026-10-12",
+      "score_domain_latest_date": "2026-10-13",
       "score_domain_status": "SCORING_SUCCESS",
-      "source_hash": "c07a92672e455afcb85313355080d936d99bba17263af2b2586652ef113f9abc",
-      "status": "PUBLISHED_CURRENT",
-      "updated_in_this_build": false
+      "source_hash": "28d1daec190bc0c7f5faeab6c44e8e69e7b54fff29ac613623260d4b6defe2de",
+      "status": "READY",
+      "updated_in_this_build": true
     }
   },
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "647b759c51f2d3dcd8c3",
-    "bundle_hash": "b32264f637e4e8e21d52bc139237b121390b200fbbaf0a99759093c672952db4",
+    "build_id": "6b0ea7b69dd3de272085",
+    "bundle_hash": "a76a2cae2bcdc6bfcd482fad52790730c4c30514ad73e99a04028b9325237c5a",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
     "etf_provider_late_recovery_gate": "PASS",
     "etf_stale_data_detection_gate": "PASS",
     "model_id": "V6_SCORE_MODEL_V4",
-    "production_date": "2026-10-12",
-    "projection_data_date": "2026-10-12",
-    "projection_manifest_hash": "b90c22896d1d8ad4c984ac99d2a7798aed67558f7771ab8cf9f42d3107223fe1",
-    "projection_manifest_source_hash": "52fd2dcebd0d3065e056fc6d3836fa8a5c6fca4447f3ed417d129c11945d51ba",
+    "production_date": "2026-10-13",
+    "projection_data_date": "2026-10-13",
+    "projection_manifest_hash": "8707e96e69bfbcf5f0202007de2cbae3e494677075a0341879876b898f682ea2",
+    "projection_manifest_source_hash": "a10de433a08c64a0e158334eb1b4b5f96de47ae2941814922eac8da5fd605547",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -499,9 +517,9 @@
       "history": true,
       "threshold_validation": true
     },
-    "score_domain_latest_date": "2026-10-12",
+    "score_domain_latest_date": "2026-10-13",
     "score_engine_invocation_count": 0,
-    "source_hash": "8afa21b78823bf0296c2abc32c9cc78c9450bc892f5840a795a59d134ab09384",
+    "source_hash": "685a59399181101f95ceebdf8ec790c7b38e5fddb3a8ab7ffaf9f333b599ec16",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -517,7 +535,7 @@
     "default_model": "V6_SCORE_MODEL_V4",
     "index_count": 12,
     "latest_date_by_model": {
-      "V6_SCORE_MODEL_V4": "2026-10-12"
+      "V6_SCORE_MODEL_V4": "2026-10-13"
     },
     "provider_fetch_count": 0,
     "registry": "data/index-score-summary/registry.json",
@@ -525,21 +543,22 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "647b759c51f2d3dcd8c3",
-    "published_at": "2026-10-13T14:32:08+08:00",
-    "source_hash": "647b759c51f2d3dcd8c319dc290562c1fb73f0751bb399e91244994ad03ca458",
-    "static_source_hash": "37b787b8cd78838cea13947bb0994d23bf4048f41ef82849a8902854d04d7544"
+    "build_id": "6b0ea7b69dd3de272085",
+    "published_at": "2026-10-13T17:00:51+08:00",
+    "source_hash": "6b0ea7b69dd3de272085ae1931e9bd23c4fb5381dea5a1fc8ea9717a53f00b0f",
+    "static_source_hash": "5b2599ac2cb6a52e078446195bb56803c0a7b084119853a9e70a11245ae9fdf3"
   },
   "source_hashes": {
-    "site_source_hash": "647b759c51f2d3dcd8c319dc290562c1fb73f0751bb399e91244994ad03ca458",
-    "site_static_source_hash": "37b787b8cd78838cea13947bb0994d23bf4048f41ef82849a8902854d04d7544",
+    "site_source_hash": "6b0ea7b69dd3de272085ae1931e9bd23c4fb5381dea5a1fc8ea9717a53f00b0f",
+    "site_static_source_hash": "5b2599ac2cb6a52e078446195bb56803c0a7b084119853a9e70a11245ae9fdf3",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
-    "v4_source_hash": "c07a92672e455afcb85313355080d936d99bba17263af2b2586652ef113f9abc"
+    "v4_source_hash": "28d1daec190bc0c7f5faeab6c44e8e69e7b54fff29ac613623260d4b6defe2de"
   },
-  "target_date": "2026-10-12",
+  "target_date": "2026-10-13",
   "unchanged_models": [
-    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": []
+  "updated_models": [
+    "V6_SCORE_MODEL_V4"
+  ]
 }
