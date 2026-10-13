@@ -2,16 +2,12 @@
   "all_index_latest_dates": {
     "000015.SH": "2026-10-13",
     "000922.SH": "2026-10-13",
-    "930914.CSI": "2026-10-06",
     "930955.CSI": "2026-10-13",
     "931446.CSI": "2026-10-13",
     "931468.CSI": "2026-10-13",
     "932422.CSI": "2026-10-13",
-    "980081.CNI": "2026-10-12",
-    "980139.CNI": null,
     "H30269.CSI": "2026-10-13",
-    "H50040.CSI": "2026-10-13",
-    "HSHYLV.HI": "2026-10-05"
+    "H50040.CSI": "2026-10-13"
   },
   "canonical_scaffold_scope": [
     "000922.SH",
@@ -6914,7 +6910,7 @@
     "status": "PASS"
   },
   "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
-  "generated_at": "2026-10-13T19:17:59+08:00",
+  "generated_at": "2026-10-13T20:07:22+08:00",
   "has_historical_gap": false,
   "history_as_of_date": "2026-10-13",
   "history_backtest": {
@@ -41726,7 +41722,7 @@
   "missing_dates": [],
   "model_id": "V6_SCORE_MODEL_V4",
   "overall_status": "LIMITED_COVERAGE",
-  "payload_hash": "37a2719bbdfc3cc40e64a0c0b7a32bcb32c7ab224c8e9e958b671cb6320e8617",
+  "payload_hash": "57d159251b5946cf20ab92be78252e523904959e68e83c2a9a416c7bf022e646",
   "payload_schema_version": "V6_FRONTEND_PAYLOAD_V6",
   "production_last_updated_at": "2026-10-13T16:16:48+08:00",
   "production_migrated_at": "2026-08-23T10:50:18+08:00",
@@ -87695,7 +87691,7 @@
     "model_role": "PRODUCTION",
     "model_status": "ACTIVE",
     "model_view_id": "V6_SCORE_MODEL_V4_VIEW_PAYLOAD",
-    "payload_hash": "5691202a45aa3d97284b018a47c279f8006083b188c6d30e89aa2b02b03d6668",
+    "payload_hash": "c188941e9f63d9c5e0f5327bd05e51fc5a8f5e65e84e5e39e9e69b31ead67c96",
     "payload_id": "V6_MODEL_VIEW_PAYLOAD_V1",
     "payload_version": "V1",
     "production_activated_at": "2026-08-23T10:50:18+08:00",
@@ -88008,7 +88004,7 @@
       "model_id": "V6_SCORE_MODEL_V4",
       "threshold_version": "V6_SCORE_MODEL_V4_THRESHOLD_VALIDATION",
       "total_return_research": {
-        "asset_hash": "bf62935829ee1cb2511c90d98f26198c55a5b36c24a87d2375b16278561d5ddc",
+        "asset_hash": "1d1f23c961f3cb4417b80ee6bfd63be774546af42611337075eefb83931897e7",
         "by_index": {
           "000922.SH": {
             "automatic_check_status": "SOURCE_NOT_YET_READY",
@@ -88041,8 +88037,8 @@
             "new_completed_samples": 0,
             "normal_close_dataset_hash": "014216fbb44070958c3acab0f3cd43f51176666c81c10716358a759bd350aa26",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-13T19:17:59+08:00",
-            "published_asset_hash": "6d9604f83b1342fda61af5c44d1fb215ff3fcb4b0a447298202f90ec8d60a188",
+            "publication_asset_generated_at": "2026-10-13T20:07:22+08:00",
+            "published_asset_hash": "e37a0cccdf3202b1f4ef3b1bbaad7c4d3ad738d19684c5afd77356539be9332b",
             "r_cp_crosscheck_count": 6,
             "research_cutoff": "2026-10-12",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
@@ -88201,8 +88197,8 @@
             "new_completed_samples": 0,
             "normal_close_dataset_hash": "12c291e121583d958bfc92788d88e3c87276d2b4ae57dc2be6d78ffc08e32f00",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-13T19:17:59+08:00",
-            "published_asset_hash": "5aad556bb79f23bcd5ac9b9107ac16deb1bc5a1ffbb15a1999c0716f80eeb20a",
+            "publication_asset_generated_at": "2026-10-13T20:07:22+08:00",
+            "published_asset_hash": "75e0cc05528d9b4f41bedb650d150f555734a6349ab3988e58acd80339aa7316",
             "r_cp_crosscheck_count": 4,
             "research_cutoff": "2026-10-12",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
@@ -150078,7 +150074,7 @@
     "trust_gate": "PASS / LEDGER_ANCHORED_CANONICAL_HASH_RECOMPUTED"
   },
   "publication_derivation": "COMMITTED_CURRENT_HISTORY_REGISTRY",
-  "publication_index_count": 12,
+  "publication_index_count": 8,
   "publication_registry_path": "data/index-score-summary/registry.json",
   "runtime_identity": {
     "actual_attempt_time": "2026-10-13T16:10:32.888779+08:00",
