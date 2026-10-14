@@ -2,12 +2,12 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "8e2b330e76eca819ff9c",
+  "build_id": "3b92e6453297552f574c",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
-    "latest_score_date": "2026-10-13",
+    "latest_score_date": "2026-10-14",
     "legacy_scaffold_generation_time": null,
-    "production_generation_time": "2026-10-13T16:16:48+08:00",
+    "production_generation_time": "2026-10-14T16:16:40+08:00",
     "refresh_chain": "V4_SCORE_RECEIPT_TO_PUBLICATION_GATEWAY_TO_PAGES",
     "refresh_required": false,
     "source": "DERIVED_COMPATIBILITY_LATEST"
@@ -21,28 +21,34 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "000015.SH",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "000922.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-13",
+        "actual_latest_score_date": "2026-10-14",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -52,7 +58,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -69,7 +75,7 @@
     },
     "930955.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-10-13",
+        "actual_latest_score_date": "2026-10-14",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
@@ -79,7 +85,7 @@
           "attention_required": false,
           "failure_class": "READY"
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
         "failure_reason": null,
         "freshness": "CURRENT",
@@ -102,23 +108,29 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "931446.CSI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "931468.CSI": {
@@ -129,23 +141,29 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "931468.CSI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "932422.CSI": {
@@ -158,23 +176,29 @@
           "status": "ELIGIBLE_AUTO_RELEASED"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "932422.CSI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "H30269.CSI": {
@@ -185,23 +209,29 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "H30269.CSI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     },
     "H50040.CSI": {
@@ -212,23 +242,29 @@
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "NONE",
+          "alert_status": "RETRY_SCHEDULED",
           "attention_required": false,
-          "failure_class": "READY"
+          "endpoint": "UNSPECIFIED",
+          "escalation_reason": null,
+          "failure_class": "TARGET_NOT_PUBLISHED",
+          "http_status": null,
+          "next_action": "WAIT_FOR_BOUNDED_RETRY",
+          "provider_error_class": "TARGET_NOT_PUBLISHED",
+          "transport_failure_class": null
         },
-        "expected_latest_trading_date": "2026-10-13",
+        "expected_latest_trading_date": "2026-10-14",
         "external_blocker": null,
-        "failure_reason": null,
-        "freshness": "CURRENT",
+        "failure_reason": "数据源暂未更新",
+        "freshness": "STALE",
         "index_code": "H50040.CSI",
         "market_area": "CN",
-        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+        "market_freshness_status": "PROVIDER_PENDING",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": null,
-        "provider_pending": false,
+        "pending_target_date": "2026-10-14",
+        "provider_pending": true,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "ACTIVE"
+        "status": "STALE_LAST_KNOWN_GOOD"
       }
     }
   },
@@ -245,7 +281,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "0902b06749fd1e83ca2e",
-  "generated_at": "2026-10-13T20:39:48+08:00",
+  "generated_at": "2026-10-14T16:18:03+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "0d3377f55cddd39862fbdd91150807748882a91931a6dcdd6d3eccf9dfce8d4b",
@@ -263,14 +299,14 @@
     "validated_cell_count": 10
   },
   "index_status": {
-    "000015.SH": "CURRENT_FOR_MARKET_CALENDAR",
+    "000015.SH": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
     "000922.SH": "CURRENT_FOR_MARKET_CALENDAR",
     "930955.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "931446.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "931468.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "932422.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "H30269.CSI": "CURRENT_FOR_MARKET_CALENDAR",
-    "H50040.CSI": "CURRENT_FOR_MARKET_CALENDAR"
+    "931446.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
+    "931468.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
+    "932422.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
+    "H30269.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
+    "H50040.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING"
   },
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
@@ -286,7 +322,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "8e2b330e76eca819ff9c",
+      "latest_published_build_id": "3b92e6453297552f574c",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -307,7 +343,7 @@
       "full_domain_projection_date": "2026-10-13",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-10-13",
-      "latest_published_build_id": "8e2b330e76eca819ff9c",
+      "latest_published_build_id": "3b92e6453297552f574c",
       "latest_published_date": "2026-10-13",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -322,8 +358,8 @@
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "8e2b330e76eca819ff9c",
-    "bundle_hash": "32bddd179f4f22dd7a3a5333335db7fe548c4c52391f2cb3cec8762f0e7ebc83",
+    "build_id": "3b92e6453297552f574c",
+    "bundle_hash": "59d3e906d92afc8e8c9ad3bd6cafff26419fa4e46472215ee3dad8ababd5d3c6",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -332,8 +368,8 @@
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-10-13",
     "projection_data_date": "2026-10-13",
-    "projection_manifest_hash": "a5c311547c3f55e09c265d6ea8dbd06a3cac98136034ef5d70cccba672a50f10",
-    "projection_manifest_source_hash": "7cb8d488c54ca8a659e111c1fe146d8c1cce82423e130186a1a529080800057d",
+    "projection_manifest_hash": "558362f34e5c80705ad7d68781fd3dc3d02258cd4f0195715c358873c2584c6c",
+    "projection_manifest_source_hash": "d9c3676313aa8bd9fd26a2f2159473572392e1ff6830b145a2ea4a9ab6471a26",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -346,7 +382,7 @@
     },
     "score_domain_latest_date": "2026-10-13",
     "score_engine_invocation_count": 0,
-    "source_hash": "aed6c60ff060aabcf72581c12972eb1a0fa7534f3795c4c703f94fab253bcc56",
+    "source_hash": "e3901075386303c85d0d5860346c44230ba59b652c02dfefbe74906b1c5a08b9",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -370,14 +406,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "8e2b330e76eca819ff9c",
-    "published_at": "2026-10-13T20:39:48+08:00",
-    "source_hash": "8e2b330e76eca819ff9c3e26861485bdd214c1ed8fdcfb558934715d780588a4",
-    "static_source_hash": "d7f670ef758dd143f19626dfde5aec77a8a93b06b2a74adc442caa64f56dff53"
+    "build_id": "3b92e6453297552f574c",
+    "published_at": "2026-10-14T16:18:03+08:00",
+    "source_hash": "3b92e6453297552f574cab2b2176e7493828cbbf987859ba1ec519f4a4a35cbc",
+    "static_source_hash": "3b2d945228e4483739cf15756f2c9fec7148cec5765651aceb33274e5356c33e"
   },
   "source_hashes": {
-    "site_source_hash": "8e2b330e76eca819ff9c3e26861485bdd214c1ed8fdcfb558934715d780588a4",
-    "site_static_source_hash": "d7f670ef758dd143f19626dfde5aec77a8a93b06b2a74adc442caa64f56dff53",
+    "site_source_hash": "3b92e6453297552f574cab2b2176e7493828cbbf987859ba1ec519f4a4a35cbc",
+    "site_static_source_hash": "3b2d945228e4483739cf15756f2c9fec7148cec5765651aceb33274e5356c33e",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "28d1daec190bc0c7f5faeab6c44e8e69e7b54fff29ac613623260d4b6defe2de"
   },
