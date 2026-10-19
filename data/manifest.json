@@ -2,7 +2,7 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "8b96e3bdac551f792fda",
+  "build_id": "eb6db9314c446a7860d1",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-10-19",
@@ -244,8 +244,8 @@
   "default_model": "V6_SCORE_MODEL_V4",
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
-  "frontend_bundle_version": "a07c2bd01c959d8badd4",
-  "generated_at": "2026-10-19T19:52:30+08:00",
+  "frontend_bundle_version": "46b534ce7a83ee8bb41d",
+  "generated_at": "2026-10-19T22:00:32+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "01a582542644bedf5c573ac6caa6bfb4a8061e79890f77f2025c25c49b3b7a3b",
@@ -286,7 +286,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "8b96e3bdac551f792fda",
+      "latest_published_build_id": "eb6db9314c446a7860d1",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -307,7 +307,7 @@
       "full_domain_projection_date": "2026-10-19",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-10-19",
-      "latest_published_build_id": "8b96e3bdac551f792fda",
+      "latest_published_build_id": "eb6db9314c446a7860d1",
       "latest_published_date": "2026-10-19",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -322,8 +322,8 @@
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "8b96e3bdac551f792fda",
-    "bundle_hash": "b3e2ef8d013dd7c35c3d6688aaffecf86b5470a8a6e96578cb6b8e8813569fb8",
+    "build_id": "eb6db9314c446a7860d1",
+    "bundle_hash": "8f11cca1f167bd3c5b89d5bab017cb5cc2cb64cec562805c37db9ca2e18d714d",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -332,8 +332,8 @@
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-10-19",
     "projection_data_date": "2026-10-19",
-    "projection_manifest_hash": "bb2af38cd152f9c02216f45a7c2c2fe0805d424511496247ea2c30a69bd5a311",
-    "projection_manifest_source_hash": "8a1a51878e8f7766733cdbb58c3d0354b1835e748a9817c21f31957f2599340f",
+    "projection_manifest_hash": "8e601d3acf1fe9623a494197640942b585654865b0199db7878d985e2c746719",
+    "projection_manifest_source_hash": "5c512d96149fe0267a1ae64816f2c1d82b3785e5d4c21c572db41d0dd6f93be9",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -346,7 +346,7 @@
     },
     "score_domain_latest_date": "2026-10-19",
     "score_engine_invocation_count": 0,
-    "source_hash": "795ad75b70013788b853f2c1370da48e9305f9a48d958d97ce0350ca2a24d5e2",
+    "source_hash": "0981904def21cfa488ecbc067e31806e2865b3f955f1594bc787502d8b0fba84",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -357,6 +357,1248 @@
     }
   },
   "schema_version": "V6_GITHUB_PAGES_PUBLICATION_V2_MODEL_SCOPED",
+  "score_percentile": {
+    "admission_contract_id": "V6_V4_WITNESSED_PRODUCTION_SCORES_ONLY_V1",
+    "by_index": {
+      "000015.SH": {
+        "2026-09-10": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-10.json",
+          "sample_set_hash": "65652664b29e568ffe0f7db05491b0b51aabe867dead4abbd5addb2b52bc6705",
+          "score_record_hash": "0fdbd93631e1679489053ae53ee0cf49317b531dd120041baec0d6f1757e2913",
+          "sha256": "3bf0e47d61c1d41f4970f24cc2245765832e2ce746a56ffb6f6b89fe680c731e"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-11.json",
+          "sample_set_hash": "30e88a4d759a9f690ec7a8cb6f84ddb57daa15785776c31d722e24242f1faba5",
+          "score_record_hash": "5dcd2e9392d8ca48f76938d3bfa4355118d361e71323e834bf4d6944a3a9da21",
+          "sha256": "41049d392fa37b1b8f9242f638fe55b0edbcac649fadc37f91e719b878fefdd8"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-14.json",
+          "sample_set_hash": "c7929f22049dffd128c333a49ecfb4a171c98b8e2468c5ee411090a06d04b1af",
+          "score_record_hash": "12d41d1763fd9231e966073494e2f691c0f955c29b53210d54379815a91d617a",
+          "sha256": "020c5ab9f319e43a3997f5f877cc2aca16b18d9dc6f9494c1f1342282cccd428"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-15.json",
+          "sample_set_hash": "58782c5e38e023611c2f85bd93336956367c57eec61a3063cc802fa9146503c0",
+          "score_record_hash": "bbac8b7c4c951746672534135dc7dadef141899d7b63ff5f9e2bfa608d152145",
+          "sha256": "6194746a7dda45e007fcbba72225129f3923426e4cb57a5167d0faa79323674a"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-16.json",
+          "sample_set_hash": "7244715a01c05fd0f01a1880fe5a964220a71126986b099307f4123da3649be2",
+          "score_record_hash": "1431950883fc079f41994eb38af624d83eb82897b0c781d4b1b254ffad529546",
+          "sha256": "76b71cd9f16eda6e257255ed9e4dac4ab46596035c35bc3b827cd57cb66d450d"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-17.json",
+          "sample_set_hash": "3b10584d79b0a86e9c4b423b24354fc11e433c9dd4c5ef4a8281ee533e7e3c62",
+          "score_record_hash": "49bc09f51118d01c3cbd9d8b352d26e0ea662ee674339857e3e38c77547a9aac",
+          "sha256": "e2651c25e30c1c7153badc30ed5e0d59fc634b1503598a50e61e30487dd4edeb"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-18.json",
+          "sample_set_hash": "218858d905d146cb9c48fa8ac99a927842f5f66754b124a0c0a260c2f382711c",
+          "score_record_hash": "5a64c811380749c4314473d4e8e590690ffec94d32a47310155aa758606b94e1",
+          "sha256": "3020e235b78f2ea3f755b846bb3b2f93037d78dfb904390de02ac3f90c07ea18"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-22.json",
+          "sample_set_hash": "e88a0a0638c4ccadfdf1cd685a17310d9a6b55fa9852d479d3ef2691b025c7b0",
+          "score_record_hash": "49bcc5f8b3c288294dd0476732cfd253f4aa19b989391ed75430923f336c450b",
+          "sha256": "8898c9f6fab30990b20b7dcfd8cc13993fd1e38e355c6f2951095c849ea2f73f"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-23.json",
+          "sample_set_hash": "69374b0520b03489f9eef909b35ed97b02ce3e17a7135611f6673d31e83cf398",
+          "score_record_hash": "3be929b1df870983dc236663ba91ae40b9591af0b18f528df960616410804a74",
+          "sha256": "d023cfdd0666134605423af49aade0f7ec2a8d77caec0ce2c20106749082a755"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-24.json",
+          "sample_set_hash": "16fdf7a87224a0b6b09454e157e18c0be74eb4332d4f3f6c95e5e913557e51e1",
+          "score_record_hash": "a891b0cc8a592937769e04a1a3ff4e3f749a71ed2ff17b6ab991acbdbdaffaa7",
+          "sha256": "0cd26df353a63db999d106b0c3a393dd0746fa1443103b2a5bb22eeb85107f00"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-28.json",
+          "sample_set_hash": "0189fae5ab5cb8482f65ef4ff8f6a5b81c54ef83ec179cc3926eb65d7dbfa308",
+          "score_record_hash": "022ff2ee9567cf61b1a64c7e5f68b2dbf7317a7a173acea921359d2ace63984b",
+          "sha256": "906f118f10756afc71fd319afe987013f83a12457a19900fae69582d88519305"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-29.json",
+          "sample_set_hash": "3c9789a5544b02da4f9fc013e7e6f79e73d9e0bde3e799a347f3d05471fad833",
+          "score_record_hash": "ebdbcbaa8c04494810ed781ee96a5cf595130978a3c30b39002f0d238fc82750",
+          "sha256": "cecff7a177c0f6217ffa339ed68f8998a704c494d2353cd335d60da3a6f3b065"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/000015.SH/2026-09-30.json",
+          "sample_set_hash": "93413af0eb9a8b992b93b9091098338783a09d3addb3fba5a0136ec561fb83c4",
+          "score_record_hash": "fb6eff472da57dddfb88fd10ef34a23cb64bdfce91e05a617fa0377fb19b72aa",
+          "sha256": "3912b00ad28da6dc1e7b4cd968f3fdf3508dd101c25966f0c2b1d849ffc7d17f"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-08.json",
+          "sample_set_hash": "7704c373c4877e570a1b9d15e4bd6dd777760eddca700e90f647f0f2d06b9f81",
+          "score_record_hash": "b4039d2d95eae61ca542df58dd9e156e03102d0527796d49aed4b5fdba4a648f",
+          "sha256": "e625a1be6cdc69db552be81c76f2c8bd43f59a917deb7abf42243d316d2225fc"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-09.json",
+          "sample_set_hash": "39c9b98af1f5eca3a3c039026dc3b13c11d58df306292f0131890aa891d4b56b",
+          "score_record_hash": "433eeb13b6fdb222e52a1ce2cfc744023e68f161fcaa7ea3eba0d5853d5f321a",
+          "sha256": "d69d33cc89b63f6f26ccddb3f91ddd87ce8e683bf01e48d5eef0147ae2b7577f"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-12.json",
+          "sample_set_hash": "53a5c6797020d2502690cbcd057bfb3dffd77d855f55726578adb8db5402f861",
+          "score_record_hash": "988e46faca610e58b843e9afc731ba28e608730b4d57d328a95a7d44e3b65a52",
+          "sha256": "c706ce081f76c4d2ead98bb1402aff8a398e106bcdf1b6ae6dfb8e439c5fa26a"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-13.json",
+          "sample_set_hash": "90a3921e6c33a757ad708fd50a6ceff67d01b7fa6dcc24332c0da460d4ec43e6",
+          "score_record_hash": "72203fe15e18cd7edaa3d07241af574d0e3c9c2f9a4a19621d04afc8455d277c",
+          "sha256": "a5f6555c923bbeee379fef534de74b295753d7c11833d2c87e7d57d8ddc86f05"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-14.json",
+          "sample_set_hash": "4e5ec6e4d6cf78dfd61de8577b58e3bad685cd6e01ba6d65910159623f2fce52",
+          "score_record_hash": "0d928b9c14e34fa2f217d32f42ede75ddcf3b0b663fb9234608d47cdaacd9706",
+          "sha256": "105270d79b91a5cdc1b2429e14124ab5a023b22361403eaf1467066ff22a3d16"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-15.json",
+          "sample_set_hash": "a5b80ca75a2fb1b2cdcb1d711aeab4b29a204e3fb79373b1f28d7b2b4eccfec7",
+          "score_record_hash": "8e9b27d2003e2f8cadc2db264ab59566fe56d41670d39d3fb72fa8433d0c3ba7",
+          "sha256": "22311af7f15ceb9cb6f41512037aafa3e4cdd9f4594cce125b25068f92a9bfe7"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-16.json",
+          "sample_set_hash": "2179aea46b03242494690362553aa12de52bc573903229244a0f148089924286",
+          "score_record_hash": "0b41ca6321c0aaf51062339c00210989a372fed2bc370f9b92845961da4aea81",
+          "sha256": "3b457b5db9773e272e7e11dc3ec1edd8f5dcaf6f186603cd532ff3a66ca19c2a"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/000015.SH/2026-10-19.json",
+          "sample_set_hash": "1ba56bc5e68a62e320297b2055e64b800f137dba35b21d0f991fd69bd3ca8a0f",
+          "score_record_hash": "84c77673a0857ce83cf29cb6767ab4097f59789c34ba3fae3ecfd279ac7504b3",
+          "sha256": "06b732eca79f1ceb955abdb700a715c4e5a21fe15c87f613fbd7b60ed196c330"
+        }
+      },
+      "000922.SH": {
+        "2026-08-21": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-21.json",
+          "sample_set_hash": "59c7e994b6730a481d94a07c5930cf57a4bb908ff4e09a382fb5cfcc829e5c44",
+          "score_record_hash": "e8ca7945b2b72db3fdcbf398616158ac721fe07ef71a4b12767568b34eac96fe",
+          "sha256": "36f5eefd0598a30053b0f464d0b611205668e3b6f51d01624c352c8564470d1e"
+        },
+        "2026-08-24": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-24.json",
+          "sample_set_hash": "11284e7e74c1ee362e2fad976801514d4c1cb164eb002219e75ac09038df16dc",
+          "score_record_hash": "8d94c55a4c7560462fd0f1eb71710bdb89c68aa8a1f48ba37ba606049138a888",
+          "sha256": "4d9b292c13157b94e0afa8e9e20186037740190d20e8f0441cd5b53c85c749c2"
+        },
+        "2026-08-25": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-25.json",
+          "sample_set_hash": "bff8bfaec0810cebeba7e026c2f674c047f41df7e4a4206d45c1daba37ab9003",
+          "score_record_hash": "86d646bb05c7401f50ed59b8b5c5d3191cae6a4b3a2ae2948b1fc1eeccb75a01",
+          "sha256": "1d270224bbb5c642689a0150b37a8783c319ea973fdc535238b31b2fceffd218"
+        },
+        "2026-08-26": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-26.json",
+          "sample_set_hash": "3f4e520e5d738ef5319370f66b23398e80212fa73a33cab2414c99b9acf457cd",
+          "score_record_hash": "b18e851105f4eef04d666837d2921a50f27c9beec1727aedc1d1e91931bb9255",
+          "sha256": "17fc114a07ac718c67fb12a8a5664369d9fb9218bf8739b0f70ded870e15e5fb"
+        },
+        "2026-08-27": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-27.json",
+          "sample_set_hash": "9c231212e0812b3f9ccbc3dfb1f84e529b7604fa50c546a7e3bfe28a9996c251",
+          "score_record_hash": "ed17a429a53356601dce71e5f368c9c3ac75c6bcaa3723adc3a6d6344ba0dbd4",
+          "sha256": "835ad7a281bf33f504fdbd05d81d48e61806be2ef20359fcbff0f8d1921c7ed3"
+        },
+        "2026-08-28": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-28.json",
+          "sample_set_hash": "d33b8991ed4f086f8bfffe718b544f703de734a5d95916a8d39a1c481d652901",
+          "score_record_hash": "14d506c2a37a680a71476983624808ffd060748fc6a37602d8da1295ad4f2fed",
+          "sha256": "36f7bf2db5a5e14d77d989fff370bfb4fb3e9f98873ade37c796ab00e41e3281"
+        },
+        "2026-08-31": {
+          "path": "data/score-percentile/history/000922.SH/2026-08-31.json",
+          "sample_set_hash": "523439efd347cda0a005545e2ac2e3e31b953914276145f09caa4c36d8f723e6",
+          "score_record_hash": "2e843c9fe06c9a71a79d363d35399bab33e226a4a436550a19afe75082f33f89",
+          "sha256": "11bfad086f8753e70f471bc375f5626cd24877ec0045d571c507aae59a61ade2"
+        },
+        "2026-09-01": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-01.json",
+          "sample_set_hash": "6767c1c87ecb423c6f536c762fbdd2ac19810af75a5e91b653973c60c05a1f4b",
+          "score_record_hash": "2bdce838fc999592b482f32b63a1c84c679b3a738209c6a53a6ab52adf5c7ad7",
+          "sha256": "53a10e204b4b7daeddf37bda09e2fdf6706d0b5ead3bf424c9719ef942115af6"
+        },
+        "2026-09-02": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-02.json",
+          "sample_set_hash": "2df8756ac4702abc6783cbad890e7fdd7684b927f9959e22183cea017ff36211",
+          "score_record_hash": "451b4166f6fdcf0024a6ccd5379c733de8e3783be59a03993203fe6e10b63000",
+          "sha256": "972bb9a384cab66b7b26b44c9d65aca759cb8b88baa0347cdc33bc40244e7ffc"
+        },
+        "2026-09-03": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-03.json",
+          "sample_set_hash": "2f9409aa5882d0302dcdbc4dd33b4a94d96e2d7951c36a902751069be9d8afed",
+          "score_record_hash": "15b31a8a0e58ee67483b476b18cf5678036ae3ca777912ac9211052fcd57b3f0",
+          "sha256": "847d0f4534a51030276f46c1dc5e3d2e72ecf617ce330c5034e8e6bd08864de0"
+        },
+        "2026-09-04": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-04.json",
+          "sample_set_hash": "a9bb75d9f6d2b21ae4cfb62c96a305ebb27b85bc3a3a57ed0295dc42da6f50fb",
+          "score_record_hash": "0bf097b54bb9f745d39546545ab018b98b9600458b74a1895aff5d0983d891fe",
+          "sha256": "69d98afbfcccd6732fbd126c9be4b50bca355e19e2feed2396d9e51f58f4a4e1"
+        },
+        "2026-09-07": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-07.json",
+          "sample_set_hash": "c3e65fe5e08d08aad0bbcd97f73b98a2a1958ded7a9a53dacf659b443ad0a5cb",
+          "score_record_hash": "6d738bbf99c239eacf3aa4faf3834e6b0dd7772b940f3c3b59cc4af27ff789a5",
+          "sha256": "0f0e1820e5d9e81e229b5a63cca4ba987490796a0552b7b26135eba17784e733"
+        },
+        "2026-09-08": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-08.json",
+          "sample_set_hash": "fa783cf601f7cde9615d4976ca55e5e5d08980758d9f427b34046b44195051ad",
+          "score_record_hash": "bc7a033aab7accea2d4ee27cddf2e740eb77cc9d93dd9cc28aceb7e15ad1284e",
+          "sha256": "bfd2e6ccb80109243b405229a500e33bb6c79d519a60fa7135f4c9ea70eff78c"
+        },
+        "2026-09-09": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-09.json",
+          "sample_set_hash": "8fabede89ee0b283f41f785f76be9f9c161f08b49c5a8822da3645d3dd9fa807",
+          "score_record_hash": "771b4b046379bea73bec05e73f97fc4b4924f0228371bab63e744eca5ee1e1f7",
+          "sha256": "1088fff3153d1a7b29874a597c2a21c7b19bf24abf8680deb68d656d69a7045e"
+        },
+        "2026-09-10": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-10.json",
+          "sample_set_hash": "4ec395d0abab7b0ccb5f2ddcc1e57db30f5df0b7895ae548aabe8d0340795f61",
+          "score_record_hash": "e3f1c9939099d412fd3ddf533e12892dacbe2b36444d8c30823cdc162db1f04b",
+          "sha256": "71e1f3931edef574160b3d2b70fd6ab8726e79d151a2d4af20a2f80025d518d0"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-11.json",
+          "sample_set_hash": "f2dc308d24a192e4646115065eb47077b063ed805a1e42432781db6a46af2e6d",
+          "score_record_hash": "7c19690e13f6f8a60b50e34425283d9e0828eaca7a858206fd5c27a7ee244e06",
+          "sha256": "f955fac77005b98a1dc23882f9ad48db87478945276066cf9a0def99eaf4726c"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-14.json",
+          "sample_set_hash": "a94cb4c1ecfa998b48a771c26ceb96ae3a395737d66a9699bdb9cce75da1c63e",
+          "score_record_hash": "f6804d74b801000777446f7430f8c37adbc86288b62a89186972cc08c063a5da",
+          "sha256": "d98f37c794ca384be2536ea4ab5e62582c5b2253531e8991fc471e6fb995f845"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-15.json",
+          "sample_set_hash": "4387c175fdec2b852ccd703edb2ae2b28e3609ac0b4249eb6bb18c9240085eab",
+          "score_record_hash": "92cbf0eb22aa51bcb8135697ec6d06161a4c811e5a15f91d388c5b7a2c5a4f76",
+          "sha256": "97763979d7e376d1917c19f4814f6524803df8c885ef868464f8a014eaa4590e"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-16.json",
+          "sample_set_hash": "de846e16e97f8f83f73f5b2f1f6a6852517fa2b11ba97ad50b90d48d207d603a",
+          "score_record_hash": "490e2e082f1de9dfd9812d00376c2fa07d3dd747537acd408429542df4453673",
+          "sha256": "2a165a8e2264a107cc191a693f94480b6d6e3e814357630b21d26c373ae26b89"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-17.json",
+          "sample_set_hash": "b21a8d989ade065d789fffe1b3c8eda6bae860351804f15d32e3787a6176d232",
+          "score_record_hash": "d0af3a00c04d58e50a189096badab4a4a93262feb7840ede9f549bd3752613ad",
+          "sha256": "b8c30ddd52df416c2afc6dd3b2dccfa390590bf1e4ede48f0683a1e944d21477"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-18.json",
+          "sample_set_hash": "3d9d5410017abaa8c7b98ab12820434f95530728e9726c52e51709747a5d492d",
+          "score_record_hash": "1ef13d57f68d59ae9d195f3dc1edbdfc61648725be7099605a7ebee7e845837a",
+          "sha256": "451ed13106930f9fb39e81cfbd68d32023b7ba480114c84bfd5c6be8923418a5"
+        },
+        "2026-09-21": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-21.json",
+          "sample_set_hash": "f1feec7f24593650d9da78e80dd8b04fe2774b80ae55787cdb5cf3e54c28d09b",
+          "score_record_hash": "f40fd3a3af37bde9b00339b586a62dda010ee60b4c74282bb59bccc1542101da",
+          "sha256": "20aeabeff137628598ae3ae29adeccd2e2c29d3bfa6e984e926eb509ee8f7b22"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-22.json",
+          "sample_set_hash": "deb4caa753a2f2a4457198706654ea179d18538bfbc98eb45d07e0f900ae3148",
+          "score_record_hash": "f6caa7ee8bb67f56f7213890ed7d8dc259ca60f7745f7733af436391d9b5f8a8",
+          "sha256": "43c1c72498189e4993a88b5f0db93fbe37e0f132d29748d020c58308ab955fe4"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-23.json",
+          "sample_set_hash": "c67252fe629454fdc68ea9124fe4ee1439231b884806508dfb7186441b58e872",
+          "score_record_hash": "c899c6a3b4b76592e1a1b053732b55ddee376a854f566c5a324ff18a3418cd93",
+          "sha256": "b3fed4abc7f9d458e4f875595a5b635e1910b68179cb154de0fee7b25362ead2"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-24.json",
+          "sample_set_hash": "34e30c958d26ecdbf803885ed0b339278686980c2712fb816236243b431ef622",
+          "score_record_hash": "7f7067c2403587c08de2ee4524a6c681420181160e5dbca6192566e6859770a3",
+          "sha256": "1998763e59558e3b1739c74bf3f99f49760ee0ac8a056e8718ee8fbb526df517"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-28.json",
+          "sample_set_hash": "6354a283bcd408fd4834185cce0d0d71873b3cd8eab7ccf62c6e1bc4c02aff3c",
+          "score_record_hash": "54866a145dde0842e797aa298b85b2b618884e31e24e1e68c892f412a7f66b57",
+          "sha256": "5b6d9a1eda88011ad2b77ca164f2735a228be3a2dc80097e678cd653265970a4"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-29.json",
+          "sample_set_hash": "6cc3425e63dd9ffb04e0acac9f9b6f6dfe2762d39e07094f375017fe95d79844",
+          "score_record_hash": "87e99839372e6e6cfd997ae81d0aa0486b25ad7b2e90f2c77fc69934dab04eba",
+          "sha256": "173b86680bdf04145e2318a80d4b8dc4f70cc699ad744d45697d7e8a30a4d639"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/000922.SH/2026-09-30.json",
+          "sample_set_hash": "6323ee7edde8fdd1c2936f2fd4fbf28a749c2b567b5ea159ea2b6667ebd2b65a",
+          "score_record_hash": "579a6653a7a330ccfe788b18e62599f109c2dff6086a3148ebb72e494b09a1c1",
+          "sha256": "75e64806d42d1a92d028fda56858e9c40e89992fcda318ebd69a6fb052c40f9f"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-08.json",
+          "sample_set_hash": "49d2d8a79dedd1eeddaf52c9e2359d7b433682f1ccc730f03d532ac3ce81ec76",
+          "score_record_hash": "0af6829898e937ea7357fa203a8901ebc19cdf6d6144f4eeeaac403be78a866d",
+          "sha256": "f136403c6ac743ccb32933f1f6447897b61ac2ecad90abbfd88ac3c1fbf64745"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-09.json",
+          "sample_set_hash": "c15a2cdf346f9f70405f86b8b94da9f22a6c7b80e2cd2b08c06398c03a229538",
+          "score_record_hash": "18e0d3d830fb07e59d686950558729a33d292416cc3a82212441f5a75e15f22c",
+          "sha256": "c044fdfe6dce084d64793db3f64adc7831752fc50675b08a60ae6c7160fc2be4"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-12.json",
+          "sample_set_hash": "68dddfc9e55a85c25e7c646083b55c2a87da27e47ddce276e7661f96e96470cd",
+          "score_record_hash": "4cce7ea9d65f3e43673baa733b2196c086f61a7bd806a07aeae26a05516edba1",
+          "sha256": "5909e765d17f0b58770e42447112f7747184a7e24eacb96a38cf1f656a0319f6"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-13.json",
+          "sample_set_hash": "21fabbe29b257497b93d9779b2ac5deeef4808d7ff8adf701c112ee87c467ff9",
+          "score_record_hash": "8ba078f650321fdb901e5834fd1899842f35bfefa5bac5b8ebb0b395ae105502",
+          "sha256": "766b01e8b79cf8bd6631245bf0dda521ad769de8faf4abcd649933105eae50be"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-14.json",
+          "sample_set_hash": "cea106300410556dbb9cff54567e1b8b66a4e24ee87245c63efc8dffdc908c30",
+          "score_record_hash": "1158100efb2e6b302500e0fb277b7909a2e0fcd6e0aaeccd40f6fdbd05561ffb",
+          "sha256": "170453aadc48bbf849c7427452065b2a82098ccb0b41f5da0ad1652ecd4cf95c"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-15.json",
+          "sample_set_hash": "51915d6045e42dfd98687fe410fd9da749847cf291892baa32b3d87465f87e0d",
+          "score_record_hash": "8b0126cf9a9fa4f351cfd000a7538bcfb75a6a0da958c535987b89e2ffc6d8b1",
+          "sha256": "695bf7f5b6037fa54f8dd51fce4cccaa6394448e9cff1b0532bc55e7b4eb096c"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-16.json",
+          "sample_set_hash": "f6ef8c8d87bc8b4ef19bd6ad38750c162592280b747a4b45dd62609411ed282d",
+          "score_record_hash": "bf7f26cf1224353fc5f36cf38ed2490913da56eab6de4809522295ea678b0c0d",
+          "sha256": "515a1ae950b4889c68988855122cf61106679d6c9cb650d3aa2aa9e258338fb4"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/000922.SH/2026-10-19.json",
+          "sample_set_hash": "c20a056e4beb6b1b8424cb3a129a111feed280b05260aa27e178716e29d11acd",
+          "score_record_hash": "9a45a20984a4a0776045ce652166d7fa8aa0c38d7db6d89e2a943ec8be464764",
+          "sha256": "03ecc46422dea18c21c9acdb9ecf13d717a733ec512e3c0a3d0348a4224736de"
+        }
+      },
+      "930955.CSI": {
+        "2026-08-21": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-21.json",
+          "sample_set_hash": "1cdcc19e2ebb3fbeb77bf9777d0d2d43b10d8335cd43b7aa8ae55dfbf1410306",
+          "score_record_hash": "72fe3e1afe747ec52a53a2c531183899c6324405614a4225f5e9cb1f44be09db",
+          "sha256": "adb3b545055f7074d367e1cf20e989ac297cf8e0b522089767125fef63959c03"
+        },
+        "2026-08-24": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-24.json",
+          "sample_set_hash": "04f9021635ce3c0fa3f427dad5b3756182cb588d92d9591ddad3e07b873c4df9",
+          "score_record_hash": "088cf419ba07b2c0116e784968ff8919d7b964778186bf12af0d53a634735a40",
+          "sha256": "219c3956060b3d241eae2a2e5b36bcf474c94179d0d752b0fe946a5aa411c363"
+        },
+        "2026-08-25": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-25.json",
+          "sample_set_hash": "d545477462700f0a83164c47e7c0e3196ff4200e8e59039d69c3aad81c3ad5db",
+          "score_record_hash": "6df83f22bc6b81702d9491aca9c13f7c1866dd1fbec0bce2b99a6198aaf1ad4b",
+          "sha256": "67e4cbe9b3915fff33051bc2982245932ef336c8252fa8e51ba0c4adae692920"
+        },
+        "2026-08-26": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-26.json",
+          "sample_set_hash": "0588606786ce3009b77d3e367978eba6ad8048363bc99f1422043a4472538080",
+          "score_record_hash": "c4ee4e18453617de193962a4ed914c810edd9dad311fa9d10ec03d65484103ab",
+          "sha256": "262ac0fce20e5d4996c837069eb60cc920ef1b47307ffb66af798aede54f071b"
+        },
+        "2026-08-27": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-27.json",
+          "sample_set_hash": "151d4038234c49a5cb018423b4e68b40546f014223d03203e4f35ebc204fd67e",
+          "score_record_hash": "455e2d33c0146b8449b06838c87d52378e4994b63f0b4dc7aa1ac0f8447a4fcd",
+          "sha256": "4fc26f99bc096d82ee8e6e1f5b5ba8b6ead37f6176d744f8438d1b64a5f597cf"
+        },
+        "2026-08-28": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-28.json",
+          "sample_set_hash": "ef1bdc01d1376ac1407a040b13bb3003f4b78611ddebe13f2c5192dc5a15f812",
+          "score_record_hash": "0fcc45e6e848d0df1e5a65be73ea7b4c14ba0287d1a6c67f49256febaeccc8be",
+          "sha256": "58cafb86e3313810d02cf76de90a634ae350b88a9f6682b46dcbb85bca4b8a5f"
+        },
+        "2026-08-31": {
+          "path": "data/score-percentile/history/930955.CSI/2026-08-31.json",
+          "sample_set_hash": "ae2b905dcb219e6fbe336aadc4f623f5daac0fea4f3d4eb70529adb74294d04b",
+          "score_record_hash": "4611d36d31cc8f6982ccc1bb728ba189d6cb4f91bda377cb3010a6e2c625ff08",
+          "sha256": "3bafe3637248df9ba7f80753db08f4be6b26fde2bf2a1f6a59bf3ff76658973b"
+        },
+        "2026-09-01": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-01.json",
+          "sample_set_hash": "b40125a66caa451dce063e27a0f883ea643bed651c5410e7a75403b179cf85c4",
+          "score_record_hash": "3086d3f2946f846b684bc887b911fef4068eace0ac84d8e83a698d3bc9fbfd9a",
+          "sha256": "2a84979e12fc5e15810d417b5447ecc053743bc852917297ab459f2892fc03b6"
+        },
+        "2026-09-02": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-02.json",
+          "sample_set_hash": "38f905e895fd0d9d040590f86be75b2500a6092e57181eac104d63769a456b31",
+          "score_record_hash": "edf747ae8a34d2027d6ef4a0563a327935046518e7d2718858d7af646be0636c",
+          "sha256": "a342ccaba86bc60791429f2f8b134f1a22a19e6a4f394275f6c3b13e21e63e96"
+        },
+        "2026-09-03": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-03.json",
+          "sample_set_hash": "db0058aadbeec4d18022a91594f43594ff56e56f88216b3ba0ebecfdf212c725",
+          "score_record_hash": "077aa9e50d23ae92e7d4065249e8bf6dbafdee1fdef5bcb1744bf3c62f4358a2",
+          "sha256": "a05ac432040533b3c721e342918d644273e506441bdd1ffa17692dba0fbe8330"
+        },
+        "2026-09-04": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-04.json",
+          "sample_set_hash": "29336976c1bbe72429b66967bbfd3d770c59ea5136aa4cbe08cb5aff980f950c",
+          "score_record_hash": "6098d8781aefc8503219c247c021fc1a508490189d494932b1d3abdfc1a7b165",
+          "sha256": "55a5c8d26bade42678a7963d2730f185be9d2f0276887e1714ab8b60d9b47649"
+        },
+        "2026-09-07": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-07.json",
+          "sample_set_hash": "918d6b4d2faf3d8bd384bbf8b88e83ebd5208fac845e005319b4025ef84cd55e",
+          "score_record_hash": "6b15005e9f954e4b6b06a76bd18fa7fad699c8d0715401c091a738a1b1ca41ce",
+          "sha256": "9f27238d86d8843b9662a8545f19d3e144ffbceb71fdc4ace972d73692be7ca5"
+        },
+        "2026-09-08": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-08.json",
+          "sample_set_hash": "a1f0f6bc3faba29487e4a97654c8b2b86a8b6161bf20e3653beec99a2c68aeb4",
+          "score_record_hash": "d8df787c8cdab136f484d99c77fb741fa3af4e725905bb5c2b6eab490bef6555",
+          "sha256": "163a233700f2ebbb2c9cc221dc4432e93f7b0ea1400b8180ff34d11b4d8e603d"
+        },
+        "2026-09-09": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-09.json",
+          "sample_set_hash": "5933efc32167804caef02ade804b8bd2ca73b5b3fa95a032a7949190a8ba7d6c",
+          "score_record_hash": "93830e8413f0379fb905e33a1a741f2c71c04fbcad61ffbb44a1cf1592fe839f",
+          "sha256": "abbf3f537a0668247edcde510adadcfb847f021466dbc1a687134bfe8822ac61"
+        },
+        "2026-09-10": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-10.json",
+          "sample_set_hash": "5c68c954e1dc5cedabef1dba99197577738cf11e259273fac869af7d1d5ce997",
+          "score_record_hash": "e953d955c4d6dfdab5f01f3cbadfc1ece909dec7a165ac152e81e06a35f28c50",
+          "sha256": "ba949179e19eb43ecbaa9b8b560e67e5dfa2423dd93996072667753a2bde5738"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-11.json",
+          "sample_set_hash": "0921c0a494e1b9a2deb68b87167f75d7e19cbf0ce8791110fb94027f9e450134",
+          "score_record_hash": "51f8a240e008980ad290c9a9c05b5e6898981d262656d2b361671a9a9623067f",
+          "sha256": "c4aae56b67e7a5ff6779d826ff846cd0c1787d908e378fad01d57490ea3ce50e"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-14.json",
+          "sample_set_hash": "3e60191673fb946774c20e7893ece562035cbd763bc8e70defbc7bafcbf7c6b9",
+          "score_record_hash": "a4441c9c0bd157621afdeda1ba583c4882a6b4e9360ed96b3d4fb5b8355ac92a",
+          "sha256": "cc5ad31c424f45345e2568346116e2b9b9766616b5264f44217332bfa5ffc697"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-15.json",
+          "sample_set_hash": "12529a2cac441cd4676167bcbf151dd852288bef311019745dc1e16a1e62b14a",
+          "score_record_hash": "5b9bff45c8cc76994c883ed6fac7bdda8b1dd91b8e89203cc6cd69bd7504dced",
+          "sha256": "b9ce3c9706da840ef8f2f18010674dcbdec9e74f03bb0d2eabd664e2e13a2e13"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-16.json",
+          "sample_set_hash": "e51e77118069e380d3a81489dcfa8685feb49c7a49c47abe72032f564574b707",
+          "score_record_hash": "690984ccea079b814d440d985face55bc03f392c1577cc6a16d6f495a9743b37",
+          "sha256": "eb7fdd73e033a1ac12a27924abc1c49f12028c6fb4354eb9a4370e6e5557e87d"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-17.json",
+          "sample_set_hash": "7b8baccdf13b96589dbe28e5e8074033bdabb4f45e848e0adcdc60a4103bb864",
+          "score_record_hash": "ac846840d27996c4f8f2bcabec28e63b239ffa2f54fc1eb9419d3535fd10f350",
+          "sha256": "ad6a1d072214f34cab88447fdd51c099c73b058d5cbef6c465b22aaf730205a7"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-18.json",
+          "sample_set_hash": "41786785bd71d4df6c6a2c94fc37a676e1c1dff6624bb20683a6a4dc624c25d6",
+          "score_record_hash": "8fae995008d48e306f33bf9bb4d52d0077c1be7ec5be02eb899d9e9533c0c583",
+          "sha256": "1d1cc35e6a5128b6d72a1dcd9211f9fbfeee2cce734db8112778b17b583e3f63"
+        },
+        "2026-09-21": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-21.json",
+          "sample_set_hash": "cf369345b8d2b031ece7b172c3ed00bb96902a5d86b0116b4dd003e1c0eb7770",
+          "score_record_hash": "88024009b12f303c20d7a9efe7551c14336e597fdf8cef6ed4bf96df959e5121",
+          "sha256": "0ea606976195f2b1ea0acc0bf4fbaef6cacf247640310743664d02e1173c2380"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-22.json",
+          "sample_set_hash": "1837f3e8af779acbeed6ba972401b56460b68048a7de6ac6e3a3b62c70b12581",
+          "score_record_hash": "6a67fb0bc548048a46841b6ef1ce174fdb5bb88232c98f9c6ca667e1e541f6b0",
+          "sha256": "2ed62bd3031fc15e170eab38d5bd2f549f6ed70634f58c7ad5dfce492721db9c"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-23.json",
+          "sample_set_hash": "a5ee39dc9787aef8835382ad4cb735f5f5c2bb8643eccb124a0cd4092b5fe36f",
+          "score_record_hash": "30882e5510e0e976679c4a3f12f06c590cb9209ff62c377ef14d40880f41293d",
+          "sha256": "aca196e53480287adddbc739776a5d2f2af418eda1deac33165abe80a07b543d"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-24.json",
+          "sample_set_hash": "852a01622155373e3aef42f0dea9ebb509b9d21f5e754baa00dc4e2ee9411e0e",
+          "score_record_hash": "142d18c7f1b5a5946c9ba8daf28445882ea7e70b0e34b29af7f6f5e1ab7c9ef4",
+          "sha256": "4f1167392ffa9e68a804979b7e81db9b3087c51c367a04d23a9c6fa296411d5b"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-28.json",
+          "sample_set_hash": "95c56bc4bcc781b1602639ea40c0cae8ba8d2add3906dbd79f02894041d53ce9",
+          "score_record_hash": "18ca082a3d191e7814b845e2f4e05f5b27ce6fd471661cce371a25851018dfc1",
+          "sha256": "35ef5efcbde467ed4ff7ca0673fae4abb39ba3427454e929d8de416fd5b2e49d"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-29.json",
+          "sample_set_hash": "95b956d23becda3bde3f8ba46e3ee435c0816fcd8d1fb08dc01fa0d830cf35d9",
+          "score_record_hash": "589dc4be068eb55540b9aebb8ebaf1c7d6bc3c667e09d6a792ab1ff84473f28d",
+          "sha256": "b16f741f5f3a03927bef6e584de5a93739ccea0420644dbb8428b386f83e042f"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/930955.CSI/2026-09-30.json",
+          "sample_set_hash": "bafaf096f78f019139ecb7e165c65b74253965c2238123981f0308b02dc85a93",
+          "score_record_hash": "d70ec405b604347becf29970a5bdbedba6a8fa737258c4e5cd701e83bcc273c6",
+          "sha256": "e23c5bfd2bc9dda0f96ab9ecf2d81f1b72da2a8d2eaef07efcb3f1e4948d190f"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-08.json",
+          "sample_set_hash": "8d53113a2111eaca63773bc43ffa07e3b854c36262da4d9b870c1b62699166be",
+          "score_record_hash": "988a8759b7d93bebb46cbbca6ab6bdb0cbd37fbaaa38da4de5cfc26f0342c6f4",
+          "sha256": "1f5e20832f5721629ec0f4c895ef3b252aa1e03b205b933d4d2edcd526383b8b"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-09.json",
+          "sample_set_hash": "d29d24868a2d8332df0efa9c27a6770ce07dba8e80339079db1b03fa23d10238",
+          "score_record_hash": "419b1ec41afba9692a9cf803484cd775a3c54527f0d6f514517221f591511ace",
+          "sha256": "5504648dc85b0f994ebcc22ce11a28a80164074888a3df8c4e2799fb0ae08222"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-12.json",
+          "sample_set_hash": "d15f4b69666442443ea941b3f30c5d2e301731098652460766f3d27532bf79a2",
+          "score_record_hash": "9d609bc737b4afbd5c695b009a56e05807a185ed8c4dab871eefc1fd0a71cdbf",
+          "sha256": "d5d3456f350261b3168ff1d16ba4b1e5002352c5d549d4ea1d5eb9f3a0c91930"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-13.json",
+          "sample_set_hash": "69b92f245bfa7ad057d9eae0ffe406329e5463ce90aa459ca8c7d08fd2b52020",
+          "score_record_hash": "13b444bac0f7f853d47a214817ce9a3f3760cc675b1a82246d91fa605693c128",
+          "sha256": "9ae52120ab3fdbbab59d9cd6de450b0a6713a65dc1c27c30774bf53f91055639"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-14.json",
+          "sample_set_hash": "4bb4623a165e0cd52d46140082dba2c76b4223c13a8ed8f6d7ff5d9dec03da70",
+          "score_record_hash": "36572e7e7d117d9d4d47181ce221896dbbe0ea479fda2a04fe426560e2818244",
+          "sha256": "5e9847a9c85de22b7e4d31fbdc6237db57dce054f17b0cca7d28fe52e763a5d7"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-15.json",
+          "sample_set_hash": "e1a8798692b82e79d6d649c4c06676f98c68a8c875002cad03647970e2fc22c8",
+          "score_record_hash": "f195ed99eff9dff3fafb75f9753c35da9dbd66ae71e8b285975a4aa31e69df46",
+          "sha256": "02d2d4f1fe1533248e1b5b1dc8bbda04b0baf7871a7b2f4fc707d2eb5e1878c5"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-16.json",
+          "sample_set_hash": "7e94e69235763fc363438e694d2b88c86e2200e09598ec5641bdc0b74c0028b6",
+          "score_record_hash": "6b60328684e79aa4f079e7c43e91a3325050db54ad07c63f60ac6c14285cebc2",
+          "sha256": "c58c8f595db18cd8be25330684d515dd99b56e46216b2dc726d64054fd5871b1"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/930955.CSI/2026-10-19.json",
+          "sample_set_hash": "8ba64c93d705168695916d37c97aefca2f2f85c237f13868ece87803ffd2f597",
+          "score_record_hash": "590e1abf25300067f729dd7093c7c42d4ec4157f187f3f37e1fc471b8ba5e48f",
+          "sha256": "a567df4d0f0afa11c4d655328aa693d4c22f1965665adc359d176de309dc39b4"
+        }
+      },
+      "931446.CSI": {
+        "2026-09-10": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-10.json",
+          "sample_set_hash": "7c5bf37fe27f8faebe7bf02069bd06bc459a7bf8721c155717351814b1241837",
+          "score_record_hash": "e693b49b87fdf347d18a37f91eed174b410cf88cf1d01523032c16d3d1bf3107",
+          "sha256": "72e01dc75bf98da9ec97f633434a6c7aee16d9f71f4885d51e2f01a3fba67b45"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-11.json",
+          "sample_set_hash": "846ae81b9561b0e3e24ee9d0fdbd137897ee2db7875fe8e556c894a27ee7228a",
+          "score_record_hash": "5f66e854d58715b2aca7c2f009a01f7e12937b14065d9c58e37e299de97029de",
+          "sha256": "0fa35252e1492e305dc0ce0c5b74ac80a7f656e647c1d6711c1a2b54c6de7c89"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-14.json",
+          "sample_set_hash": "82e8d9dd0ee67d42a303ba90be3f98ec76976294f06401b2039f323f0fc24316",
+          "score_record_hash": "ab8751833673d155b475a1e88051a48418f9446ea0d95bbb40aa33f2c5b6f881",
+          "sha256": "a128c7f51da638fde5afcdae41005d8502ce5230d8fdadc24edf9cd879382f2b"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-15.json",
+          "sample_set_hash": "119ad764e3144cbd113904c21bd38f303774abac801044b131a9395d375f9521",
+          "score_record_hash": "ac1cfbd2d480c1f445f0c90567bd5c155e89757ff32fb5e1f633d5e363e9406f",
+          "sha256": "ea70c55bfd6efdb30b0cdff5a4ef3abdfa346c6ebe2cf45fd8eca6bf186e1ca9"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-16.json",
+          "sample_set_hash": "f43344963a52b5dbeb2fbdbfb5a2dcb18ee8f83eb89d427da037bdaf0c1cd2ee",
+          "score_record_hash": "7883cf4c30f6c483a4223efc3de99dad4f26db84e4370a8fd4e65a9ae58f7c3c",
+          "sha256": "c5384d120e7cc7c7c8c0a2703bdb04b2b924210862061db2b81331bf0665d230"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-17.json",
+          "sample_set_hash": "e37ddf40e4d706b323d972b0fdaed5fb6e707f0667a6550599378771ec4baf0a",
+          "score_record_hash": "a803a66ef4a8316e8330c801da680a4114a73af572db9335e972f283f069a10c",
+          "sha256": "7b79340a8a4fafe3daf563be09bee0d4f52c7e2c4d8395f307ed20220b8ce82a"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-18.json",
+          "sample_set_hash": "b98b11ac1ff1fc8ddf866d9db64d6054493137ca1e32c835ae999812deecc974",
+          "score_record_hash": "d2065a4c436b1fbea7536cd520aabcd0a5a0c4a88fde1d6e681e0d09a0c7ad66",
+          "sha256": "a45e817e811c33224530de228425698d62fd874f75d49f012cb9fe9d057e1d0b"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-22.json",
+          "sample_set_hash": "b7a13cb77d9794fdb0dbf3240e01c6d5974ccb59a5c27a2803f60800f6c5e6aa",
+          "score_record_hash": "c8175d0828a8147e7a4b3c96ec33bce5293dd05f901d59f1ec87bdb2749524a8",
+          "sha256": "cbf17a1a3462822eebaf17e1c65bb03833bc26a99ca10ba057f829b71b2c4aeb"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-23.json",
+          "sample_set_hash": "e79c324f6aa1930c56dfc05f50dba827e7f12f4ca7547b9258b96115b49545f3",
+          "score_record_hash": "62c5e02983adb36ef7e2c14d714c566dc6f71b38fe9a5b58e0f840c74b381e22",
+          "sha256": "c716a5106b5dfcf2550828bad12853259c744501df9fe913725663627bfa8521"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-24.json",
+          "sample_set_hash": "39b49fdbcf419b496c9d773920f1a8c3926f7a32097986fe41e5c92f60af526e",
+          "score_record_hash": "1b4823c35cdae1072bb5abd0213242458a219e6195aa637bb2eefddc8a6bb117",
+          "sha256": "2a0e885060bacfa7790e5732d3d613606c623ffcb288f24c3fc1745623130ae5"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-28.json",
+          "sample_set_hash": "67721dd3701fde0955cbd44e00496c7fd7974bc261727a4fac4ec0c15f925005",
+          "score_record_hash": "333a84f9894a2e4af2afc39576a50a0d30c1fcae770d745079cbc205b0737c39",
+          "sha256": "9416007a94c8d54f8a593df9c66a11920f44badaf24c81fb4087ae7f3828dc91"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-29.json",
+          "sample_set_hash": "35448bb25a28e5a2480937f2ec67a8882bbd77a3de9f50ffdead3026d1ad804d",
+          "score_record_hash": "782e30a4b7b6b07d14f40a09a4dcf3e95318f76a3b76b514be593804616d683b",
+          "sha256": "cc04f4c3ab52b1c13c9b1a5366286c6725aa4ac716f3c180a7fed9fda3988792"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/931446.CSI/2026-09-30.json",
+          "sample_set_hash": "cc7e5679647795e55d6d4329dff859eeb0824183c584b87899d51bbc7f12e5f4",
+          "score_record_hash": "2c4540a09d395ffc304dcf311d394c205cdc59be17ea9d7f7a6fc985429845e7",
+          "sha256": "51c29829f65c3e0cd2c0fac432325c3437f364e3913fab6f3fad10c49600139d"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-08.json",
+          "sample_set_hash": "4644334ba806c887ea9a1a4ed20b164212d1aecd84ff23a373277b8d61502816",
+          "score_record_hash": "2a6d01b866ba6348956dd97d5b7876df6542afc18018faf12a2e3114826c8c30",
+          "sha256": "d1e206156ba05f40092604ebe44fbd98d0d31e0b7648ff3ce30307bbb243b456"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-09.json",
+          "sample_set_hash": "e1cfb3a7b9f6e8523c2703d40cbc6aa454a70b99451d33065b71ef4aa0884748",
+          "score_record_hash": "011e71efecc5bf0f094f1a79ed04ed676f3d3603552816de7e31833e7a143c1f",
+          "sha256": "0325a094d3759940c1805c3aa07b1ffee3deada853f6f881bab98310ae416192"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-12.json",
+          "sample_set_hash": "c1497c9ea09fe865671b370f307068767fe25fe3bec5768443176a6871712e74",
+          "score_record_hash": "f3c1110a3804f00a30de2182fd2669a99ec15bfd950d54f03c57e94d6d4a1355",
+          "sha256": "e9393586cf5a5d5c2c02241d0777a230cb8b1e11d48d442bbe6dc6a5be4f293a"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-13.json",
+          "sample_set_hash": "c4b82633f7509d6d0eff92c8e439612ce22eb4e05c8032a8a3cba1ee608665dc",
+          "score_record_hash": "35e02e5eb15b47cef8cddbdf86b3da38679f39b975cf7ff8d4eca7349e0ece44",
+          "sha256": "f845922a37bed1674c1a86832c7fa062cb6692a95633a43441b018b142bbf240"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-14.json",
+          "sample_set_hash": "5e11aa88927f834459cfb7f98c05a1a52fc697388e81a3390b63ded55796a87a",
+          "score_record_hash": "4de7aba48a0f9ba29cbf4cffbf372952f3637cfb5b0d77f725477d7a6bf5b554",
+          "sha256": "6f194f91e18a9748e8923174d557d55a613c0d9950b0febb31c252a6bec9ff5a"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-15.json",
+          "sample_set_hash": "d334fb2f480048b9aba32b68acfb48db75fa8480824f368e5e0f31401c81a4fb",
+          "score_record_hash": "04e43b3fe1dc8477bfd70891cecbcd6ea351bc4152c12b637ed1f4b925b76498",
+          "sha256": "24ba02207eadc2617f046c832b53f1c027fa4ea8db37077889b312c9e0e11fe4"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-16.json",
+          "sample_set_hash": "16db070920104b368fa01a570f5520f57f68e73b4ffc2de2780470b013d601b2",
+          "score_record_hash": "9e0fb90ba66c9fc09e4d84a5301be1b7e21cc9d5466174e30304f14cd92c9592",
+          "sha256": "61294bb47408d64a2b2499ebf083901723a3f2f561205ee1cd98c0c47a2e40ee"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/931446.CSI/2026-10-19.json",
+          "sample_set_hash": "859f6ea6f00875254f8b1ef12f321d4f1f81c2705fb1d748d12663470dcb7822",
+          "score_record_hash": "2cbb1550cb62dc5ebd179c13e3c191da53794c6ebad5c19ec2e3a0074af5a608",
+          "sha256": "63a5407a505c24519d8b78d8099f6402b0f2d941dd1808c62c343c2345d0d4e2"
+        }
+      },
+      "931468.CSI": {
+        "2026-09-07": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-07.json",
+          "sample_set_hash": "10c053cc741c0254212525f1f5e53d3eb9e49390c6a0b9a640cb67ea8d95de61",
+          "score_record_hash": "494c7c67c2ff0262c3a3c565ccd33d5d0d20126cb534baef0980cb7c28eee9b2",
+          "sha256": "32d9a1cb26a81add3f30da9ca714fe2e048aca4c672f0f3e0be8e833da9c23c5"
+        },
+        "2026-09-08": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-08.json",
+          "sample_set_hash": "67db31a5cb4dcff3b3765b6d7c0d0258903a8924ea9456e84a53beebf8551d2f",
+          "score_record_hash": "f5cb4cdfb9d6d648ce0353011565ab8530480c36442dc43dca76c82ff82b3d42",
+          "sha256": "e991f94b5590b3f2859d0b8c0e62aba440e40870821d340cff82b5b498609c76"
+        },
+        "2026-09-09": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-09.json",
+          "sample_set_hash": "cea998de6e091db07d3b81ada8348c5bcc20a1c927f3674d3e581ebaab901542",
+          "score_record_hash": "909e6b3f0eed28ba1298a19058a528c4fce52dfae56f826ebe6ffe0396c3c126",
+          "sha256": "b82f11699dfa05a68ddd1697f8c7fca6ede94a6b2849dff4c49c3cedcf489761"
+        },
+        "2026-09-10": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-10.json",
+          "sample_set_hash": "f5aff4096643f545822f6ce4578e831d44986e7dd64a1cef08215298b5d35013",
+          "score_record_hash": "5337fa8d8bcb9bd57ac336f2f5cd09e007c3bcbfc187a5bf3ef18ca0e76a00de",
+          "sha256": "f8f1d4bb14e2c9c4d00471ba4d6cbb9fc80edfab4556464652f5e4f3cf2a6c97"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-11.json",
+          "sample_set_hash": "672bbce16ade1a0b6b6d183ca78085536ff0f4b0cdebb274ae578e89e38c73cc",
+          "score_record_hash": "e837b7a88b27d4c33b523bb605e32a6ab60ab71d5a5a24c7f188da0811a0c050",
+          "sha256": "bca5958d5753d71f9b108804aac568b74a89cf384e72a43ee0004100f75d0196"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-14.json",
+          "sample_set_hash": "dc12c11a4c1e8ef661d826d38edc51c39afd32f44be2882f7ab3439d8293043f",
+          "score_record_hash": "732a5a853cd6d50ffac5b233773714e6292654b77c0b30819078524f855da6f4",
+          "sha256": "eae17ce75a5c360d9408a0860536c16c597ec23beb8122826ae559507769d1de"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-15.json",
+          "sample_set_hash": "392b74d81bb6faf25ff8c60ed2d9582cd740fa5ae67b011cbf361a3ad474267e",
+          "score_record_hash": "c926e395ff63bbb6d80aa704f20f10073d37a52abb1b3c73718005469fc3c7a9",
+          "sha256": "0055b3f891425072a0953cd80cd80789f6e948700ea93f2b2ac2d26767409e96"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-16.json",
+          "sample_set_hash": "03a89fe35cd525b37c9d8daa47911dcf34fed318534673e23da1572c4e194fa4",
+          "score_record_hash": "67a6f4b1228231ff7219a9cdb363697789af65969532ab793e38e40db22c3b02",
+          "sha256": "41dab54c12ee31bda442dd5412244fd42bcb83c8a166f6857fa6ecda5810c2de"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-17.json",
+          "sample_set_hash": "e7f140555ef1b35f2ebbe0ca66a3fea952154739c0901cff20591b57023603c2",
+          "score_record_hash": "0437002d4b8e28edaddc3b4d8ec1f71422a1748c04bf1983b37682b192204d88",
+          "sha256": "a48dd39e40cac4b3710cf583083a05e910b3314b1d919f2c9cf19acc50c53870"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-18.json",
+          "sample_set_hash": "759af0b32c163e5259ef5670a62169c0d6352367c5cae21129af47f32e65ee6b",
+          "score_record_hash": "afc4979e90a3c38ef127e9fd9dffefd8f15f47368d39f9c36dcb9ba65cd2f753",
+          "sha256": "16e687548c9e186a5ff30225d066f241479179c33704934b152f3bb8d13706d7"
+        },
+        "2026-09-21": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-21.json",
+          "sample_set_hash": "1dd0f97a22a06f5244509f2f3540d9700ea11aa663253e2c6cf6be1ce5b7671d",
+          "score_record_hash": "4aac341735b8b3942ea61e18e22e632e2b4310755ba572ca865170845bcd8ee1",
+          "sha256": "596869a7fba000292a77475f4b494e1c762d12856164c41b7e35c4fe16731b8e"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-22.json",
+          "sample_set_hash": "ed9027aec15c79e3c775ab29762b79e0c5d1d6c5e281f6cb35f4e33b82472a0c",
+          "score_record_hash": "ef969ee0e1e50ab7d892cc501b0d0af05a47185342918b2d71ddd17b31666392",
+          "sha256": "0263c00e7cfd195ea92d05a4b7b3db10f71dcf2a3e58f410c93b544d4c44a780"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-23.json",
+          "sample_set_hash": "d1ed753d82f05c74cc2d2f26f915496fc3e870973be3485dccebc8d689dadd0f",
+          "score_record_hash": "f322e07a03a7c45756c8b38cc785918e79d25185150b02ebf7fb2dacc7c49242",
+          "sha256": "bf1f3954788407d9af48f5407212546c1b505eb53d2e31f2bd8a4e7b2d631cd1"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-24.json",
+          "sample_set_hash": "b3c65affa85f3f97716024abceb9b9bbb80a899b760693feb99299bec1848aad",
+          "score_record_hash": "0d3f245bf0eacf8c0c959322105d3a6a4e0a1571f4c19a0761ca3a37512f2ce2",
+          "sha256": "61c9ad51b4e1fc573ed67417094877209516864250f75aef69a92d7858c527ac"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-28.json",
+          "sample_set_hash": "3774b4f7a85abc04f7a40809c25eb1fb22f177f111f7fe3edb254558aed71bf4",
+          "score_record_hash": "8f8b7ee4b0f0ccd7e5a8e71fbb4680c8af7f5c2f6a13304597479e55114d9217",
+          "sha256": "67056ae85aee1c9378db881950d3cb7a1a4fbad277e5c3858854b535d489974e"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-29.json",
+          "sample_set_hash": "8594534ca8cbc11daefba612787333b1cd1092214904b5ed82e2b15e926303d0",
+          "score_record_hash": "5eb44f5e9c4a723e8b042cbcbb2fe5df5abf7a198de5aa4bf19639032ae784cd",
+          "sha256": "92c8a17fc295d938e4c85bd1a3a8a696f4e259a6966d8001c1abc1f64e45e953"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/931468.CSI/2026-09-30.json",
+          "sample_set_hash": "7ea36d9bde02e2b45d14b82c9a47415862a4a6d17ef47cbd3014d9f2f92b20d4",
+          "score_record_hash": "78827f9adf593af8b522f045ba31547edad2dad21ee3041ffbf91b7851e28e86",
+          "sha256": "c57ffcafb96a84ab675940653c2418722f281a3929f95e63d77d17d46b3a3562"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-08.json",
+          "sample_set_hash": "8d23202e8070d99975a184e90b58459be0216240c5a07f4d94d5cbc0b67ac0fe",
+          "score_record_hash": "882271677324b008ce5f6f215d985ac60986d3822554b8aebf90bb71da63d592",
+          "sha256": "8d36e07cc0e6289d857de3518c5b4a2bd47f588664ba77641f1c931baaec7caa"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-09.json",
+          "sample_set_hash": "456d6c55f096ae3f84a75aa2a053846974dd95309361b3b8ccce2dac9fdea945",
+          "score_record_hash": "65bd4ed4bf77c9dcffe8e303bdc9f2059c1af34f34e5de50e1329fe9b2608781",
+          "sha256": "8576bc29d8596226c1b8b3fac63810b4e11b2f6a848e34513f42ce502a3303fe"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-12.json",
+          "sample_set_hash": "c790c4580ae65fb5a364ccc4228e3adbfcde6dadbb97a7d52024c8960c731422",
+          "score_record_hash": "7f773ca060178a794ab84b6308ddcc74c0b3a5110c798cf1a825b0ae4c6609a6",
+          "sha256": "d1dde852b4ca767565af802285e23254e566116b7af2c16274e4c94c043fb78e"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-13.json",
+          "sample_set_hash": "1e928c8db41bd08594a5c746cf23d44cd84c7f25358460b521a0dc84538f4d12",
+          "score_record_hash": "3af2c69169d391a7b58f6aeefc580eb216af099d4ba86c2c6e19db1c029126fa",
+          "sha256": "3c965f0cc720422298e566d2abd0308a6e8ecda1bbe4c2ea72ca92e856817180"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-14.json",
+          "sample_set_hash": "798b8287462712f580d3fc461fe816401451c198dcc3d7eb5de7f2cf1cb18794",
+          "score_record_hash": "1eb59acf8948ae328b8352af3560c2dee3bcb8704e4f884bbbda158616665916",
+          "sha256": "eb2fbc32705da9adb0074803c1676a69acfc048408f0eab29fedba18b6c9abec"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-15.json",
+          "sample_set_hash": "dc48413c12977fbd26114e6356af25ffc3ad1d74dc0f2458352c9a4bfa39c0cc",
+          "score_record_hash": "8e1bdf9dd2efdecc7ee433b47b8e125ad64a1b2056fc9406de9e1a22072f89e3",
+          "sha256": "99dfca237ba1b21e8f77ee5a14c2c5a13d1169aa1cf2d61c14c4fa78d40ac75f"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-16.json",
+          "sample_set_hash": "1230a1cccd762d6f92b7ef328e0acb62f12814ffa1588a3ab9d108121fe341cf",
+          "score_record_hash": "445bfc442c46083a8971f6f840ac509d91dfaabe34844d85c4903558f96d986d",
+          "sha256": "3201388778344f1f1a2778730ece02b25ffc7f5ccc513babee70378d6cb30cfe"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/931468.CSI/2026-10-19.json",
+          "sample_set_hash": "bad891a6dd76f2efbe333b6bbec2929eef5e0fafb993f3a07fa88ef242851b3e",
+          "score_record_hash": "71c1e1f1e69768c1533a3c3f7d2d6487d15f6b538829ddd9f8ac69eeacae0117",
+          "sha256": "6c22996804fdb3348db8b4cb0b800892cbfd35f83960d4523ade188483a78ffe"
+        }
+      },
+      "932422.CSI": {
+        "2026-09-22": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-22.json",
+          "sample_set_hash": "a64c04e027ece0f4369088b7d8de2d355b530bdf03a8f800b5162531955654e2",
+          "score_record_hash": "118ecfb25cd3815a73a4c385e0e78b58390e2b56016635c3d4b744a18942fda1",
+          "sha256": "0895e3edd7b40761c70ac0d3733221c01a572eff296132569627bb62218ed20c"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-23.json",
+          "sample_set_hash": "2721cdd14acb3b3bb6197604fdf53a5d31b8766185bc4a8771e5f60e2a01c66f",
+          "score_record_hash": "e57c451769ecff4d8a4866314d58474e54469d66acacaec0dc11367230e689bd",
+          "sha256": "07cb707a0a2dfa73fff7137bfdcc282786f0e22a1a5e5383a8c346aee4e12f8f"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-24.json",
+          "sample_set_hash": "cd71d0b1fb4e68c36f927c1f364aa933c48d6cdd6d7f70a2b8c74b1c00807091",
+          "score_record_hash": "50b1809eabbf3c21a4cc0accd2792e8fcdf8f2c8a57c565d2e6b118b16bd0b7b",
+          "sha256": "4ab59b7fbc125bfebbd2cc1a4247df6780b4b5ed16b4be6162ff2ba5903fea44"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-28.json",
+          "sample_set_hash": "58aaabe12789053de4f3eea2511215952ba2925259926aba598a205f8e5a7bcf",
+          "score_record_hash": "a663d88c80f7219181b97cd594fbe3f39a2686f366ffbfc6c55923a90c3031d9",
+          "sha256": "dd6ed1f88ba9cfa00b52390aa13a9fc40ba2cba2665d02afe24aa2895accde51"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-29.json",
+          "sample_set_hash": "434dedd4e683dbbab363e86551ce9163a0ec084994bcb4808e087af78ab59401",
+          "score_record_hash": "0d6308c1346cf44b64d8388ac0a4e232e2946dc163cb1e504fdaa02a26c649cb",
+          "sha256": "df69cd6a538d56d43581b23f6722a3ee8dc0e572725880bd82920766372a5eb3"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/932422.CSI/2026-09-30.json",
+          "sample_set_hash": "9c8f8933376c4a23daab028fce37e405a23cad1ef301cbbf7a71a19c94916030",
+          "score_record_hash": "1469f0e5de6e713e3b49eebd3fd06602787abdf1e3c1628d9511de8eb46dd87b",
+          "sha256": "6f082e0da31e3b15c3158e849ac7249e1cca89c51bed3073d5539641e59b7e46"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-08.json",
+          "sample_set_hash": "53ab8f7ddfdbeb2a923c3afb53ba9cc40fd8009b488dfb2f57d896e45879c81b",
+          "score_record_hash": "99fa9aa5c122776de8a6f5e57ae8e0473ed1131f48ba3c51d0867575b63a37ea",
+          "sha256": "cf163486f0a355045bb7e57c88dfb4cea5879c7184094f88263d76a1dfc58543"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-09.json",
+          "sample_set_hash": "82dbecd02a01d15bc01b6ce0e94f85401113b9fc892bf3f8980dca0d1e96a0fd",
+          "score_record_hash": "9d7cb5c05cada22940a0f77073da0c3298499176d239a4a8c6710583d9878986",
+          "sha256": "1a73b993f4f495b79ceb7955005ab240624d519a17bde6bea6e7bf37629911f1"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-12.json",
+          "sample_set_hash": "8cddf62fe2e08108ef0fc70ab1f4e78cd7a65d13db7095e23971c817b98da0b1",
+          "score_record_hash": "dab1770bb50aec1c90692fa6c79bb259a3c64b4e5894b4a0b4f9d476f4271f57",
+          "sha256": "8ab63428ac15263a293f4aefc81bf9669ff1fac584c417d2f65563ab3a7ef8c6"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-13.json",
+          "sample_set_hash": "e18515a7327e56d659c95f45436382e8fa699b1193681744841af2379851e49b",
+          "score_record_hash": "1579a666305a34d934ad37a52c1fe40b7b9a2daae26d00a6de0d607dd1989d07",
+          "sha256": "e7ec64613b83195b3d5e8bb09e78bd41636843f5217f6caf79ba98c4d92ec774"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-14.json",
+          "sample_set_hash": "bad90b14314326ef7e648d216ccfa78c99b7b942dce5ec868b54a23e8905c921",
+          "score_record_hash": "588b94331463c69b9209b0c2a0fa9b2bdccd0f6436a43b7c1bc4d1608f87f142",
+          "sha256": "6a3ef8100aff590dc724eae44f136a084bbe930297c34143e0a300b5bace0c0d"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-15.json",
+          "sample_set_hash": "6ea48dd20c9d6cad6999f413ef8b80dba705470427ee30dfa2e88b4d17f2ea71",
+          "score_record_hash": "7860a7b4390f73a8134320d1e01cedf7b3ac3296ee4472ac49a286c9cbda16c3",
+          "sha256": "121b8be33addb6b67dc5271ec3755aead53b4791448bbc9b2a9ae2ddbb91ca54"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-16.json",
+          "sample_set_hash": "4de0731544d73263e18f08b43a55ed8be82d7efd1f8c85ecba5855c5e09392cb",
+          "score_record_hash": "716ed26fd34da632541ce843a8d5786c48fd3a9d102626b67d070bcf16ee044a",
+          "sha256": "cb240858e3be8ed474fe547cfe4414a00bde831529eeddbaf2ae6cedff128e03"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/932422.CSI/2026-10-19.json",
+          "sample_set_hash": "ced50c5ad5aeccba7fa653202f4ba38bbfb47d1e81534ca88c51126901b82095",
+          "score_record_hash": "71bc0465c126ce1d26ed2bd9d71b863d0997899ab42396f3bf016e3d91501f95",
+          "sha256": "132fdb273c16e456059b0e00f213414e3dde48c09c214dcdf14b2318b1638475"
+        }
+      },
+      "H30269.CSI": {
+        "2026-09-07": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-07.json",
+          "sample_set_hash": "3bf659420989e1fa147aa2a0875719aa5360bd0f37a1594cd591b234193d20e8",
+          "score_record_hash": "8f2def0cb6a6ee01f7fc2a8d07e0759e59d3169b00998c85efe554497b85cd95",
+          "sha256": "384285a793099d00dbb6e791364aef16d6eb2fc8c3595aa130e9fad667a90ba1"
+        },
+        "2026-09-08": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-08.json",
+          "sample_set_hash": "991f9dd8ea29e5a32116822bb68e9ba771efa4bffe062a4e94207dbe9d510d77",
+          "score_record_hash": "2f86abfb6e8118b28946b572eb181dd624cdd303b9a056ea64a4a9b94827738d",
+          "sha256": "17ef32ccae5888187e07da0e7287466f3af818299d33147fa719b5212fe08634"
+        },
+        "2026-09-09": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-09.json",
+          "sample_set_hash": "d42d8e4192728a96b710f205f5bc32911be9bb3f292d5b70eb5471ce819c4f8e",
+          "score_record_hash": "b54f8274e0d86db4f716b042536fda1db80cc77ce1fa9f574a4597753e32e65a",
+          "sha256": "9fd12f17666979339f006a4123cc168219a5a2387fc9a09a22b5dd907faf8d36"
+        },
+        "2026-09-10": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-10.json",
+          "sample_set_hash": "f93298d54ddcc0ab09d43cf9854047c1237439457889c2eaf51ae95c2f0b08e7",
+          "score_record_hash": "368dcfcb37caf5b68e43fc37f1c888e7596d331cb83a6121b15d40fcb72c5d95",
+          "sha256": "b645b36dc0e73ac5c5b54947106c64e3d6cfd46092e7a7c383eaf0eb092c9654"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-11.json",
+          "sample_set_hash": "40f2e0972160b58518443167e27edef86db0d611e76cf29963efbaaf3ea029b2",
+          "score_record_hash": "b27366d39c8bfb69dbb62fb78b5b57d49e434f03b227580b3e1ca5bc79c0a178",
+          "sha256": "77f3257a9e71853f25041ad496d5cefd96f275106305dcf92ddc5ddde1b33fc3"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-14.json",
+          "sample_set_hash": "d7484058851121a87b457846cd2ba6d7db1b782312408945fb624df4c32392cf",
+          "score_record_hash": "6b64b987d3e0bf790b2b2f1498f93b5ad59e5e970ce99a91bd271a7b1fa72957",
+          "sha256": "95261bba8c14b4d6f941e6134663291c1e6833f82cda9d85cd7978069e16ce05"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-15.json",
+          "sample_set_hash": "3d097bf7a8ffeec0c06e1b2e495d97fdbb6645d3c947bb760393ad1b01c58d31",
+          "score_record_hash": "6b5883ad0f5961395df29ca0cf7b658e20bdf66feea0b563ac937690bbfcec99",
+          "sha256": "527754c8f165d1df2eae9c1f1c0a229bf67a59f812316d4552a0f4fe37889bea"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-16.json",
+          "sample_set_hash": "7d95e4473c3f0f0c2020a301ec04aacd855a3329e84dc3d6c6afe7bbe7b3c576",
+          "score_record_hash": "cdfedcd7a5891d8cdd803625cfa17565a1f289f97e4241cdeb59923b8a70d53b",
+          "sha256": "37c96dc6b37fbd88dc6834efecd209f16b566167556bf8c67bf629d17ea0acac"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-17.json",
+          "sample_set_hash": "5a1bcc1c613d119c2895a485db2f0f1a3349f5628ce024e9303773ea83b9d12a",
+          "score_record_hash": "b2be572048e970c17e8d311a2cbf33640a21c794fc123e8b56458342eb4b7fbf",
+          "sha256": "2ceb7581576e3d705456191ddb54dcab164362d2d2dc4eb7a21d6b93ebde3c11"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-18.json",
+          "sample_set_hash": "91881c0487e74e4317279f31f5dd2f9c0d2e3b3a182c3229e390c63fb7dabcfb",
+          "score_record_hash": "a0fa3b96ede3b2cdde5c2dec3a4271a11e6ae7536524306789ad5d1d1929afdc",
+          "sha256": "6f1f2c3798558b2587a7578b95fe4b8a278c09c93460471273328d1df8c3ba30"
+        },
+        "2026-09-21": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-21.json",
+          "sample_set_hash": "131dc9413bff2b6d34577557ddd500e6426899c19d4c8a326d37f5111654c0ee",
+          "score_record_hash": "05c5fbbc7c2d8fcc218d88614af84b139fb26dfbe4ab8c51a0a8d854be77a71c",
+          "sha256": "7c3f5a3fd381a61c92884dd99da2c80f7cd61ac405d191fe2d1bf31ffc756773"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-22.json",
+          "sample_set_hash": "9c3da2ecdf21d04aeba4b79b1ce2213206841340fb9cdb29fa544342fd2a7f11",
+          "score_record_hash": "6e3da009bebd31e0d662599578ab919c24e56e6f13fac1996a8a3d48eb828d06",
+          "sha256": "8697b9d077b6a95f494ab66dbd24000e82d860e25cd8bac4d1092dc5d69e5a33"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-23.json",
+          "sample_set_hash": "b9e0d1fdef932e375b05b0decd47c2d00786fa7b6c1cf6e8e087146cc0b2c194",
+          "score_record_hash": "781fde3205a2a12a6fe181e66ffd89bc8613864524487e1bd9c695f0c157167d",
+          "sha256": "94aa6c7b71fe1181dfa2f31ee3bc1027aa79a56a3166595ee680a91c8a1fa078"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-24.json",
+          "sample_set_hash": "4f90cc1925eed554b98e0cb75522319e4356820fcf893b569ec522bfbbb074eb",
+          "score_record_hash": "c573beb15318b730d8e1d45fe3e5e5aa0951be0726d484d958238b3c564edb3b",
+          "sha256": "49b89ae2489532faf62d32c60860ffd610142c1aaa9cd6106c73dc25c74d6396"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-28.json",
+          "sample_set_hash": "c5c2569c9acf0b1bf6b4b2508c11be899457c1271e956897d1887c58162c458a",
+          "score_record_hash": "528b45d09f0196a1680bf657470b15320b3b5d832c03d0b00b1d9d12fc0814a9",
+          "sha256": "d5e1a37c26c58065379419356ea55d540443d3f3455423eaa3a21074f69d022f"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-29.json",
+          "sample_set_hash": "de9b392d338e2d5ad13c89d723e4c199c95723951d503b4fc95f4e3b9eef9715",
+          "score_record_hash": "22f79d40ca5247d379876487db6fad4d7b582426c0784c5afaa2ed0d25b4a9c5",
+          "sha256": "75cecd107a3980aed6ffbf3ed49a23a958b239c0d2adb28f4140f2fd18e11369"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-09-30.json",
+          "sample_set_hash": "3226f548d6ee025aff25ba19a5ae7755e935892a557ce80ba0213d3841ee9e93",
+          "score_record_hash": "0611603c1314886bfc7484c90ff93a2bd8c250fd9785c25f38e8edb3df1851f1",
+          "sha256": "a44f57f27334a10d82e4baf7f161a80201cafe075cdcd0ee3ed501ec5423daf6"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-08.json",
+          "sample_set_hash": "09749f05fc81d7b9558a4c0c24cb695f154b026a63ecef1d105a3ad5339410ce",
+          "score_record_hash": "b3077862f8646e58a0909b4c755617aab4b587fb0d3ce2e392e9233d1a965921",
+          "sha256": "a633078d5310a78acef1c1213d0c5943333022477e4c1d6a453a2c5a2215502d"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-09.json",
+          "sample_set_hash": "e925830f9b210783b7eb99f7524dae61ede0828e8efde341124fc9c99cf801b2",
+          "score_record_hash": "9c3ff3bb823bd39986777c1b3d9547eadaa1e4f8654660ea9bc01a133f6556c8",
+          "sha256": "e90fb85e954a7f551796f610f937eb2eb0236753e1cef02648b205861ff472d6"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-12.json",
+          "sample_set_hash": "6b2284138ec7309fdfb7ce90c54427a89f7aa3b38dde6657246410b4ddeb36ea",
+          "score_record_hash": "5e1230fbde4176b2eee133849ab0b4edbe6f85296a9ca74320bc58ffeef7bac0",
+          "sha256": "7cc6855287808b61efec1eb8e00df85babb24863af5a2cc41b2398f43509bdcc"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-13.json",
+          "sample_set_hash": "8d3088da0c1ee4056f50d8a0ace6deaa2bc5e8c4f18e2cee614daec3cfe926d0",
+          "score_record_hash": "591c1d4af5bb40182d828deda081a27e28f9d4a95c98aed54d5c1f27a0133966",
+          "sha256": "e81c80edf3950d71eb2e9fdd5415da952004a48319b610dfe12d378b3e7a990f"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-14.json",
+          "sample_set_hash": "c2c342dd95f5797872a857e5305b6576b5f383d0b94270345f32cc9e5a7c6293",
+          "score_record_hash": "e080bf9b18960ca6e3a7ee353977d3ed91c27950c94b594ad461969b52c4c4d7",
+          "sha256": "92d2ccc8082ce750817b7c92f1029cc539cb5bb9bf6b953a92374237d6567936"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-15.json",
+          "sample_set_hash": "c1584fda77bdc0145c7b8467358c8887f8f5abe9b37c1acaa1eca37994bcbbc8",
+          "score_record_hash": "cf5b28da941706abe9a200515326c18fa3e80d1c0a512af5b9e317b11c246881",
+          "sha256": "6cd7ffca9d961fa210601b60275cfaa858d01b5b98a73837b7b5157c07ab512a"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-16.json",
+          "sample_set_hash": "29579d76f357aff3337664ee5455cc5b1a9a0d5d1005a7f532bc38709a5f0dc1",
+          "score_record_hash": "7bc5279c6520a936e8fcd1acbd5cc810dc6c23dfb0b40c8f1e342c18827d456b",
+          "sha256": "d3d2c7c91545dfc234118ebd4e02c7373bac0fa987b4ead31c4bca5ae9ae36f2"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-10-19.json",
+          "sample_set_hash": "ff2975fa2900bbe787ecddde4cc18245557664939589a3227ba4a8ef6eace1c6",
+          "score_record_hash": "982ad5aba33be853046b351769fd0f1991e3a7bc40d9e0205931bd15849890cd",
+          "sha256": "8aaca092c18f9cb0777921ef223370b57f2e9f864726e97435c7f702879cf656"
+        }
+      },
+      "H50040.CSI": {
+        "2026-09-07": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-07.json",
+          "sample_set_hash": "54020eabbd98d1df58d797af18e80ade363d6eed4bb84da2303121201bf112ab",
+          "score_record_hash": "7a6eb0168d1f3256184185e9f28c87e7e4b1b47c2802d9142fe3ef82d5382fa6",
+          "sha256": "e081679b5900c8b6866cd989c319283627712f0570a01df4753e68cd5483b14e"
+        },
+        "2026-09-08": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-08.json",
+          "sample_set_hash": "752ecc3665ee4cf8f8653757ea5530ac02ae6408cef4d3f7258363fc46023d0d",
+          "score_record_hash": "e3cde26cc0cc7326320a7e6fa9ed2e9d2d5ca272f6bec31775fcbfc936509312",
+          "sha256": "a0f37b0bec17126b9f106a0ee6a9852235ef58fc18b3f01d70f535cfc851f167"
+        },
+        "2026-09-09": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-09.json",
+          "sample_set_hash": "2accad1d1354feca9e6bd793387a1f089705a4f9c5a4ae2110a837aa40523b77",
+          "score_record_hash": "e93687ee4b742e510b496da82c70c0349a1a948a7334c0832df70e83c930b136",
+          "sha256": "51fc39ae01000ef61e0215cb83395751bf3c2af40a0fe51d9fdf3d503673967e"
+        },
+        "2026-09-10": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-10.json",
+          "sample_set_hash": "6600834577769b0d26ed4fc3e226aca36bef80ea59e21c27b1646fccacfbf4f2",
+          "score_record_hash": "4cb5d0d09d8f0412b44d1d4e914756a25dcaba6dce678e0d562b390d128c843f",
+          "sha256": "ee41d6be9985a7d61afc6f2b0459d0cb54e701ac908804e97aa52297d47c08d5"
+        },
+        "2026-09-11": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-11.json",
+          "sample_set_hash": "386535b0660bfefc10543d0ad887c43758ef7dc9204a3b04ce61d5860aed8b91",
+          "score_record_hash": "face82fc048e1ff4dc4382643fd595b6d9f6cbf6efae2eea43ed672d25e6659c",
+          "sha256": "d336cb53e691fbbdfe4c9539cdc823605d05e36dc54b44044bc0a3b934975b50"
+        },
+        "2026-09-14": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-14.json",
+          "sample_set_hash": "2f91a0c87b3780025c292b03012615d8b0bc7d1571d8b9c09801d69443b52cbc",
+          "score_record_hash": "4f7697c2e71ddfccecd8161874a3f8756201590807f43cc424c8eda1bf3bc5fc",
+          "sha256": "ac9731ca083c35d4eebde4a488ba4714de49de4e1e32c251fb8e7dd814dfd835"
+        },
+        "2026-09-15": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-15.json",
+          "sample_set_hash": "1001a62f0c5db4cf46af60c4995ff6d455059d0bdd03be463748b7c0566009eb",
+          "score_record_hash": "b8bbb3ea8ee3ef568030c46a0d0be2c9a4bb1b6fe5920d07eaefa7040a16fbf4",
+          "sha256": "181e8ef0a87738119f55f2e9b4d17fcedf9e001c9cc1376ed024769469e8a213"
+        },
+        "2026-09-16": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-16.json",
+          "sample_set_hash": "50dc22ae5dc3c9ec5152a471fbc357e0b1defe530f42f9d40e3d5ae9bbe943dd",
+          "score_record_hash": "e350dcb25dd7d545ba6c5673574279388a26fea40d6cd0dd72dfcdc87eb484e4",
+          "sha256": "bb1e8b7d2d82ba6aef28207cef64bc56225e80a47e17bb142a6bf910c35a58a2"
+        },
+        "2026-09-17": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-17.json",
+          "sample_set_hash": "5dbee3c474cf45ffa3840baa19b8b55e06aa9a184117c024cd22476f950e13b0",
+          "score_record_hash": "486771a3e6278b7228c2af80d002ba9e8d22688e2c558ac25cb5936785abf2f9",
+          "sha256": "dce540370d36189db0b4025afa4442d76b4895dcb1364056d667c2d528a1fd8e"
+        },
+        "2026-09-18": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-18.json",
+          "sample_set_hash": "98201429eef739fe81d652908ea194262d1f33266c1b207eae7ad28c4c5e01be",
+          "score_record_hash": "4723258334625a490330648f9a944bde0d2a78bb29a48f8b9697ecb74230cd1f",
+          "sha256": "3b4000faf469def8f7f688e0dac2dfeed51e6aad5233400adc403f8ce1513ba5"
+        },
+        "2026-09-21": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-21.json",
+          "sample_set_hash": "5cbd0f70216a344049b96b69660e42ff44b57b061109e47436410f277800aa6d",
+          "score_record_hash": "742e422d8908725508f264432bd0cd8c5dd0754eb0cc6f54aa38e12b5f7af212",
+          "sha256": "39095e075f69590814262d4af4aeac3632583ab09b031f98fa61bdd8179ce00e"
+        },
+        "2026-09-22": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-22.json",
+          "sample_set_hash": "3befa3387057e81eab6333ba1f7da4413c13e185363b4265ab154af591d0b800",
+          "score_record_hash": "9865a17849e9226a488322ad05e03a489d18cfbb70553e3befb7761fb70168ca",
+          "sha256": "f01c95f5789dca67a2668745ed8685696349e696f6990a7ad697a3f575298165"
+        },
+        "2026-09-23": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-23.json",
+          "sample_set_hash": "eeb750aa6a8c3f4a92b6dbe3f8869cddc6977ca33181f227d148a6efbb95b8d4",
+          "score_record_hash": "f2359379aeed6cbe295f39d5a7a69016b59af4cd955a1eef88d0d701bdb94655",
+          "sha256": "13d5c3db37510012c8ee0441091e143e09134c5660a29dd983f9c3be4eeb054d"
+        },
+        "2026-09-24": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-24.json",
+          "sample_set_hash": "3277596ca1c56ad47ad1e2538be020bf75ccc6ef2251d0e3771f7f8a548aef25",
+          "score_record_hash": "86c3f2362ef5f4467991aa21ad0baf59ac0f877635bf1513b9102bf9a2dc6559",
+          "sha256": "92c253212787e94651c6ae4406ae38c67f6a6168f5fc6c50319a4db91c128ded"
+        },
+        "2026-09-28": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-28.json",
+          "sample_set_hash": "3357c17fc614e86828166d7666b3984b4c0e188685ed587da278300873ae12aa",
+          "score_record_hash": "55df6289f35847ac6d1a786657850484dc683810c45421d985f8af1fd53d8eca",
+          "sha256": "9b859475585a559f63e104e025cc6e3f61b8bf8895f1cecbd26546694c3a86cf"
+        },
+        "2026-09-29": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-29.json",
+          "sample_set_hash": "8e1693390cbecf45815aa7c5be5d2bcf4ce1d578a184ebf54a0d2e956dadc693",
+          "score_record_hash": "d0d018498c8582decf853930a16c1c593d92a3ebce97553775a211011881bfb0",
+          "sha256": "6dee3cc0d0602fa30532f978dd64ab576961cd9191c6b65f4f0d2269d3fcf23e"
+        },
+        "2026-09-30": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-09-30.json",
+          "sample_set_hash": "7ff1de5f2f289dcc89929446364c2993e805c96608c4e3d467bd5c9c826a7a97",
+          "score_record_hash": "a2d6031b24bc2f7e1d0e9d18f3a6281806f5c7e6d171088c441c560e3b80617d",
+          "sha256": "765e081b64327d29db09b2caa6112200a34bd86e4e44440c24ae0445c202abe2"
+        },
+        "2026-10-08": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-08.json",
+          "sample_set_hash": "49e68f4124938297332dcd5e637fa93a2510deee9a45a4820c8d8cd0d9e76f7d",
+          "score_record_hash": "31a6e1d5a80d850980409ea4e6dc025b9a858ef6504f07194dbf088faf79eaf6",
+          "sha256": "b9921d2c52b1dda06c8f4e96b196d5a5d3fa73004ef3cc39a3ab2758b96c7ac5"
+        },
+        "2026-10-09": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-09.json",
+          "sample_set_hash": "30e1ce4b40923791d6104bd99f59d4cb6d0296c85e4eff91e7cdd349058128ba",
+          "score_record_hash": "84c3cb7f0b56cb0b60b85014fe8c16b6c3832c1affeeb986c90553b6541aafc5",
+          "sha256": "ce9b96866b5ff540559b5fe6a062ddbb2e005c8050ef6154d2a248bf5f380792"
+        },
+        "2026-10-12": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-12.json",
+          "sample_set_hash": "0b6a899e1e9a9259ecc88abd58da36fe1895aaab13ca348c5a47590e57793d33",
+          "score_record_hash": "d619bd7971e287fd2027a8827dd3bfffc0e8acae213133b817ca06e406b1d763",
+          "sha256": "5e193601b48e6fde6bb88362821b06dee19e603302ca2d405dceb6fa36f52237"
+        },
+        "2026-10-13": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-13.json",
+          "sample_set_hash": "5f25ef218cee679105ea2d69844c4db75cc2aa3427aab5ac1e17c4dd7a623a45",
+          "score_record_hash": "daefd8471c54b43917a5a73a6eb1e6bd71d0a80553c834bca7563242ce955828",
+          "sha256": "b34ea1dfe504fd989d759f3e7163bcb4a073a8f6fcf033344189a0869f547a0a"
+        },
+        "2026-10-14": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-14.json",
+          "sample_set_hash": "ed24b8de42a9bae418bfc178a79c505a297fea426d872baf0219e9bf7c78f7bc",
+          "score_record_hash": "73507eadbf206995599b2fbf8feab8014a07fb6be59c4dc8d1666f49da82bb9f",
+          "sha256": "221f8058e93dd167b9677b5678f4ca1d665bbc6b336455de45d088026a6cf9ca"
+        },
+        "2026-10-15": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-15.json",
+          "sample_set_hash": "b096593a3516f2d1ec56137f141ab476af6c1e67a6ca2e66678c4f5fd7c8951b",
+          "score_record_hash": "bd6ac260e2d025e15cd1f7f8da93569579f577f0f42c405bfe5fc09b1849d22a",
+          "sha256": "81a263a7ea0b2e4203990bf4cf37d7722a3d67cc34cabea50f03495f37dca101"
+        },
+        "2026-10-16": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-16.json",
+          "sample_set_hash": "d36435acc18324d7fb7d33fc854ad6fe71611574dfe0f108f51f322f8a1df5aa",
+          "score_record_hash": "2ebfdd7eb811648f9b79e45088aa3cfc4ec7b7134be48da6fe4c2ff4a6725cac",
+          "sha256": "913d126396cd1ed883ff1042024bc939fd4de5a97cc2c7200111b987fd9c93c3"
+        },
+        "2026-10-19": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-10-19.json",
+          "sample_set_hash": "3a9961535b37f27114ab61bd92cd8db2237421b94e5a49a5c2f8d29044b99f8e",
+          "score_record_hash": "93ca5356b6929a8cbbfb3fd2eff608c5aa92ed88fa449d1a0b6cc3b4bd18b9bb",
+          "sha256": "489d5e27e4c7a1ab643e9ac76d236bcff941ae38edec75cdf20aea7f283b4d67"
+        }
+      }
+    },
+    "public_asset_size_bytes": 220296,
+    "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V1",
+    "status": "AVAILABLE"
+  },
   "section_11_summary": {
     "column_count": 15,
     "default_model": "V6_SCORE_MODEL_V4",
@@ -370,14 +1612,14 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "8b96e3bdac551f792fda",
-    "published_at": "2026-10-19T19:52:30+08:00",
-    "source_hash": "8b96e3bdac551f792fda306761706dc42081b8739e0a59d4fae7020e1a0172e7",
-    "static_source_hash": "23a4829764b9736ea329be0d60dab9284064985487fd57ebe061cc55eba48c08"
+    "build_id": "eb6db9314c446a7860d1",
+    "published_at": "2026-10-19T22:00:32+08:00",
+    "source_hash": "eb6db9314c446a7860d1a797e42fcaf06f398911847bb83ab4a3da07fdea7194",
+    "static_source_hash": "0c98369410f0642f957b8903fb3c44a7da0b1470a099d03cc6fa79031330dd42"
   },
   "source_hashes": {
-    "site_source_hash": "8b96e3bdac551f792fda306761706dc42081b8739e0a59d4fae7020e1a0172e7",
-    "site_static_source_hash": "23a4829764b9736ea329be0d60dab9284064985487fd57ebe061cc55eba48c08",
+    "site_source_hash": "eb6db9314c446a7860d1a797e42fcaf06f398911847bb83ab4a3da07fdea7194",
+    "site_static_source_hash": "0c98369410f0642f957b8903fb3c44a7da0b1470a099d03cc6fa79031330dd42",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "7e3485d8ba90e880e8fb6e448f2ed90a7221c3066294819f65c12f816b22b60e"
   },
