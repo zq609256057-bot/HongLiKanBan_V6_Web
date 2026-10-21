@@ -1,0 +1,26 @@
+{
+  "admission_contract_id": "V6_V4_WITNESSED_PRODUCTION_SCORES_ONLY_V1",
+  "all_scores_equal": false,
+  "display_percentile": "96.15",
+  "display_score_fingerprint": "361bd2783188362277a5d51509b81191210c560d04b8e54982ffacebbe2ff088",
+  "equal_count": 1,
+  "exact_percentile_ratio": {
+    "denominator": 26,
+    "numerator": 2500
+  },
+  "index_code": "931468.CSI",
+  "less_count": 25,
+  "model_contract_id": "V6_SCORE_MODEL_V4_SCORE_CONTRACT",
+  "normalized_rank_percentile": "96.1538461538461538461538461538461538461538461538461538461538461538461538461538461538461538461538461538461538461538461538",
+  "percentile_contract_id": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V1",
+  "rounding": "ROUND_HALF_UP",
+  "sample_count": 27,
+  "sample_end_date": "2026-10-21",
+  "sample_set_hash": "bdce4da9c708fe9b9e6ea1408bcde39bb557e2fdc590961ad6abb52a20f7a66b",
+  "sample_start_date": "2026-09-07",
+  "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V1",
+  "score_date": "2026-10-21",
+  "score_record_hash": "8469b7b12d2c0a63c55762e359d9238dc2b3cac0308637f342e6294843a6430d",
+  "source_model": "V6_SCORE_MODEL_V4",
+  "status": "VALID_LOW_SAMPLE"
+}
