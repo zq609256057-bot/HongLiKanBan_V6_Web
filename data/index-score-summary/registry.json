@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-10-21T16:21:45+08:00",
+  "generated_at": "2026-10-21T16:52:44+08:00",
   "index_count": 8,
   "indices": [
     {
@@ -18603,15 +18603,16 @@
             "2026-10-15",
             "2026-10-16",
             "2026-10-19",
-            "2026-10-20"
+            "2026-10-20",
+            "2026-10-21"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 5037,
+          "date_count": 5038,
           "first_date": "2006-01-20",
           "index_code": "000015.SH",
-          "latest_date": "2026-10-20",
-          "latest_successful_target_date": "2026-10-20",
+          "latest_date": "2026-10-21",
+          "latest_successful_target_date": "2026-10-21",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
