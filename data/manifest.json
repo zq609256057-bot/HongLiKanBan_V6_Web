@@ -245,7 +245,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "b92fefeda0f3b2257085",
-  "generated_at": "2026-10-22T16:29:17+08:00",
+  "generated_at": "2026-10-22T17:02:55+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "0abca5e5c213f736eaca100d6f39cdf1e345e32435eb08f118d545fbabe2ca29",
@@ -275,7 +275,7 @@
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "RETIRED_READ_ONLY",
-    "V6_SCORE_MODEL_V4": "READY"
+    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -315,15 +315,15 @@
       "score_domain_latest_date": "2026-10-22",
       "score_domain_status": "SCORING_SUCCESS",
       "source_hash": "bca07c3e7e6dbeb0b6036f6b57d95eb562850fa98c62f8f5ed0a6fd5b80e84a3",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     }
   },
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
     "build_id": "d68c779a86a1abf8dbcd",
-    "bundle_hash": "b4d7bb7fd4604fa4ca1f46692b90da76b150187d288922ade515e4050436f4bd",
+    "bundle_hash": "2b95135a633dc9e6b25ffc3f5de5cbf24f830fc1b4c146b69bc2b38117f0670d",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -332,8 +332,8 @@
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-10-22",
     "projection_data_date": "2026-10-22",
-    "projection_manifest_hash": "cd6bf79e3a984af69796a61400ece9f158b7d3338d0dc8da43e35cc27ba74133",
-    "projection_manifest_source_hash": "0e0b5dadd04e664c3cc362979989a5c83b650cacc95818178daf8585d1433b45",
+    "projection_manifest_hash": "e480f4512f8193c963ed4fc02b65d9f0673783b01ab8e191af82ad9bee8d72ea",
+    "projection_manifest_source_hash": "e9fa20982d6cd0d8841256bac3829db929af298faa50587cde887749933518ea",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -346,7 +346,7 @@
     },
     "score_domain_latest_date": "2026-10-22",
     "score_engine_invocation_count": 0,
-    "source_hash": "0c88b76dfdc0ea2095136825267c34053e3062b1d31e0a1ac77e429f13aa4b87",
+    "source_hash": "91d7fc8253706a7b5fe341fb5a86ccb1a1a2b999890e100149c125d94845ef73",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -2882,7 +2882,7 @@
   },
   "site": {
     "build_id": "d68c779a86a1abf8dbcd",
-    "published_at": "2026-10-22T16:29:17+08:00",
+    "published_at": "2026-10-22T17:02:55+08:00",
     "source_hash": "d68c779a86a1abf8dbcd7aea7e89f60d9e32a1041b0f97bbd674fa66eb1cd018",
     "static_source_hash": "768e8f17190c2127d2c55834c8244ea548bc7ab03e960400327f1ccb82279f2c"
   },
@@ -2894,9 +2894,8 @@
   },
   "target_date": "2026-10-22",
   "unchanged_models": [
+    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": [
-    "V6_SCORE_MODEL_V4"
-  ]
+  "updated_models": []
 }
