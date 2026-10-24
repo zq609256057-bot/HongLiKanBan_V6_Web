@@ -7070,7 +7070,7 @@
     "status": "PASS"
   },
   "frontend_contract_id": "V6_FRONTEND_IMPLEMENTATION_CONTRACT_V4",
-  "generated_at": "2026-10-23T21:13:39+08:00",
+  "generated_at": "2026-10-24T23:27:05+08:00",
   "has_historical_gap": false,
   "history_as_of_date": "2026-10-23",
   "history_backtest": {
@@ -41962,7 +41962,7 @@
   "missing_dates": [],
   "model_id": "V6_SCORE_MODEL_V4",
   "overall_status": "LIMITED_COVERAGE",
-  "payload_hash": "94eb4b294552d4cc3f350c0643a9f4ff548a237cce4a782a06f86235c01c7856",
+  "payload_hash": "9e0617a4c74be0ce92cfc47f026f0115340411c61b72ff00d5e4cb4f9d4cd9a2",
   "payload_schema_version": "V6_FRONTEND_PAYLOAD_V6",
   "production_last_updated_at": "2026-10-23T16:16:14+08:00",
   "production_migrated_at": "2026-08-23T10:50:18+08:00",
@@ -88187,7 +88187,7 @@
     "model_role": "PRODUCTION",
     "model_status": "ACTIVE",
     "model_view_id": "V6_SCORE_MODEL_V4_VIEW_PAYLOAD",
-    "payload_hash": "5551b75771187c9f5e9424a9dd532638be9ce86d63ba38a753a279f346ea8dfa",
+    "payload_hash": "85f0a7f751701817b058cf96c3a8385e3fc1fc761b432fcd0e1c0d98d34b0374",
     "payload_id": "V6_MODEL_VIEW_PAYLOAD_V1",
     "payload_version": "V1",
     "production_activated_at": "2026-08-23T10:50:18+08:00",
@@ -88500,7 +88500,7 @@
       "model_id": "V6_SCORE_MODEL_V4",
       "threshold_version": "V6_SCORE_MODEL_V4_THRESHOLD_VALIDATION",
       "total_return_research": {
-        "asset_hash": "1474e37d1f84492f63003354ac5fc2dc5b50bc584dec6f0b1ee56a8002254ae9",
+        "asset_hash": "1ced61a29eb3193ed234e359fcad352890ea13179f8efd031188c8551c00fcb2",
         "by_index": {
           "000922.SH": {
             "automatic_check_status": "CURRENT",
@@ -88533,8 +88533,8 @@
             "new_completed_samples": 0,
             "normal_close_dataset_hash": "3c3833c82c3c5f199c6fee6472095e93b90f147b3d65d7759d1e02885c9e42a8",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-23T21:13:39+08:00",
-            "published_asset_hash": "03d12272a95a8ed34fd025bed68e2c878878bea9975b6ffcdc1481aba17829b8",
+            "publication_asset_generated_at": "2026-10-24T23:27:05+08:00",
+            "published_asset_hash": "db572745e0b62a66431279720f97e5f778dd3766665c85f6caf3677ac57ae269",
             "r_cp_crosscheck_count": 6,
             "research_cutoff": "2026-10-23",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
@@ -88693,8 +88693,8 @@
             "new_completed_samples": 0,
             "normal_close_dataset_hash": "34999f68d68530b8a0fa45d2ec4dfd7ecfce67fff9f57080a21fda86d003f4b5",
             "open_price_used": false,
-            "publication_asset_generated_at": "2026-10-23T21:13:39+08:00",
-            "published_asset_hash": "730d05276d81d0e83cb3e024b757ab1ef0727db723c292579939f76f4b8d1918",
+            "publication_asset_generated_at": "2026-10-24T23:27:05+08:00",
+            "published_asset_hash": "fc3dc5a188e28cd48704e00a77b4e04894840877c70cfe2d9e15c86c91ec8974",
             "r_cp_crosscheck_count": 4,
             "research_cutoff": "2026-10-23",
             "research_domain": "V6_SCORE_MODEL_V4_TOTAL_RETURN_DAILY_RESEARCH_V3",
