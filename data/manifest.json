@@ -2,7 +2,7 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "b1fbe8256d801c585a7a",
+  "build_id": "d0c5ab1ead0674ad2c57",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-10-26",
@@ -245,7 +245,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "8d5d2962db38517d846e",
-  "generated_at": "2026-10-26T16:24:05+08:00",
+  "generated_at": "2026-10-26T20:37:54+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "4092ca7f13d5927802d7be29dcf3efa492f2abfa15995f57912d0208e80d05e7",
@@ -275,7 +275,7 @@
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "RETIRED_READ_ONLY",
-    "V6_SCORE_MODEL_V4": "READY"
+    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -286,7 +286,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "b1fbe8256d801c585a7a",
+      "latest_published_build_id": "d0c5ab1ead0674ad2c57",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -307,7 +307,7 @@
       "full_domain_projection_date": "2026-10-26",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-10-26",
-      "latest_published_build_id": "b1fbe8256d801c585a7a",
+      "latest_published_build_id": "d0c5ab1ead0674ad2c57",
       "latest_published_date": "2026-10-26",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -315,15 +315,15 @@
       "score_domain_latest_date": "2026-10-26",
       "score_domain_status": "SCORING_SUCCESS",
       "source_hash": "892b3877afc0ee2cb9baa0ab6804eb8dcc8ec797fe5c5391659c1de818bf9496",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     }
   },
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "b1fbe8256d801c585a7a",
-    "bundle_hash": "61e82881657e5c3d8706450eed39158fbe678e106bdb15dae12d33aac4512b08",
+    "build_id": "d0c5ab1ead0674ad2c57",
+    "bundle_hash": "87fe9657652f9908f9fe4c81bd2d17dee8bcb0006408502df944adf7c190e0ba",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -332,8 +332,8 @@
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-10-26",
     "projection_data_date": "2026-10-26",
-    "projection_manifest_hash": "dce67f3682d9535f0425990fe54351b7b476aa92056b8f64cb59f6ee10079f66",
-    "projection_manifest_source_hash": "4f0ac970d677b8bcddd935415164ec6b9634aca63440d1f245319396b0b327c0",
+    "projection_manifest_hash": "6a03f9e93c30f451a42f3123d2eb207e8d894caad767a2371484f835d1acb163",
+    "projection_manifest_source_hash": "5d89651db79d598b93c38321397138de071e905dfadf21903ac66f6999d305fb",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -346,7 +346,7 @@
     },
     "score_domain_latest_date": "2026-10-26",
     "score_engine_invocation_count": 0,
-    "source_hash": "c72343e3045b272bd61dfa0dae70ba67e0a922562991c6565edaccf17992c691",
+    "source_hash": "a989794e4f868c1d7203d7f221268d79d07109c9ec786ceb7dc68c64c3a36fa6",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -360,7 +360,7 @@
   "score_dimension_percentile": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "b1fbe8256d801c585a7a",
+    "build_id": "d0c5ab1ead0674ad2c57",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
@@ -2406,7 +2406,7 @@
   "score_percentile_v2": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "b1fbe8256d801c585a7a",
+    "build_id": "d0c5ab1ead0674ad2c57",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
@@ -2977,22 +2977,21 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "b1fbe8256d801c585a7a",
-    "published_at": "2026-10-26T16:24:05+08:00",
-    "source_hash": "b1fbe8256d801c585a7ae8e6766d251e6eafbe5d2d6234769ea51be465a2b174",
-    "static_source_hash": "6bbba2139eb1f02b8f5a740118bf1654e38675be902d8efa44c9c43a772f1c35"
+    "build_id": "d0c5ab1ead0674ad2c57",
+    "published_at": "2026-10-26T20:37:54+08:00",
+    "source_hash": "d0c5ab1ead0674ad2c579fa34450409d91898246c0b6cc45719d852746f0afeb",
+    "static_source_hash": "db6d3b1ed4e9d5ec25fc0a952543bf4a3d35e62809d7cf8e2cbe18e0d2eea2db"
   },
   "source_hashes": {
-    "site_source_hash": "b1fbe8256d801c585a7ae8e6766d251e6eafbe5d2d6234769ea51be465a2b174",
-    "site_static_source_hash": "6bbba2139eb1f02b8f5a740118bf1654e38675be902d8efa44c9c43a772f1c35",
+    "site_source_hash": "d0c5ab1ead0674ad2c579fa34450409d91898246c0b6cc45719d852746f0afeb",
+    "site_static_source_hash": "db6d3b1ed4e9d5ec25fc0a952543bf4a3d35e62809d7cf8e2cbe18e0d2eea2db",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "892b3877afc0ee2cb9baa0ab6804eb8dcc8ec797fe5c5391659c1de818bf9496"
   },
   "target_date": "2026-10-26",
   "unchanged_models": [
+    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": [
-    "V6_SCORE_MODEL_V4"
-  ]
+  "updated_models": []
 }
