@@ -1,6 +1,6 @@
 {
-  "addon_hash": "5e631f6a2203de631e1276b35814f3479ab6d4cf2c4eea84fb8d4a6547250629",
-  "generated_at": "2026-10-26T16:18:15+08:00",
+  "addon_hash": "f33d80758ffcd24d7b2057ce2a60d7fc78b0eeba7dffb275a44aae7e4cc0f594",
+  "generated_at": "2026-10-27T16:13:00+08:00",
   "index": {
     "base_date": "2005-12-30",
     "base_point": 1000,
@@ -924,10 +924,10 @@
         "provider_error_class": "PERMISSION_DENIED",
         "transport_failure_class": null
       },
-      "expected_latest_trading_date": "2026-10-26",
+      "expected_latest_trading_date": "2026-10-27",
       "external_blocker": null,
       "failure_reason": "权限受限",
-      "fragment_hash": "84c1f83623744b92edbc63904dd5f3b9bbf57d073d5ef6d423386b1ede653c6e",
+      "fragment_hash": "5b3ab2293cb8c6eba8a8a463a8bcebf7c379d7a81b5772fb58476d783e7cacfe",
       "fragment_id": "V6_H50040_MODEL_FRAGMENT_V1",
       "freshness": "STALE",
       "future_data_used": false,
@@ -40044,7 +40044,7 @@
       "market_area": "CN",
       "market_freshness_status": "PROVIDER_PENDING",
       "model_id": "V6_SCORE_MODEL_Tushare",
-      "pending_target_date": "2026-10-26",
+      "pending_target_date": "2026-10-27",
       "provider_pending": true,
       "provider_retry": null,
       "schedule_group": "V6_16_10_STANDARD_GROUP",
@@ -79623,16 +79623,22 @@
         "status": "ELIGIBLE"
       },
       "endpoint_health": {
-        "alert_status": "NONE",
+        "alert_status": "RETRY_SCHEDULED",
         "attention_required": false,
-        "failure_class": "READY"
+        "endpoint": "UNSPECIFIED",
+        "escalation_reason": null,
+        "failure_class": "TARGET_NOT_PUBLISHED",
+        "http_status": null,
+        "next_action": "WAIT_FOR_BOUNDED_RETRY",
+        "provider_error_class": "TARGET_NOT_PUBLISHED",
+        "transport_failure_class": null
       },
-      "expected_latest_trading_date": "2026-10-26",
+      "expected_latest_trading_date": "2026-10-27",
       "external_blocker": null,
-      "failure_reason": null,
-      "fragment_hash": "0e923aa4b568c78559e5c03e5d38486fd22ef986a1bbc0728d52091fbd2904d2",
+      "failure_reason": "数据源暂未更新",
+      "fragment_hash": "e0e8cd17a5cb429c264bbb94da7610c00659e63395eb2902cd9459d7927ab382",
       "fragment_id": "V6_H50040_MODEL_FRAGMENT_V1",
-      "freshness": "CURRENT",
+      "freshness": "STALE",
       "future_data_used": false,
       "generated_at": "2026-10-26T16:18:15+08:00",
       "history": {
@@ -119011,10 +119017,10 @@
       "index_code": "H50040.CSI",
       "latest_successful_target_date": "2026-10-26",
       "market_area": "CN",
-      "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
+      "market_freshness_status": "PROVIDER_PENDING",
       "model_id": "V6_SCORE_MODEL_V4",
-      "pending_target_date": null,
-      "provider_pending": false,
+      "pending_target_date": "2026-10-27",
+      "provider_pending": true,
       "provider_retry": null,
       "schedule_group": "V6_16_10_STANDARD_GROUP",
       "score_series": {
@@ -158425,7 +158431,7 @@
         }
       },
       "source_fragment_hash": "532b3939469c734131352bf5e91e0f3e41122f00dcbfcec8a2aefd00ff72b0a3",
-      "status": "ACTIVE",
+      "status": "STALE_LAST_KNOWN_GOOD",
       "trigger_type": "scheduled"
     }
   },
