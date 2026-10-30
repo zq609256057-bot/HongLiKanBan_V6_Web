@@ -3,7 +3,7 @@
   "cross_model_fallback": false,
   "default_model": "V6_SCORE_MODEL_V4",
   "future_data_used": false,
-  "generated_at": "2026-10-29T22:45:30+08:00",
+  "generated_at": "2026-10-30T16:25:18+08:00",
   "index_count": 8,
   "indices": [
     {
@@ -3988,14 +3988,15 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 3976,
+          "date_count": 3977,
           "first_date": "2009-06-05",
           "index_code": "000922.SH",
-          "latest_date": "2026-10-29",
+          "latest_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -5398,14 +5399,15 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1389,
+          "date_count": 1390,
           "first_date": "2021-02-01",
           "index_code": "930955.CSI",
-          "latest_date": "2026-10-29",
+          "latest_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -6515,15 +6517,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1096,
+          "date_count": 1097,
           "first_date": "2022-04-21",
           "index_code": "931468.CSI",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -6562,15 +6565,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 25,
+          "date_count": 26,
           "first_date": "2026-09-17",
           "index_code": "932422.CSI",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -9434,15 +9438,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2850,
+          "date_count": 2851,
           "first_date": "2014-12-29",
           "index_code": "H30269.CSI",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -12270,15 +12275,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 2814,
+          "date_count": 2815,
           "first_date": "2015-04-01",
           "index_code": "H50040.CSI",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -13586,15 +13592,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 1294,
+          "date_count": 1295,
           "first_date": "2021-06-28",
           "index_code": "931446.CSI",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -18652,15 +18659,16 @@
             "2026-10-26",
             "2026-10-27",
             "2026-10-28",
-            "2026-10-29"
+            "2026-10-29",
+            "2026-10-30"
           ],
           "current_blocker_reason": null,
           "current_status": "ACTIVE",
-          "date_count": 5044,
+          "date_count": 5045,
           "first_date": "2006-01-20",
           "index_code": "000015.SH",
-          "latest_date": "2026-10-29",
-          "latest_successful_target_date": "2026-10-29",
+          "latest_date": "2026-10-30",
+          "latest_successful_target_date": "2026-10-30",
           "model_id": "V6_SCORE_MODEL_V4"
         }
       },
@@ -18670,7 +18678,7 @@
     }
   ],
   "latest_date_by_model": {
-    "V6_SCORE_MODEL_V4": "2026-10-29"
+    "V6_SCORE_MODEL_V4": "2026-10-30"
   },
   "models": [
     "V6_SCORE_MODEL_V4"
@@ -23724,6 +23732,7 @@
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ]
 }
