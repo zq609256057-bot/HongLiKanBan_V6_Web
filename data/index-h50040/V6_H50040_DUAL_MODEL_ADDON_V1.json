@@ -1,5 +1,5 @@
 {
-  "addon_hash": "38a7b761b0284f1d72a69c3e0236a4db0789ef1a383dcc62ff3ea61c4c73ddd6",
+  "addon_hash": "b4b881a409b4eabb2fa12f974771d9db5fc30c244ab0442f76ad40d6049eebfc",
   "generated_at": "2026-11-02T16:16:26+08:00",
   "index": {
     "base_date": "2005-12-30",
@@ -250,7 +250,7 @@
       "reason_code": null,
       "score": "5.820075505470144917173634011358809219740088036032671828912541893071962704285601095891956485857368059",
       "score_maximum": 8,
-      "sma120": "11629.35358333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+      "sma120": null,
       "sma250": "11708.2468",
       "sma60": "11354.24466666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
       "source": "EXTERNAL_DATA_API",
@@ -158570,6 +158570,27 @@
     }
   },
   "payload_id": "V6_H50040_DUAL_MODEL_ADDON_V1",
+  "price_ma_display": {
+    "first_date": "2025-10-22",
+    "future_data_used": false,
+    "index_code": "H50040.CSI",
+    "last_date": "2026-11-02",
+    "model_id": "V6_SCORE_MODEL_V4",
+    "observation_count": 250,
+    "price_basis": "NORMAL_INDEX_POINTS",
+    "price_series_sha256": "03a2c1beb98d8bb9067cb132f86162c7445063f5fe5f343908c06afd5e617b5e",
+    "publication_blocked": false,
+    "reason_code": null,
+    "score_affected": false,
+    "score_recalculation_performed": false,
+    "sma120": "10793.90433333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "sma250": "10981.88652",
+    "sma60": "10852.59883333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "source_score_hash": "03edc1444ffa700e1a9f37fa0cd4e1d3daa82c6b36e3876a2256bc3b7d43bd15",
+    "source_score_hash_field": "asset_hash",
+    "status": "VERIFIED",
+    "target_date": "2026-11-02"
+  },
   "schedule": {
     "catch_up_supported": true,
     "final_eod_stability_gate": false,
