@@ -2,12 +2,12 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "ad18e460c78ce73eadb1",
+  "build_id": "959ae7a81e25d330645c",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
-    "latest_score_date": "2026-11-02",
+    "latest_score_date": "2026-11-03",
     "legacy_scaffold_generation_time": null,
-    "production_generation_time": "2026-11-02T16:16:03+08:00",
+    "production_generation_time": "2026-11-03T16:15:48+08:00",
     "refresh_chain": "V4_SCORE_RECEIPT_TO_PUBLICATION_GATEWAY_TO_PAGES",
     "refresh_required": false,
     "source": "DERIVED_COMPATIBILITY_LATEST"
@@ -15,268 +15,220 @@
   "cell_status": {
     "000015.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "000015.SH",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "000922.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "000922.SH",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "930955.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "930955.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "931446.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "931446.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "931468.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "931468.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "932422.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "first_eligible_date": "2026-09-17",
-          "previous_blocker": "EXTERNAL_DATA_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_278;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
+          "previous_blocker": "EXTERNAL_DATA_932422_FULL_OHLCV_WARMUP_INSUFFICIENT:AVAILABLE_COMPLETE_BARS_279;REQUIRED_PRICE_MA_BARS_250;REQUIRED_PRICE_POSITION_BARS_252;PRE_2025_09_04_PROVIDER_ROWS_LACK_OPEN_HIGH_LOW;NO_SYNTHETIC_OR_CROSS_MODEL_BACKFILL",
           "status": "ELIGIBLE_AUTO_RELEASED"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "932422.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "H30269.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "H30269.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "H50040.CSI": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-02",
+        "actual_latest_score_date": "2026-11-03",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-03",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "H50040.CSI",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-03",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     }
   },
@@ -293,37 +245,37 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "71b61872586e3bba1b1c",
-  "generated_at": "2026-11-03T16:11:18+08:00",
+  "generated_at": "2026-11-03T16:31:16+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
-    "active_reconciliation_manifest_hash": "91d392301e035311e56c7c1815a9ab750b9c60bfa53a8bf99a8fb838a68c4eda",
+    "active_reconciliation_manifest_hash": "272a6209bdab0db1587c90cfe60cda5722aab856700def1f70580040e5c421f4",
     "gate": "HISTORICAL_PROJECTION_COMPLETENESS_GATE",
     "provider_fetch_count": 0,
     "recent_legal_production_dates": [
-      "2026-10-27",
       "2026-10-28",
       "2026-10-29",
       "2026-10-30",
-      "2026-11-02"
+      "2026-11-02",
+      "2026-11-03"
     ],
     "score_engine_invocation_count": 0,
     "status": "PASS",
     "validated_cell_count": 10
   },
   "index_status": {
-    "000015.SH": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "000922.SH": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "930955.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "931446.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "931468.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "932422.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "H30269.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
-    "H50040.CSI": "V6_SCORE_MODEL_V4:PROVIDER_PENDING"
+    "000015.SH": "CURRENT_FOR_MARKET_CALENDAR",
+    "000922.SH": "CURRENT_FOR_MARKET_CALENDAR",
+    "930955.CSI": "CURRENT_FOR_MARKET_CALENDAR",
+    "931446.CSI": "CURRENT_FOR_MARKET_CALENDAR",
+    "931468.CSI": "CURRENT_FOR_MARKET_CALENDAR",
+    "932422.CSI": "CURRENT_FOR_MARKET_CALENDAR",
+    "H30269.CSI": "CURRENT_FOR_MARKET_CALENDAR",
+    "H50040.CSI": "CURRENT_FOR_MARKET_CALENDAR"
   },
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "RETIRED_READ_ONLY",
-    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
+    "V6_SCORE_MODEL_V4": "READY"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -334,7 +286,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "ad18e460c78ce73eadb1",
+      "latest_published_build_id": "959ae7a81e25d330645c",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -352,36 +304,36 @@
       "consumer_asset_status": "CONSUMER_ASSET_SUCCESS",
       "current_asset": "data/models/V6_SCORE_MODEL_V4/latest.json",
       "failure_reason": null,
-      "full_domain_projection_date": "2026-11-02",
+      "full_domain_projection_date": "2026-11-03",
       "full_domain_projection_status": "CURRENT",
-      "latest_local_ready_date": "2026-11-02",
-      "latest_published_build_id": "ad18e460c78ce73eadb1",
-      "latest_published_date": "2026-11-02",
+      "latest_local_ready_date": "2026-11-03",
+      "latest_published_build_id": "959ae7a81e25d330645c",
+      "latest_published_date": "2026-11-03",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
       "remote_publication_status": "PUBLISHED_ARTIFACT",
-      "score_domain_latest_date": "2026-11-02",
+      "score_domain_latest_date": "2026-11-03",
       "score_domain_status": "SCORING_SUCCESS",
-      "source_hash": "7d81541dda95683cd6be92823a98e792f7869a75e21c5e1952a905a9689218a9",
-      "status": "PUBLISHED_CURRENT",
-      "updated_in_this_build": false
+      "source_hash": "c8f3468b946cd44afbf2b0a24ad82603e4b57e7966c203e0a6647b8af02b132f",
+      "status": "READY",
+      "updated_in_this_build": true
     }
   },
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "ad18e460c78ce73eadb1",
-    "bundle_hash": "db6ed8475833934ac0f03593dc2e88a3aa0fecfd51bf17e653afc9c8bec786c0",
+    "build_id": "959ae7a81e25d330645c",
+    "bundle_hash": "748d1e36357aa6a69fd1f75ecf024757c61672d68d0a44c0d0d692b14c881e8b",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
     "etf_provider_late_recovery_gate": "PASS",
     "etf_stale_data_detection_gate": "PASS",
     "model_id": "V6_SCORE_MODEL_V4",
-    "production_date": "2026-11-02",
-    "projection_data_date": "2026-11-02",
-    "projection_manifest_hash": "dff4d5bb0510a80cf4e522f21c56eadb505892ce59d449d789ab894cd1a78e64",
-    "projection_manifest_source_hash": "bcde3a90f7d3cf34747f4075725a2c56203137e7eea7a247960ca12becc5b23e",
+    "production_date": "2026-11-03",
+    "projection_data_date": "2026-11-03",
+    "projection_manifest_hash": "e156a0a1447e9ae3e17e1bd93276412c3e69003c211ac2d60b5de923480ba2a6",
+    "projection_manifest_source_hash": "f6455c52368da6ccc951f28b02ee4d8678598dffe73dcfbd93b5636c668cb1a3",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -392,9 +344,9 @@
       "history": true,
       "threshold_validation": true
     },
-    "score_domain_latest_date": "2026-11-02",
+    "score_domain_latest_date": "2026-11-03",
     "score_engine_invocation_count": 0,
-    "source_hash": "d5b870a6191b9fd758b07543b408f05f302edcc4f5227e884f3b05498e27420c",
+    "source_hash": "ab36a27815af84a119af0a476ab9219a811f936232505b090e66e61ba5b1036f",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -408,12 +360,12 @@
   "score_dimension_percentile": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "ad18e460c78ce73eadb1",
+    "build_id": "959ae7a81e25d330645c",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
-        "latest_date": "2026-11-02",
-        "sample_count": 5046,
+        "latest_date": "2026-11-03",
+        "sample_count": 5047,
         "years": {
           "2006": {
             "bytes": 567219,
@@ -536,17 +488,17 @@
             "sha256": "1f6776ae7d39929c4bd3b718383a213dd5695edcd412f732240fbd52ec32c8d7"
           },
           "2026": {
-            "bytes": 511919,
-            "path": "data/score-dimension-percentile-v1/000015.SH/2026/472b39bc92b476b865a58025b7066816b32e9b73eb483bd2b55d2630932b0e84.json",
-            "record_count": 199,
-            "sha256": "472b39bc92b476b865a58025b7066816b32e9b73eb483bd2b55d2630932b0e84"
+            "bytes": 514490,
+            "path": "data/score-dimension-percentile-v1/000015.SH/2026/0d453c6fa895aa775dba2ecd9c410b426c57e02f438cc847fd4d808ad72bcc01.json",
+            "record_count": 200,
+            "sha256": "0d453c6fa895aa775dba2ecd9c410b426c57e02f438cc847fd4d808ad72bcc01"
           }
         }
       },
       "000922.SH": {
         "first_date": "2009-06-05",
-        "latest_date": "2026-11-02",
-        "sample_count": 3978,
+        "latest_date": "2026-11-03",
+        "sample_count": 3979,
         "years": {
           "2009": {
             "bytes": 355547,
@@ -651,17 +603,17 @@
             "sha256": "da2da7f69be8613c88ed76ac665415c10e3ad2243dbc3a5111d61afd208dd87c"
           },
           "2026": {
-            "bytes": 511845,
-            "path": "data/score-dimension-percentile-v1/000922.SH/2026/4f5ca6a36029dea8d25e629cfa93ed9a2bdb38073512d53c37d3d34946f6a2a4.json",
-            "record_count": 199,
-            "sha256": "4f5ca6a36029dea8d25e629cfa93ed9a2bdb38073512d53c37d3d34946f6a2a4"
+            "bytes": 514412,
+            "path": "data/score-dimension-percentile-v1/000922.SH/2026/94876e1e4dc63fd6ba0db1aeb2188a9baaa4ecd5235c5209edcc54a6b24ddb48.json",
+            "record_count": 200,
+            "sha256": "94876e1e4dc63fd6ba0db1aeb2188a9baaa4ecd5235c5209edcc54a6b24ddb48"
           }
         }
       },
       "930955.CSI": {
         "first_date": "2021-02-01",
-        "latest_date": "2026-11-02",
-        "sample_count": 1391,
+        "latest_date": "2026-11-03",
+        "sample_count": 1392,
         "years": {
           "2021": {
             "bytes": 553263,
@@ -694,17 +646,17 @@
             "sha256": "f2cbb53a9a7596a64623215fefd457443cd0f037753745513094abf8be20a698"
           },
           "2026": {
-            "bytes": 510176,
-            "path": "data/score-dimension-percentile-v1/930955.CSI/2026/328e1e593806965609af0561573580d5ed61723d94e88f8706721d54a8ba9efc.json",
-            "record_count": 199,
-            "sha256": "328e1e593806965609af0561573580d5ed61723d94e88f8706721d54a8ba9efc"
+            "bytes": 512737,
+            "path": "data/score-dimension-percentile-v1/930955.CSI/2026/d8182cefe6593c1741e668ec4ff5bbcf8f514e49ac88ef255c717c752ae4a879.json",
+            "record_count": 200,
+            "sha256": "d8182cefe6593c1741e668ec4ff5bbcf8f514e49ac88ef255c717c752ae4a879"
           }
         }
       },
       "931446.CSI": {
         "first_date": "2021-06-28",
-        "latest_date": "2026-11-02",
-        "sample_count": 1296,
+        "latest_date": "2026-11-03",
+        "sample_count": 1297,
         "years": {
           "2021": {
             "bytes": 314747,
@@ -737,17 +689,17 @@
             "sha256": "b8c83028521a0f7a2e8a1edab49d2282f9af36a8927512dea018fd52ff7336ed"
           },
           "2026": {
-            "bytes": 509935,
-            "path": "data/score-dimension-percentile-v1/931446.CSI/2026/37fca61ce8b08d9d942ab61be5a137980e960235d13e8d0f8ac4d034c150b170.json",
-            "record_count": 199,
-            "sha256": "37fca61ce8b08d9d942ab61be5a137980e960235d13e8d0f8ac4d034c150b170"
+            "bytes": 512495,
+            "path": "data/score-dimension-percentile-v1/931446.CSI/2026/5700dad07eb06a8a1df49f780b8d2f251076d0cd8b87fbf62b01aaaec8afec42.json",
+            "record_count": 200,
+            "sha256": "5700dad07eb06a8a1df49f780b8d2f251076d0cd8b87fbf62b01aaaec8afec42"
           }
         }
       },
       "931468.CSI": {
         "first_date": "2022-04-21",
-        "latest_date": "2026-11-02",
-        "sample_count": 1098,
+        "latest_date": "2026-11-03",
+        "sample_count": 1099,
         "years": {
           "2022": {
             "bytes": 425746,
@@ -774,30 +726,30 @@
             "sha256": "fd5a0b73b37ff3aac35e879432ca95bec46700cbd4615d28799510a18bc47f93"
           },
           "2026": {
-            "bytes": 509674,
-            "path": "data/score-dimension-percentile-v1/931468.CSI/2026/8e06ad15127f24238cc0c168d5fc9eeb74dd651fa60fbdb12f463d1049510f9b.json",
-            "record_count": 199,
-            "sha256": "8e06ad15127f24238cc0c168d5fc9eeb74dd651fa60fbdb12f463d1049510f9b"
+            "bytes": 512241,
+            "path": "data/score-dimension-percentile-v1/931468.CSI/2026/66ddd0d03194fedbb4c270339dcd3f54aca27b3501347fdc62cd741614577833.json",
+            "record_count": 200,
+            "sha256": "66ddd0d03194fedbb4c270339dcd3f54aca27b3501347fdc62cd741614577833"
           }
         }
       },
       "932422.CSI": {
         "first_date": "2026-09-17",
-        "latest_date": "2026-11-02",
-        "sample_count": 27,
+        "latest_date": "2026-11-03",
+        "sample_count": 28,
         "years": {
           "2026": {
-            "bytes": 64218,
-            "path": "data/score-dimension-percentile-v1/932422.CSI/2026/3e6f4f9f58d432beef3cdfc601e7d3ba78d34346d63094d91c0704b13e6fbe73.json",
-            "record_count": 27,
-            "sha256": "3e6f4f9f58d432beef3cdfc601e7d3ba78d34346d63094d91c0704b13e6fbe73"
+            "bytes": 66669,
+            "path": "data/score-dimension-percentile-v1/932422.CSI/2026/3b15c625a43a5b333de1a3235956282650b81a215e5b277cf029a70dfcf5403f.json",
+            "record_count": 28,
+            "sha256": "3b15c625a43a5b333de1a3235956282650b81a215e5b277cf029a70dfcf5403f"
           }
         }
       },
       "H30269.CSI": {
         "first_date": "2014-12-29",
-        "latest_date": "2026-11-02",
-        "sample_count": 2852,
+        "latest_date": "2026-11-03",
+        "sample_count": 2853,
         "years": {
           "2014": {
             "bytes": 7250,
@@ -872,17 +824,17 @@
             "sha256": "75b77d91160b585824f49fc7e62ef6bdfa28d04893850989978e5bcbae2974f0"
           },
           "2026": {
-            "bytes": 511787,
-            "path": "data/score-dimension-percentile-v1/H30269.CSI/2026/ed0a9a9d19987776b61da7170189a7547ed94245bef6daec98e6f8ff80f69099.json",
-            "record_count": 199,
-            "sha256": "ed0a9a9d19987776b61da7170189a7547ed94245bef6daec98e6f8ff80f69099"
+            "bytes": 514356,
+            "path": "data/score-dimension-percentile-v1/H30269.CSI/2026/dd367950c4330453caf21332066b636aec9570de8f690ad36e9dbc4aa1c3faf0.json",
+            "record_count": 200,
+            "sha256": "dd367950c4330453caf21332066b636aec9570de8f690ad36e9dbc4aa1c3faf0"
           }
         }
       },
       "H50040.CSI": {
         "first_date": "2015-04-01",
-        "latest_date": "2026-11-02",
-        "sample_count": 2816,
+        "latest_date": "2026-11-03",
+        "sample_count": 2817,
         "years": {
           "2015": {
             "bytes": 462699,
@@ -951,15 +903,15 @@
             "sha256": "c23fd7573748077311f62a776d7f2251073fceb19c33254e5b3c789fe9c78422"
           },
           "2026": {
-            "bytes": 511867,
-            "path": "data/score-dimension-percentile-v1/H50040.CSI/2026/49d4e969508029f0828096d172150a383596b19a5eb253c689b1f01bbb23240f.json",
-            "record_count": 199,
-            "sha256": "49d4e969508029f0828096d172150a383596b19a5eb253c689b1f01bbb23240f"
+            "bytes": 514434,
+            "path": "data/score-dimension-percentile-v1/H50040.CSI/2026/eceefddd106ee7897dccd4e7bb51cdb954fa4b586ff83bca5ab6eda8e3117ccc.json",
+            "record_count": 200,
+            "sha256": "eceefddd106ee7897dccd4e7bb51cdb954fa4b586ff83bca5ab6eda8e3117ccc"
           }
         }
       }
     },
-    "public_asset_bytes": 47224099,
+    "public_asset_bytes": 47244512,
     "research_contract": "V6_SCORE_HISTORICAL_RETROSPECTIVE_PERCENTILE_RESEARCH_V1",
     "research_corpus_sha256": "d04f9bde385b0bb7a7ba91999d3f2552edd316308d11feb0fd2c374adb61cb7d",
     "schema_version": "V6_SCORE_RETROSPECTIVE_DIMENSION_PERCENTILE_V1",
@@ -1158,6 +1110,12 @@
           "sample_set_hash": "3ce411a6e1084811aa8f33e6757ff10ee955e400b8c0e8b02cd7fe6c2de5c582",
           "score_record_hash": "736c178a2df2461b9da4815d3ba4081ea37cbe477ac97c419ab38e4a2db195c0",
           "sha256": "3ab3256e16fd0418ea8933574a9bacda90c6f3a6d756ca78429aeddfe6ef4c62"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/000015.SH/2026-11-03.json",
+          "sample_set_hash": "5b7f12d49e347302ed3a25cf7ce90cbd1e4b7de30a84b42870ea575be3018527",
+          "score_record_hash": "15ffed5d751c46f838e013919b122d92d06221e92ac0b982de2cd0a9fd265fa6",
+          "sha256": "513387c71d8b039003d9e9ff3be37e2713d85040d62801ce3f4bf33191f9a1af"
         }
       },
       "000922.SH": {
@@ -1436,6 +1394,12 @@
           "sample_set_hash": "e78b45af76d06d61fdb4baaeaf11612612e31f9616c5c98c88688ef8dbbcef51",
           "score_record_hash": "d02a1402f69b0c7799dac89f86dd5dae130aee46e059c428849b77bff5326dd1",
           "sha256": "9853eb3e63d4e8e18f52e6fb0258d45e43099aa0dda0515a09e03961377e75c0"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/000922.SH/2026-11-03.json",
+          "sample_set_hash": "45006802a2fa072432227487e5eb76bc13d40f2ae65777ba0b070117a03ad77d",
+          "score_record_hash": "49201f27b371e9bbf5789f4e88d80cd90be7140cb7dbaed02fdbdd9254d984b1",
+          "sha256": "8c65271c93c02d77fbbe6e6ade9ec1898ac2345fdec146bd292d3e73339af619"
         }
       },
       "930955.CSI": {
@@ -1714,6 +1678,12 @@
           "sample_set_hash": "e4730763315e389ff0e78a809d522f4111e39b2b2a140da32da20883c74e874d",
           "score_record_hash": "5170616b7fe82cdda7df8dbfddc384341129712465c3c27f93e822dda857e4d0",
           "sha256": "7683ef01f8e3c7d17647eededbe2d8a391903dfa91413df74a677b2baf0fedae"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/930955.CSI/2026-11-03.json",
+          "sample_set_hash": "1611825ef7c6dd6fa9a1b5150a6710971cd736e47897309516e0752b7675c768",
+          "score_record_hash": "2de4260eb0465746c80499d1933b812983dbd3ba49821346d268c8c2c3e096e7",
+          "sha256": "9cc7a1d373abc88d5201efd67347c50915c1986cf0a6779d8ec056832604ccb5"
         }
       },
       "931446.CSI": {
@@ -1902,6 +1872,12 @@
           "sample_set_hash": "606af154bf3bd7e7f34195722886f2aaf9c22fc4b1e594d82c19bd04a2840ddb",
           "score_record_hash": "e924dd79e38319429f41400a211ee205295ff46fa271d0af858d9e363aaf1154",
           "sha256": "a96322993e0abdeef0c54e7eb2e77240de83451353f34258a6bb2534037a345e"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/931446.CSI/2026-11-03.json",
+          "sample_set_hash": "89931f10a89a526d07a90b4256e3bc93ef9d636e0d8220e6a81920f73c2e4ca9",
+          "score_record_hash": "6d01d404757f38d1b5a441f95491f3281d5d17d2d7beae55247eb4efdefe2a6a",
+          "sha256": "7bf71a5cdb3d81c3527359e531cdd182889c2306f6924ac3cd7c2cccbe455e25"
         }
       },
       "931468.CSI": {
@@ -2114,6 +2090,12 @@
           "sample_set_hash": "1d5f7d9cd849eb5fb4986f01086dc4b9c41eef6aac2a9b88a757678b20bb3761",
           "score_record_hash": "3f5fc31d359d06a312ff3257cee239ed6cdd11108e6b740a62c496d5ee9c984e",
           "sha256": "401ac2f775fbba2e110213990236bc87d064d9b932e98a8d4eb0fe0fb4f769b1"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/931468.CSI/2026-11-03.json",
+          "sample_set_hash": "4b61d4fe99d1f3c818139e4f403f9f3f778b5b86df36cf2dc8875941c4c3752f",
+          "score_record_hash": "c699d5397e71f0d21036a23182b86e9288ebf2e512d639dd7b576b6598c795d9",
+          "sha256": "e3e7ff5f6bfa8a6577d4b3938f7b911e5aa7759e1fd3555badfa0d9454f9edd6"
         }
       },
       "932422.CSI": {
@@ -2260,6 +2242,12 @@
           "sample_set_hash": "335fb3d58f6f133b5e3de2101257fda2154e91c90bbf10a30f632d66c8e696b4",
           "score_record_hash": "211dd9d19069f70eeb7098eeaf6c881fb06d885d76f3179cb91d00b1f462a8f0",
           "sha256": "17ad8c4303202aa5c4b0b3bb1bc241fd24ca8c23c7b549e4f7ac348c67cc82d4"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/932422.CSI/2026-11-03.json",
+          "sample_set_hash": "f7610dcf43b15d864d0e6dfd14276fd708de004514620336ee85608ba566118c",
+          "score_record_hash": "930819258290d51dd3f02cec0a5abbfda5c749a09cc3f5f329eba67afc064039",
+          "sha256": "5a9ad58a6adf1a2cdbddb792960b3ee8229c8fab7148f33c5639cc7cebadd4b9"
         }
       },
       "H30269.CSI": {
@@ -2472,6 +2460,12 @@
           "sample_set_hash": "8a1000bc8adfb72c1b281b6354a30b7bf03391fc0ae87d8a9786147bb2372b62",
           "score_record_hash": "a342dd7b3847066029a34fd2112445f286825d7177e8dd788013fabe8186eccc",
           "sha256": "8a065399a895f3a2e303c548160a9922e1d8d38711135f63415c27168e262f5b"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/H30269.CSI/2026-11-03.json",
+          "sample_set_hash": "62cfcbbd1b43f50e8e67801f4b4590e7271b943bc552fd1cd8c5c1b85b85f5b6",
+          "score_record_hash": "433bbfccabd45e38f4dc9a316c150b1274910ea44e054685e1473794b71e519e",
+          "sha256": "b244bc9ea37c38b3ad09e7c2ef6d8ea955855c306d0fd5dbf989c00344e39ae1"
         }
       },
       "H50040.CSI": {
@@ -2684,22 +2678,28 @@
           "sample_set_hash": "00470b608b67efa5be34a7061f6d9efbdad72b8617aaf38ba43bc7f77f07bb0e",
           "score_record_hash": "4318e8a13623a95788ff108a75cd900f568a0a9c48489c99bbbcb4eb1216e849",
           "sha256": "1b2684b1bc095dd93e2a720423db2594d8a5acda8679d969ad8f3e444927fa3a"
+        },
+        "2026-11-03": {
+          "path": "data/score-percentile/history/H50040.CSI/2026-11-03.json",
+          "sample_set_hash": "130fa1510adade826880eb53c7bee401a270d6065426f3c9261393ce8374c53f",
+          "score_record_hash": "44ccb0ff8e50204af45a46ed565a95fbd9447df2d370d9041164729cfc355294",
+          "sha256": "d9b78720950689ffb1308dd660deaac46917e48d71cff93aeee5a3a451cff97b"
         }
       }
     },
-    "public_asset_size_bytes": 310270,
+    "public_asset_size_bytes": 319181,
     "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V1",
     "status": "AVAILABLE"
   },
   "score_percentile_v2": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "ad18e460c78ce73eadb1",
+    "build_id": "959ae7a81e25d330645c",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
-        "latest_date": "2026-11-02",
-        "sample_count": 5046,
+        "latest_date": "2026-11-03",
+        "sample_count": 5047,
         "years": {
           "2006": {
             "bytes": 174072,
@@ -2822,17 +2822,17 @@
             "sha256": "c0d4cd9171a7115925b7ca68e39dfc1f5b2a05d384525bec7402f41f7bf480b7"
           },
           "2026": {
-            "bytes": 157095,
-            "path": "data/score-percentile-v2/000015.SH/2026/8e8d5f9dc6b16b777439cd9fa3c047daee148b9b11c5778610b2b42fb2e095dd.json",
-            "record_count": 199,
-            "sha256": "8e8d5f9dc6b16b777439cd9fa3c047daee148b9b11c5778610b2b42fb2e095dd"
+            "bytes": 157882,
+            "path": "data/score-percentile-v2/000015.SH/2026/16675123791cd494861456b87ef15649f1633534503f79e06f894d0c3fb0abb7.json",
+            "record_count": 200,
+            "sha256": "16675123791cd494861456b87ef15649f1633534503f79e06f894d0c3fb0abb7"
           }
         }
       },
       "000922.SH": {
         "first_date": "2009-06-05",
-        "latest_date": "2026-11-02",
-        "sample_count": 3978,
+        "latest_date": "2026-11-03",
+        "sample_count": 3979,
         "years": {
           "2009": {
             "bytes": 108937,
@@ -2937,17 +2937,17 @@
             "sha256": "6475e05286be298d7a9254b0f2ee60bba88ff1b2f6f287e279f6a82621be8e0a"
           },
           "2026": {
-            "bytes": 157326,
-            "path": "data/score-percentile-v2/000922.SH/2026/70f91ddc3b0bd6bd01e1fbc13ee2587185d3dee40b7e2e08b73fd969e5d0732f.json",
-            "record_count": 199,
-            "sha256": "70f91ddc3b0bd6bd01e1fbc13ee2587185d3dee40b7e2e08b73fd969e5d0732f"
+            "bytes": 158113,
+            "path": "data/score-percentile-v2/000922.SH/2026/e2aca8e6fc53c37e2d05a5e6b3e8fee50a1a7194d2bf547860e7357f2ec54354.json",
+            "record_count": 200,
+            "sha256": "e2aca8e6fc53c37e2d05a5e6b3e8fee50a1a7194d2bf547860e7357f2ec54354"
           }
         }
       },
       "930955.CSI": {
         "first_date": "2021-02-01",
-        "latest_date": "2026-11-02",
-        "sample_count": 1391,
+        "latest_date": "2026-11-03",
+        "sample_count": 1392,
         "years": {
           "2021": {
             "bytes": 170124,
@@ -2980,17 +2980,17 @@
             "sha256": "b52877a610635191edb6defcd409dee5ad5a252e57407bdcd1f537833b44a6b0"
           },
           "2026": {
-            "bytes": 156813,
-            "path": "data/score-percentile-v2/930955.CSI/2026/66389645cd281572f3c6974b624bf9135ae4313643933a10cabb92770b7f911f.json",
-            "record_count": 199,
-            "sha256": "66389645cd281572f3c6974b624bf9135ae4313643933a10cabb92770b7f911f"
+            "bytes": 157597,
+            "path": "data/score-percentile-v2/930955.CSI/2026/409655c1ecc1af18683854d5c5a07cfa476a87318b7a16d0a5021f79a9a5e80f.json",
+            "record_count": 200,
+            "sha256": "409655c1ecc1af18683854d5c5a07cfa476a87318b7a16d0a5021f79a9a5e80f"
           }
         }
       },
       "931446.CSI": {
         "first_date": "2021-06-28",
-        "latest_date": "2026-11-02",
-        "sample_count": 1296,
+        "latest_date": "2026-11-03",
+        "sample_count": 1297,
         "years": {
           "2021": {
             "bytes": 96441,
@@ -3023,17 +3023,17 @@
             "sha256": "883a88385a651898ae451032caa2b5e44ba6f1bc5f89e1c1220f5273a83326f7"
           },
           "2026": {
-            "bytes": 156818,
-            "path": "data/score-percentile-v2/931446.CSI/2026/091034a0cbe755341c2b8f7fc2c06f118c9ed20d4aa6481005b440cdb7da7178.json",
-            "record_count": 199,
-            "sha256": "091034a0cbe755341c2b8f7fc2c06f118c9ed20d4aa6481005b440cdb7da7178"
+            "bytes": 157602,
+            "path": "data/score-percentile-v2/931446.CSI/2026/e826c2776493946e178dc01fa84d54223c82353699f2d0b686a714188d297ebb.json",
+            "record_count": 200,
+            "sha256": "e826c2776493946e178dc01fa84d54223c82353699f2d0b686a714188d297ebb"
           }
         }
       },
       "931468.CSI": {
         "first_date": "2022-04-21",
-        "latest_date": "2026-11-02",
-        "sample_count": 1098,
+        "latest_date": "2026-11-03",
+        "sample_count": 1099,
         "years": {
           "2022": {
             "bytes": 130228,
@@ -3060,30 +3060,30 @@
             "sha256": "e9f6119aae7eacab3e012a6bd6189fc6b45b5fb22ac06494359722095c73c16c"
           },
           "2026": {
-            "bytes": 156363,
-            "path": "data/score-percentile-v2/931468.CSI/2026/489f7a380eaf1d5c10ef58d6fb5f4b09fac339a4184efe982928af27244d7a65.json",
-            "record_count": 199,
-            "sha256": "489f7a380eaf1d5c10ef58d6fb5f4b09fac339a4184efe982928af27244d7a65"
+            "bytes": 157150,
+            "path": "data/score-percentile-v2/931468.CSI/2026/1ee1514bef09703a18996ac98eaeafd04389debbb8fadd28746c918e77248ae4.json",
+            "record_count": 200,
+            "sha256": "1ee1514bef09703a18996ac98eaeafd04389debbb8fadd28746c918e77248ae4"
           }
         }
       },
       "932422.CSI": {
         "first_date": "2026-09-17",
-        "latest_date": "2026-11-02",
-        "sample_count": 27,
+        "latest_date": "2026-11-03",
+        "sample_count": 28,
         "years": {
           "2026": {
-            "bytes": 20252,
-            "path": "data/score-percentile-v2/932422.CSI/2026/e08b03236fce7795a6c8727dd5819004c5c66626bab04ea867c181e4d8fcd255.json",
-            "record_count": 27,
-            "sha256": "e08b03236fce7795a6c8727dd5819004c5c66626bab04ea867c181e4d8fcd255"
+            "bytes": 20919,
+            "path": "data/score-percentile-v2/932422.CSI/2026/0011228a57062e16e8e568bb24558128e574e652d3071a2a679dfb540f41054d.json",
+            "record_count": 28,
+            "sha256": "0011228a57062e16e8e568bb24558128e574e652d3071a2a679dfb540f41054d"
           }
         }
       },
       "H30269.CSI": {
         "first_date": "2014-12-29",
-        "latest_date": "2026-11-02",
-        "sample_count": 2852,
+        "latest_date": "2026-11-03",
+        "sample_count": 2853,
         "years": {
           "2014": {
             "bytes": 2512,
@@ -3158,17 +3158,17 @@
             "sha256": "00f8e5c5764e20b963972fcf1d45ea3535aabb102facb413aa903fde27185329"
           },
           "2026": {
-            "bytes": 157345,
-            "path": "data/score-percentile-v2/H30269.CSI/2026/4df21b57a147ecf1c1573526e8141d30b0323b66e00c88782318439a24f5dbb3.json",
-            "record_count": 199,
-            "sha256": "4df21b57a147ecf1c1573526e8141d30b0323b66e00c88782318439a24f5dbb3"
+            "bytes": 158132,
+            "path": "data/score-percentile-v2/H30269.CSI/2026/d458deba3c6ace6ac7edd491da77bb35c401affe9340f62b50483041d45a210c.json",
+            "record_count": 200,
+            "sha256": "d458deba3c6ace6ac7edd491da77bb35c401affe9340f62b50483041d45a210c"
           }
         }
       },
       "H50040.CSI": {
         "first_date": "2015-04-01",
-        "latest_date": "2026-11-02",
-        "sample_count": 2816,
+        "latest_date": "2026-11-03",
+        "sample_count": 2817,
         "years": {
           "2015": {
             "bytes": 142302,
@@ -3237,15 +3237,15 @@
             "sha256": "fa585197abad3ade9042f90f5c4bc54f2bf01956e5fefc7593bab82e05bf76ac"
           },
           "2026": {
-            "bytes": 157166,
-            "path": "data/score-percentile-v2/H50040.CSI/2026/40491a92df8e05b9004de160a7003ceb6c27bc60bd4d2d53a121f8db8ed7e18c.json",
-            "record_count": 199,
-            "sha256": "40491a92df8e05b9004de160a7003ceb6c27bc60bd4d2d53a121f8db8ed7e18c"
+            "bytes": 157953,
+            "path": "data/score-percentile-v2/H50040.CSI/2026/a566aa53133d7b6c28cd3c194a959c9a66766d63129d87a17c6f944533682ae5.json",
+            "record_count": 200,
+            "sha256": "a566aa53133d7b6c28cd3c194a959c9a66766d63129d87a17c6f944533682ae5"
           }
         }
       }
     },
-    "public_asset_bytes": 14513813,
+    "public_asset_bytes": 14519983,
     "research_contract": "V6_SCORE_HISTORICAL_RETROSPECTIVE_PERCENTILE_RESEARCH_V1",
     "research_corpus_sha256": "77d4f200550834a4c5bbd8d773fbdf9631dfbc844cca8ecc56a8010e6307de24",
     "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V2",
@@ -3257,7 +3257,7 @@
     "default_model": "V6_SCORE_MODEL_V4",
     "index_count": 8,
     "latest_date_by_model": {
-      "V6_SCORE_MODEL_V4": "2026-11-02"
+      "V6_SCORE_MODEL_V4": "2026-11-03"
     },
     "provider_fetch_count": 0,
     "registry": "data/index-score-summary/registry.json",
@@ -3265,21 +3265,22 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "ad18e460c78ce73eadb1",
-    "published_at": "2026-11-03T16:11:18+08:00",
-    "source_hash": "ad18e460c78ce73eadb140687bf2a27241a86d2c4c6f5f8bb53e55bdd9ef670c",
-    "static_source_hash": "cf18d81709ae9239a46fe9b0bb9e33cf3e9af693c704035749c7376f40bd1580"
+    "build_id": "959ae7a81e25d330645c",
+    "published_at": "2026-11-03T16:31:16+08:00",
+    "source_hash": "959ae7a81e25d330645c8d0190f621a6771903e624f7f76c21a2ac22c77e06bb",
+    "static_source_hash": "1407e66386b1bf18cb1ecd0d7744b810ec272d0515e11bdc7f315693e80da1f9"
   },
   "source_hashes": {
-    "site_source_hash": "ad18e460c78ce73eadb140687bf2a27241a86d2c4c6f5f8bb53e55bdd9ef670c",
-    "site_static_source_hash": "cf18d81709ae9239a46fe9b0bb9e33cf3e9af693c704035749c7376f40bd1580",
+    "site_source_hash": "959ae7a81e25d330645c8d0190f621a6771903e624f7f76c21a2ac22c77e06bb",
+    "site_static_source_hash": "1407e66386b1bf18cb1ecd0d7744b810ec272d0515e11bdc7f315693e80da1f9",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
-    "v4_source_hash": "7d81541dda95683cd6be92823a98e792f7869a75e21c5e1952a905a9689218a9"
+    "v4_source_hash": "c8f3468b946cd44afbf2b0a24ad82603e4b57e7966c203e0a6647b8af02b132f"
   },
-  "target_date": "2026-11-02",
+  "target_date": "2026-11-03",
   "unchanged_models": [
-    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": []
+  "updated_models": [
+    "V6_SCORE_MODEL_V4"
+  ]
 }
