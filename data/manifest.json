@@ -2,7 +2,7 @@
   "active_models": [
     "V6_SCORE_MODEL_V4"
   ],
-  "build_id": "56cb7e70cb2b142a1d6b",
+  "build_id": "2fcf32291c3e6367da0d",
   "canonical_payload_lifecycle": {
     "active_consumer": true,
     "latest_score_date": "2026-11-04",
@@ -15,35 +15,29 @@
   "cell_status": {
     "000015.SH": {
       "V6_SCORE_MODEL_V4": {
-        "actual_latest_score_date": "2026-11-03",
+        "actual_latest_score_date": "2026-11-04",
         "calendar_id": "CN_SSE",
         "eligibility": {
           "status": "ELIGIBLE"
         },
         "endpoint_health": {
-          "alert_status": "RETRY_SCHEDULED",
+          "alert_status": "NONE",
           "attention_required": false,
-          "endpoint": "UNSPECIFIED",
-          "escalation_reason": null,
-          "failure_class": "TARGET_NOT_PUBLISHED",
-          "http_status": null,
-          "next_action": "WAIT_FOR_BOUNDED_RETRY",
-          "provider_error_class": "TARGET_NOT_PUBLISHED",
-          "transport_failure_class": null
+          "failure_class": "READY"
         },
         "expected_latest_trading_date": "2026-11-04",
         "external_blocker": null,
-        "failure_reason": "数据源暂未更新",
-        "freshness": "STALE",
+        "failure_reason": null,
+        "freshness": "CURRENT",
         "index_code": "000015.SH",
         "market_area": "CN",
-        "market_freshness_status": "PROVIDER_PENDING",
+        "market_freshness_status": "CURRENT_FOR_MARKET_CALENDAR",
         "model_id": "V6_SCORE_MODEL_V4",
-        "pending_target_date": "2026-11-04",
-        "provider_pending": true,
+        "pending_target_date": null,
+        "provider_pending": false,
         "provider_retry": null,
         "schedule_group": "V6_16_10_STANDARD_GROUP",
-        "status": "STALE_LAST_KNOWN_GOOD"
+        "status": "ACTIVE"
       }
     },
     "000922.SH": {
@@ -251,7 +245,7 @@
   "dual_model_same_date_gate_role": "DIAGNOSTIC_ONLY",
   "dual_model_same_date_status": "DIFFERENT_DATE",
   "frontend_bundle_version": "71b61872586e3bba1b1c",
-  "generated_at": "2026-11-04T16:22:03+08:00",
+  "generated_at": "2026-11-04T17:14:26+08:00",
   "git_commit_sha": "RESOLVED_BY_GITHUB_ACTIONS",
   "historical_projection_gate": {
     "active_reconciliation_manifest_hash": "38f0a19253970318f8fedb675ffbda57eab637683bfbee00509e835c6ada01ea",
@@ -269,7 +263,7 @@
     "validated_cell_count": 10
   },
   "index_status": {
-    "000015.SH": "V6_SCORE_MODEL_V4:PROVIDER_PENDING",
+    "000015.SH": "CURRENT_FOR_MARKET_CALENDAR",
     "000922.SH": "CURRENT_FOR_MARKET_CALENDAR",
     "930955.CSI": "CURRENT_FOR_MARKET_CALENDAR",
     "931446.CSI": "CURRENT_FOR_MARKET_CALENDAR",
@@ -281,7 +275,7 @@
   "market_calendar_contract": "V6_AUTHORITATIVE_MARKET_CALENDAR_V2_AUTO_LIFECYCLE",
   "model_status": {
     "V6_SCORE_MODEL_Tushare": "RETIRED_READ_ONLY",
-    "V6_SCORE_MODEL_V4": "READY"
+    "V6_SCORE_MODEL_V4": "PUBLISHED_CURRENT"
   },
   "models": {
     "V6_SCORE_MODEL_Tushare": {
@@ -292,7 +286,7 @@
       "full_domain_projection_date": null,
       "full_domain_projection_status": null,
       "latest_local_ready_date": "2026-09-30",
-      "latest_published_build_id": "56cb7e70cb2b142a1d6b",
+      "latest_published_build_id": "2fcf32291c3e6367da0d",
       "latest_published_date": "2026-09-30",
       "lifecycle": "RETIRED_READ_ONLY",
       "model_id": "V6_SCORE_MODEL_Tushare",
@@ -313,7 +307,7 @@
       "full_domain_projection_date": "2026-11-04",
       "full_domain_projection_status": "CURRENT",
       "latest_local_ready_date": "2026-11-04",
-      "latest_published_build_id": "56cb7e70cb2b142a1d6b",
+      "latest_published_build_id": "2fcf32291c3e6367da0d",
       "latest_published_date": "2026-11-04",
       "model_id": "V6_SCORE_MODEL_V4",
       "pending_target_date": null,
@@ -321,15 +315,15 @@
       "score_domain_latest_date": "2026-11-04",
       "score_domain_status": "SCORING_SUCCESS",
       "source_hash": "bf706800a96fe63b692a202501f5701811013fb8209cd725b4f77e19ab59875c",
-      "status": "READY",
-      "updated_in_this_build": true
+      "status": "PUBLISHED_CURRENT",
+      "updated_in_this_build": false
     }
   },
   "parallel_model": null,
   "production_model": "V6_SCORE_MODEL_V4",
   "projection_health": {
-    "build_id": "56cb7e70cb2b142a1d6b",
-    "bundle_hash": "bfa2f815676e58f6d591146613425bc9606fa770d93f3e48724bcd1d44a49bf0",
+    "build_id": "2fcf32291c3e6367da0d",
+    "bundle_hash": "b46202685e3b0c569cc429086621b75bfe60efe4eab2879e019648768c132add",
     "etf_freshness_status": "FRESH",
     "etf_health_status": "PASS",
     "etf_price_date_parity_gate": "PASS",
@@ -338,8 +332,8 @@
     "model_id": "V6_SCORE_MODEL_V4",
     "production_date": "2026-11-04",
     "projection_data_date": "2026-11-04",
-    "projection_manifest_hash": "ed7198919ec60f35ca0b1811f0fefc04c4eaf1cb6ed5e72a488f93de0139392c",
-    "projection_manifest_source_hash": "f10942776885d463b5dca588a603061bfc974be7c640890aeaf8ff48b535d80f",
+    "projection_manifest_hash": "2c20e60b90e36f2fb4b22815f0364d36d875f1613613924c57d6404a5283a077",
+    "projection_manifest_source_hash": "3b51cb6f0d66d0fdc775c5368df6b0eb4aefa32a394c2fd80ce94f218dcd8956",
     "projection_version": "V6_V4_DAILY_FULL_DOMAIN_PROJECTION_V1",
     "provider_fetch_count": 0,
     "readiness": {
@@ -352,7 +346,7 @@
     },
     "score_domain_latest_date": "2026-11-04",
     "score_engine_invocation_count": 0,
-    "source_hash": "002f816f3073f3d0353dbe88442170af42220d15f8ed48495d1f0979a640394f",
+    "source_hash": "18473965f207746a04d37ff811b7e6fd87c8c01a6450163ea16826b0e951253b",
     "status": "VERIFIED_ACTIVE"
   },
   "publication_status": "complete",
@@ -366,12 +360,12 @@
   "score_dimension_percentile": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "56cb7e70cb2b142a1d6b",
+    "build_id": "2fcf32291c3e6367da0d",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
-        "latest_date": "2026-11-03",
-        "sample_count": 5047,
+        "latest_date": "2026-11-04",
+        "sample_count": 5048,
         "years": {
           "2006": {
             "bytes": 567219,
@@ -494,10 +488,10 @@
             "sha256": "1f6776ae7d39929c4bd3b718383a213dd5695edcd412f732240fbd52ec32c8d7"
           },
           "2026": {
-            "bytes": 514490,
-            "path": "data/score-dimension-percentile-v1/000015.SH/2026/0d453c6fa895aa775dba2ecd9c410b426c57e02f438cc847fd4d808ad72bcc01.json",
-            "record_count": 200,
-            "sha256": "0d453c6fa895aa775dba2ecd9c410b426c57e02f438cc847fd4d808ad72bcc01"
+            "bytes": 517061,
+            "path": "data/score-dimension-percentile-v1/000015.SH/2026/c59a236ab5365d4805df636d64c120a3a6f5da956cf4c16e34086a6b7deab929.json",
+            "record_count": 201,
+            "sha256": "c59a236ab5365d4805df636d64c120a3a6f5da956cf4c16e34086a6b7deab929"
           }
         }
       },
@@ -917,7 +911,7 @@
         }
       }
     },
-    "public_asset_bytes": 47262270,
+    "public_asset_bytes": 47264841,
     "research_contract": "V6_SCORE_HISTORICAL_RETROSPECTIVE_PERCENTILE_RESEARCH_V1",
     "research_corpus_sha256": "d04f9bde385b0bb7a7ba91999d3f2552edd316308d11feb0fd2c374adb61cb7d",
     "schema_version": "V6_SCORE_RETROSPECTIVE_DIMENSION_PERCENTILE_V1",
@@ -1122,6 +1116,12 @@
           "sample_set_hash": "5b7f12d49e347302ed3a25cf7ce90cbd1e4b7de30a84b42870ea575be3018527",
           "score_record_hash": "15ffed5d751c46f838e013919b122d92d06221e92ac0b982de2cd0a9fd265fa6",
           "sha256": "513387c71d8b039003d9e9ff3be37e2713d85040d62801ce3f4bf33191f9a1af"
+        },
+        "2026-11-04": {
+          "path": "data/score-percentile/history/000015.SH/2026-11-04.json",
+          "sample_set_hash": "af771e93a71782e1def415355299da45430b33a2a8f79e36774ade14d9488661",
+          "score_record_hash": "6ad07d3671fc9029ee88406d31be3cd07543344761ca1bc4b9c167d023d5e0aa",
+          "sha256": "b2b9868afb465bb5809007d269ebc2d238382b2f2e04f6fe31a8951345a27fba"
         }
       },
       "000922.SH": {
@@ -2735,19 +2735,19 @@
         }
       }
     },
-    "public_asset_size_bytes": 327069,
+    "public_asset_size_bytes": 328113,
     "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V1",
     "status": "AVAILABLE"
   },
   "score_percentile_v2": {
     "admission_contract_id": "V6_V4_FROZEN_RETROSPECTIVE_COMPARABLE_AND_WITNESSED_APPEND_V2",
     "asset_count": 82,
-    "build_id": "56cb7e70cb2b142a1d6b",
+    "build_id": "2fcf32291c3e6367da0d",
     "by_index": {
       "000015.SH": {
         "first_date": "2006-01-20",
-        "latest_date": "2026-11-03",
-        "sample_count": 5047,
+        "latest_date": "2026-11-04",
+        "sample_count": 5048,
         "years": {
           "2006": {
             "bytes": 174072,
@@ -2870,10 +2870,10 @@
             "sha256": "c0d4cd9171a7115925b7ca68e39dfc1f5b2a05d384525bec7402f41f7bf480b7"
           },
           "2026": {
-            "bytes": 157882,
-            "path": "data/score-percentile-v2/000015.SH/2026/16675123791cd494861456b87ef15649f1633534503f79e06f894d0c3fb0abb7.json",
-            "record_count": 200,
-            "sha256": "16675123791cd494861456b87ef15649f1633534503f79e06f894d0c3fb0abb7"
+            "bytes": 158669,
+            "path": "data/score-percentile-v2/000015.SH/2026/1d619bd74af990c69926f6c5c9873a7e69ec7db494227644286d933957487b18.json",
+            "record_count": 201,
+            "sha256": "1d619bd74af990c69926f6c5c9873a7e69ec7db494227644286d933957487b18"
           }
         }
       },
@@ -3293,7 +3293,7 @@
         }
       }
     },
-    "public_asset_bytes": 14525493,
+    "public_asset_bytes": 14526280,
     "research_contract": "V6_SCORE_HISTORICAL_RETROSPECTIVE_PERCENTILE_RESEARCH_V1",
     "research_corpus_sha256": "77d4f200550834a4c5bbd8d773fbdf9631dfbc844cca8ecc56a8010e6307de24",
     "schema_version": "V6_SCORE_HISTORICAL_NORMALIZED_RANK_PERCENTILE_V2",
@@ -3313,22 +3313,21 @@
     "status": "ACTIVE"
   },
   "site": {
-    "build_id": "56cb7e70cb2b142a1d6b",
-    "published_at": "2026-11-04T16:22:03+08:00",
-    "source_hash": "56cb7e70cb2b142a1d6be19b525767d316c84cc83b6c35789254a7d172a483ff",
-    "static_source_hash": "3b7413979481a6867c5732a86d0b8806c5df8634d45a5f8566f90158ae077a25"
+    "build_id": "2fcf32291c3e6367da0d",
+    "published_at": "2026-11-04T17:14:26+08:00",
+    "source_hash": "2fcf32291c3e6367da0d105c355453b6bcb38f61c042d495fab87cb37cd31f36",
+    "static_source_hash": "e86e00313d794e9dd23cca0a49f5e32d00a3b183ba2d487d371893529f9541e3"
   },
   "source_hashes": {
-    "site_source_hash": "56cb7e70cb2b142a1d6be19b525767d316c84cc83b6c35789254a7d172a483ff",
-    "site_static_source_hash": "3b7413979481a6867c5732a86d0b8806c5df8634d45a5f8566f90158ae077a25",
+    "site_source_hash": "2fcf32291c3e6367da0d105c355453b6bcb38f61c042d495fab87cb37cd31f36",
+    "site_static_source_hash": "e86e00313d794e9dd23cca0a49f5e32d00a3b183ba2d487d371893529f9541e3",
     "tushare_source_hash": "a123860e6debcda0c630ea949410c024116ae4c3739f275670e7deab31b97def",
     "v4_source_hash": "bf706800a96fe63b692a202501f5701811013fb8209cd725b4f77e19ab59875c"
   },
   "target_date": "2026-11-04",
   "unchanged_models": [
+    "V6_SCORE_MODEL_V4",
     "V6_SCORE_MODEL_Tushare"
   ],
-  "updated_models": [
-    "V6_SCORE_MODEL_V4"
-  ]
+  "updated_models": []
 }
