@@ -1,28 +1,28 @@
 {
-  "candidate_hash": "017798ea2bf81128f87fbf32f70c4587b135154c845103e179c58a4b41936361",
-  "date_query_overlay_hash": "0fe07bb260b806526d8f1e9152cab6e5e48a3c6b66fb0d64ed5af533a65fe945",
+  "candidate_hash": "bf6cb8042eab4fea8209db35aadd1e0a8f7f9fd68fc84880a0216e4f90070e1e",
+  "date_query_overlay_hash": "6b9bb767a92f2020c15a8458ec55f84122714771243ef7ba65047ef244c079cf",
   "domain_hashes": {
-    "assessment": "bef5d65f04901c156e28ef4d63696bd2e4b6cbf0a5da6c2f407286e54b5b52bf",
-    "current_scores": "192aba78b9f3010eee799bc733c74c6f9ff6fdc2e0f740dc3631d93c1a2b6f74",
-    "date_query": "2bedc68bec63fed07f993667b190a644d1f9bb3f84d7c5e6bb36e5b0c3ced242",
-    "etf_backtest": "45479e352358139dae09a903ce7c49c663722293e8fc82b592c3060634725a56",
-    "history": "96c0f45a8b9bc91317a35adfabbdb9c4b1b7f78fe07815c5589545f38dcaafd3",
-    "threshold_validation": "83d418effd9d1c2d795405269400a54d85f684428af919d64c9050c639725ec8"
+    "assessment": "69f7a1979be4f4daa89e4aace644339c7d5e859f77eecbceadb97e278ef78429",
+    "current_scores": "df84a95910e62a544ae8a6824819d221e592b71a4e68d6d332cb16bb18eb3b5a",
+    "date_query": "a9d3435aabfdad35072bc45f27f45c6ced8a67dc7768434f4a795b318053842d",
+    "etf_backtest": "a9c83d508cc83025fd9444d3cc16942fe9a0c980dba5f7b9faa4eb47254d63c8",
+    "history": "fce6340c3acb7fa0268751b0636a7e432f5aefad288e15c7568c921564a078e6",
+    "threshold_validation": "1329db4dea80acc096fa65d30df221d6fab659de5bddcdebf9e17a4cd9184c57"
   },
   "engine_invocation_count": 0,
   "etf_consumer_binding": {
-    "calculation_as_of_date": "2026-11-03",
-    "consumer_hash": "b9f2ef40ec4056f01d69d7b8406b37582d98cbb34417f8d2c84bd7e480a47dfb",
-    "health_hash": "b4f97f2b9ceecf355b43758a1f3f95aadbfebde0aaa3935977d56649c41e1c51",
+    "calculation_as_of_date": "2026-11-04",
+    "consumer_hash": "f1446ad38f4db9b7e15c8608f0fb84804174cf5cafe2f70bef8234cfba53a98e",
+    "health_hash": "41bcffa3686c08f24809a0ca9ac1c00421d9bc674d1945628b7195f5c80682bf",
     "health_status": "PASS",
-    "ledger_head_hash": "14e3dd106527c7d781c1a8444e5f9d0efe1849da92b8f007278292f5d503d81b",
-    "manifest_hash": "340d015bb4555f8fcbde4f5f579113623e1be0060c4b128d9ca5b76ec7276621",
-    "receipt_hash": "365d1278b3276f32916512841365e13e6d81fa918d831165499b995c14a984a6",
-    "revision": 48
+    "ledger_head_hash": "58268b8fee4721964ab7b30a179e18bb484209dbbed164b45ddc3e775f1f4a6e",
+    "manifest_hash": "706567b6c7c20a5c484cdb12c9671eaa585976b015e82e1ddef9fde9e7d90b3a",
+    "receipt_hash": "954474752828225e5c84ba7e62939f10c6ac9af6501de89f63f07576f3d994fe",
+    "revision": 49
   },
   "frontend_recalculation_performed": false,
   "future_data_used": false,
-  "history_overlay_hash": "64f9b8256556f5970c9107ae25f02cddcaa290b00dd7a001d6b3c93d2acd8001",
+  "history_overlay_hash": "07dda4130cd77f2fd40c4480a3dcae08f20815b6344b583692b0f77712c211d2",
   "index_set": [
     "000922.SH",
     "930955.CSI"
@@ -32,23 +32,23 @@
   "production_binding": {
     "active_status": "ACTIVE_COMMITTED",
     "production_evidence_class": "V4_PRODUCTION_ARCHIVE_LOCAL_FINALIZATION_LEDGER_SCORE",
-    "production_ledger_entry_hash": "3a7c61dff452ae2f556ed0cffe3b43ccc84b8f39301aa6d945edaf5c6c286d1c",
-    "production_payload_hash": "35c344b25cf35c8a7d5afa505d7597a16becc0889d16643de8984b06e78b0a8b",
-    "production_payload_sha256": "d05c2add564e85b8ad5d468274910fffaaa6bacb3a31e4bcf3334db56cbc24bd",
-    "production_receipt_hash": "10d8cfe9a92893e1639ca029729909e5f4a2d874308ca2c2ce7b8fe230d02327",
-    "production_receipt_id": "V6LF4-afb9b1a9717c02368b54bf74818247a6f1394584",
-    "production_score_sha256": "66830fb69d7d942073dba28983bc39512b149abd02c9a0391b44b18dd16186c6",
+    "production_ledger_entry_hash": "7ee676944130a7a0f42c7ec7f9fdff85ee3becb15d5717a2187f4aab90bb674f",
+    "production_payload_hash": "e96e48c4ae446d3f2b55e7194c1c89873b98c038c557ac40cdd4699fd0e2fbe0",
+    "production_payload_sha256": "785b2b9758e6d154ad83e37efbae7db15f9d25760b6eed8624a2e3880637e982",
+    "production_receipt_hash": "1b591f05a3ef78d5b1951e40df328a5ec783bdca6a523207d376e0e681d62342",
+    "production_receipt_id": "V6LF4-01ad947bc7727dd290606e6647f49b5a37953545",
+    "production_score_sha256": "e736fa9e6bb96d81aeeb1f51c0e894e685f51b9eacc308f7e76f5b700f0e0544",
     "publication_provider": "GITHUB_PAGES",
     "remote_publish_status": "GITHUB_PAGES_COORDINATOR_BOUND",
-    "run_id": "2026-11-03-scheduled-v4-20261103T161045548197+0800-9373f90743a3",
+    "run_id": "2026-11-04-scheduled-v4-20261104T161101014197+0800-cdcdaaf34541",
     "score_record_hashes": {
-      "000922.SH": "49201f27b371e9bbf5789f4e88d80cd90be7140cb7dbaed02fdbdd9254d984b1",
-      "930955.CSI": "2de4260eb0465746c80499d1933b812983dbd3ba49821346d268c8c2c3e096e7"
+      "000922.SH": "1bfa37ce35588593d2f1da6f7b4ec00b9a719a5768ab11a3c7c5c6160405a87c",
+      "930955.CSI": "e34a56def1da071565134b725645d0bb6242ffead3044bdff91927275eff16af"
     },
     "score_source_hash_match": true
   },
   "projection_contract_id": "V6_V4_ONLY_DAILY_FULL_DOMAIN_PROJECTION_CONTRACT_V1",
-  "projection_manifest_hash": "fc8d93f012d52270dd728f93f95885ae7f4f044a23cb30e1918f91e710d9bca9",
+  "projection_manifest_hash": "ed7198919ec60f35ca0b1811f0fefc04c4eaf1cb6ed5e72a488f93de0139392c",
   "projector_id": "V6_V4_DAILY_FULL_DOMAIN_PROJECTOR_V1",
   "required_domains": [
     "current_scores",
@@ -59,5 +59,5 @@
     "threshold_validation"
   ],
   "result_count": 2,
-  "target_date": "2026-11-03"
+  "target_date": "2026-11-04"
 }
