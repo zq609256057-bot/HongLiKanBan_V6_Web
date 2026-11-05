@@ -7,7 +7,7 @@
     "date_query": "41b0cb68d51d8944e88ab3ace0352f26f03186065d9cd4b000bb8dd89cbc1aa4",
     "etf_backtest": "348e1771be639a00f7d165f6bcdd12c2826223166997f851bec91659261798e0",
     "history": "716f8934c4216da16d58ef73f80b3505da6d6fd9e6b0ee1dd761e43cbeb4e0fc",
-    "threshold_validation": "58d6d0303d2af4f053a43f23c133f88f799cc39f6238c3f4df8359540a84bb3c"
+    "threshold_validation": "f4c0c424633f70de1341a4b9924cc1fb406091c3c8ee96cc9b4163c5c0429fa4"
   },
   "engine_invocation_count": 0,
   "etf_consumer_binding": {
@@ -48,7 +48,7 @@
     "score_source_hash_match": true
   },
   "projection_contract_id": "V6_V4_ONLY_DAILY_FULL_DOMAIN_PROJECTION_CONTRACT_V1",
-  "projection_manifest_hash": "a8e61cd9325b18f3b23945423c87b272bc27698a859208628c9c39f42af856b6",
+  "projection_manifest_hash": "ba105b823bb29db8cef4618ea527710456f2dee796f6253ec07ccc23cb9af0dd",
   "projector_id": "V6_V4_DAILY_FULL_DOMAIN_PROJECTOR_V1",
   "required_domains": [
     "current_scores",
