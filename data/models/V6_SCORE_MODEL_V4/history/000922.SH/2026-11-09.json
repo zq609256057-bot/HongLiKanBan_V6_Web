@@ -1,0 +1,350 @@
+{
+  "assessment": {
+    "assessment_id": "V6_SCORE_MODEL_V4_ASSESSMENT_GENERATOR",
+    "assessment_version": "V1",
+    "conclusion": "V4 综合评分为 50.51/100；结论基于估值、宏观与技术三维，其中 CN10Y 采用历史位置加三年 Z-score 趋势状态。",
+    "copy_contract_id": "V6_SCORE_MODEL_V4_ASSESSMENT_VIEW_V1",
+    "model_id": "V6_SCORE_MODEL_V4",
+    "model_name": "V6_SCORE_MODEL_V4",
+    "negative": [
+      "估值维度相对偏弱（12.36/34），需留意该维度对总分的约束。"
+    ],
+    "positive": [
+      "宏观维度相对占优（16.66/26）。 CN10Y 历史位置与趋势分别为 4/4、2.28/4。"
+    ],
+    "reason_code": null,
+    "risk_note": "仅供研究；历史结果不构成投资建议。",
+    "status": "PASS"
+  },
+  "cn10y_state_v4_detail": {
+    "actual_data_date": "2026-11-06",
+    "calendar_lag_days": 3,
+    "cn10y_percent": "1.5868",
+    "cn10y_state_v4_hash": "d2e6cc5928473f177008091803b0b5582024526fbc1dd06f849994867c65fcdf",
+    "delta60_bp": "-12.06",
+    "delta_observations": 60,
+    "engine_id": "CN10Y_STATE_V4_ENGINE",
+    "engine_version": "V1",
+    "future_data_used": false,
+    "historical_percentile": "0.0002002402883460152182619142971565879054865839006808169803764517420905086103323988786543852623147777333",
+    "historical_percentile_percent": "0.02002402883460152182619142971565879054865839006808169803764517420905086103323988786543852623147777333",
+    "historical_position_score": "4",
+    "historical_window_observation_count": 2497,
+    "historical_window_years": 10,
+    "index_code": "000922.SH",
+    "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
+    "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
+    "lag_days": 1,
+    "score": "6.282553235316899434351962578226425871547064601128905890693411505183550221958027861289707416425257818",
+    "status": "READY_CN10Y_STATE_V4",
+    "target_date": "2026-11-09",
+    "trend_delta_mean_bp": "-7.823453815261044176706827309236947791164658634538152610441767068273092369477911646586345381526104418",
+    "trend_delta_sigma_bp": "14.99379817749186153207028179198474256275636374082897052810473327352306265277161293790586507210128493",
+    "trend_observation_count": 747,
+    "trend_state_score": "2.282553235316899434351962578226425871547064601128905890693411505183550221958027861289707416425257818",
+    "trend_window_years": 3,
+    "trend_z_score": "-0.2825532353168994343519625782264258715470646011289058906934115051835502219580278612897074164252578176"
+  },
+  "component_scores": {
+    "CN10Y_MACRO_RATE_STATE_8": "6.282553235316899434351962578226425871547064601128905890693411505183550221958027861289707416425257818",
+    "DID_DYNAMIC_ABSOLUTE_6": "2.41020776333039163898758236225449896126821136037897118576300576884962629646072158592453592105092901",
+    "DID_HISTORICAL_14": "3.353426110097910112235733609560699310717217743935027797215319599102995707823442226421955667711702381",
+    "DID_ROBUST_Z_4": "1.504019513547502962025569861677469734406593890173218969536715778403010871801476132219182702953380977",
+    "PB_HISTORICAL_10": "5.09",
+    "PRICE_MA_V3": "5.278791643218532537876192301551666790920269869527501034825364174649425559877905146323476813324759654",
+    "PRICE_POSITION_252": "8.148183571436058150869433060467261312063056169882713008479461674719884285220162042617418009160753403",
+    "RSI14": "4.337585549316735743466654067574761433659423708602896091408581975090918436799565635449041219546829238",
+    "VOLUME": "3.729143591302214682904376092862644389487818056662656906791269185402757444316413353127477700523377068",
+    "YIELD_SPREAD_HISTORICAL_18": "10.37578735819012303504818367650542996148611792190332409514416533971007146281123789898232989702082174"
+  },
+  "cross_date_fallback": false,
+  "cross_model_fallback": false,
+  "date": "2026-11-09",
+  "detail": {
+    "cn10y_state_v4": {
+      "actual_data_date": "2026-11-06",
+      "calendar_lag_days": 3,
+      "cn10y_percent": "1.5868",
+      "cn10y_state_v4_hash": "d2e6cc5928473f177008091803b0b5582024526fbc1dd06f849994867c65fcdf",
+      "delta60_bp": "-12.06",
+      "delta_observations": 60,
+      "engine_id": "CN10Y_STATE_V4_ENGINE",
+      "engine_version": "V1",
+      "future_data_used": false,
+      "historical_percentile": "0.0002002402883460152182619142971565879054865839006808169803764517420905086103323988786543852623147777333",
+      "historical_percentile_percent": "0.02002402883460152182619142971565879054865839006808169803764517420905086103323988786543852623147777333",
+      "historical_position_score": "4",
+      "historical_window_observation_count": 2497,
+      "historical_window_years": 10,
+      "index_code": "000922.SH",
+      "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
+      "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
+      "lag_days": 1,
+      "score": "6.282553235316899434351962578226425871547064601128905890693411505183550221958027861289707416425257818",
+      "status": "READY_CN10Y_STATE_V4",
+      "target_date": "2026-11-09",
+      "trend_delta_mean_bp": "-7.823453815261044176706827309236947791164658634538152610441767068273092369477911646586345381526104418",
+      "trend_delta_sigma_bp": "14.99379817749186153207028179198474256275636374082897052810473327352306265277161293790586507210128493",
+      "trend_observation_count": 747,
+      "trend_state_score": "2.282553235316899434351962578226425871547064601128905890693411505183550221958027861289707416425257818",
+      "trend_window_years": 3,
+      "trend_z_score": "-0.2825532353168994343519625782264258715470646011289058906934115051835502219580278612897074164252578176"
+    },
+    "market_environment": {
+      "actual_data_date": "2026-11-06",
+      "calendar_lag_days": 3,
+      "cn10y": "1.5868",
+      "lag_basis": "AUTHORITATIVE_DUAL_INDEX_TRADING_CALENDAR",
+      "lag_contract_id": "V6_TRADING_DAY_LAG_CONTRACT_V1",
+      "lag_days": 1,
+      "yield_spread": "2.411910940411479"
+    },
+    "momentum": {
+      "avg_volume_prev20": "6324753615.85",
+      "avg_volume_prev5": "7419967228.8",
+      "rsi14": "51.92672687784693440222227471843849402641906788082126628579757510378783984666847651896232825188821151",
+      "volume": "5280880600"
+    },
+    "ohlcv": {
+      "close": "5561.92",
+      "high": "5586.63",
+      "low": "5509.13",
+      "open": "5527.36",
+      "volume": "5280880600"
+    },
+    "price_ma": {
+      "close": "5561.92",
+      "d_percent": "-0.5628225197917691907555948984254109215543233400118938729677185378658678377018609994436086301498302",
+      "ma60_direction_factor": "0.524037775184876201746297617273811126235037330344698352051891302558742777045575003916944931713193725",
+      "price_relative_factor": "0.499145751690721002652005037038750483117719282260031207779166834335244850007809885016259931910027607",
+      "price_vs_sma60_percent": "-0.00854248309278997347994962961249516882280717739968792220833165664755149992190114983740068089972393",
+      "score": "5.278791643218532537876192301551666790920269869527501034825364174649425559877905146323476813324759654",
+      "short_improvement_factor": "0.5331572521231642677179839092192851307263214657363038095220919097026217404085637147664744742361748625",
+      "short_term_improvement_percent": "0.2652580169853141417438712737542810458105717258904304761767352776209739232685097181317957938893989",
+      "sma250": "5593.40092",
+      "sma60": "5562.395166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "sma60_direction_five_session_percent": "0.0961511007395048069851904690952445049401493213787934082075652102349711081823000156677797268527749",
+      "sma60_five_sessions_ago": "5557.052",
+      "status": "READY",
+      "trend_state": "NEAR_STABILIZATION",
+      "trend_state_anchor_score": "1",
+      "trend_state_score": "1.053662635301824861573954342181502422298540533522743485638276759503078424797160746546033361264827574",
+      "trend_strength": "0.5134156588254562153934885855453756055746351333806858714095691898757696061992901866365083403162068935",
+      "value_position_score": "4.22512900791670767630223795937016436862172933600475754918708741514634713508074439977744345205993208"
+    },
+    "price_position_252": {
+      "maximum": "5976.53",
+      "minimum": "5022.46",
+      "position": "56.54302095234102319536302367750793966899703376062553062144287106816061714549246910604043728447598185"
+    },
+    "valuation": {
+      "did": "3.998710940411479",
+      "pb": "0.882301475143833"
+    }
+  },
+  "diagnostics": {
+    "inherited_component_count": 9,
+    "inherited_components_exact": true,
+    "single_variable_change": "CN10Y",
+    "source_contract_id": "V6_SCORE_MODEL_V3_SCORE_CONTRACT",
+    "source_engine_id": "V6_SCORE_MODEL_V3_ENGINE",
+    "source_model_id": "V6_SCORE_MODEL_V3",
+    "source_score_version": "V6_SCORE_MODEL_V3_CONTRACT",
+    "source_v3_score_record_sha256": "9f696f0e315fccc14de9935dcf3a81500f08deef4eab4b7e9685a0cb02e800df"
+  },
+  "dimension_scores": {
+    "macro": "16.65834059350702246940014625473185583303318252303222998583757684489362168476926576027203731344607956",
+    "technical": "21.49370435527354111511665552245633392613056780467576704150467700986298572621404617751741374255571937",
+    "valuation": "12.35765338697580471324888583349266800639202299448721795251504114635563287608563994456567429171601237"
+  },
+  "engine_id": "V6_SCORE_MODEL_V4_ENGINE",
+  "engine_invocation_count": 0,
+  "exact_date_query": {
+    "index_code": "000922.SH",
+    "match_policy": "EXACT_DATE_NO_FALLBACK",
+    "model_id": "V6_SCORE_MODEL_V4",
+    "query_date": "2026-11-09",
+    "status": "AVAILABLE"
+  },
+  "frontend_recalculation_performed": false,
+  "future_data_used": false,
+  "history": {
+    "status": "READY_SCORE_MODEL_V4",
+    "target_date": "2026-11-09",
+    "total_score": "50.5096983357563682977656876106808577655557733221952149798572950011122402870689518823551253477178113"
+  },
+  "index_code": "000922.SH",
+  "model_id": "V6_SCORE_MODEL_V4",
+  "natural_counter_mutation": false,
+  "natural_observation_eligible": false,
+  "pine": {
+    "status": "REMOVED"
+  },
+  "pine_subcomponents": {},
+  "price_ma_v3_detail": {
+    "close": "5561.92",
+    "d_percent": "-0.5628225197917691907555948984254109215543233400118938729677185378658678377018609994436086301498302",
+    "ma60_direction_factor": "0.524037775184876201746297617273811126235037330344698352051891302558742777045575003916944931713193725",
+    "price_relative_factor": "0.499145751690721002652005037038750483117719282260031207779166834335244850007809885016259931910027607",
+    "price_vs_sma60_percent": "-0.00854248309278997347994962961249516882280717739968792220833165664755149992190114983740068089972393",
+    "score": "5.278791643218532537876192301551666790920269869527501034825364174649425559877905146323476813324759654",
+    "short_improvement_factor": "0.5331572521231642677179839092192851307263214657363038095220919097026217404085637147664744742361748625",
+    "short_term_improvement_percent": "0.2652580169853141417438712737542810458105717258904304761767352776209739232685097181317957938893989",
+    "sma250": "5593.40092",
+    "sma60": "5562.395166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "sma60_direction_five_session_percent": "0.0961511007395048069851904690952445049401493213787934082075652102349711081823000156677797268527749",
+    "sma60_five_sessions_ago": "5557.052",
+    "status": "READY",
+    "trend_state": "NEAR_STABILIZATION",
+    "trend_state_anchor_score": "1",
+    "trend_state_score": "1.053662635301824861573954342181502422298540533522743485638276759503078424797160746546033361264827574",
+    "trend_strength": "0.5134156588254562153934885855453756055746351333806858714095691898757696061992901866365083403162068935",
+    "value_position_score": "4.22512900791670767630223795937016436862172933600475754918708741514634713508074439977744345205993208"
+  },
+  "production_observation_eligible": false,
+  "provider_fetch_count": 0,
+  "quality_status": [
+    "READY_LIMITED_HISTORY",
+    "READY_LIMITED_COVERAGE"
+  ],
+  "raw_values": {
+    "CN10Y_MACRO_RATE_STATE_8": "CN10Y 1.5868% · Z -0.2825532353168994343519625782264258715470646011289058906934115051835502219580278612897074164252578176",
+    "DID_DYNAMIC_ABSOLUTE_6": "DID 3.998710940411479%",
+    "DID_HISTORICAL_14": "DID 3.998710940411479%",
+    "DID_ROBUST_Z_4": "DID 3.998710940411479%",
+    "PB_HISTORICAL_10": "PB 0.882301475143833",
+    "PRICE_MA_V3": "Close 5561.92 · SMA250 5593.40092",
+    "PRICE_POSITION_252": "Position 56.54302095234102319536302367750793966899703376062553062144287106816061714549246910604043728447598185%",
+    "RSI14": "RSI14 51.92672687784693440222227471843849402641906788082126628579757510378783984666847651896232825188821151",
+    "VOLUME": "Volume 5280880600",
+    "YIELD_SPREAD_HISTORICAL_18": "Spread 2.411910940411479pp"
+  },
+  "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
+  "record_hash": "61686455d97d01eb181e45cb854346cce8fcbe1579b33a70aeb8e1104cc24dc1",
+  "record_schema_id": "V6_V4_HISTORICAL_SCORE_CONSUMER_RECORD_V1",
+  "recovery_classification": "CONTROLLED_RECOVERY_TEST",
+  "recovery_trigger_identity": {
+    "classification": "CONTROLLED_RECOVERY_TEST",
+    "production_rerun": false,
+    "reconciler_id": "V6_V4_PROJECTION_RECONCILER_V1",
+    "trigger_source": "CODEX_CONTROLLED_DOWNSTREAM_RECOVERY"
+  },
+  "revision": 1,
+  "runtime_identity": {
+    "engine_id": "V6_SCORE_MODEL_V4_ENGINE",
+    "model_id": "V6_SCORE_MODEL_V4",
+    "run_id": "2026-11-09-scheduled-v4-20261109T161057759390+0800-7e4e5cdb8902",
+    "runtime_id": "V6_RUNTIME_V4",
+    "target_date": "2026-11-09"
+  },
+  "schema_id": "V6_V4_HISTORICAL_SCORE_CONSUMER_RECORD_V1",
+  "score_provider_fetch_count": 0,
+  "score_recalculation_performed": false,
+  "signal_display": {
+    "current_interval": {
+      "color": "AMBER",
+      "display_reference": "V4多维结构相对均衡或存在分歧，保持持续观察。",
+      "is_current": true,
+      "label": "中性观察",
+      "maximum": "60",
+      "maximum_inclusive": false,
+      "minimum": "45",
+      "score_range": "45–60"
+    },
+    "intervals": [
+      {
+        "color": "GREEN",
+        "display_reference": "V4多维评分处于高位，作为重点研究样本持续跟踪。",
+        "is_current": false,
+        "label": "高位共振",
+        "maximum": "100",
+        "maximum_inclusive": true,
+        "minimum": "85",
+        "score_range": "85–100"
+      },
+      {
+        "color": "GREEN",
+        "display_reference": "V4多维支撑较强，适合纳入重点观察范围。",
+        "is_current": false,
+        "label": "积极研究",
+        "maximum": "85",
+        "maximum_inclusive": false,
+        "minimum": "70",
+        "score_range": "70–85"
+      },
+      {
+        "color": "AMBER",
+        "display_reference": "V4评分结构略偏积极，结合CN10Y状态分项继续观察。",
+        "is_current": false,
+        "label": "偏积极",
+        "maximum": "70",
+        "maximum_inclusive": false,
+        "minimum": "60",
+        "score_range": "60–70"
+      },
+      {
+        "color": "AMBER",
+        "display_reference": "V4多维结构相对均衡或存在分歧，保持持续观察。",
+        "is_current": true,
+        "label": "中性观察",
+        "maximum": "60",
+        "maximum_inclusive": false,
+        "minimum": "45",
+        "score_range": "45–60"
+      },
+      {
+        "color": "RED",
+        "display_reference": "当前V4支持因素有限，重点识别风险变化。",
+        "is_current": false,
+        "label": "偏谨慎",
+        "maximum": "45",
+        "maximum_inclusive": false,
+        "minimum": "30",
+        "score_range": "30–45"
+      },
+      {
+        "color": "RED",
+        "display_reference": "V4综合评分处于低位，仅作为风险研究样本。",
+        "is_current": false,
+        "label": "谨慎研究",
+        "maximum": "30",
+        "maximum_inclusive": false,
+        "minimum": "0",
+        "score_range": "0–30"
+      }
+    ],
+    "reason_code": null,
+    "signal_contract_id": "V6_SCORE_MODEL_V4_SIGNAL_DISPLAY_V1",
+    "status": "PASS"
+  },
+  "source_date_query_record_hash": "7a6df65d80d1d1585b785301328c5ba670d525d76828304bfaf849e93e6538c2",
+  "source_dates": {
+    "cn10y": "2026-11-06",
+    "did": "2026-11-09",
+    "ohlcv": "2026-11-09",
+    "pb": "2026-11-09"
+  },
+  "source_indicator_record_sha256": "d65ba8424752ba0abd91f23c337847ca3f61b26baa5cf02e70cd5a6d8d4243ac",
+  "source_production_archive": {
+    "payload_hash": "823e6b81a4b5ac38f4263ac02f81ca803b9a607c8f041da575b684a47d2f7806",
+    "payload_path": "production_payload_archive_v4/2026-11-09/payload.json",
+    "payload_sha256": "d58223b43e1c24cc52be702d9c23d9456bcc33ddef4526c802cff847616ff4fe",
+    "receipt_hash": "bde265719a12cf720a0b4593e269b6eab30ad64a17f6f131c96aab789d52149b",
+    "receipt_path": "production_payload_archive_v4/2026-11-09/local_finalization.json",
+    "receipt_sha256": "3e8e64a9cab792cea68e87e89c22cffd900ada499d74d0e32e05087b1bc9b620",
+    "score_artifact_path": "runtime/v4/output/2026-11-09/2026-11-09-scheduled-v4-20261109T161057759390+0800-7e4e5cdb8902.json",
+    "score_artifact_sha256": "ecba94835c54b0e5e6d5e964457c5b676fbe261ddaba92adcffd47f49f6c0553"
+  },
+  "source_production_ledger_entry_hash": "cc4c19eaa67193cc26681d67b5c23e635bdca1ed103f84ff45320366912833e0",
+  "source_production_payload_hash": "823e6b81a4b5ac38f4263ac02f81ca803b9a607c8f041da575b684a47d2f7806",
+  "source_production_payload_sha256": "d58223b43e1c24cc52be702d9c23d9456bcc33ddef4526c802cff847616ff4fe",
+  "source_production_receipt_hash": "bde265719a12cf720a0b4593e269b6eab30ad64a17f6f131c96aab789d52149b",
+  "source_production_receipt_id": "V6LF4-4892eda7dacdb4cb78751f7c2ea7f2fec68215dc",
+  "source_production_score_sha256": "ecba94835c54b0e5e6d5e964457c5b676fbe261ddaba92adcffd47f49f6c0553",
+  "source_raw_record_sha256": "a97f54003dca57bfc276ce8b91a8dceede64e553d92d8739398964bf6e4a0139",
+  "source_record_hash": "7a6df65d80d1d1585b785301328c5ba670d525d76828304bfaf849e93e6538c2",
+  "source_score_record_sha256": "7a6df65d80d1d1585b785301328c5ba670d525d76828304bfaf849e93e6538c2",
+  "status": "READY_SCORE_MODEL_V4",
+  "target_date": "2026-11-09",
+  "total_score": "50.5096983357563682977656876106808577655557733221952149798572950011122402870689518823551253477178113"
+}
